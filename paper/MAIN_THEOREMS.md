@@ -440,3 +440,18 @@ H_y\Delta_3^{res}
 \]
 
 With physical leg sources there is one additional exact source-resolution trilinear defect.  Thus stochastic q.v. can transfer cubic interaction only through an oriented pair-cross term carrying the third leg; it is not itself a replacement for cubic phase.  Common incompressible Cauchy finite-variation deformation remains phase-neutral, while kernel/interface defects, relative generators, trilinear diffusion transfer, explicit source correlations, and finite typed resets remain distinct owners.
+
+## Theorem U — Universal cubic interaction sufficiency forces the conditional kernel to be Dirac
+
+Let `kappa_y` be a conditional probability kernel on a standard-Borel full physical Kelvin state space.  If for every bounded measurable complex-vector triple
+
+\[
+R\mathcal T(\Phi_0,\Phi_1,\Phi_2)
+=\mathcal T(R\Phi_0,R\Phi_1,R\Phi_2),
+\qquad
+\mathcal T(z_0,z_1,z_2)=\overline z_0\cdot(z_1\times z_2),
+\]
+
+then `kappa_y` is a Dirac mass.  Indeed fixed basis vectors reduce the hypothesis to `R(conj(f)gh)=conj(Rf)(Rg)(Rh)` for all bounded scalar observables; setting `h=1` and `g=f` forces zero conditional variance for every indicator, hence a `0-1` probability measure and therefore a point mass on a standard-Borel space.  The converse is immediate.
+
+Consequently hard support purity and even complete second-order information are strictly weaker than cubic phase sufficiency.  A nontrivial reduced Kelvin state must either be sufficient only for a restricted physical interaction algebra or explicitly carry the third-order resolution object `Delta_3^res`; covariance alone cannot provide universal signed-phase closure.

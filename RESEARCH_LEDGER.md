@@ -331,3 +331,28 @@ Detailed derivations: `docs/17_kernel_selector_resolution.md`, `docs/18_conditio
 ### New frontier
 
 The Kelvin bridge is now reduced to literal semantics rather than an estimate problem: construct the actual full/reduced ancestry state and conditional kernel; determine whether the first-bad selected set is kernel-pure; identify the literal full-state interaction-leg/payoff observables; then evaluate the exact third-order resolution and trilinear diffusion/source owners.  No recurrence, restart-capacity, or regularity claim is made.
+
+### Interaction-sufficiency hierarchy
+
+**COUNTEREXAMPLE/NO-GO.**  Kernel selector purity can hold exactly while cubic resolution remains nonzero: a non-Dirac parity kernel may lie wholly inside one selected physical set.  Thus hard support descent does not imply phase descent.  Identical second-order data likewise do not imply phase descent.
+
+**EXACT NECESSARY-AND-SUFFICIENT NO-GO.**  On a standard-Borel full physical state space, if a conditional kernel preserves the oriented cubic by factorization for every bounded interaction-leg triple, then the kernel is Dirac.  Universal cubic sufficiency therefore means no nontrivial hidden-state reduction.  A useful reduced programme must instead prove sufficiency for its restricted physical event algebra or carry `Delta_3^res` explicitly.
+
+Detailed derivation: `docs/20_interaction_sufficiency_hierarchy.md`.
+
+### ACTION STRESS TEST — run 31583870491
+
+GitHub Actions passed `experiments/exp14_kernel_cubic_resolution.py` on theorem commit `e4edb1ca9719f080cede88368c9f4b8c75d89a20`.
+
+Adversarial calibration output:
+
+- selector pair-disagreement residual `3.331e-16`;
+- minimum sampled genuinely mixed selector variance `3.873e-04`;
+- conditional cubic-resolution residual `5.927e-15`;
+- maximum same-state/independent cubic gap `1.214e+01`;
+- even/odd parity first-second-moment residual `0.000e+00`;
+- parity cubic sign-flip residual `0.000e+00`, with signed-cubic separation `1.173e+01`;
+- trilinear carré-du-champ residual `1.214e-13`, with sampled transfer magnitude `4.625e+02`;
+- finite-state cubic-resolution transfer residual `7.944e-15`, with sampled transfer magnitude `6.415e+01`.
+
+These are numerical/action stress tests only, never proof.
