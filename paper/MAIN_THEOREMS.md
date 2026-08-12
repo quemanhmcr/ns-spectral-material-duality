@@ -1786,3 +1786,19 @@ The dilation-invariant pair-capacity coefficient is nonzero at fixed comparable 
 \]
 
 Hence no universal scale-decaying Waleffe factor suppresses the comparable heterochiral core.  Closure of the final critical action must use recurrence/cancellation/killing or another critical structure, not a missing single-triad geometric epsilon.
+
+## Theorem CK — Exact Hadamard diamond geometry defeats topology-only termination
+
+For orthogonal equal-length lattice modes `p_j,q_j`,
+
+\[
+\boxed{p_{j+1}=p_j+q_j,\qquad q_{j+1}=p_j-q_j}
+\]
+
+preserves orthogonality and multiplies both radii by `sqrt(2)`; after two steps both vectors double.  Assigning helicities `+` to `p_j` and `-` to `q_j`, reality supplies two fully comparable heterochiral triads producing the next `+/-` pair.  The static split has high energy fraction `2/(1+sqrt2)` and high critical-mass amplification
+
+\[
+\boxed{4-2\sqrt2>1.}
+\]
+
+while natural times `sum N_j^-2` are finite.  Therefore wavevector closure, helicity conservation, eventwise split fractions and parabolic time alone do not terminate a local heterochiral diamond.  Actual coupled NSE amplitude/phase dynamics remains essential.

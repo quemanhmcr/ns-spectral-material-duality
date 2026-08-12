@@ -115,3 +115,5 @@ jobs:
         run: python experiments/exp46_net_critical_action_sector_ledgers.py
       - name: Heterochiral Waleffe depletion and comparable no-go
         run: python experiments/exp47_heterochiral_waleffe_depletion.py
+      - name: Actual Galerkin Hadamard heterochiral diamond
+        run: python experiments/exp48_hadamard_heterochiral_galerkin.py
