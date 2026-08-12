@@ -756,3 +756,9 @@ Detailed derivations: `docs/70_vandermonde_divided_difference_triad_law.md`, `do
 ### CI/CJ referee correction provenance
 
 Initial Action `31650446519` correctly rejected the hand-written explicit comparable constant while all structural Waleffe/depletion residuals were green.  The Heron area for `(3/4,3/4,1)K` is `K^2 sqrt(5)/8`, giving the stronger exact coefficient `sqrt(10)/24 = 0.131761569...`; no theorem hypothesis or tolerance was weakened.
+
+## 2026-08-13 — CL–CM: rate-critical pair creation requires full-dimensional Fourier participation
+
+**RIGOROUS LATE-STAGE CONSEQUENCE.**  After exact owner reduction, a safe convolution bound shows `P_cmp<=16 N^2 ||c||_1 ||c||_2^2`.  Combining with CB forces `M_eff>=nu^2 N^3/(2048^2 mu_part)`.  At fixed critical mass this has full `N^3` spectral-volume scaling.
+
+**COUNTEREXAMPLE/NO-GO.**  Finite-mode/Hadamard ladders may be useful phase/topology adversaries but cannot carry the ultraviolet rate gate with fixed critical mass.  A genuine singular mechanism must broaden to dense coherent Fourier participation or enter a separately typed large-critical-mass branch.

@@ -1802,3 +1802,24 @@ preserves orthogonality and multiplies both radii by `sqrt(2)`; after two steps 
 \]
 
 while natural times `sum N_j^-2` are finite.  Therefore wavevector closure, helicity conservation, eventwise split fractions and parabolic time alone do not terminate a local heterochiral diamond.  Actual coupled NSE amplitude/phase dynamics remains essential.
+
+## Theorem CL — Rate-critical comparable pair creation forces full-dimensional Fourier participation at fixed critical mass
+
+For the already-typed comparable heterochiral owner,
+
+\[
+P_N^{cmp}\le16N^2\|c\|_1\|c\|_2^2.
+\]
+
+With `E_part=||c||_2^2` and `M_eff=||c||_1^2/||c||_2^2`, the CB lower gate gives
+
+\[
+\boxed{M_{eff}\ge\frac{\nu^2N^2}{2048^2E_{part}}
+=\frac{\nu^2N^3}{2048^2\mu_{part}}.}
+\]
+
+Thus at fixed participating critical mass `mu_part=O(nu^2)`, a rate-critical ultraviolet event requires `M_eff` of order `N^3`.  Sparse finite-triad ladders cannot carry the record-rate owner asymptotically.
+
+## Theorem CM — Sparse heterochiral ladders are topology adversaries, not rate-critical blow-up mechanisms
+
+Any fixed-width ladder has bounded `M_eff`, while CL requires `M_eff~N^3` at fixed critical mass.  Therefore even a phase-compatible multigeneration Hadamard birth signal cannot by itself sustain the CB/CF critical rate at ultraviolet scales.  The remaining obstruction is dense coherent heterochiral pair production (or growth of critical mass beyond the fixed-crossing regime), not a sparse shell-model cascade.
