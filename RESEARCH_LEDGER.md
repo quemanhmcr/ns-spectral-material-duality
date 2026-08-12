@@ -578,3 +578,13 @@ Detailed derivations: `docs/47_record_enstrophy_critical_shell.md`, `docs/48_mat
 **EXACT PARABOLIC READING.**  With `a=2nu(T-t)|k|^2`, the nonlinear parabolic drift is `F_a=2nu(T-t)[Y'/2+nu Z]`.  For a forward edge with both endpoints below `beta`, `Delta w>=exp(-beta)Delta a`; hence record-producing work inside a bounded heat corridor spends the stopped future-heat currency directly.  Remaining record growth is forced into subparabolic, superparabolic/nonlocal, or typed exit sectors.
 
 Detailed derivation: `docs/49_enstrophy_energy_transport_moment.md`.
+
+## 2026-08-12 — Uniqueness of the future-heat energy currency
+
+**EXACT GENERAL PARABOLIC WEIGHT LAW.**  For `F_f=sum f(a_i)E_i`, `a_i=2nu(T-t)|k_i|^2`, one has `F_f'=sum Delta f K-sum d_i[f+f']E_i`.  Clock motion and viscous killing are therefore coupled by the one-dimensional operator `f -> f+f'`.
+
+**RIGOROUS UNIQUENESS.**  Zero weighted killing with terminal normalization `f(0)=1` forces `f=e^-a`.  Exact unweighted physical killing with `f(0)=0` forces `f=1-e^-a`.  Future-heat survival/defect are not arbitrary exponential test functions; they are the unique normalized coordinates with these physical jobs.
+
+**COUNTEREXAMPLE/NO-GO.**  For every fixed multiplicative scale ratio `lambda>1`, `Delta w=e^-a-e^(-lambda^2 a)` vanishes as `a->0` and `a->infinity`.  Thus the exact bounded kinetic-energy currency cannot assign a uniform price to scale jumps globally.  Its sensitivity peaks at `a_*=2log lambda/(lambda^2-1)`.  The parabolic corridor and typed sub/superparabolic exits are forced by the generator itself.
+
+Detailed derivation: `docs/50_unique_parabolic_energy_coordinate.md`.

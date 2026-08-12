@@ -1307,3 +1307,20 @@ Writing the positive/negative squared-frequency transport moments as `F_kappa^+`
 \]
 
 Thus global enstrophy growth is literally kinetic energy transported upward in squared frequency strongly enough to beat both viscosity and simultaneous downward transfer.  For the terminal coordinate `a_i=2nu(T-t)kappa_i`, the same moment is `F_a=2nu(T-t)[Y'/2+nu Z]`.  On a bounded corridor `a_i<a_j<=beta`, future-heat progress satisfies `Delta w>=e^-beta Delta a`, so the corridor part of actual enstrophy-producing transport consumes the exact one-sided heat currency of AT.  Any unpaid record-growth transport must lie in subparabolic, superparabolic/nonlocal, or already typed exit sectors.
+
+## Theorem BD — Future-heat survival and heat defect are the unique normalized parabolic energy coordinates with zero and unit physical killing
+
+For `a_i=2nu|k_i|^2(T-t)` and any `C^1` scalar weight `f`,
+
+\[
+\boxed{
+\frac d{dt}\sum_if(a_i)E_i
+=
+\sum_{i,j}[f(a_j)-f(a_i)]K_{ij}
+-
+\sum_i2\nu|k_i|^2[f(a_i)+f'(a_i)]E_i.}
+\]
+
+Requiring clock motion to cancel viscosity for every modal spectrum gives `f'+f=0`; with `f(0)=1`, uniquely `q=e^-a`.  Requiring clock plus viscosity to retain exactly the unweighted kinetic-energy killing gives `f'+f=1`; with `f(0)=0`, uniquely `w=1-e^-a`.
+
+Thus the future-heat pair is forced by the NSE generator.  For a fixed scale ratio `lambda>1`, its unit-killing scale price is `Delta_lambda w=e^-a-e^(-lambda^2 a)`, which tends to zero both as `a->0` and `a->infinity` and is maximal at `a_*=2 log(lambda)/(lambda^2-1)`.  Therefore no exact bounded unit-killing energy currency can price multiplicative scale progress uniformly across all parabolic heights.  The matched corridor plus sub/superparabolic owner split is structurally forced rather than an arbitrary proof case split.

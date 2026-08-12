@@ -83,3 +83,5 @@ jobs:
         run: python experiments/exp30_record_shell_catalyst_half_life.py
       - name: Enstrophy as donor-energy transport moment
         run: python experiments/exp31_enstrophy_transport_moment.py
+      - name: Unique parabolic energy currency
+        run: python experiments/exp32_unique_parabolic_currency.py
