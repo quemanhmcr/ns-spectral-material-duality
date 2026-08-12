@@ -519,3 +519,44 @@ at the symmetry anchor for every positive horizon, while
 \]
 
 Thus `C_D^Gram>0` and the mean stochastic packet metric differs from the deterministic/mean-deformation metric, but every fixed-terminal same-replica and independent-mean cubic agrees exactly.  Nonzero deformation covariance or metric mismatch therefore does not imply cubic amplitude loss or phase rotation.  Common real deformation dispersion must be quotiented before relative terminal/role, interface, forcing, or third-order resolution mechanisms are charged as phase owners.
+
+## Theorem Y — Full Cauchy cubic resolution has exactly three hidden-state owners
+
+Let `Y_i=D w_i` with one common real random `D in SL(3)` and arbitrary correlated complex terminal vectors `w_i`.  Then pathwise
+
+\[
+\boxed{T(Dw_0,Dw_1,Dw_2)=T(w_0,w_1,w_2).}
+\]
+
+With `Dbar=E D`, `wbar_i=E w_i`, define
+
+\[
+r_i=E[(D-Dbar)(w_i-wbar_i)],
+\qquad
+m_i=E Y_i=Dbar\,wbar_i+r_i.
+\]
+
+If `Delta_w=E T(w_0,w_1,w_2)-T(wbar_0,wbar_1,wbar_2)` and `C_Dw` is the exact seven-term trilinear expansion containing at least one `r_i`, then
+
+\[
+\boxed{
+Z_{same}-Z_{ind}
+=(1-\det Dbar)T(wbar_0,wbar_1,wbar_2)
++\Delta_w-C_{Dw}.
+}
+\]
+
+Thus after common deformation is quotiented, hidden-state continuous phase rotation can enter through terminal/role cubic resolution or deformation--terminal correlation.  The pure exterior-volume defect is radial while `det Dbar>0`.
+
+## Theorem Z — Same-state physical selection commutes with common Cauchy top-volume cancellation
+
+For any real scalar physical event/localization weight `chi` on the same hidden state,
+
+\[
+\boxed{
+E[\chi\,T(Dw_0,Dw_1,Dw_2)]
+=E[\chi\,T(w_0,w_1,w_2)].
+}
+\]
+
+The same holds under the normalized selected law whenever `E chi>0`.  Therefore a legitimate first-bad or event selector can reweight terminal/role resolution and mixed correlations, but cannot by itself turn common incompressible Cauchy deformation or packet-metric dispersion into a same-replica phase source.  Selected metric alignment and selected cubic-phase alignment are distinct bridge requirements.

@@ -372,3 +372,17 @@ Re-audited Kelvin upstream `c1773ffa8fa5cc4bfa8fb5aa461dd4b43dbed1c1` read-only.
 **COUNTEREXAMPLE/NO-GO.**  Kelvin's exact one-mode NS shear has `Sigma_D>0` and `C_D^Gram>0` but `Dbar=I+cbar E21`, so `det Dbar=1` exactly and the fixed-terminal same/independent cubic interactions agree.  Deformation covariance or metric mismatch therefore does not imply cubic amplitude loss, still less phase rotation.
 
 Detailed derivations: `docs/21_cauchy_exterior_volume_resolution.md`, `docs/22_mean_deformation_determinant_pde.md`, `docs/23_deformation_covariance_phase_no_go.md`.
+
+## 2026-08-12 — Full Cauchy payoff: phase survives only in terminal and mixed resolution after common deformation quotient
+
+**EXACT STOCHASTIC CAUCHY IDENTITY.**  For arbitrary random complex terminal/role vectors `w_i` on the same replica and real pathwise incompressible Cauchy deformation `D`, `T(Dw_0,Dw_1,Dw_2)=T(w_0,w_1,w_2)` pathwise.  Thus common Cauchy deformation disappears exactly from the same-replica cubic even when terminal vectors and deformation are correlated.
+
+**EXACT MIXED-RESOLUTION IDENTITY.**  With `Dbar=E D`, `wbar_i=E w_i`, the mean current leg is `m_i=Dbar wbar_i+r_i`, where `r_i=E[(D-Dbar)(w_i-wbar_i)]` is a mixed deformation--terminal correlation vector.
+
+**EXACT THREE-OWNER FACTORIZATION.**  Writing `Delta_w=E T(w_0,w_1,w_2)-T(wbar_0,wbar_1,wbar_2)` and `C_Dw` for the seven trilinear terms containing at least one `r_i`, `Z_same-Z_ind=(1-det Dbar)Z_wbar+Delta_w-C_Dw`.  The first term is radial while `det Dbar>0`; the latter two are genuinely complex and are the first hidden-state Cauchy sectors capable of continuous phase rotation after common deformation is quotiented.
+
+**EXACT WEIGHTED SELECTION IDENTITY.**  For any legitimate scalar physical event weight `chi`, even if it depends on deformation, `E[chi T(Dw_0,Dw_1,Dw_2)]=E[chi T(w_0,w_1,w_2)]`.  A selected first-bad law therefore does not turn common `SL(3)` deformation into a phase owner.  Selection changes phase only through reweighting terminal/role resolution, mixed correlations, or explicit localized PDE sources.
+
+**OPEN BRIDGE.**  The literal first-bad badness/resolve event set remains undefined upstream.  Once supplied, the remaining phase bridge is selected interaction-law sufficiency plus mixed/third-order source dynamics, not equality of deterministic and stochastic packet metrics.
+
+Detailed derivations: `docs/24_full_cauchy_payoff_factorization.md`, `docs/25_selection_commutes_with_cauchy_volume.md`.
