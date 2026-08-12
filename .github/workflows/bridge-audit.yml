@@ -33,3 +33,5 @@ jobs:
         run: python experiments/exp05_localized_flux_pde.py
       - name: Moving-cut time-face calibration
         run: python experiments/exp06_moving_cut_time_face.py
+      - name: Kelvin loop realization of interaction phase
+        run: python experiments/exp07_kelvin_loop_triple.py

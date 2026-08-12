@@ -82,3 +82,7 @@ Quantify the exact annular constants relating orientation-complete Kelvin q.v. d
 - **OPEN:** Instantiate this identity for the literal smooth/hard Fourier roles and literal Kelvin germ/quantile roles, then compare their physical source partitions without importing upstream closure claims.
 
 - **EXACT / CALIBRATED:** A time-dependent role `Q(t)` carries the explicit time face `partial_t Q`.  Smooth moving-cut Action calibration shows that omitting it leaves exactly that residual; it cannot be hidden in `[u.grad,Q]`.
+
+- **EXACT:** The full complex invariant `Z_H=det(H)^(-1) conj(Phi_3).(Phi_1 x Phi_2)` carries both signed-work quadrature and the gauge-invariant interaction phase `arg Z_H`.
+- **EXACT SMALL-LOOP:** `Z_H` is the limit of the determinant-normalized oriented triple product of three role-filtered Kelvin circulation vectors on an orientation-complete small-loop packet.
+- **EXACT:** Where `Z_H != 0`, phase velocity is `D_t arg Z_H = Im[(D_t Z_H)/Z_H]`; the localized PDE source decomposition therefore induces a phase-velocity decomposition without inventing a separate phase budget.
