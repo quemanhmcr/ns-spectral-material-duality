@@ -476,7 +476,45 @@ But it acts on **current/germ coefficient space**, not directly on Eulerian vort
 
 ---
 
-## 10. Exact dual current-owner calculus
+## 10. Orientation-complete first-bad selection is phase-neutral inside an active germ
+
+The literal restart selector is not merely rank three by accident.  It has the tensor-product form
+
+\[
+\boxed{M_{\rm fb}^{\rm mf}=M_{\rm fb}\otimes I_3.}
+\]
+
+Let `L in GL(3)` be any reparameterization of the three-loop orientation frame.  On germ-orientation coefficient space the change of frame is `I_G\otimes L`.  Kronecker algebra gives
+
+\[
+\boxed{
+(M_{\rm fb}\otimes I_3)(I_G\otimes L)
+=M_{\rm fb}\otimes L
+=(I_G\otimes L)(M_{\rm fb}\otimes I_3).
+}
+\]
+
+Thus the literal first-bad selector is **orientation-covariant**: it selects or rejects an entire germ packet and does not privilege one loop orientation.
+
+**Classification: EXACT OPERATOR IDENTITY.**
+
+On an unresolved active branch, `dot M_fb=0`.  Therefore the selector contributes neither a continuous orientation connection nor an internal `GL(3)` phase rotation.  The material area frame may still rotate/shear according to Nanson, but that common frame motion is already quotiented by the normalized determinant defining `Z_H`.  A separate germ/current realization connection may also be present through `G_K`; it belongs to the physical-current map, not to `M_fb` itself.
+
+Consequently the continuous phase owners must not include a fictitious “first-bad orientation motion” term.  The literal selector has only:
+
+- block support while frozen;
+- germ-frame support commutator `A_gM-MA_g` if the chosen germ coordinates are not co-moving;
+- finite entry/resolve/reselection jumps.
+
+**Classification: RIGOROUS CONSEQUENCE and NO-DOUBLE-COUNTING RULE.**
+
+This is a genuine positive bridge to the small-loop interaction theorem: the orientation-complete selected packet has exactly the covariance needed for a three-component circulation vector, while the selector commutes with the passive `GL(3)` reparameterizations under which the normalized circulation triple / `Z_H` is invariant.
+
+It does **not** say that the ancestry germ label itself is already a physical Eulerian role.  That requires the state/current realization below.
+
+---
+
+## 11. Exact dual current-owner calculus
 
 The correct analogue of the primal commutator is obtained by duality, not analogy.
 
@@ -543,7 +581,7 @@ Finally, common material-frame connection must be charged only once.  The Nanson
 
 ---
 
-## 11. Literal hysteretic first-bad selector has no smooth `Mdot` between events
+## 12. Literal hysteretic first-bad selector has no smooth `Mdot` between events
 
 The implemented selector is
 
@@ -577,7 +615,7 @@ A finite selector reset therefore cannot be promoted to a positive smooth phase-
 
 ---
 
-## 12. Moving quantile/shell cuts: fixed mass cancels only the integrated face
+## 13. Moving quantile/shell cuts: fixed mass cancels only the integrated face
 
 For a genuine moving cut on a state space,
 
@@ -645,7 +683,49 @@ The correct statement is
 
 ---
 
-## 13. Physical time and ancestry/reverse-age time cannot be merged
+## 14. A selector must descend through the state map before it can be called physical localization
+
+Let the still-open programme-specific state map be
+
+\[
+\Pi:Y_{\rm ancestry}\to X_{\rm Kelvin/phys}.
+\]
+
+Suppose an ancestry localization is a scalar support function `chi_Y(y)` (hard or smooth).  A physical-state localization `chi_X(x)` satisfying
+
+\[
+\boxed{\chi_Y=\chi_X\circ\Pi}
+\]
+
+exists on `Pi(Y)` **if and only if** `chi_Y` is constant on every fiber of `Pi`:
+
+\[
+\boxed{
+\Pi(y_1)=\Pi(y_2)
+\quad\Longrightarrow\quad
+\chi_Y(y_1)=\chi_Y(y_2).
+}
+\]
+
+Necessity is immediate.  For sufficiency, define `chi_X(x)` to be the common value of `chi_Y` on `Pi^{-1}(x)`; fiber constancy makes the definition unambiguous.
+
+For a hard cut, this says exactly that the selected ancestry chamber must be a union of state-map fibers.  If two hidden ancestry states represent the same physical Kelvin state but lie on opposite sides of the quantile/shell cut, there is **no physical selector on the target state** whose pullback is that cut.
+
+**Classification: EXACT STATE-MAP DESCENT CRITERION.**
+
+This criterion comes before any comparison of time faces.  It strengthens the current open bridge:
+
+1. first prove that the literal ancestry quantile/shell selector descends through the physical Kelvin state map (or explicitly retain it as a hidden-state observable);
+2. then prove the clock/generator intertwining;
+3. only then compare its Reynolds face with a physical-time localized material-flux source.
+
+A failure at step 1 is not viscosity, strain, pressure, or phase loss.  It is a **non-descending observer/hidden-state localization** and must not be charged to Navier--Stokes dynamics.
+
+**Classification: COUNTEREXAMPLE/NO-GO against calling a non-descending ancestry cut a physical `Q`.**
+
+---
+
+## 15. Physical time and ancestry/reverse-age time cannot be merged
 
 The preceding quantile formula in the Kelvin upstream is currently derived on the normalized ancestry/reverse-age state with its probability current.  Under reverse-age clock reversal the current velocity changes sign.
 
@@ -665,7 +745,7 @@ Therefore the ancestry moving-cut face and the physical Eulerian `Qdot+[K_u,Q]` 
 
 ---
 
-## 14. Stochastic Kelvin q.v. is not cubic interaction phase
+## 16. Stochastic Kelvin q.v. is not cubic interaction phase
 
 For the literal orientation-complete Kelvin packet, the shared-noise quadratic-variation matrix is
 
@@ -691,7 +771,7 @@ A state-map / stochastic-Kelvin theorem may relate their viscous provenance, but
 
 ---
 
-## 15. Common owner calculus
+## 17. Common owner calculus
 
 After the type corrections above, the two architectures share the following small set of mechanisms.
 
@@ -714,7 +794,7 @@ Two absolute prohibitions follow:
 
 ---
 
-## 16. Typed owner-resolved local phase/work alternative
+## 18. Typed owner-resolved local phase/work alternative
 
 Let a fixed, physically typed localized role triple be valid on an open interval with no hard reselection, no clock/state-map change, and no geometry exit.  Suppose its exact complex interaction satisfies
 
@@ -760,7 +840,7 @@ For the Kelvin programme the orientation-complete current selector is now litera
 
 ---
 
-## 17. What was actually advanced
+## 19. What was actually advanced
 
 The localization frontier is narrower than before.
 
@@ -782,7 +862,7 @@ Neither theorem is presently proved.
 
 ---
 
-## 18. Action adversarial calibration
+## 20. Action adversarial calibration
 
 `experiments/exp11_literal_owner_calculus.py` is an **ACTION STRESS TEST**, not a proof.  It is designed to run only in GitHub Actions and checks:
 

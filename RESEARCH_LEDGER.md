@@ -154,3 +154,13 @@ Detailed derivation: `docs/11_literal_localization_owner_calculus.md`.
 **RIGOROUS CONSEQUENCE.**  The Wang smooth-material-carrier theorem supplies a different, genuinely physical handoff: for signed actual HH work density `r` and `0<=q<=1`, `[int q^2 r]_+ <= int q^2[r]_+ <= int[r]_+`.  Positive smooth-carrier HH energy therefore forces actual positive physical HH work, after which hard Fourier/helical roles and edge phase are read anew at the nonlinear event.  The literal architecture is `smooth carrier -> Q^2 energy gate -> actual positive HH work -> hard event edge/phase`, not persistent hard-edge phase between events.
 
 **OPEN BRIDGE.**  A smooth-triple `Z_Q` trichotomy does not become Wang's causal event-phase theorem until the seven overlap terms are controlled or the next hard event is re-read.  The vorticity phase owner `C_Q` and the native `Q^2` kinetic-energy interface share the same relative resolved generator but are non-equivalent observables/currencies.
+
+### Kelvin orientation covariance and state-map descent — follow-up audit
+
+**EXACT OPERATOR IDENTITY.**  The literal orientation-complete restart selector `M_fb^mf=M_fb tensor I_3` commutes with every orientation reparameterization `I_G tensor L`, `L in GL(3)`.  On an unresolved branch `Mdot_fb=0`; first-bad selection therefore creates no continuous orientation connection or internal phase rotation.  Material-frame connection belongs to the current realization/Nanson geometry, while support commutator and finite reset remain separately typed.
+
+**RIGOROUS CONSEQUENCE.**  This tensor-product selector is compatible with the GL(3)-invariant small-loop circulation triple: it selects a whole three-loop germ packet without privileging an orientation.  It does not by itself turn an ancestry germ label into a primal Eulerian localization.
+
+**EXACT STATE-MAP DESCENT CRITERION.**  For an ancestry scalar cut `chi_Y` and state map `Pi:Y->X`, a target physical selector `chi_X` with `chi_Y=chi_X o Pi` exists iff `chi_Y` is constant on every fiber of `Pi`.  A hard chamber must therefore be a union of state-map fibers.  A quantile/shell cut separating two hidden ancestry states that realize the same physical Kelvin state is non-descending observer localization, not a physical NS source.
+
+**OPEN BRIDGE.**  The Kelvin programme must establish selector descent first, then reverse-age/physical generator intertwining, before ancestry moving-cut faces can be identified with physical-time localized `Z_H` owners.

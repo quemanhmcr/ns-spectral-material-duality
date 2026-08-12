@@ -199,13 +199,13 @@ and the vorticity curl of the physical HH source is the explicit summand
 =\nabla\times[-Q\mathbb P\nabla\cdot(h\otimes h)].
 \]
 
-For a current-side selector `P=KM`, the dual covariant defect is
+For the literal orientation-complete Kelvin restart selector `M_fb^mf=M_fb tensor I_3`, first-bad support commutes with every orientation `GL(3)` reparameterization and is therefore phase-neutral inside a frozen active germ.  For a general current-side selector `P=KM`, the dual covariant defect is
 
 \[
 G_P=\dot P+T_XP-PA_Y=G_KM+KG_M,
 \]
 
-so realization/connection and support transport are the only continuous current-side localization owners.  A moving fixed-mass quantile cancels only its integrated weighted Reynolds face; the local face need not vanish pointwise.
+so realization/connection and support transport are the only continuous current-side localization owners.  Moreover, an ancestry scalar cut descends through a state map `Pi:Y->X` to a physical selector iff it is constant on every fiber of `Pi`.  A moving fixed-mass quantile cancels only its integrated weighted Reynolds face; the local face need not vanish pointwise.
 
 On any interval where the role type, physical clock/state map and geometry corridor remain fixed, the local phase/work trichotomy refines to these named exact owners: loss of cubic amplitude or phase forces the corresponding sum of owner actions to pay the same logarithmic/angular threshold; otherwise favorable localized cubic interaction persists.  Hard reselection, first-bad reset, or an unresolved clock/state-map transition is a typed exit requiring re-registration, not a positive continuous payment.
 
