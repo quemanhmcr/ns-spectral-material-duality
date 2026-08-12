@@ -131,3 +131,17 @@ Therefore the old passive high-companion interpretation of `U` is no longer reta
 \]
 
 with `G` = generic HH/relink/source renewal (plus high strain when its face fires) and `R` = state/material ancestry descent needed to decide whether those fresh labels correspond to genuinely new physical stock.  This is still an open recurrence/assembly problem and not a regularity theorem.
+
+## 9. Global physical owner quotient after BR
+
+BR sharpens the graph more radically than the earlier `G/R` notation.  On the unforced full physical state, every nonlinear contribution to global enstrophy is already contained in one closed-triad split/merge variance ledger.  Therefore the **physical source graph** is now
+
+\[
+\boxed{
+\text{one-donor split variance}
+\;\longrightarrow\;
+\text{global enstrophy},
+}
+\]
+
+opposed by two-donor merge variance and viscous killing.  `R` remains a real state-fidelity seam only when an auxiliary material/current/coherent localization is invoked; it is not drawn as an additional global enstrophy source.  The unresolved main question is control/non-explosion of the split-variance rate.

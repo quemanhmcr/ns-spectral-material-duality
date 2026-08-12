@@ -103,3 +103,5 @@ jobs:
         run: python experiments/exp40_record_gate_owner_trichotomy.py
       - name: Signed helical branch variance and share-scale no-go
         run: python experiments/exp41_helical_branch_variance.py
+      - name: Convex helical branching and parabolic half face
+        run: python experiments/exp42_convex_branch_heat_inflection.py

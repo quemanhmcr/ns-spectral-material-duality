@@ -696,3 +696,13 @@ Detailed derivation: `docs/64_record_gate_owner_trichotomy.md`.
 **NO-GO.** Cyclic charge share times scale has no universal contraction. The homochiral strict triangle `(1,16,16.5)` has two donors and one recipient; the low donor routes 100% of its charge to the recipient sixteen times higher. The full event is a merge and therefore enstrophy-destructive, showing why rooted scale-share bookkeeping is the wrong object.
 
 Detailed derivations: `docs/65_signed_helical_frequency_branch_variance.md`, `docs/66_cyclic_share_scale_no_go.md`.
+
+## 2026-08-12 — Global owner quotient and convex-order branching hierarchy
+
+**GLOBAL OWNER QUOTIENT.** BR shows the unforced full-state enstrophy ledger has one positive nonlinear owner: one-donor signed-frequency split variance. Two-donor merge variance and viscosity are sinks. Phase, strain, radial geometry, material service and interface decompositions remain important rate/provenance refinements of the same triad law, not additional global enstrophy sources. Reduced/material state fidelity is therefore an auxiliary-admissibility seam, not a physical global source term.
+
+**EXACT CONVEX-ORDER HIERARCHY.** For every convex `phi(s|k|)`, one-donor splits contribute a nonnegative Jensen gap and two-donor merges the opposite gap. Affine `phi=1,x` recover energy/helicity invariance; `phi=x^2` is the exact enstrophy variance law.
+
+**PARABOLIC INFLECTION.** The unique future-heat defect `w_tau(x)=1-exp(-2nu tau x^2)` has `w_tau''=4nu tau exp(-a)(1-2a)`, so its exact signed-frequency branching curvature changes sign at `a=1/2`. For a split entirely in `a<=alpha<1/2`, the defect Jensen gap is at least `2nu tau exp(-alpha)(1-2alpha)` times the BR variance work. The same half-face independently appears in the old-corridor H1 exclusion theorem; this is structural alignment, not a global reset theorem.
+
+Detailed derivations: `docs/67_global_enstrophy_owner_quotient.md`, `docs/68_convex_order_helical_moment_hierarchy.md`, `docs/69_parabolic_currency_branching_inflection.md`.

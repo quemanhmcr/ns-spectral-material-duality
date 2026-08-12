@@ -1576,3 +1576,23 @@ with both variance ledgers nonnegative; every enstrophy record satisfies `V_spli
 ## Theorem BS — Rooted recipient share times scale has no universal contraction
 
 For any `L>1` and `0<delta<1`, take a strict homochiral triangle with magnitudes `(1,L,L+delta)` and the phase orientation `R_triangle>0`. The cyclic works have sign pattern `(-,+,-)`, so the middle-frequency root is the unique recipient and the low donor sends 100% of its canonical donor charge to it. Thus `p_(0->1)=1` while `|k_1|/|k_0|=L`, disproving every universal contraction `p lambda^alpha<1`, `alpha>0`. The explicit `(1,16,16.5)` family lies inside the BQ comparable `<20` window. Its full triad is a two-donor merge and hence enstrophy-destructive by BR; the no-go shows that the complete split/merge variance event, not a rooted edge scalar, is the correct object.
+
+## Theorem BT — The full-state global enstrophy source graph has one positive nonlinear owner
+
+For unforced NSE, BR is defined directly on the physical closed-triad/modal state and gives `Y'/2+nu Z=V_split-V_merge`. Thus one-donor signed-frequency split variance is the only positive global nonlinear enstrophy owner; two-donor merge variance and viscosity are sinks. Phase, strain, radial, interface and material decompositions refine the rate/provenance of this same law. Reduced/material state resolution remains an admissibility condition for auxiliary localized theorems but cannot add a new term to the full-state global ledger. The main physical recurrence problem is therefore split-variance rate/non-explosion versus merge destruction and viscous killing.
+
+## Theorem BU — Convex spectral moments form an exact split/merge convex-order hierarchy
+
+For every convex `phi` for which the relevant moment/work integrals are finite (or after justified truncation), a one-donor split contributes `Q[E_p phi(x_r)-phi(x_d)]>=0` while a two-donor merge contributes `Q[phi(x_r)-E_q phi(x_d)]<=0`, because energy and helicity conservation make the singleton signed frequency the barycenter of the two-point side. Globally, `M_phi'=J_split^phi-J_merge^phi-2nu sum |k|^2 phi(s|k|)E`. Affine `phi=1,x` have zero Jensen gap; `phi=x^2` is BR. If `phi''>=m` on the event interval, the split gap is at least `(m/2)Q Var(x)`.
+
+## Theorem BV — The unique parabolic defect has its branching inflection exactly at `a=1/2`
+
+For `tau=T-t` and `w_tau(x)=1-exp(-2nu tau x^2)`, `w_tau''(x)=4nu tau exp(-a)(1-2a)` with `a=2nu tau x^2`. Hence `w_tau` is convex for `a<1/2`, has zero curvature at `1/2`, and is locally concave beyond the half-face. If a one-donor split stays entirely in `a<=alpha<1/2`, its defect Jensen gap obeys
+
+\[
+Q[E_pw_\tau(x_r)-w_\tau(x_d)]
+\ge
+2\nu\tau e^{-\alpha}(1-2\alpha)\,\mathcal V_2.
+\]
+
+A merge has the opposite sign. The same half-face appears independently in the old-corridor `H^1` exclusion threshold; the alignment is exact but does not by itself terminate split/merge recurrence.
