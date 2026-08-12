@@ -90,3 +90,6 @@ Quantify the exact annular constants relating orientation-complete Kelvin q.v. d
 - **EXACT:** For a monochromatic resonant helical edge, viscosity acts on the complex interaction 3-form by real scalar damping `-nu(|k1|^2+|k2|^2+|q|^2) Z`; hence its interaction-phase velocity is exactly zero.
 - **EXACT / CALIBRATED:** On a smooth periodic NSE state, instantaneous interaction-phase velocity splits into the literal vorticity transport and stretching convolutions plus viscosity; Action confirms the channel sum and zero monochromatic viscous phase rotation to floating precision.
 - **OPEN:** Derive a coercive alternative for localized packets: persistent favorable `Re Z`, or quantified phase rotation sourced by literal interface/selection terms, or amplitude loss routed to existing physical reservoirs.
+
+- **RIGOROUS CONSEQUENCE:** Inside a good real edge-coefficient corridor, favorable signed work has an exact trichotomy: persistent positive work, cubic-amplitude loss paying at least `log(1/rho)` total channel amplitude action, or phase loss paying at least `acos(c_lo)-acos(c_hi)` total channel phase action.
+- **GUARDRAIL:** These logarithmic amplitude/phase actions are local diagnostic/action quantities, not globally bounded reset resources.  They must be converted to literal scale-sensitive physical source currencies before any recurrence claim.

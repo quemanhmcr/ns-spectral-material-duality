@@ -134,6 +134,22 @@ Therefore
 
 Viscosity damps interaction amplitude but does not rotate monochromatic interaction phase.  Instantaneous phase rotation is nonlinear; for localized packets a viscous phase term must be derived from the non-monochromatic role rather than assumed absent.
 
+## Theorem J — Local phase/work no-free-escape trichotomy
+
+Assume a selected interaction remains in a geometry corridor `kappa(t)>=kappa_*>0`, starts with normalized alignment `c(0)>=c_hi`, and let `0<c_lo<c_hi<1`, `0<rho<1`.  Then before geometry exits, either `|Z|` falls below `rho|Z(0)|`, or `Re Z/|Z|` falls below `c_lo`, or the actual signed work obeys
+
+\[
+W(t)\ge kappa_* c_{lo} rho |Z(0)|>0.
+\]
+
+At the first amplitude-loss time the sum of physical channel amplitude actions is at least `log(1/rho)`.  At the first phase-loss time the sum of channel phase actions is at least
+
+\[
+\arccos(c_{lo})-\arccos(c_{hi}).
+\]
+
+Thus loss of favorable physical work cannot occur for free while geometry remains good.  This is a local calculus theorem, not a global recurrence or regularity result.
+
 # Current open theorem
 
 The next genuinely new closure target is a **localized phase/work alternative** derived from Theorems E--I:

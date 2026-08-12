@@ -37,3 +37,5 @@ jobs:
         run: python experiments/exp07_kelvin_loop_triple.py
       - name: Physical phase-velocity PDE ledger
         run: python experiments/exp08_phase_velocity_pde.py
+      - name: Local phase-work trichotomy stress
+        run: python experiments/exp09_phase_work_trichotomy.py
