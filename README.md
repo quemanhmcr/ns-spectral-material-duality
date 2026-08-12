@@ -56,13 +56,21 @@ The first exact dictionary is documented in [`docs/01_common_deformation_diction
 
 ## Current frontier
 
-The next question is deliberately adversarial:
+The original metric-phase question has now split cleanly.  Metric geometry determines carrier/triad deformation and helicity conversion, but signed nonlinear work is carried by the **complex oriented material-flux 3-form**
 
-> Does material metric/holonomy determine actual signed helical edge work, or only geometry/capacity?
+\[
+\mathcal Z_H=\det(H)^{-1}\,\overline{\Phi_q}\cdot(\Phi_1\times\Phi_2).
+\]
 
-The first action experiment answers part of this question: material metric velocity determines local helicity conversion, but **metric geometry alone cannot determine signed physical edge work**; a relative complex phase/polarization sidecar remains necessary.
+Its real part gives signed helical edge work up to the exact frequency/helicity coefficient; its argument is the gauge-invariant interaction phase.  `Z_H` has a literal small-Kelvin-loop circulation realization.
 
-See [`docs/02_helicity_and_edge_work_frontier.md`](docs/02_helicity_and_edge_work_frontier.md).
+The localized PDE law is also exact: after common Nanson transport is removed, a role evolves only through moving/interface transport, strain--selection mismatch, and viscosity.  A moving cut carries an explicit `Qdot` time face.
+
+The current open problem is therefore no longer “where is phase?” but:
+
+> Can the exact phase-velocity/source ledger force a useful localized alternative: persistent favorable work, quantified physical dephasing, or separately paid amplitude loss?
+
+See [`paper/MAIN_THEOREMS.md`](paper/MAIN_THEOREMS.md) and docs 04--08.
 
 ## Reproducibility
 
@@ -74,8 +82,12 @@ The action currently runs:
 
 - metric ↔ triad-Hodge dictionary checks;
 - two-strain holonomy checks;
-- metric-velocity ↔ helicity-conversion checks;
-- fixed-metric phase sweep for direct Fourier–Leray edge work.
+- metric-velocity ↔ helicity-conversion and metric-only no-go checks;
+- direct Fourier--Leray work ↔ oriented material-flux 3-form checks under random `GL(3)` frames;
+- localized instantaneous NSE vorticity-role source classification;
+- moving-cut `Qdot` time-face calibration;
+- small-Kelvin-loop circulation convergence to the complex interaction 3-form;
+- instantaneous physical interaction-phase velocity and zero monochromatic viscous phase rotation.
 
 ## Attribution
 
