@@ -544,3 +544,15 @@ Latest stress signals include: false reduced strain inverse `1.051e+04`, false r
 **COUNTEREXAMPLE/NO-GO.**  Removing the lower parabolic face allows infinite geometric depth with finite hazard; reverse jumps refund the heat coordinate without viscous waiting; removing the upper scale ratio lets the critical floor collapse too fast; removing the mass floor leaves zero-mass exceptional paths; free re-entry restarts the budget.  These are now explicit acceptance conditions for the next first-bad theorem.
 
 Detailed derivations: `docs/39_energy_transport_killing.md`, `docs/40_future_heat_parabolic_currency.md`, `docs/41_stopped_lineage_parabolic_budget.md`, `docs/42_parabolic_killing_depth_criterion.md`, `docs/43_parabolic_termination_hypothesis_audit.md`.
+
+## 2026-08-12 — Terminal parabolic corridor decay and the literal first-bad reduction target
+
+**RIGOROUS TERMINAL NON-ACCUMULATION.**  A stopped selected energy population confined to `alpha<=2nu(T-t)N^2<=beta` satisfies `M(t)<=M(s)[(T-t)/(T-s)]^alpha` by physical viscous killing alone.  A same-population scale-critical event `NE>=eta` in the same corridor needs at least `eta sqrt(2nu/beta)(T-t)^(1/2)` energy.  Hence `alpha>1/2` excludes accumulation of such events at the candidate terminal time.  No event counting or forward-jump ratio is used inside the corridor.
+
+**EXACT CAPTURE KINEMATICS.**  If continuing scale jumps have `N^+/N^-<=Lambda` and `beta>Lambda^2 alpha`, a jump from `a<alpha` cannot land above `beta`, while continuous clock motion only decreases `a`.  Every subparabolic-to-superparabolic transition must therefore visit the corridor.  Unbounded nonlocal UV jumps are a distinct physical exit, not a violation of the coordinate.
+
+**RIGOROUS CONDITIONAL FIRST-BAD REDUCTION / OPEN BRIDGE.**  If a future full-PDE theorem says that, absent named exits, a bad state at scale `N` extends the full smooth solution for `c_*/(nu N^2)`, then first-singular-time semantics force `2nu N^2(T-t)>=2c_*`.  This would derive the parabolic lower face from NSE lifespan itself.  Current Wang natural service is carrier-local and current Kelvin `dc26c0c` is selected-current/pair typing only; neither supplies this missing full-solution theorem.
+
+**CURRENT KELVIN `dc26c0c` READ-ONLY AUDIT.**  The new upstream theorem gives `T(P,D)=P tensor D^T`, proves Cauchy deformation cannot manufacture a boundary seam for a closed selected cycle, and splits replica-dependent selected pair content into selector, deformation, and mandatory cross sectors.  It also proves by exact heat-shear NS that local `D` does not close finite current shape.  This supports the no-cloning/type discipline but is not identified with the modal energy lineage of AR--AV.
+
+Detailed derivations: `docs/44_terminal_parabolic_corridor_decay.md`, `docs/45_parabolic_corridor_capture.md`, `docs/46_first_bad_parabolic_reduction.md`.

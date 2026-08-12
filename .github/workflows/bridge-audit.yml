@@ -77,3 +77,5 @@ jobs:
         run: python experiments/exp27_energy_transport_killing.py
       - name: Stopped parabolic lineage and killing depth
         run: python experiments/exp28_parabolic_killing_depth.py
+      - name: Terminal parabolic corridor and first-bad reduction
+        run: python experiments/exp29_terminal_corridor_capture.py

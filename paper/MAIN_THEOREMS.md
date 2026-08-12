@@ -1170,3 +1170,54 @@ For Wang's currently certified signed-good scale ratios `8/5 < N_child/N_parent 
 The finite-depth mechanism fails in distinct ways if its physical hypotheses are dropped.  If the lower parabolic face is removed, `N_n=N_0lambda^n` and `T-t_n=C lambda^{-4n}` give infinite forward depth with summable killing hazard.  Reverse jumps can refund the heat coordinate instantaneously and avoid viscous payment.  Without an upper scale-ratio bound, `N_n` may grow faster than the exponential survival loss, so the scale-critical floor need not contradict it.  Without a same-lineage critical mass floor, a zero-mass exceptional branch remains possible.  Free re-entry/cloning restarts the finite survival budget.
 
 Hence the next literal first-bad theorem has a sharp acceptance test: NSE must supply parabolic lower/upper faces, bounded one-sided scale progress, a same-lineage physical energy floor, and explicit ownership of reverse/reentry exits.  Until then AV is a conditional termination mechanism, not a recurrence or regularity theorem.
+
+## Theorem AX — A stopped parabolic corridor cannot carry scale-critical energy to the terminal time when the lower face exceeds one half
+
+Let `m_i` be a selected energy population with no incoming mass after typed exit, and suppose every alive state satisfies
+
+\[
+\alpha\le2\nu|k_i|^2(T-t)\le\beta.
+\]
+
+The exact killed-mass law gives
+
+\[
+\dot M\le-\frac{\alpha}{T-t}M,
+\qquad
+\boxed{
+M(t)\le M(s)\left(\frac{T-t}{T-s}\right)^\alpha.}
+\]
+
+If every continuing event in the same selected population requires `NE_event>=eta`, the upper parabolic face implies
+
+\[
+E_{event}\ge\eta\sqrt{\frac{2\nu}{\beta}}(T-t)^{1/2}.
+\]
+
+Hence if `alpha>1/2`, such events cannot accumulate at `T`.  The exponent `1/2` is sharp for this comparison: at `alpha<1/2` the survival upper decays more slowly than the scale-critical event floor, so another physical currency would be required.
+
+## Theorem AY — A bounded physical scale ratio makes the parabolic corridor a capture region
+
+For `a=2nu N^2(T-t)`, continuous motion between events only decreases `a`, while a same-time scale jump gives `a^+=(N^+/N^-)^2a^-`.  If every continuing jump satisfies `N^+/N^-<=Lambda` and
+
+\[
+\beta>\Lambda^2\alpha,
+\]
+
+then any jump starting below `alpha` lands below `beta`.  Consequently every transition from `a<alpha` to `a>beta` must visit `[alpha,beta]`.  Without an upper physical scale-ratio theorem, one nonlocal ultraviolet jump can skip the corridor and must be typed as its own owner rather than treated as parabolic progress.
+
+## Theorem AZ — A full-PDE own-scale continuation theorem would derive the first-bad parabolic lower face rather than assume it
+
+Let `T` be a first candidate singular time.  Suppose a future literal NSE first-bad theorem proves that, absent already named exits, a bad/continuing event at scale `N` and time `t` extends the **full smooth NSE solution** for at least
+
+\[
+L_N=\frac{c_*}{\nu N^2}.
+\]
+
+Then first-singular-time semantics force `L_N<=T-t`; otherwise the solution would extend through `T`.  Therefore every genuine continuing first-bad state satisfies
+
+\[
+\boxed{2\nu N^2(T-t)\ge2c_*.}
+\]
+
+Thus the lower parabolic face would be a consequence of actual PDE lifespan, not an observer threshold.  Current Wang own-scale service is only carrier/shell-local, and current Kelvin `dc26c0c` only refines selected-current/deformation pair typing; neither is silently promoted to this full-solution continuation theorem.  Combined with AX/AY and AR--AV, this gives a short conditional termination skeleton, but literal first-bad semantics, the same-selected-energy floor, and repeated typed exit/re-entry assembly remain open.
