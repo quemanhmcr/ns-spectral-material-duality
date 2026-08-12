@@ -1596,3 +1596,24 @@ Q[E_pw_\tau(x_r)-w_\tau(x_d)]
 \]
 
 A merge has the opposite sign. The same half-face appears independently in the old-corridor `H^1` exclusion threshold; the alignment is exact but does not by itself terminate split/merge recurrence.
+
+## Theorem BW — Every helical triad moment is one signed-frequency Vandermonde times one divided difference
+
+For any scalar observable `phi` on the three signed frequencies,
+
+\[
+\boxed{\sum_i\phi(x_i)T_i
+=-R_\triangle(x_0-x_1)(x_1-x_2)(x_2-x_0)\phi[x_0,x_1,x_2].}
+\]
+
+Thus enstrophy is the bare Vandermonde (`phi=x^2`, divided difference 1), energy/helicity vanish because affine divided differences vanish, and every convex moment has the same triad sign as enstrophy. If `|x_i|<=K`, `|(x0-x1)(x1-x2)(x2-x0)|<=2K^3`, with equality at `(-K,0,K)` up to permutation. Coincident signed frequencies are exactly enstrophy-neutral.
+
+## Theorem BX — Every enstrophy record contains a rate-critical one-donor split scale
+
+Assign split triads by `K_triangle=max_i|k_i|` to dyadic blocks `[N_q,2N_q)` and let `V_q` be split-variance work there; let `Z_q` be modal palinstrophy on the same shell. Since at a record `sum V_q>=nu sum Z_q`, some shell satisfies `V_q>=nu Z_q`. Every triangle at that scale is either two-high/one-low (`min<K/4`, the other two radii strictly above `3K/4`) or fully comparable (`all radii >=K/4`); one class carries at least `nu Z_q/2`. Because `Q Var(x)<=K^2Q<4N_q^2Q`, the owning class has actual donor-work rate
+
+\[
+\boxed{Q_q^{owner}\ge\frac{\nu Z_q}{8N_q^2}\ge\frac\nu8N_q^2E_q.}
+\]
+
+This localizes the unresolved rate problem to separated or comparable **one-donor split** work; two-donor merges never enter the positive gate.

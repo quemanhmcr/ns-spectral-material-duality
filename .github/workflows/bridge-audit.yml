@@ -105,3 +105,5 @@ jobs:
         run: python experiments/exp41_helical_branch_variance.py
       - name: Convex helical branching and parabolic half face
         run: python experiments/exp42_convex_branch_heat_inflection.py
+      - name: Vandermonde triad and rate critical split scale
+        run: python experiments/exp43_vandermonde_split_rate_gate.py

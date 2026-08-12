@@ -706,3 +706,13 @@ Detailed derivations: `docs/65_signed_helical_frequency_branch_variance.md`, `do
 **PARABOLIC INFLECTION.** The unique future-heat defect `w_tau(x)=1-exp(-2nu tau x^2)` has `w_tau''=4nu tau exp(-a)(1-2a)`, so its exact signed-frequency branching curvature changes sign at `a=1/2`. For a split entirely in `a<=alpha<1/2`, the defect Jensen gap is at least `2nu tau exp(-alpha)(1-2alpha)` times the BR variance work. The same half-face independently appears in the old-corridor H1 exclusion theorem; this is structural alignment, not a global reset theorem.
 
 Detailed derivations: `docs/67_global_enstrophy_owner_quotient.md`, `docs/68_convex_order_helical_moment_hierarchy.md`, `docs/69_parabolic_currency_branching_inflection.md`.
+
+## 2026-08-12 — Vandermonde compression and rate-critical split scale
+
+**EXACT TRIAD COMPRESSION.** For every observable `phi`, `sum phi(x_i)T_i = -R_triangle (x0-x1)(x1-x2)(x2-x0) phi[x0,x1,x2]`. Enstrophy (`phi=x^2`) is the bare signed-frequency Vandermonde times the common cubic. Affine energy/helicity have zero second divided difference. If `|x_i|<=K`, the exact geometry capacity is `|Vandermonde|<=2K^3`, with equality at `(-K,0,K)`.
+
+**RATE-CRITICAL SCALE.** Partition one-donor split variance by actual triad maximum frequency `K_triangle` and palinstrophy by the same dyadic scale. At every enstrophy record some shell obeys `V_split,q>=nu Z_q`. Triangle geometry then has only two classes: two-high/one-low (`min<K/4`, other two `>3K/4`) or all-comparable (`all >=K/4`). One class carries at least `nu Z_q/2`.
+
+**ACTUAL WORK LOWER.** Since split variance `Q Var(x)<=K_triangle^2 Q<4N_q^2Q` on the block, the owner class has donor-work rate `Q_owner>=nu Z_q/(8N_q^2)>= (nu/8)N_q^2E_q`. This is a branch-specific physical work-vs-viscous-rate gate, not a new threshold norm.
+
+Detailed derivations: `docs/70_vandermonde_divided_difference_triad_law.md`, `docs/71_record_split_rate_scale_gate.md`.
