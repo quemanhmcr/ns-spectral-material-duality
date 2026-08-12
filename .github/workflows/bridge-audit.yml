@@ -53,3 +53,5 @@ jobs:
         run: python experiments/exp15_cauchy_exterior_volume.py
       - name: Full Cauchy payoff and selected-event factorization
         run: python experiments/exp16_full_cauchy_payoff_factorization.py
+      - name: Vorticity transpose gauge and Cauchy onset hierarchy
+        run: python experiments/exp17_transpose_mixed_onset.py

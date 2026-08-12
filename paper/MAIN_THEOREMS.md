@@ -560,3 +560,77 @@ E[\chi\,T(Dw_0,Dw_1,Dw_2)]
 \]
 
 The same holds under the normalized selected law whenever `E chi>0`.  Therefore a legitimate first-bad or event selector can reweight terminal/role resolution and mixed correlations, but cannot by itself turn common incompressible Cauchy deformation or packet-metric dispersion into a same-replica phase source.  Selected metric alignment and selected cubic-phase alignment are distinct bridge requirements.
+
+## Theorem AA — The Cauchy transpose is a full-vorticity connection gauge, not a cubic phase source
+
+For `A=grad u` and physical vorticity `omega=curl u`,
+
+\[
+\boxed{A-A^T=[\omega]_\times,
+\qquad
+(A-A^T)\omega=0.}
+\]
+
+Hence full vorticity satisfies `L_nu omega=A omega=A^T omega`.  For a localized role `Q omega`, the exact source ledgers using `A` and `A^T` differ by `[omega]_x Q omega`.  This is a common real trace-free skew connection, and for three oriented cubic legs its contributions telescope exactly to zero by the `Lambda^3` trace law.  A transpose switch becomes an apparent phase source only if the compensating localization commutator is omitted.
+
+## Theorem AB — Mixed deformation--terminal correlation has a literal connected diffusion source
+
+For a homogeneous fixed-past terminal vector observable under the reverse-anchor Cauchy semigroup, let
+
+\[
+\mathcal H_h\bar D=A^T\bar D,
+\qquad
+\mathcal H_h\bar w_i=0,
+\qquad
+\mathcal H_hm_i=A^Tm_i,
+\]
+
+and `r_i=m_i-Dbar wbar_i`.  Then exactly
+
+\[
+\boxed{
+\mathcal H_hr_i
+=A^Tr_i
++2\nu\sum_\mu
+(\partial_\mu\bar D)(\partial_\mu\bar w_i).
+}
+\]
+
+Consequently
+
+\[
+\boxed{
+r_i(h)
+=\nu h^2\sum_\mu
+(\partial_\mu\nabla u)^T\partial_\mu w_i
++O(h^3).
+}
+\]
+
+The source is complex and phase-capable; it is neither `Sigma_D` nor an interface/forcing source.  Physical localized roles add those explicit sources separately.
+
+## Theorem AC — Fixed-past Cauchy hidden-state resolution has an h, h^2, h^3 causal onset hierarchy
+
+For smooth deterministic terminal vector fields under the reverse anchor semigroup, the terminal cubic resolution `Delta_w=P_h T(w_0,w_1,w_2)-T(P_hw_0,P_hw_1,P_hw_2)` obeys the exact trilinear carré-du-champ law
+
+\[
+\mathcal H_h\Delta_w
+=2\nu\sum_\mu
+\big[T(\partial_\mu\bar w_0,\partial_\mu\bar w_1,\bar w_2)
++T(\partial_\mu\bar w_0,\bar w_1,\partial_\mu\bar w_2)
++T(\bar w_0,\partial_\mu\bar w_1,\partial_\mu\bar w_2)\big].
+\]
+
+Thus, when the respective leading coefficients do not vanish,
+
+\[
+\boxed{
+\Delta_w=O(\nu h),
+\qquad
+r_i=O(\nu h^2),
+\qquad
+1-\det\bar D=O(\nu h^3).
+}
+\]
+
+The first two sectors can rotate phase; the pure common-deformation exterior-volume sector is radial while `det Dbar>0`.  The hierarchy is local causal ordering, not a recurrence or regularity estimate.

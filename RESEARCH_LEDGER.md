@@ -386,3 +386,15 @@ Detailed derivations: `docs/21_cauchy_exterior_volume_resolution.md`, `docs/22_m
 **OPEN BRIDGE.**  The literal first-bad badness/resolve event set remains undefined upstream.  Once supplied, the remaining phase bridge is selected interaction-law sufficiency plus mixed/third-order source dynamics, not equality of deterministic and stochastic packet metrics.
 
 Detailed derivations: `docs/24_full_cauchy_payoff_factorization.md`, `docs/25_selection_commutes_with_cauchy_volume.md`.
+
+## 2026-08-12 — Full-vorticity transpose gauge and mixed Cauchy phase owners
+
+**EXACT NSE IDENTITY.**  With the upstream Jacobian convention `A=grad u`, `A-A^T=[omega]_x`, hence `(A-A^T)omega=omega cross omega=0`.  Full physical vorticity therefore satisfies both `L_nu omega=A omega` and `L_nu omega=A^T omega`.  The apparent Cauchy transpose seam closes on the actual full field.
+
+**EXACT LOCALIZED CONNECTION IDENTITY.**  A role `Q omega` is not generally self-aligned.  The exact `A`-connection and `A^T`-connection source ledgers differ by `[omega]_x Q omega`.  This is a common real trace-free skew connection.  When all three cubic legs are transformed consistently its `Lambda^3` contribution cancels exactly.  Changing transpose convention without moving this compensating role source creates an artificial polarization/phase residual.
+
+**EXACT MIXED CONNECTED LAW.**  For a homogeneous fixed-past terminal vector mean `wbar_i` under the same reverse anchor semigroup, with `H_h Dbar=A^T Dbar`, `H_h wbar_i=0`, `H_h m_i=A^T m_i`, the mixed vector `r_i=m_i-Dbar wbar_i` obeys `H_h r_i=A^T r_i+2nu sum_mu (partial_mu Dbar)(partial_mu wbar_i)`.  Its source is a complex mixed deformation--terminal carré-du-champ, not a PSD covariance tensor.
+
+**RIGOROUS SHORT-HORIZON HIERARCHY.**  For smooth fixed-past terminal fields, terminal-anchor cubic resolution starts at `O(nu h)`, mixed deformation--terminal correlation at `O(nu h^2)`, and pure deformation exterior-volume resolution at `O(nu h^3)` when the corresponding leading coefficients are nonzero.  This is a causal-order statement, not a long-time norm comparison or lower bound.
+
+Detailed derivations: `docs/26_vorticity_transpose_connection_gauge.md`, `docs/27_mixed_cauchy_terminal_correlation_pde.md`, `docs/28_cauchy_resolution_onset_hierarchy.md`.
