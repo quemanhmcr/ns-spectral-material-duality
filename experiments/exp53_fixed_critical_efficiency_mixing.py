@@ -8,7 +8,7 @@ def main():
     signal=0.0
     for _ in range(20000):
         V0=float(rng.uniform(.2,20.0)); M0=float(rng.uniform(.2,20.0))
-        rho=1.0/(2048.0*np.sqrt(V0*M0))
+        rho=27.0/(8192.0*np.sqrt(V0*M0))
         n=int(rng.integers(4,80))
         A=rng.uniform(1e-8,5.0,size=n)
         # Manufacture efficiencies with A-weighted mean at least rho.

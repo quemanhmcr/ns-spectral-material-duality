@@ -37,13 +37,13 @@ def main():
         N=float(2.0**int(rng.integers(1,10)))
         E=float(rng.uniform(1e-5,4.0))
         lower=nu*N**3*E/128.0
-        required=(nu*N/(2048.0*np.sqrt(E)))**2
+        required=(27.0*nu*N/(8192.0*np.sqrt(E)))**2
         upper_at_required=16.0*N**2*np.sqrt(required)*E**1.5
         rate=max(rate,abs(lower-upper_at_required)/(1.0+abs(lower)+abs(upper_at_required)))
 
         M0=float(rng.uniform(1.0,64.0))
         mu=nu*nu
-        req=nu*nu*N**3/(2048.0**2*mu)
+        req=729.0*nu*nu*N**3/(8192.0**2*mu)
         if req>M0:
             sparse_signal=max(sparse_signal,req/M0)
 

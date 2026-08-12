@@ -1808,14 +1808,14 @@ while natural times `sum N_j^-2` are finite.  Therefore wavevector closure, heli
 For the already-typed comparable heterochiral owner,
 
 \[
-P_N^{cmp}\le16N^2\|c\|_1\|c\|_2^2.
+P_N^{cmp}\le(64/27)N^2\|c\|_1\|c\|_2^2.
 \]
 
 With `E_part=||c||_2^2` and `M_eff=||c||_1^2/||c||_2^2`, the CB lower gate gives
 
 \[
-\boxed{M_{eff}\ge\frac{\nu^2N^2}{2048^2E_{part}}
-=\frac{\nu^2N^3}{2048^2\mu_{part}}.}
+\boxed{M_{eff}\ge\frac{729\,\nu^2N^2}{8192^2E_{part}}
+=\frac{729\,\nu^2N^3}{8192^2\mu_{part}}.}
 \]
 
 Thus at fixed participating critical mass `mu_part=O(nu^2)`, a rate-critical ultraviolet event requires `M_eff` of order `N^3`.  Sparse finite-triad ladders cannot carry the record-rate owner asymptotically.
@@ -1872,13 +1872,13 @@ Thus the only pure-UV final core is first-shell, comparable, heterochiral, true-
 Assume one comparable block satisfies `||c||_1<=sqrt(V_0N^3)||c||_2` and participating critical mass `mu=NE<=M_0nu^2`.  With the physical helical capacity `dA_e=4sqrt(2)N^2|a_0a_1a_2|`, the CB rate gate implies
 
 \[
-\boxed{P/A\ge\rho_0:=1/(2048\sqrt{V_0M_0}).}
+\boxed{P/A\ge\rho_0:=27/(8192\sqrt{V_0M_0}).}
 \]
 
-Therefore edges with `dP/dA>=rho_0/2` carry at least half of actual pair action.  Every such edge has `eta_pair>=rho_0/sqrt2`, hence `1-delta^2>=rho_0^2/64`; by CO its fresh-source minority-helicity fraction obeys
+Therefore edges with `dP/dA>=rho_0/2` carry at least half of actual pair action.  Every such edge has `eta_pair>=(2sqrt2/27)rho_0`, hence `1-delta^2>=rho_0^2/2916`; by CO its fresh-source minority-helicity fraction obeys
 
 \[
-\boxed{r_{min}\ge\rho_0^4/65536.}
+\boxed{r_{min}\ge\rho_0^4/136048896.}
 \]
 
 Thus a fixed-mass rate-critical core contains a positive actual-action sublaw that is simultaneously work-efficient, geometrically nondegenerate, and fresh-polarization mixed.  Temporal ancestry/fresh-source dominance remains separate.
@@ -1894,3 +1894,19 @@ If `M<8N`, then
 \]
 
 Thus there is no arbitrarily nonlocal untyped pair-creation branch: deep events bind to actual resolved mixed work, while the remainder has bounded donor/recipient scale ratio.
+
+## Theorem CT — Universal heterochiral pair-capacity coefficient is at most `4sqrt(2)/27`
+
+For every strict heterochiral pair-creation triangle,
+
+\[
+\boxed{\eta_{pair}\le4\sqrt2/27.}
+\]
+
+The proof splits `K=max(b,c)`: when `K=c`, area `<=ab/2` and the triangle interval reduce the maximum to the one-variable boundary value at `a/c=1/3`; when `K=b`, area `<=ac/2` gives the stronger `sqrt2/8` bound.  Consequently
+
+\[
+\boxed{P_N^{cmp}\le(64/27)N^2\|c\|_1\|c\|_2^2,}
+\]
+
+strengthening CL/CR.  In CR the fixed-critical mean-efficiency constant becomes `rho_0=27/(8192 sqrt(V_0M_0))`.

@@ -127,5 +127,7 @@ jobs:
         run: python experiments/exp53_fixed_critical_efficiency_mixing.py
       - name: Donor anchored plateau resolved binding
         run: python experiments/exp54_donor_plateau_resolved_binding.py
+      - name: Universal heterochiral pair capacity constant
+        run: python experiments/exp55_universal_pair_capacity_constant.py
       - name: Rate critical Fourier participation and sparse ladder no-go
         run: python experiments/exp49_rate_critical_fourier_participation.py

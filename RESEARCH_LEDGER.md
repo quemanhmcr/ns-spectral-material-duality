@@ -796,3 +796,9 @@ Re-audited Wang `76e6ee97efe2f014e67e2e2209b3f6228af7b0a5` read-only.  Its certi
 **EXACT FOURIER SUPPORT / NSE REPARTITION.**  Anchor a dyadic scale to the actual pair-action donor and choose a new smooth transporter equal to one on `B_(M/8)` and supported in `B_(M/4)`.  For `M>=8N` the donor is exactly resolved and low--low output cannot reach the high child, so the pair source is literally resolved mixed `V/h` work; positive work then splits into conservative skew redistribution or symmetric strain.
 
 **RIGOROUS ALTERNATIVE.**  If the deep condition fails, `c/a<16`.  This closes the contact-to-owner seam for deep repo-3 pair events without asserting that Wang's own transporter has a plateau and without modifying upstream.
+
+## 2026-08-13 — CT: exact universal pair-capacity constant sharpens dense-core efficiency
+
+**RIGOROUS TRIAD GEOMETRY.**  Every heterochiral pair-creation coefficient satisfies `eta_pair<=4sqrt(2)/27`.  This is proved analytically by separate `K=c` and `K=b` triangle envelopes, not inferred from Action search.
+
+**RIGOROUS DOWNSTREAM STRENGTHENING.**  The aggregate comparable capacity improves from the intentionally crude constant `16` to `64/27`; CL participation and CR mean-efficiency constants were updated accordingly.  No physical hypothesis was changed.

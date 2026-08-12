@@ -23,7 +23,7 @@ Since `|a_+|+|a_-|<=sqrt(2)c_k` and `K<2N`, overcounting by ordered parent pairs
 \[
 \boxed{
 \mathcal P_N^{cmp}
-\le16N^2
+\le\frac{64}{27}N^2
 \sum_{p,q}c_pc_qc_{-p-q}.
 }
 \]
@@ -43,7 +43,7 @@ Therefore
 \[
 \boxed{
 \mathcal P_N^{cmp}
-\le16N^2\|c\|_1\|c\|_2^2.
+\le\frac{64}{27}N^2\|c\|_1\|c\|_2^2.
 }
 \]
 
@@ -61,7 +61,7 @@ Then
 
 \[
 \mathcal P_N^{cmp}
-\le16N^2\sqrt{M_{eff}}\,(E_N^{part})^{3/2}.
+\le\frac{64}{27}N^2\sqrt{M_{eff}}\,(E_N^{part})^{3/2}.
 \]
 
 If the comparable heterochiral branch owns the CB gate, its actual pair action satisfies
@@ -79,7 +79,7 @@ Consequently
 \boxed{
 M_{eff}
 \ge
-\frac{\nu^2N^2}{2048^2E_N^{part}}.
+\frac{729\,\nu^2N^2}{8192^2E_N^{part}}.
 }
 \]
 
@@ -93,7 +93,7 @@ Writing the participating critical mass as
 \boxed{
 M_{eff}
 \ge
-\frac{\nu^2N^3}{2048^2\mu_N^{part}}.
+\frac{729\,\nu^2N^3}{8192^2\mu_N^{part}}.
 }
 \]
 
