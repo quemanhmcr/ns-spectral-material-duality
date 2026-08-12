@@ -1823,3 +1823,9 @@ Thus at fixed participating critical mass `mu_part=O(nu^2)`, a rate-critical ult
 ## Theorem CM — Sparse heterochiral ladders are topology adversaries, not rate-critical blow-up mechanisms
 
 Any fixed-width ladder has bounded `M_eff`, while CL requires `M_eff~N^3` at fixed critical mass.  Therefore even a phase-compatible multigeneration Hadamard birth signal cannot by itself sustain the CB/CF critical rate at ultraviolet scales.  The remaining obstruction is dense coherent heterochiral pair production (or growth of critical mass beyond the fixed-crossing regime), not a sparse shell-model cascade.
+
+## Theorem CN — Orthogonal equal-scale heterochiral Hadamard seeds collapse to an exact 2D3C polarization class
+
+For `p perpendicular q`, `|p|=|q|=N`, helicities `p:+`, `q:-`, and normal `n=p_hat cross q_hat`, the exact Leray-projected sources at `p+q` and `p-q` are both parallel to `n`.  Hence each first child is linearly polarized and has equal-magnitude `+/-` helical projections.  The two generated siblings have zero mutual quadratic interaction because their velocities are normal to both planar wavevectors.
+
+Moreover the full real seed is 2D3C: its horizontal streamfunction is monochromatic with `-Delta psi=N^2 psi`, so horizontal nonlinearity is pure pressure and `v(t)=exp(-nu N^2t)v(0)`; the normal component is a passive scalar.  Thus the static single-helicity Hadamard ladder does not compose into a 3D feedback cascade in actual NSE.

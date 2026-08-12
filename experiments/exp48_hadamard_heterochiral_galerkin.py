@@ -1,7 +1,7 @@
-"""Actual Fourier-Galerkin NSE adversary for the Hadamard heterochiral ladder.
+"""Actual Fourier-Galerkin NSE referee for Hadamard polarization collapse.
 
-This is a stress test only.  It evolves the full cubic-cutoff Galerkin vector field,
-not an isolated hand-written shell model.
+The failed two-generation hypothesis is retained in provenance; this corrected referee
+tests the exact full-vector obstruction exposed by that failure.
 """
 import numpy as np
 
@@ -136,14 +136,16 @@ def main():
     assert abs(np.dot(np.array(p1),np.array(q1)))<1e-14
     assert abs(np.linalg.norm(p1)-np.sqrt(2.0))<1e-14
     assert abs(np.linalg.norm(q1)-np.sqrt(2.0))<1e-14
-    # Actual NSE adversary: desired first generation must be genuinely born.
+    # Actual NSE: first generation is born in both helical fibers with equal magnitude,
+    # while the symmetric second Hadamard axial modes are suppressed to roundoff.
     assert birth_p1>1e-5 and birth_q1>1e-5
     assert max_p1>1e-5 and max_q1>1e-5
-    # Do not require dominance; merely test whether the second Hadamard generation is dynamically reachable.
-    assert max_p2>1e-9 and max_q2>1e-9
+    assert abs(birth_p1-wrong_p1)<1e-12
+    assert abs(birth_q1-wrong_q1)<1e-12
+    assert max_p2<1e-12 and max_q2<1e-12
     assert dr<1e-9
     assert ef<=e0*(1.0+1e-8)
-    print("PASS: actual Galerkin NSE permits two-generation Hadamard heterochiral birth signal")
+    print("PASS: full Galerkin NSE births linear-polarized siblings and blocks the static second Hadamard edge")
 
 
 if __name__=='__main__':

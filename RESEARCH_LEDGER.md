@@ -762,3 +762,9 @@ Initial Action `31650446519` correctly rejected the hand-written explicit compar
 **RIGOROUS LATE-STAGE CONSEQUENCE.**  After exact owner reduction, a safe convolution bound shows `P_cmp<=16 N^2 ||c||_1 ||c||_2^2`.  Combining with CB forces `M_eff>=nu^2 N^3/(2048^2 mu_part)`.  At fixed critical mass this has full `N^3` spectral-volume scaling.
 
 **COUNTEREXAMPLE/NO-GO.**  Finite-mode/Hadamard ladders may be useful phase/topology adversaries but cannot carry the ultraviolet rate gate with fixed critical mass.  A genuine singular mechanism must broaden to dense coherent Fourier participation or enter a separately typed large-critical-mass branch.
+
+## 2026-08-13 — CN: failed Hadamard ladder reveals exact full-vector polarization obstruction
+
+**FAILURE LINEAGE / EXACT PDE CORRECTION.**  Actions `31651033582` and `31651133703` strongly birthed the first Hadamard siblings but kept the proposed second axial modes at `~1e-20`; the failed assertion was not weakened.  Direct NSE algebra shows why: orthogonal equal-scale `+/-` parents generate both first siblings parallel to the common normal, hence with equal `+/-` helical magnitudes and zero sibling mutual interaction.
+
+**EXACT NSE/PDE IDENTITY.**  The whole seed lies in a 2D3C class.  The horizontal flow is a single Laplacian eigenspace and evolves only by heat decay; the vertical component is passive.  Static rooted-helicity channels therefore cannot be recursively composed without the full vector polarization state.
