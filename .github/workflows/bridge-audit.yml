@@ -27,3 +27,5 @@ jobs:
         run: python experiments/exp02_holonomy.py
       - name: Helicity conversion and signed edge-work adversary
         run: python experiments/exp03_helicity_edge_work.py
+      - name: Material flux triple reproduces signed edge work
+        run: python experiments/exp04_material_flux_triple.py
