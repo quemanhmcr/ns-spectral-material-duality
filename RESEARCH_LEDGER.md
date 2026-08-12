@@ -95,3 +95,54 @@ Quantify the exact annular constants relating orientation-complete Kelvin q.v. d
 - **GUARDRAIL:** These logarithmic amplitude/phase actions are local diagnostic/action quantities, not globally bounded reset resources.  They must be converted to literal scale-sensitive physical source currencies before any recurrence claim.
 
 - **EXACT STRUCTURAL BRIDGE:** The Fourier parent symplectic wedge is a `Lambda^2` determinant invariant under common `SL(2)` deformation; the complex material interaction is a `Lambda^3` determinant invariant under common incompressible deformation.  In both cases only relative generators/forcing change the interaction object.
+
+## 2026-08-12 — Literal upstream localization audit and covariant owner calculus
+
+Audited current upstream HEADs through MCP Linux Cloud only:
+
+- `wang-ns-triad-diamond` `f56517caba641ccc109987c5eee4564b9fe66a55`;
+- `ns-pde-first-kelvin-frontier` `517ced374ac2b48ebac9d7170bc5bb4151bd9437`.
+
+### New exact identity
+
+**EXACT NSE/PDE IDENTITY.**  With `K_u=u.grad-grad u`,
+
+`C_Q = Qdot + [u.grad,Q] + [Q,grad u] = Qdot + [K_u,Q]`.
+
+If `Qdot+[G,Q]=0`, then `C_Q=[K_u-G,Q]`.  This is the exact relative-generator owner calculus behind the exterior-algebra common-deformation cancellation.
+
+### Wang literal specialization
+
+**EXACT NSE/PDE IDENTITY.**  The literal hard event role is `P_{a sigma}=1_{C_a}(D)H_sigma(D)`; the propagated role is a distinct scalar smooth `Q(t,D)` with `QP=P`.  With `V=S_(N/4)u`, `h=u-V`, and the common affine generator used to transport `Q`,
+
+`C_Q=[K_{V-V_aff},Q]+[K_h,Q]`.
+
+For `zeta=curl h`, the exact physical HH vorticity source is
+
+`-Q K_h zeta = curl[-Q P div(h tensor h)]`.
+
+The companion `K_h(Q zeta)` is the transport/stretch repartition created by using the full material derivative and must not be charged as a second HH source.
+
+**COUNTEREXAMPLE/NO-GO.**  Hard event `P`, smooth PDE carrier `Q`, resolved cutoff `V`, and smooth SGS filter `G_N` are not interchangeable.  A resolved-cutoff renewal is a decomposition gauge, not a `Qdot` time face.  SGS `RU`/pressure/window viscosity belong to the macroscopic resolved-energy ledger and must not be inserted again into the microscopic material-flux source.
+
+**OPEN BRIDGE.**  `P(Q omega)=P omega` registers the hard event component, but the cubic built from full smooth envelopes generally contains overlap pollution.  A smooth-carrier phase theorem therefore does not yet imply persistence of literal hard-cell HH work between events.
+
+### Kelvin literal specialization
+
+**EXACT TYPE IDENTITY.**  The restart-layer literal first-bad selector is `M_fb^mf=M_fb tensor I_3`, realized as a closed-current map `P_fb^mf=K_mf M_fb^mf`.  This is the correct orientation-complete selector for a three-loop circulation triple, but it is current/germ-side rather than a primal Eulerian vorticity projector.
+
+**EXACT CURRENT/PDE DUALITY IDENTITY.**  For `P=KM`,
+
+`G_P=Pdot+T_X P-P A_g = G_K M + K G_M`.
+
+This is the exact dual analogue of the primal localization commutator.  The literal hysteretic selector has `Mdot=0` between unresolved events; entry/resolve are finite jumps, not a smooth positive payment.
+
+**RIGOROUS CONSEQUENCE.**  For a moving quantile `Q_t=1_{g<a(t)}`, fixed mass sets only the integrated weighted Reynolds face to zero.  The local density `(a_dot-g_t-j.grad g) delta_{g=a}` need not vanish.  One-dimensional and exact affine Mahalanobis shells are special co-moving cases.
+
+**OPEN BRIDGE / NO-GO.**  The quantile/shell law currently lives on ancestry/reverse-age state and probability current.  It may not be equated with physical-time `Qdot+[K_u,Q]` until the programme-specific ancestry-to-physical Kelvin state map is constructed.  Stochastic Kelvin q.v./future covariance is second-order and cannot replace the signed cubic interaction phase/work observable.
+
+### Localized owner alternative
+
+**RIGOROUS CONSEQUENCE.**  On a fixed typed interval, any exact decomposition `Zdot=sum_o Zdot_o` into literal physical owners refines the existing trichotomy: amplitude loss pays total named log-amplitude action at least `log(1/rho)`; phase loss pays total named phase action at least `acos(c_lo)-acos(c_hi)`; otherwise favorable localized cubic interaction persists while geometry remains good.  Reselection, reset, geometry exit, or unresolved clock/state-map change is a typed stop requiring re-registration, not a free continuous payment.
+
+Detailed derivation: `docs/11_literal_localization_owner_calculus.md`.

@@ -161,3 +161,52 @@ The next genuinely new closure target is a **localized phase/work alternative** 
 > On a physically selected localized resonant packet, either favorable `Re Z_H` persists for a controlled interval, or loss of favorable work is quantitatively charged to an explicit phase-velocity source (moving/interface transport or strain-selection mismatch), or the interaction amplitude is lost through a separately typed physical channel.
 
 No theorem currently proves that this alternative terminates a Navier--Stokes recurrence or yields regularity.
+
+## Theorem L — Covariant localization owner calculus and typed local alternative
+
+Let
+
+\[
+\mathcal K_u=u\cdot\nabla-\nabla u.
+\]
+
+For every sufficiently regular spatial role operator `Q(t)`, the exact localized material-flux law can be written
+
+\[
+\boxed{
+D_t(H^TQ\omega)
+=H^T\left[(\partial_tQ+[\mathcal K_u,Q])\omega+\nu Q\Delta\omega\right].
+}
+\]
+
+If `Q` is transported by a common generator `G`, so `partial_t Q+[G,Q]=0`, then only the relative generator survives:
+
+\[
+\boxed{\partial_tQ+[\mathcal K_u,Q]=[\mathcal K_u-G,Q].}
+\]
+
+For the literal Wang smooth role, with `V=S_(N/4)u`, `h=u-V` and common affine generator `G_aff`, this gives exactly
+
+\[
+\partial_tQ+[\mathcal K_u,Q]
+=[\mathcal K_{V-\bar V_{aff}},Q]+[\mathcal K_h,Q],
+\]
+
+and the vorticity curl of the physical HH source is the explicit summand
+
+\[
+-Q\mathcal K_h(\nabla\times h)
+=\nabla\times[-Q\mathbb P\nabla\cdot(h\otimes h)].
+\]
+
+For a current-side selector `P=KM`, the dual covariant defect is
+
+\[
+G_P=\dot P+T_XP-PA_Y=G_KM+KG_M,
+\]
+
+so realization/connection and support transport are the only continuous current-side localization owners.  A moving fixed-mass quantile cancels only its integrated weighted Reynolds face; the local face need not vanish pointwise.
+
+On any interval where the role type, physical clock/state map and geometry corridor remain fixed, the local phase/work trichotomy refines to these named exact owners: loss of cubic amplitude or phase forces the corresponding sum of owner actions to pay the same logarithmic/angular threshold; otherwise favorable localized cubic interaction persists.  Hard reselection, first-bad reset, or an unresolved clock/state-map transition is a typed exit requiring re-registration, not a positive continuous payment.
+
+This theorem does not identify smooth Wang carrier cubic work with hard event HH work between events, and it does not identify ancestry-time Kelvin cuts with physical-time Eulerian localization before the missing state-map theorem.
