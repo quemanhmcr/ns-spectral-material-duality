@@ -782,3 +782,56 @@ but for every backward horizon `h>0`, with `alpha=nu k^2`,
 \]
 
 Thus stochastic deformation covariance is neither necessary nor sufficient for positive local peak growth.  It measures finite-horizon Brownian-anchor sampling of spatially varying velocity gradient, whereas the local growth gate measures current vorticity-direction metric work against instantaneous Kelvin q.v. and curvature flux.
+
+## Theorem AJ — Cauchy deformation covariance resolves into strain-gradient, Kelvin-q.v.-complement, and orientation-coupling sectors
+
+Write `A=S+Omega`, `Omega=(1/2)[omega]_x`, and for each spatial direction let `P_mu=partial_mu S`, `Q_mu=(1/2)[partial_mu omega]_x`.  Then
+
+\[
+\boxed{
+(\partial_\mu A)^T(\partial_\mu A)
+=P_\mu^2-Q_\mu^2+(P_\mu Q_\mu-Q_\mu P_\mu).
+}
+\]
+
+Consequently the `O(nu h^3)` Cauchy row-Gram covariance splits into PSD strain-gradient and rotation-gradient sectors plus a symmetric trace-free orientation-coupling sector.  If `Gamma_K=2nu(grad omega)(grad omega)^T` is the instantaneous Kelvin q.v. tensor, the rotation-gradient part is exactly
+
+\[
+\boxed{
+C_\Omega(h)
+=\frac{h^3}{12}\big[(\operatorname{tr}\Gamma_K)I-\Gamma_K\big]+O(h^4).
+}
+\]
+
+Thus the vorticity-gradient contribution to finite-horizon deformation dispersion is the transverse tensor complement of the Kelvin q.v. directions, not the q.v. tensor itself.  More invariantly, under the three-dimensional Hodge identification `Lambda^2 R^3 ~= R^3`,
+
+\[
+\boxed{
+C_\Omega(h)
+=\frac{h^3}{12}\,*\,\Gamma_K^{[2]}\,*^{-1}+O(h^4),
+}
+\]
+
+because the induced two-vector generator satisfies `* G^[2] *^-1=(tr G)I-G^T`.  The bridge is therefore an exact exterior-square representation law.
+
+## Theorem AK — Mean Cauchy exterior-volume onset is vorticity-gradient minus strain-gradient work
+
+At every smooth point,
+
+\[
+\boxed{
+1-\det\bar D
+=
+\frac{\nu h^3}{6}|\nabla\omega|^2
+-
+\frac{\nu h^3}{3}|\nabla S|_F^2
++O(h^4)
+=
+\frac{h^3}{12}\operatorname{tr}\Gamma_K
+-
+\frac{\nu h^3}{3}|\nabla S|_F^2
++O(h^4).
+}
+\]
+
+The signed determinant source is therefore a literal competition between spatial variation of local rotation and spatial variation of strain.  For the exact one-mode shear, `|grad omega|^2=2|grad S|_F^2`, so this onset vanishes; the stronger exact shear law has `det Dbar=1` for all horizons.  The symmetric trace-free strain/rotation cross sector, although absent from the determinant trace, is essential to the actual row-Gram covariance orientation.

@@ -442,3 +442,15 @@ Detailed derivation: `docs/32_local_peak_metric_qv_gate.md`.
 **COUNTEREXAMPLE/NO-GO.**  `Sigma_D>0` is neither necessary nor sufficient for positive local peak enstrophy growth.  Current directional stretching and finite-horizon Brownian-anchor deformation dispersion are distinct NS mechanisms and clocks.
 
 Detailed derivation: `docs/33_growth_covariance_two_flow_no_go.md`.
+
+## 2026-08-12 — Cauchy gradient geometry: strain variation, vorticity variation, and Kelvin-q.v. complement
+
+**EXACT SHORT-HORIZON DECOMPOSITION.**  With `A=S+Omega`, `Omega=(1/2)[omega]_x`, `P_mu=partial_mu S`, `Q_mu=(1/2)[partial_mu omega]_x`, each Cauchy row-Gram source splits as `(partial_mu A)^T(partial_mu A)=P_mu^2-Q_mu^2+(P_mu Q_mu-Q_mu P_mu)`.  The first two pieces are PSD strain-gradient and rotation-gradient dispersion; the third is symmetric trace-free orientation coupling.
+
+**EXACT KELVIN-QV COMPLEMENT.**  The rotation-gradient contribution is `C_Omega=(h^3/12)[tr(Gamma_K)I-Gamma_K]+O(h^4)` with `Gamma_K=2nu(grad omega)(grad omega)^T`.  Thus finite-horizon rotation-induced deformation dispersion occupies the transverse complement of the instantaneous Kelvin vorticity-gradient q.v. tensor.
+
+**RIGOROUS SIGNED EXTERIOR-VOLUME CONSEQUENCE.**  `1-det Dbar=(nu h^3/6)|grad omega|^2-(nu h^3/3)|grad S|_F^2+O(h^4) = (h^3/12)tr Gamma_K-(nu h^3/3)|grad S|_F^2+O(h^4)`.  The determinant source is physically a vorticity-gradient versus strain-gradient competition, explaining why it has no fixed sign.
+
+**EXACT SHEAR CALIBRATION.**  In one-mode shear, `|grad omega|^2=2|grad S|_F^2`, so exterior-volume onset cancels; the trace-free strain/rotation cross sector is nevertheless essential to rotate the full row-Gram covariance into the single `e2` direction.  This locally explains `det Dbar=1` and the upstream exact covariance orientation.
+
+Detailed derivation: `docs/34_cauchy_gradient_geometry_decomposition.md`.

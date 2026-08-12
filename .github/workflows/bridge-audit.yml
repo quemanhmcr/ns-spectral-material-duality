@@ -63,3 +63,5 @@ jobs:
         run: python experiments/exp20_local_peak_metric_gate.py
       - name: Exact NS growth versus deformation-covariance no-go
         run: python experiments/exp21_growth_covariance_two_flow.py
+      - name: Cauchy strain-rotation gradient geometry
+        run: python experiments/exp22_cauchy_gradient_decomposition.py
