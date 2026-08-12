@@ -125,5 +125,7 @@ jobs:
         run: python experiments/exp52_pair_true_upward_support.py
       - name: Fixed critical efficient mixed polarization sublaw
         run: python experiments/exp53_fixed_critical_efficiency_mixing.py
+      - name: Donor anchored plateau resolved binding
+        run: python experiments/exp54_donor_plateau_resolved_binding.py
       - name: Rate critical Fourier participation and sparse ladder no-go
         run: python experiments/exp49_rate_critical_fourier_participation.py

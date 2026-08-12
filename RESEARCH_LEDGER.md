@@ -790,3 +790,9 @@ Re-audited Wang `76e6ee97efe2f014e67e2e2209b3f6228af7b0a5` read-only.  Its certi
 **RIGOROUS CONDITIONAL CONSEQUENCE.**  Under the natural `O(N^3)` Fourier support-volume bound and a fixed participating critical mass `mu<=M0 nu^2`, the comparable pair rate lower is a fixed fraction of a literal helical capacity measure.  At least half actual pair action lies on edges with uniform positive work/capacity efficiency.
 
 **FULL-VECTOR CONSEQUENCE.**  Those efficient edges are uniformly away from triangle degeneracy, so CO forces a fixed nonzero minority-helicity fraction in their fresh child source.  This supplies local efficiency/polarization hypotheses for a future weighted reuse/holonomy assembly without asserting that old child state is fresh-source dominated.
+
+## 2026-08-13 — CS: repo-3 plateau transporter closes deep pair positive binding
+
+**EXACT FOURIER SUPPORT / NSE REPARTITION.**  Anchor a dyadic scale to the actual pair-action donor and choose a new smooth transporter equal to one on `B_(M/8)` and supported in `B_(M/4)`.  For `M>=8N` the donor is exactly resolved and low--low output cannot reach the high child, so the pair source is literally resolved mixed `V/h` work; positive work then splits into conservative skew redistribution or symmetric strain.
+
+**RIGOROUS ALTERNATIVE.**  If the deep condition fails, `c/a<16`.  This closes the contact-to-owner seam for deep repo-3 pair events without asserting that Wang's own transporter has a plateau and without modifying upstream.

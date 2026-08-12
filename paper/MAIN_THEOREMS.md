@@ -1882,3 +1882,15 @@ Therefore edges with `dP/dA>=rho_0/2` carry at least half of actual pair action.
 \]
 
 Thus a fixed-mass rate-critical core contains a positive actual-action sublaw that is simultaneously work-efficient, geometrically nondegenerate, and fresh-polarization mixed.  Temporal ancestry/fresh-source dominance remains separate.
+
+## Theorem CS — Donor-anchored plateau transport binds every genuinely deep pair edge to actual resolved mixed work
+
+For donor dyadic scale `N/2<a<=N` and high recipient shell `M/2<c<=M`, choose a repo-3 smooth multiplier equal to one on `B_(M/8)` and supported in `B_(M/4)`.  If `M>=8N`, the donor is exactly resolved (`h_a=0`) and `B(V,V)` cannot reach the child shell `>M/2`; the edge source is therefore exactly in `B(V,h)+B(h,V)`.  Its positive energy work routes through the adjoint split `K_V+S_V` into same-time conservative skew redistribution or resolved strain/deformation.
+
+If `M<8N`, then
+
+\[
+\boxed{c/a<16.}
+\]
+
+Thus there is no arbitrarily nonlocal untyped pair-creation branch: deep events bind to actual resolved mixed work, while the remainder has bounded donor/recipient scale ratio.
