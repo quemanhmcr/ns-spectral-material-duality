@@ -502,3 +502,29 @@ Re-audited Wang upstream `8d21df4d1971f96c90fd0406136f4fa1882d3ad9` read-only. I
 **SIGN REVERSAL.** Negating the real field sends `Z_triangle -> -Z_triangle`, reverses root works and swaps donor/recipient roles, while routing remains phase-diagonal within the new physical event. This matches Wang's current evolved-NS sign-reversal audit without creating a phase source.
 
 Detailed derivation: `docs/38_wang_single_charge_phase_fiber.md`.
+
+## 2026-08-12 — Action calibration record for Theorems V–AQ
+
+All executable checks below are **ACTION STRESS TESTS, not proofs**.  Proof status remains the exact PDE/operator/exterior/conditional identities recorded in the corresponding docs.
+
+Successful GitHub Actions runs during this research pass:
+
+- `31585189414` — Cauchy exterior-volume / covariance-phase separation;
+- `31585507364` — full Cauchy payoff and selected-event factorization;
+- `31586511972` — transpose-gauge / mixed-correlation / onset hierarchy after algebraic referee repair;
+- `31586860618` — first-bad Boolean-kernel and finite cubic reset;
+- `31587099671` — hybrid continuous/event phase-work ledger;
+- `31587576636` — local peak material-metric/Kelvin-q.v. gate after normalized referee repair;
+- `31587989654` — exact NS growth/deformation-covariance two-flow no-go;
+- `31588548071` — strain/rotation-gradient Cauchy geometry and Kelvin-q.v. Hodge complement;
+- `31588774303` — vectorized Cauchy dual-partial-trace inverse dictionary;
+- `31588989587` — Kelvin q.v. exterior-power ladder;
+- `31589566191` — reduced-state Cauchy inverse-resolution no-go, with all previous lanes passing;
+- `31589912336` — Wang cyclic single-charge phase fiber, with all previous lanes passing.
+
+Transparent failed-referee lineage:
+
+- `31586337634` failed because an `eps=1e-5` second-difference referee amplified floating roundoff in a cubic polynomial.  The theorem and tolerance were not weakened; the referee was replaced by the exact symmetric algebraic extraction at `eps=1`, yielding residual `5.124e-14` in successful run `31586511972`.
+- `31587469046` failed because subtracting two equal affine-growth values of size about `1e10` produced an absolute floating residual around `1e-6`.  The theorem and threshold were not weakened; the referee was replaced by the dimensionless invariant ratio, yielding residual `2.220e-16` in successful run `31587576636`.
+
+Latest stress signals include: false reduced strain inverse `1.051e+04`, false reduced Kelvin-q.v. inverse `1.137e+04` under pure hidden affine-state mixing; Wang hard-cell phase-fiber residual `0`, `504` sampled coarse self-loops, and phase separation `2.593` radians hidden by an identical unmarked donor table.
