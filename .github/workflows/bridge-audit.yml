@@ -95,3 +95,5 @@ jobs:
         run: python experiments/exp36_radial_tail_memory.py
       - name: Subcritical tail self-absorption and S handoff
         run: python experiments/exp37_subcritical_tail_handoff.py
+      - name: Radial record flux versus tail killing
+        run: python experiments/exp38_radial_record_flux_gate.py

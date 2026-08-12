@@ -656,3 +656,13 @@ Read-only upstream compatibility was re-audited at Wang `ae85f4df372cd2942a0181c
 **OWNER REDUCTION.** A higher critical crossing is therefore an actual freshly funded radial-work event; if no higher crossing occurs while enstrophy grows without bound, the subcritical tail must be externally serviced. Subparabolicity itself is no longer an independent recurrence owner. The minimal unresolved graph contracts from `S/U/R` to `U/R`, with global measurable assembly still open.
 
 Detailed derivations: `docs/58_radial_high_tail_memory_erosion.md`, `docs/59_subcritical_tail_self_absorption.md`, `docs/60_subparabolic_seam_elimination.md`.
+
+## 2026-08-12 — Exact radial record-flux gate
+
+**EXACT RADIAL LAYER CAKE.** With `F(R)=Phi_up(R)-Phi_down(R)` and tail gradient stock `G(R)=sum_(|k|>R)|k|^2 E_k`, the nonlinear enstrophy work and palinstrophy obey `W_ens=int 2R F(R)dR` and `Z=int 2R G(R)dR`.
+
+**RIGOROUS RECORD CONSEQUENCE.** At every enstrophy record-growth time, `W_ens>=nu Z`, so some physical radial boundary satisfies `F(R)>=nu G(R)=D_R/2`, where `D_R=2nu G(R)` is the actual viscous killing of the full high set outside that radius. Gross cyclic traffic cannot fake the event because the gate uses net outward current.
+
+**SELECTOR TYPING.** This supplies an exact radial-current first-bad coordinate complementary to the BJ highest-critical-shell energy coordinate. It uses no LP/Bony estimate and creates no new scalar currency.
+
+Detailed derivation: `docs/61_radial_record_flux_gate.md`.

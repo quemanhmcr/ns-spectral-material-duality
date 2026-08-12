@@ -1510,3 +1510,21 @@ Pure subcritical UV self-interaction is viscosity-absorbable; record growth must
 At a first higher PDE-critical crossing, Theorem BK forces a definite recent upward radial-work lower on an `O((log N)/(nu N^2))` window. If no higher crossing occurs while the highest active scale stays bounded and total enstrophy grows without bound, the low part has bounded `H^1` content and the higher tail must have record-growth times; Theorem BL then forces a resolved external-incidence/boundary owner.
 
 Thus every subparabolic critical renewal is physically rerouted into actual radial/edge work, resolved strain/interface/relink, source/material change, or nonlocal high-companion ancestry. Subparabolicity itself supplies no fourth recurrence mechanism. At the owner-reduction level the unresolved graph contracts from `S/U/R` to `U/R`; exhaustion of `U/R` and measurable global assembly remain open.
+
+## Theorem BN — Every enstrophy record contains a radial boundary where net outward current beats half the high-tail viscous killing
+
+Let `F(R)=Phi_up(R)-Phi_down(R)` be net outward nonlinear energy current and `G(R)=sum_(|k|>R)|k|^2E_k` the high-tail gradient stock. Exact radial layer cake gives
+
+\[
+\mathcal W_{ens}=\int_0^\infty2R F(R)\,dR,
+\qquad
+Z=\int_0^\infty2R G(R)\,dR.
+\]
+
+At every time with `Y'>=0`, the NSE enstrophy identity gives `W_ens>=nu Z`. Therefore at least one radius with nonzero tail stock satisfies
+
+\[
+\boxed{F(R)\ge\nu G(R)=\frac12D_R,}
+\]
+
+where `D_R=2nu G(R)` is the actual instantaneous viscous killing of the radial high set. The gate uses net rather than gross radial flow, so conservative up/down circulation cannot manufacture it. This is an exact PDE-facing record-current event; it is complementary to the highest-critical-shell amplitude selector and makes no regularity claim.
