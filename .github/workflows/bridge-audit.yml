@@ -49,3 +49,5 @@ jobs:
         run: python experiments/exp13_event_clock_replica.py
       - name: Kernel selector purity and cubic-resolution transfer
         run: python experiments/exp14_kernel_cubic_resolution.py
+      - name: Cauchy exterior-volume and covariance-phase separation
+        run: python experiments/exp15_cauchy_exterior_volume.py

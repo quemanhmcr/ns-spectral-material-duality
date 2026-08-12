@@ -455,3 +455,67 @@ R\mathcal T(\Phi_0,\Phi_1,\Phi_2)
 then `kappa_y` is a Dirac mass.  Indeed fixed basis vectors reduce the hypothesis to `R(conj(f)gh)=conj(Rf)(Rg)(Rh)` for all bounded scalar observables; setting `h=1` and `g=f` forces zero conditional variance for every indicator, hence a `0-1` probability measure and therefore a point mass on a standard-Borel space.  The converse is immediate.
 
 Consequently hard support purity and even complete second-order information are strictly weaker than cubic phase sufficiency.  A nontrivial reduced Kelvin state must either be sufficient only for a restricted physical interaction algebra or explicitly carry the third-order resolution object `Delta_3^res`; covariance alone cannot provide universal signed-phase closure.
+
+## Theorem V — Common stochastic Cauchy averaging creates only an exterior-volume amplitude defect
+
+Let `D` be a real random Cauchy deformation with `det D=1` pathwise and let `Dbar=E D`.  For fixed complex terminal vectors and `T(z0,z1,z2)=conj(z0).(z1 cross z2)`, a same-replica interaction satisfies
+
+\[
+\boxed{E\,T(Dz_0,Dz_1,Dz_2)=T(z_0,z_1,z_2).}
+\]
+
+Three conditionally independent replica means instead give
+
+\[
+\boxed{T(Dbar z_0,Dbar z_1,Dbar z_2)=\det(Dbar)T(z_0,z_1,z_2).}
+\]
+
+Hence the exact resolution defect is `(1-det Dbar) Z_0`.  Since `det Dbar` is real, while it remains positive this is purely radial amplitude resolution and carries zero continuous interaction-phase velocity.  Any sign flip must pass through zero independent-replica cubic amplitude first.
+
+## Theorem W — The mean-Cauchy determinant is driven by a signed trilinear contraction of the deformation carré-du-champ
+
+For the current Kelvin reverse-age connected law
+
+\[
+\mathcal H_h\bar D=A^T\bar D,
+\qquad
+\Gamma_D^{vec}=2\nu\sum_\mu vec(\partial_\mu\bar D)vec(\partial_\mu\bar D)^T,
+\]
+
+incompressibility gives, with `J_D=det Dbar`,
+
+\[
+\boxed{
+\mathcal H_hJ_D
+=-\frac12\nabla^2_{vec D}\det(\bar D):\Gamma_D^{vec}.
+}
+\]
+
+Equivalently this is `-2nu` times the sum of the three pair-column derivative determinants.  Therefore `delta_D=1-J_D` obeys the same law with opposite sign.  At a smooth current point,
+
+\[
+\boxed{
+\delta_D(h)
+=-\frac{\nu h^3}{3}\sum_\mu\operatorname{tr}((\partial_\mu\nabla u)^2)+O(h^4).
+}
+\]
+
+The source is signed even though `Gamma_D^vec` is PSD.  For the exact periodic NS eigenstreamfunction `psi=e^{-5nu t}[cos(x+2y)+a cos(2x+y)]`, at `x=y=pi/6` one has `sum tr((partial_mu A)^2)=-72 a e^{-10nu t}`, hence `delta_D=24 nu a e^{-10nu t}h^3+O(h^4)`.
+
+## Theorem X — Deformation covariance and interaction phase are non-equivalent owners
+
+The exact periodic one-mode NS shear in the Kelvin Cauchy audit has
+
+\[
+D_h=I+c_hE_{21},
+\qquad
+\Sigma_D>0
+\]
+
+at the symmetry anchor for every positive horizon, while
+
+\[
+\boxed{\det\bar D=1.}
+\]
+
+Thus `C_D^Gram>0` and the mean stochastic packet metric differs from the deterministic/mean-deformation metric, but every fixed-terminal same-replica and independent-mean cubic agrees exactly.  Nonzero deformation covariance or metric mismatch therefore does not imply cubic amplitude loss or phase rotation.  Common real deformation dispersion must be quotiented before relative terminal/role, interface, forcing, or third-order resolution mechanisms are charged as phase owners.

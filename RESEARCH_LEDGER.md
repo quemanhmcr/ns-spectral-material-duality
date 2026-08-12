@@ -356,3 +356,19 @@ Adversarial calibration output:
 - finite-state cubic-resolution transfer residual `7.944e-15`, with sampled transfer magnitude `6.415e+01`.
 
 These are numerical/action stress tests only, never proof.
+
+## 2026-08-12 — Cauchy exterior-volume resolution after Kelvin vectorized covariance advance
+
+Re-audited Kelvin upstream `c1773ffa8fa5cc4bfa8fb5aa461dd4b43dbed1c1` read-only.  Its new literal object is the full deformation covariance `Sigma_D=Cov(vec D)` with exact reverse-age connected source `Gamma_D^vec=2 nu sum_mu vec(partial_mu Dbar) vec(partial_mu Dbar)^T`; `C_D^Gram` is only the column partial trace entering the mean packet metric.
+
+**EXACT NSE/STOCHASTIC 3-FORM IDENTITY.**  For fixed terminal vectors and one common real stochastic Cauchy deformation `D in SL(3)`, the same-replica cubic is exactly `Z_same=Z_0`, while the cubic of three independent replica means is `Z_ind=det(Dbar) Z_0`.  The resolution defect is `(1-det Dbar) Z_0`.  While `det Dbar>0` this defect is radial amplitude resolution, not continuous phase rotation; a sign flip must pass through zero amplitude.
+
+**EXACT PDE IDENTITY.**  With `H_h Dbar=A^T Dbar` and incompressibility, `J_D=det Dbar` obeys `H_h J_D=-(1/2) Hess(det)(Dbar):Gamma_D^vec`, equivalently the sum of three oriented pair-column derivative determinants.  The source is indefinite although `Gamma_D^vec` is PSD.
+
+**RIGOROUS SHORT-HORIZON CONSEQUENCE.**  `delta_D=1-det Dbar=-(nu h^3/3) sum_mu tr((partial_mu grad u)^2)+O(h^4)`.  This differs structurally from the PSD row-Gram onset `(2nu/3) h^3 sum (partial_mu grad u)^T(partial_mu grad u)`.
+
+**EXACT NSE CALIBRATION.**  The smooth periodic 2D eigenstreamfunction `psi=e^{-5nu t}[cos(x+2y)+a cos(2x+y)]`, embedded in 3D, gives at `x=y=pi/6` the coefficient `sum tr((partial_mu A)^2)=-72 a e^{-10nu t}`, hence `delta_D=24 nu a e^{-10nu t} h^3+O(h^4)`.
+
+**COUNTEREXAMPLE/NO-GO.**  Kelvin's exact one-mode NS shear has `Sigma_D>0` and `C_D^Gram>0` but `Dbar=I+cbar E21`, so `det Dbar=1` exactly and the fixed-terminal same/independent cubic interactions agree.  Deformation covariance or metric mismatch therefore does not imply cubic amplitude loss, still less phase rotation.
+
+Detailed derivations: `docs/21_cauchy_exterior_volume_resolution.md`, `docs/22_mean_deformation_determinant_pde.md`, `docs/23_deformation_covariance_phase_no_go.md`.
