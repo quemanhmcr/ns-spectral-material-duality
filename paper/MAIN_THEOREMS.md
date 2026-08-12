@@ -282,3 +282,82 @@ R_s=\mathbb E[DD^T]=\rho^4\mathbb E[M_C],
 \]
 
 and the total second moment satisfies `Q_s <= W_s R_s` in Loewner order.  This same-replica identity does not identify the deterministic first-bad selected packet with the replica ensemble; selector/replica alignment and state-map descent remain separate open bridges.
+
+## Theorem O — Hard event phase is an exact plateau readout of the full Wang carrier
+
+For each literal Wang hard event role `P_i` and its smooth scalar envelope `Q_i` satisfying
+
+\[
+P_iQ_i=Q_iP_i=P_i,
+\]
+
+one has leg by leg `P_i(Q_i omega_i)=P_i omega_i`.  Therefore the hard material cubic obeys
+
+\[
+\boxed{
+\mathcal Z_P(Q_0\omega_0,Q_1\omega_1,Q_2\omega_2)
+=
+\mathcal Z_P(\omega_0,\omega_1,\omega_2).
+}
+\]
+
+Thus the full smooth carrier retains the hard event interaction amplitude and phase exactly on the event plateau, independently of how the envelope is filled outside that plateau.  This does not imply `Z_Q=Z_P`: the unprojected smooth cubic contains seven overlap terms.  Nor can the native quadratic carrier energy determine cubic phase, since a Fourier phase rotation preserves every quadratic energy while rotating `arg Z_P`.
+
+Hence Wang's literal architecture needs no persistent hard phase between events: energy is carried quadratically, while hard geometry/phase is re-read from the actual field at each physical event.  A later hard role need not lie on the previous envelope plateau, so no event-to-event phase-persistence theorem is asserted.
+
+## Theorem P — State-map/clock mismatch is an exact normal interface owner
+
+Let `Pi_t:Y->X` be a time-dependent ancestry-to-physical state map, let
+
+\[
+L_Y=\partial_t+b_Y\cdot\nabla_y,
+\qquad
+L_X=\partial_t+b_X\cdot\nabla_x,
+\]
+
+and define
+
+\[
+R_\Pi=\partial_t\Pi+D\Pi\,b_Y-b_X\circ\Pi.
+\]
+
+For every physical scalar observable `chi_X`, with `chi_Y=chi_X o Pi`,
+
+\[
+\boxed{
+L_Y\chi_Y-(L_X\chi_X)\circ\Pi
+=\nabla\chi_X(\Pi)\cdot R_\Pi.
+}
+\]
+
+For a hard moving cut `chi_X=1_{g<a}`, the mismatch is distributionally
+
+\[
+\boxed{
+-\delta_{g(\Pi)=a}\,\nabla g(\Pi)\cdot R_\Pi.
+}
+\]
+
+Thus only the interface-normal component of the clock/state-map residual is physical crossing; tangential mismatch is reparameterization.  A frozen first-bad ancestry selector therefore need not be a frozen physical selector unless this normal residual vanishes.  Selector descent, clock intertwining, and fixed-mass cancellation are three distinct steps.
+
+## Theorem Q — Common incompressible Cauchy deformation cannot rotate cubic phase
+
+For one real stochastic Cauchy deformation `D` acting on all three complex legs,
+
+\[
+\det D=1
+\]
+
+and
+
+\[
+\boxed{
+\overline{Dz_0}\cdot(Dz_1\times Dz_2)
+=
+\overline{z_0}\cdot(z_1\times z_2).
+}
+\]
+
+Equivalently, a common real generator contributes only `(tr G)Z`; for incompressible common deformation this vanishes.  If the three legs have generators `G_i`, then after subtracting any common reference `G`, the cubic derivative contains only the relative generators `G_i-G` and explicit forcing terms.
+
+Therefore severe same-replica Cauchy metric stretching can coexist with exactly fixed cubic phase.  Continuous phase rotation in the Kelvin bridge must come from relative replica/current realization, moving-cut or state-map/clock mismatch, viscosity/forcing, or a separately typed jump.  Martingale q.v. and centered covariance remain second-order and are not substitutes for this oriented cubic owner.

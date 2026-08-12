@@ -209,3 +209,61 @@ Thus the fixed-past stochastic Cauchy deformation Gram and the orientation-compl
 **OPEN BRIDGE.**  Same-replica identity does not align a deterministic/hysteretic first-bad packet with the stochastic replica ensemble.  State-map descent, replica/selector alignment and clock/generator intertwining remain required before charging this bank to a selected physical `Z_H` role.
 
 Detailed derivation: `docs/13_stochastic_cauchy_material_metric.md`.
+
+## 2026-08-12 — Event-plateau readout, state-map clock residual, and common-replica phase cancellation
+
+### Wang: full carrier retains event phase, scalar summaries do not
+
+**EXACT OPERATOR / MATERIAL 3-FORM IDENTITY.**  For the literal event role/envelope pair `P_i Q_i=Q_i P_i=P_i`,
+
+`P_i(Q_i omega_i)=P_i omega_i`,
+
+hence the hard cubic read from the full smooth carrier is exactly the physical hard cubic:
+
+`Z_P(Q_0 omega_0,Q_1 omega_1,Q_2 omega_2)=Z_P(omega_0,omega_1,omega_2)`.
+
+The event readout is independent of the smooth envelope outside the hard plateau.
+
+**COUNTEREXAMPLE/NO-GO.**  This full-field sufficiency does not imply `Z_Q=Z_P`; the smooth scalar cubic still contains seven overlap terms.  Nor can the quadratic carrier energy inherit cubic phase: modal phase rotation preserves all quadratic energies while rotating `arg Z_P`.
+
+**RIGOROUS TYPING CONSEQUENCE.**  The literal Wang architecture does not need persistent hard phase between events.  Energy is propagated by the smooth `Q^2` carrier and actual physical HH work; hard phase is read from the actual field at the physical event.  A later role `P+` need not satisfy `P+ Q-=P+`, so no event-to-event phase theorem is claimed.
+
+Detailed derivation: `docs/14_event_plateau_phase_readout.md`.
+
+### Kelvin: clock/state-map incompatibility has an exact face
+
+**EXACT PDE/STATE-MAP IDENTITY.**  After selector descent through `Pi_t:Y->X`, define
+
+`R_Pi = partial_t Pi + DPi b_Y - b_X o Pi`.
+
+Then
+
+`L_Y(chi_X o Pi) - (L_X chi_X)oPi = grad chi_X(Pi).R_Pi`.
+
+For a hard cut `chi_X=1_{g<a}`, the residual is the distributional interface face
+
+`-delta_(g(Pi)=a) grad g(Pi).R_Pi`.
+
+Only the normal component of `R_Pi` crosses the interface; tangential mismatch is reparameterization.
+
+**COUNTEREXAMPLE/NO-GO.**  `Mdot_fb=0` in the ancestry/germ clock does not imply a physically frozen selector unless the descended interface has zero normal state-map/clock residual.
+
+**RIGOROUS TYPING CONSEQUENCE.**  Fiber descent, generator/clock intertwining, and fixed-mass integrated-face cancellation are logically distinct and must occur in that order.
+
+Detailed derivation: `docs/15_state_map_clock_residual.md`.
+
+### Kelvin: common Cauchy deformation is cubic-phase neutral
+
+**EXACT NSE/CAUCHY / EXTERIOR-ALGEBRA IDENTITY.**  On one incompressible stochastic Cauchy replica, `det D=1`, so for any three complex legs
+
+`conj(D z0).(D z1 x D z2)=conj(z0).(z1 x z2)`.
+
+Equivalently a common generator contributes only `tr(G) Z`, hence zero for incompressible common deformation.
+
+**EXACT OWNER DECOMPOSITION.**  With leg generators `G_i` and any common reference `G`, only the relative generators `G_i-G` plus explicit forcing terms change the cubic interaction.
+
+**RIGOROUS CONSEQUENCE.**  Same-replica metric stretching can be large while cubic phase stays exactly fixed.  Continuous Kelvin-side phase rotation therefore belongs to relative replica/current realization, moving cut/state-map clock mismatch, viscosity/forcing, or a typed jump—not to common Cauchy deformation itself and not to the orientation-blind first-bad selector.
+
+**OPEN BRIDGE.**  The literal selected first-bad packet is still not identified with a stochastic replica/coupling.  The remaining task is to construct that coupling and the programme-specific state map, then evaluate the relative-generator and normal-interface residuals rather than a generic covariance surrogate.
+
+Detailed derivation: `docs/16_common_replica_phase_cancellation.md`.

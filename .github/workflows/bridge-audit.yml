@@ -45,3 +45,5 @@ jobs:
         run: python experiments/exp11_literal_owner_calculus.py
       - name: Current-upstream cyclic and Cauchy closures
         run: python experiments/exp12_current_head_closures.py
+      - name: Event readout, state-map clock residual, and replica phase cancellation
+        run: python experiments/exp13_event_clock_replica.py
