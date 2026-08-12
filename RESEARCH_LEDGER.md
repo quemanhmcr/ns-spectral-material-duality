@@ -684,3 +684,15 @@ Detailed derivations: `docs/62_low_strain_carrier_memory_erasure.md`, `docs/63_h
 **RIGOROUS CONSEQUENCE.** Every record gate has either (i) hard low--high work whose exact skew-redistribution or symmetric-strain row carries at least `nu G/4`; (ii) genuinely comparable outward work at least `nu G/4`, with all three mode scales in `[R/4,5R)` and total ratio `<20`; or (iii) UV-skip work at least `nu G/4`, in which every closed triad has a companion above `3R`.
 
 Detailed derivation: `docs/64_record_gate_owner_trichotomy.md`.
+
+## 2026-08-12 — Signed-helical martingale branching is the exact nonlinear enstrophy owner
+
+**EXACT TRIAD IDENTITY.** Besides `sum T_i=0`, every closed helical triad obeys `sum x_i T_i=0` with `x_i=s_i|k_i|`. A one-donor/two-recipient event therefore has donor signed frequency equal to the recipient barycenter and contributes `+Q Var(x)` to nonlinear enstrophy work; a two-donor/one-recipient event has recipient equal to the donor barycenter and contributes `-Q Var(x)`.
+
+**GLOBAL CONSEQUENCE.** `Y'/2 + nu Z = V_split - V_merge`, with both variance terms nonnegative. At every enstrophy record, `V_split>=nu Z+V_merge`. Only one-donor branching splits can create nonlinear enstrophy; two-donor merges oppose it.
+
+**CANONICAL ENTROPY.** A binary split with fraction `p` carries actual donor-kernel entropy `Q h_2(p)` and `h_2(p)>=2p(1-p)`. On a BQ-comparable triad `|x_i|<5R`, this gives `Q h_2(p)>=V_split/(50R^2)`.
+
+**NO-GO.** Cyclic charge share times scale has no universal contraction. The homochiral strict triangle `(1,16,16.5)` has two donors and one recipient; the low donor routes 100% of its charge to the recipient sixteen times higher. The full event is a merge and therefore enstrophy-destructive, showing why rooted scale-share bookkeeping is the wrong object.
+
+Detailed derivations: `docs/65_signed_helical_frequency_branch_variance.md`, `docs/66_cyclic_share_scale_no_go.md`.

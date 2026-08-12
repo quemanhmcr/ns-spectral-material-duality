@@ -101,3 +101,5 @@ jobs:
         run: python experiments/exp39_low_strain_carrier_memory.py
       - name: Radial record gate owner trichotomy
         run: python experiments/exp40_record_gate_owner_trichotomy.py
+      - name: Signed helical branch variance and share-scale no-go
+        run: python experiments/exp41_helical_branch_variance.py

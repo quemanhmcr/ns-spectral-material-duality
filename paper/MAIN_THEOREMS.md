@@ -1562,3 +1562,17 @@ Combining BK and BO with the current resolved-interface quotient, passive old hi
 ## Theorem BQ — Every radial record gate has a quantitative resolved/comparable/UV-skip owner
 
 At a BN gate `Phi_up>=nu G`. Partition actual upward recipient edges by whether either of the two quadratic interaction parents lies below `R/4`. If that resolved branch carries at least half, use the physical hard split `V_R=P_(|k|<R/4)u`; its exact mixed operator is `L_(V_R)=mathsf K_R+mathsf S_R`, with skew-adjoint conservative redistribution and self-adjoint physical strain, so one gross positive row carries at least `nu G/4`. Otherwise both interaction parents are at least `R/4`. Splitting by recipient radius `4R` yields either comparable local work at least `nu G/4`, with all three mode scales in `[R/4,5R)` and ratio `<20`, or UV-skip work at least `nu G/4`; every skip atom has a closed-triad companion above `3R`.
+
+## Theorem BR — Closed-triad energy transport is a signed-helical-frequency martingale split/merge and enstrophy is its variance ledger
+
+For `x_i=s_i|k_i|`, the cyclic root works obey both `sum_i T_i=0` and `sum_i x_iT_i=0`. If one root is the unique donor with mass `Q` and two roots are recipients with probabilities `p_1,p_2`, then `x_d=p_1x_1+p_2x_2` and the triad nonlinear enstrophy work is `+Q p_1p_2(x_1-x_2)^2`. If two roots are donors with normalized weights `q_1,q_2` and one root is the recipient, then `x_r=q_1x_1+q_2x_2` and the enstrophy work is `-Qq_1q_2(x_1-x_2)^2`. Consequently
+
+\[
+\boxed{\frac12Y'+\nu Z=\mathcal V_{split}-\mathcal V_{merge},}
+\]
+
+with both variance ledgers nonnegative; every enstrophy record satisfies `V_split>=nu Z+V_merge`. For a binary split, canonical donor-kernel entropy obeys `Qh_2(p)>=2Qp(1-p)`; on a comparable triad with `|x_i|<5R`, `Qh_2(p)>=V_split/(50R^2)`.
+
+## Theorem BS — Rooted recipient share times scale has no universal contraction
+
+For any `L>1` and `0<delta<1`, take a strict homochiral triangle with magnitudes `(1,L,L+delta)` and the phase orientation `R_triangle>0`. The cyclic works have sign pattern `(-,+,-)`, so the middle-frequency root is the unique recipient and the low donor sends 100% of its canonical donor charge to it. Thus `p_(0->1)=1` while `|k_1|/|k_0|=L`, disproving every universal contraction `p lambda^alpha<1`, `alpha>0`. The explicit `(1,16,16.5)` family lies inside the BQ comparable `<20` window. Its full triad is a two-donor merge and hence enstrophy-destructive by BR; the no-go shows that the complete split/merge variance event, not a rooted edge scalar, is the correct object.
