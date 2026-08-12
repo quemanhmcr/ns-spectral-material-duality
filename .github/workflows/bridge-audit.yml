@@ -31,3 +31,5 @@ jobs:
         run: python experiments/exp04_material_flux_triple.py
       - name: Localized material-flux PDE ledger
         run: python experiments/exp05_localized_flux_pde.py
+      - name: Moving-cut time-face calibration
+        run: python experiments/exp06_moving_cut_time_face.py
