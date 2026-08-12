@@ -420,3 +420,15 @@ Detailed derivations: `docs/29_first_bad_boolean_kernel_realizability.md`, `docs
 **EVENT TYPING.**  Selector entry/resolve/reselection contributes through its exact finite reweighting jump and must not be smeared into neighboring continuous phase action.  This closes the local bookkeeping seam across finitely many already-legitimate events but supplies no uniform event-count bound, reset bank, recurrence termination, or regularity theorem.
 
 Detailed derivation: `docs/31_hybrid_phase_work_ledger.md`.
+
+## 2026-08-12 — Local peak growth gate is directional metric work versus Kelvin q.v.
+
+**EXACT NSE/MATERIAL IDENTITY.**  With `e=|omega|^2/2`, material area frame `H`, metric `M`, and `Phi=H^T omega`, the objective identity `H Mdot H^T=2S` converts the exact enstrophy law to `D_t e=(1/2) Phi^T Mdot Phi + nu Delta e - nu|grad omega|^2`.  Using the orientation-complete Kelvin microframe, `nu|grad omega|^2=(1/2) sum_j gamma_dens(n_j)`.  Thus the physical ledger is directional material-metric strain work minus Kelvin bulk q.v. plus signed curvature flux.
+
+**RIGOROUS LOCAL-MAX GATE.**  At a spatial local maximum of enstrophy, positive material growth requires `(1/2)Phi^T Mdot Phi > nu|grad omega|^2`.  The producer is a directional anisotropy work, not a norm or isotropic volume change; incompressibility keeps the material metric determinant fixed at a fixed reference scale.
+
+**EXACT AFFINE NS CALIBRATION / SCOPED NO-GO.**  In the exact affine vortex flow `A=[[-a,-r,0],[r,-a,0],[0,0,2a]]`, `r=r0 e^(2at)`, vorticity is spatially uniform, `grad omega=Delta e=0`, and `G=omega.S.omega=8 a r0^2 e^(4at)`.  Every point is a non-strict spatial local enstrophy maximum and the solution is smooth at every finite time.  Hence any finite threshold on this local growth margin alone cannot be a universal continuation-failure flag on a solution class containing these affine flows.  This no-go does not address narrower periodic/finite-energy classes or strict/nondegenerate maximum hypotheses.
+
+**TYPE SEPARATION.**  The local peak gate is quadratic directional metric/q.v. physics; signed interscale work remains cubic oriented-flux physics.  A future first-bad definition may use both, but cannot identify them.
+
+Detailed derivation: `docs/32_local_peak_metric_qv_gate.md`.

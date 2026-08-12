@@ -696,3 +696,55 @@ A lifted phase satisfies the analogous exact identity with `Im(Zdot_o/Z)` and fi
 \]
 
 Otherwise, while a chosen physical work coefficient stays `kappa>=kappa_*>0`, the favorable work remains at least `kappa_* c_lo rho |Z(0)|`.  Geometry exit, a zero of `Z`, loss of physical selector/state-map semantics, or an unregistered post-event role remains a typed structural exit.  The theorem closes local bookkeeping across finitely many events but proves no global bound on event count, reset action, recurrence, or regularity.
+
+## Theorem AG — Positive local peak enstrophy growth is directional material-metric work beating Kelvin q.v.
+
+Let `e=|omega|^2/2`, `Phi=H^T omega`, and let the material metric satisfy `H Mdot H^T=2S`.  Then the exact Navier--Stokes enstrophy equation is
+
+\[
+\boxed{
+D_t e
+=\frac12\Phi^T\dot M\Phi
++\nu\Delta e
+-\nu|\nabla\omega|^2
+=\frac12\Phi^T\dot M\Phi
+-\frac12\sum_j\gamma_{dens}(n_j)
++\nu\Delta e.
+}
+\]
+
+Therefore at a spatial local maximum of enstrophy,
+
+\[
+D_t e>0
+\Longrightarrow
+\boxed{
+\frac12\Phi^T\dot M\Phi
+>\nu|\nabla\omega|^2
+=\frac12\sum_j\gamma_{dens}(n_j).
+}
+\]
+
+At fixed reference scale incompressibility keeps the material metric determinant constant, so the positive producer is anisotropic directional deformation rather than volume expansion.
+
+## Theorem AH — A finite threshold on the local growth margin is not by itself a continuation-failure oracle in the smooth affine NS class
+
+For the exact affine Navier--Stokes vortex-stretch solution
+
+\[
+A(t)=\begin{pmatrix}-a&-r(t)&0\\r(t)&-a&0\\0&0&2a\end{pmatrix},
+\qquad r(t)=r_0e^{2at},
+\]
+
+with `a>0`, vorticity is spatially uniform, every point is a non-strict spatial local enstrophy maximum, and
+
+\[
+\boxed{
+\mathfrak G
+=\omega\cdot S\omega-\nu|\nabla\omega|^2
+=8ar_0^2e^{4at}
+=D_t e.
+}
+\]
+
+For every finite threshold `Theta`, parameters can be chosen so `G>Theta` while the affine solution remains smooth at every finite time.  Thus such a threshold alone cannot be a universal continuation-failure event on any admissible class containing these affine flows.  The calibration does not exclude narrower periodic/finite-energy classes or strict/nondegenerate local-maximum hypotheses, and it does not define the missing first-bad event.

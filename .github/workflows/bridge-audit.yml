@@ -59,3 +59,5 @@ jobs:
         run: python experiments/exp18_first_bad_kernel_jump.py
       - name: Hybrid continuous-event phase-work ledger
         run: python experiments/exp19_hybrid_phase_work_ledger.py
+      - name: Local peak material-metric versus Kelvin qv gate
+        run: python experiments/exp20_local_peak_metric_gate.py
