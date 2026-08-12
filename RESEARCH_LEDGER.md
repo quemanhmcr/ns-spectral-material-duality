@@ -666,3 +666,13 @@ Detailed derivations: `docs/58_radial_high_tail_memory_erosion.md`, `docs/59_sub
 **SELECTOR TYPING.** This supplies an exact radial-current first-bad coordinate complementary to the BJ highest-critical-shell energy coordinate. It uses no LP/Bony estimate and creates no new scalar currency.
 
 Detailed derivation: `docs/61_radial_record_flux_gate.md`.
+
+## 2026-08-12 — Low-strain carrier memory erasure contracts U
+
+**EXACT OWNER INPUT.** After the smooth `Q^2` energy law, low--low moat and common observer quotient, a selected high carrier has only HH work, physical skew relink, symmetric strain, typed source/interface input and viscosity.
+
+**RIGOROUS NO-INPUT CONSEQUENCE.** On an interval with no positive HH/relink/source input, `E_A' <= [2||S_V||_op - 2nu c_-^2N^2]E_A`, hence `E_A(t)<=exp(2K_A-2nu c_-^2N^2L)E_A(s)`. A terminal critical floor `E_A(t)>=eta/N` therefore forces either the strain action above any chosen physical face `K_0` or a positive HH/relink/source owner within `L_N=[2K_0+log(E_*N/(delta eta))]/(2nu c_-^2N^2)=O((log N)/(nu N^2))`.
+
+**OWNER REDUCTION.** Passive old high-companion service is not an independent recurrence mechanism. After resolved incidence is split, the remaining UV seam is fresh generic HH/relink/source renewal alternating with strain. The graph is sharpened from `U/R` to `G/R`, where `G` denotes fresh typed high-frequency owner recurrence, not a new scalar currency.
+
+Detailed derivations: `docs/62_low_strain_carrier_memory_erasure.md`, `docs/63_high_companion_owner_reduction.md`.

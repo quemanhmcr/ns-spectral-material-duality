@@ -119,3 +119,15 @@ The minimal unresolved owner graph after this refinement is therefore
 \]
 
 plus the final measurable assembly problem.  This is an owner reduction, not a claim that `U` or `R` has terminated and not a Navier--Stokes regularity theorem.
+
+## 8. Further refinement: passive U collapses to fresh G/R recurrence
+
+Theorem BO applies the exact smooth `Q^2` carrier law after every owner has been typed.  A critical high carrier cannot survive `O((log N)/(nu N^2))` under low strain if positive HH/relink/source input is absent.  Current resolved-interface calculus already identifies nonlocal low--high incidence as conservative donor/relink or symmetric strain.
+
+Therefore the old passive high-companion interpretation of `U` is no longer retained.  The remaining UV recurrence is **fresh typed owner renewal**:
+
+\[
+\boxed{G/R}
+\]
+
+with `G` = generic HH/relink/source renewal (plus high strain when its face fires) and `R` = state/material ancestry descent needed to decide whether those fresh labels correspond to genuinely new physical stock.  This is still an open recurrence/assembly problem and not a regularity theorem.

@@ -97,3 +97,5 @@ jobs:
         run: python experiments/exp37_subcritical_tail_handoff.py
       - name: Radial record flux versus tail killing
         run: python experiments/exp38_radial_record_flux_gate.py
+      - name: Low-strain carrier memory and owner forcing
+        run: python experiments/exp39_low_strain_carrier_memory.py

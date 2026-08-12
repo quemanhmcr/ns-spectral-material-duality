@@ -1528,3 +1528,33 @@ At every time with `Y'>=0`, the NSE enstrophy identity gives `W_ens>=nu Z`. Ther
 \]
 
 where `D_R=2nu G(R)` is the actual instantaneous viscous killing of the radial high set. The gate uses net rather than gross radial flow, so conservative up/down circulation cannot manufacture it. This is an exact PDE-facing record-current event; it is complementary to the highest-critical-shell amplitude selector and makes no regularity claim.
+
+## Theorem BO — Low-strain old carrier memory is erased unless a positive HH/relink/source owner appears
+
+For a smooth selected carrier `w=Au` supported on `|xi|>=c_-N`, the exact `Q^2` energy law after low--low exclusion and observer quotient has typed rows `W_HH`, physical skew relink `W_K`, symmetric strain `W_S`, source/interface `W_src`, and viscosity. On a branch with no positive HH/relink/source input,
+
+\[
+\frac d{dt}E_A
+\le
+[2\|S_V\|_{op,\infty}-2\nu c_-^2N^2]E_A,
+\]
+
+so
+
+\[
+\boxed{E_A(t)\le e^{2K_A[s,t]-2\nu c_-^2N^2(t-s)}E_A(s).}
+\]
+
+If `E_A(t)>=eta/N`, `E_A(s)<=E_*`, and one fixes a physical strain face `K_0` and `0<delta<1`, then a full interval of length
+
+\[
+\boxed{L_N=
+\frac{2K_0+\log(E_*N/(\delta\eta))}
+{2\nu c_-^2N^2}}
+\]
+
+cannot be simultaneously below `K_0` and free of positive HH/relink/source input. Thus a late critical carrier forces a named owner within `O((log N)/(nu N^2))`; no forward lifespan assumption is used.
+
+## Theorem BP — The old high-companion seam reduces to fresh typed owner recurrence
+
+Combining BK and BO with the current resolved-interface quotient, passive old high stock and low-strain companion service are not independent UV recurrence mechanisms. Resolved low--high incidence either traces same-event conservative donor/relink or fires symmetric strain; otherwise a late critical carrier requires genuine positive HH or typed source/material input. The unresolved graph therefore sharpens from `U/R` to `G/R`, where `G` is generic fresh HH/relink/source recurrence after passive memory has been removed. Pure high-strain and pure signed-good generated-HH tails remain separately finite; mixed/generic fresh-owner exhaustion and state descent remain open.
