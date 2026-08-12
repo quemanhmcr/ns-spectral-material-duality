@@ -42,7 +42,10 @@ def affine_vortex_referee(rng):
         e = 0.5 * (omega @ omega)
         expected_growth = 4.0 * a * e
         stretching = omega @ S @ omega
-        worst_growth = max(worst_growth, abs(stretching - expected_growth))
+        # Use the dimensionless exact ratio.  The sampled affine family can
+        # reach O(1e10) margins, where subtracting two equal floating values
+        # is a poor referee even though the algebraic identity is exact.
+        worst_growth = max(worst_growth, abs(stretching / expected_growth - 1.0))
 
         # Choose H=I at the instant; Mdot=2S is the objective metric velocity.
         metric = 0.5 * omega @ (2.0 * S) @ omega
@@ -94,7 +97,7 @@ def main():
 
     print(f"worst directional metric/stretching residual: {metric_res:.3e}")
     print(f"maximum sampled directional stretching magnitude: {metric_signal:.3e}")
-    print(f"worst affine-vortex enstrophy-growth residual: {growth_res:.3e}")
+    print(f"worst affine-vortex relative enstrophy-growth residual: {growth_res:.3e}")
     print(f"worst affine-vortex metric-work residual: {affine_metric_res:.3e}")
     print(f"maximum sampled smooth affine growth margin: {margin_signal:.3e}")
     print(f"sampled affine margin/finite-threshold ratio signal: {threshold_signal:.3e}")
@@ -104,7 +107,7 @@ def main():
 
     assert metric_res < 1e-10
     assert metric_signal > 1e-2
-    assert growth_res < 1e-8
+    assert growth_res < 1e-12
     assert affine_metric_res < 1e-8
     assert margin_signal > 1.0
     assert threshold_signal > 1.0
