@@ -673,3 +673,26 @@ Zhat^+-Zhat^-
 \]
 
 Thus reset phase/amplitude changes are finite selection-reweighting data, not smooth phase-action density.  For a common Cauchy payoff `Z=T(Dw_0,Dw_1,Dw_2)` with `D in SL(3)`, the same jump equals the terminal jump with `D` removed pathwise.  No positive reset reservoir or termination conclusion follows from the identity.
+
+## Theorem AF — Continuous PDE owners and finite selector events obey one hybrid no-free-escape law
+
+Let `Z` be nonzero and absolutely continuous between finitely many typed event times, with exact continuous split `Zdot=sum_o Zdot_o` and nonzero one-sided event values `Z_j^\pm`.  Then
+
+\[
+\boxed{
+\log\frac{|Z(T^-)|}{|Z(0^+)|}
+=
+\sum_o\sum_j\int
+\operatorname{Re}\frac{\dot Z_o}{Z}\,dt
++
+\sum_j\log\frac{|Z_j^+|}{|Z_j^-|}.
+}
+\]
+
+A lifted phase satisfies the analogous exact identity with `Im(Zdot_o/Z)` and finite event angles.  Consequently, if `|Z|` falls to `rho|Z(0)|`, the sum of continuous owner amplitude actions plus absolute finite event log-amplitude jumps is at least `log(1/rho)`.  If `Re Z/|Z|` falls from at least `c_hi` to at most `c_lo`, the continuous owner phase path length plus finite event geodesic jumps is at least
+
+\[
+\boxed{\arccos(c_{lo})-\arccos(c_{hi}).}
+\]
+
+Otherwise, while a chosen physical work coefficient stays `kappa>=kappa_*>0`, the favorable work remains at least `kappa_* c_lo rho |Z(0)|`.  Geometry exit, a zero of `Z`, loss of physical selector/state-map semantics, or an unregistered post-event role remains a typed structural exit.  The theorem closes local bookkeeping across finitely many events but proves no global bound on event count, reset action, recurrence, or regularity.

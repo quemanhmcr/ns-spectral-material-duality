@@ -410,3 +410,13 @@ Detailed derivations: `docs/26_vorticity_transpose_connection_gauge.md`, `docs/2
 **OPEN BRIDGE.**  Kelvin still supplies no literal physical badness or resolve set.  These theorems constrain any future definition but do not invent one.
 
 Detailed derivations: `docs/29_first_bad_boolean_kernel_realizability.md`, `docs/30_finite_selector_cubic_jump.md`.
+
+## 2026-08-12 — Hybrid continuous/event phase-work ledger
+
+**EXACT HYBRID LOGARITHM IDENTITY.**  For a nonzero piecewise absolutely continuous interaction `Z` with finitely many typed event jumps, total log-amplitude change is the sum of continuous `Re(Zdot/Z)` integrals plus finite event `log(|Z^+|/|Z^-|)` jumps.  A lifted phase obeys the analogous identity with `Im(Zdot/Z)` plus finite event angles; the branch-free phase path length is the continuous owner variation plus principal event geodesic jumps.
+
+**RIGOROUS HYBRID NO-FREE-ESCAPE.**  Amplitude loss to `rho|Z_0|` forces continuous owner amplitude action plus discrete event amplitude action at least `log(1/rho)`.  Loss of favorable alignment from `c_hi` to `c_lo` forces continuous owner phase action plus finite event angular jumps at least `acos(c_lo)-acos(c_hi)`.  Otherwise, while the signed-work geometry coefficient remains `>=kappa_*>0` and no typed structural exit occurs, favorable work remains quantitatively positive.
+
+**EVENT TYPING.**  Selector entry/resolve/reselection contributes through its exact finite reweighting jump and must not be smeared into neighboring continuous phase action.  This closes the local bookkeeping seam across finitely many already-legitimate events but supplies no uniform event-count bound, reset bank, recurrence termination, or regularity theorem.
+
+Detailed derivation: `docs/31_hybrid_phase_work_ledger.md`.

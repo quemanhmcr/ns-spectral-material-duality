@@ -57,3 +57,5 @@ jobs:
         run: python experiments/exp17_transpose_mixed_onset.py
       - name: First-bad Boolean kernel and finite cubic jump
         run: python experiments/exp18_first_bad_kernel_jump.py
+      - name: Hybrid continuous-event phase-work ledger
+        run: python experiments/exp19_hybrid_phase_work_ledger.py
