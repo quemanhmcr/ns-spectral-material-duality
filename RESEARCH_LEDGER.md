@@ -778,3 +778,9 @@ Initial Action `31650446519` correctly rejected the hand-written explicit compar
 ### CL/CM referee normalization provenance
 
 Action `31651734164` passed the corrected Hadamard polarization lanes but exp49 stopped on an absolute subtraction residual `9.313e-10` between two algebraically identical rate-gate expressions evaluated at large random magnitudes.  Young and participation violations were exactly zero.  The referee now records the native relative equality residual; no theorem constant or hypothesis was changed.
+
+## 2026-08-13 — CQ: current Wang true-upward theorem quotients the final pair owner to first-shell comparable supply or resolved contact
+
+Re-audited Wang `76e6ee97efe2f014e67e2e2209b3f6228af7b0a5` read-only.  Its certified hard-tail theorem uses actual radial `Phi_up`, proves pure-UV upward atoms only enter `M=2N` with comparable parents, and forces every deeper direct upward atom to have resolved-scale parent contact.
+
+**EXACT REPO-3 CONSEQUENCE.**  A heterochiral pair-creation split always contains a donor-to-high-recipient true-upward atom.  On Wang's first-shell pure-UV branch the pair charge `dP=b dT_o^+` is within fixed `N` factors of the actual opposite-helicity positive child-work law, and CB becomes an actual-work rate lower.  Deep supply is not silently renamed strain; positive resolved-contact binding remains open exactly as upstream states.

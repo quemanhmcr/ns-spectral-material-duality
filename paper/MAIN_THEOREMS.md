@@ -1850,3 +1850,19 @@ Every nondegenerate fresh heterochiral child therefore contains both helicities;
 ## Theorem CP — Near-pure fresh helicity pays geometric coupling depletion
 
 If the minority fresh-source energy fraction satisfies `r_min<=epsilon`, then `1-|delta|<=2 sqrt(epsilon)`.  Heron's formula forces the interaction area, and hence total fresh-source amplitude, to lose an `epsilon^(1/4)` geometric factor.  Thus fresh heterochiral renewal cannot be both arbitrarily helicity-pure and order-one nondegenerate in Waleffe coupling.
+
+## Theorem CQ — Heterochiral pair creation contains true-upward supply and pure UV pair action is first-shell only
+
+In normal form `-b<a<c`, pair creation contains the genuine radial atom `a->c`.  Applying current Wang `76e6ee9` read-only to that atom yields: deep direct upward supply has resolved-scale parent contact; pure-UV supply is confined to the first shell `M=2N` with comparable parents.  On that first-shell branch,
+
+\[
+\boxed{\frac N2dT_o^+<dP\le3N dT_o^+,}
+\]
+
+so the normalized pair-action and opposite-helicity positive child-work laws have RN density in `[1/6,6]`.  The CB rate gate implies
+
+\[
+\boxed{T_{o,q}^+\ge\nu Z_q/(384N^2)\ge(\nu/384)N^2E_q.}
+\]
+
+Thus the only pure-UV final core is first-shell, comparable, heterochiral, true-upward, and already carried by actual positive child-energy work.
