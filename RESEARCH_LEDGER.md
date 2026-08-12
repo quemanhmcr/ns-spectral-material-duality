@@ -644,3 +644,15 @@ All executable checks below were run only by GitHub Actions after commit/push.  
 - BH--BJ + minimal S/U/R owner graph, commit `edc71e1ea66a28946d19caad2ffb3820810dbfec`: run `31606469143` SUCCESS.  Radial outward/inward/enstrophy layer-cake residuals `4.547e-13`, heat-weighted radial residual `3.553e-15`; nonlocal companion, parabolic-skip companion fraction, and highest-critical-shell selector violations all `0`.
 
 Read-only upstream compatibility was re-audited at Wang `ae85f4df372cd2942a0181c1a8f105cd4118edec` (certified helical mode-set energy continuity) and Kelvin `7dc3a871cfa5f8e9c362a38a383978b13988940e` (full current-shape Kelvin covariance / deformation--circulation cross covariance).  Neither upstream was modified.
+
+## 2026-08-12 — Radial high-tail memory erasure removes S as an independent owner
+
+**EXACT MODE-SET CONSEQUENCE.** For the radial high set `A_R`, current Wang mode-set continuity gives `E_R' + D_R + Phi_down = Phi_up` with `D_R>=2nu R^2 E_R`. Hence `E_R(t)<=exp(-2nu R^2L)E_R(t-L)+int exp(-2nu R^2(t-s))Phi_up ds`.
+
+**RIGOROUS FRESH-FUNDING CONSEQUENCE.** If a hard shell at scale `N` has `N E_N(t)>=eta` and lies above `rho N`, choosing `L_N=[log(2E_*N/eta)]/(2nu rho^2N^2)` forces at least `eta/(2N)` of exponentially weighted actual upward radial work during `[t-L_N,t]`. Thus a late critical shell cannot be ancient UV stock; `L_N=O((log N)/(nu N^2))->0`.
+
+**RIGOROUS TAIL-ABSORPTION CONSEQUENCE.** For the strict higher tail above the highest PDE-active shell, the pure tail self-interaction obeys the same `B_(1/2) Z` estimate as the full enstrophy work. Choosing the activation fraction below the resulting absorption constant makes pure UV self-work at most one quarter of viscous palinstrophy. Any high-tail record growth then forces at least `3nu/4` palinstrophy worth of lower-frequency incidence/boundary work.
+
+**OWNER REDUCTION.** A higher critical crossing is therefore an actual freshly funded radial-work event; if no higher crossing occurs while enstrophy grows without bound, the subcritical tail must be externally serviced. Subparabolicity itself is no longer an independent recurrence owner. The minimal unresolved graph contracts from `S/U/R` to `U/R`, with global measurable assembly still open.
+
+Detailed derivations: `docs/58_radial_high_tail_memory_erosion.md`, `docs/59_subcritical_tail_self_absorption.md`, `docs/60_subparabolic_seam_elimination.md`.

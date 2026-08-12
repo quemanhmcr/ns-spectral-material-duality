@@ -1433,3 +1433,80 @@ At a record-growth time BA gives `B_(1/2)>=nu/C_LP`.  Fix `0<theta<1` and set `A
 \]
 
 is nonempty and bounded above, hence has a highest shell `q_*`.  It obeys the fixed active-event floor `lambda_(q_*)||P_(q_*)u||_2^2>=A_*^2`, while every higher shell is critical-subthreshold.  The first later time a higher shell reaches `A_*` is therefore a PDE-derived higher-critical crossing event.  This constructs a rigorous spectral record-event selector without a free Boolean oracle, but promotion to the Kelvin first-bad selector still requires kernel purity, a physical resolve rule and material/current-state compatibility.
+
+## Theorem BK — Radial high-tail stock has exponential viscous memory loss and critical shells require fresh upward funding
+
+For the radial helical mode set `A_R={|k|>=R}`, current Wang mode-set continuity gives
+
+\[
+E_R'+D_R+\Phi_\downarrow(R)=\Phi_\uparrow(R),
+\qquad
+D_R\ge2\nu R^2E_R.
+\]
+
+Hence for every `L>0`,
+
+\[
+\boxed{
+E_R(t)
+\le e^{-2\nu R^2L}E_R(t-L)
++
+\int_{t-L}^{t}e^{-2\nu R^2(t-s)}\Phi_\uparrow(R,s)\,ds.}
+\]
+
+If a hard shell `C_N subset A_(rho N)` obeys `N E_C_N(t)>=eta`, set
+
+\[
+L_N=
+\frac{\log(2E_*N/\eta)}{2\nu\rho^2N^2}.
+\]
+
+Whenever `t>=L_N`,
+
+\[
+\boxed{
+\int_{t-L_N}^{t}
+e^{-2\nu\rho^2N^2(t-s)}\Phi_\uparrow(\rho N,s)\,ds
+\ge\frac\eta{2N}.}
+\]
+
+Thus a late high-frequency critical shell is necessarily funded by recent actual upward radial energy current; old high-tail stock alone is exponentially erased. `L_N=O((log N)/(nu N^2))->0`.
+
+## Theorem BL — A critical-subthreshold UV tail cannot self-generate record enstrophy against viscosity
+
+For a fixed hard cutoff write `u=v+h`, `v=P_<=Q u`, `h=P_>Q u`. The exact high-tail enstrophy balance is
+
+\[
+\frac12\frac d{dt}\|\nabla h\|_2^2
++\nu\|\Delta h\|_2^2
+=\mathcal W_{ext,Q}+\mathcal W_{hhh},
+\]
+
+where `W_hhh` is the pure tail self-interaction and `W_ext,Q` contains exactly the terms with at least one lower-frequency leg. The restricted Bony estimate gives
+
+\[
+|\mathcal W_{hhh}|
+\le C_{tail}B_{1/2}(h)\|\Delta h\|_2^2.
+\]
+
+Choose the highest-active-shell fraction so that `C_tail A_*<=nu/4`. Since all strictly higher shells satisfy `B_(1/2)(h)<A_*`,
+
+\[
+|\mathcal W_{hhh}|\le\frac\nu4\|\Delta h\|_2^2.
+\]
+
+Therefore at every high-tail record-growth time,
+
+\[
+\boxed{
+\mathcal W_{ext,Q}
+\ge\frac{3\nu}{4}\|\Delta h\|_2^2.}
+\]
+
+Pure subcritical UV self-interaction is viscosity-absorbable; record growth must enter through lower-frequency incidence/boundary physics.
+
+## Theorem BM — Subparabolic renewal is not an independent recurrence owner
+
+At a first higher PDE-critical crossing, Theorem BK forces a definite recent upward radial-work lower on an `O((log N)/(nu N^2))` window. If no higher crossing occurs while the highest active scale stays bounded and total enstrophy grows without bound, the low part has bounded `H^1` content and the higher tail must have record-growth times; Theorem BL then forces a resolved external-incidence/boundary owner.
+
+Thus every subparabolic critical renewal is physically rerouted into actual radial/edge work, resolved strain/interface/relink, source/material change, or nonlocal high-companion ancestry. Subparabolicity itself supplies no fourth recurrence mechanism. At the owner-reduction level the unresolved graph contracts from `S/U/R` to `U/R`; exhaustion of `U/R` and measurable global assembly remain open.

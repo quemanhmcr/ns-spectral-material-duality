@@ -91,3 +91,7 @@ jobs:
         run: python experiments/exp34_radial_flux_layer_cake.py
       - name: Nonlocal companion and record critical shell
         run: python experiments/exp35_nonlocal_companion_record_selector.py
+      - name: Radial high-tail memory erosion
+        run: python experiments/exp36_radial_tail_memory.py
+      - name: Subcritical tail self-absorption and S handoff
+        run: python experiments/exp37_subcritical_tail_handoff.py

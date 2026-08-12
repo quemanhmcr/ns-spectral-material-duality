@@ -102,3 +102,20 @@ This reduction is not a proof that every Wang/Kelvin owner theorem automatically
 - high-tail or strain owner labels do not acquire global termination merely by being named.
 
 The value of the graph is exactly that these non-equivalences have already been audited, leaving a small number of explicit interfaces rather than an artificial merged architecture.
+
+## 7. Downstream refinement: S has now been routed into actual input work
+
+Theorems BK--BM sharpen Section 3.  Radial high-set continuity shows that any late critical shell loses old UV memory exponentially and therefore requires recent actual upward radial funding.  Independently, the higher tail above the highest PDE-active shell is small enough in the critical amplitude that its pure self-interaction is viscosity-absorbable; any tail record growth forces lower-frequency incidence/boundary work.
+
+Consequently `S` is no longer retained as an **independent** recurrence owner.  Its two possibilities are now:
+
+- a higher critical crossing, which is an actual radial-work event and enters the existing edge/companion/interface routing;
+- no higher crossing, in which case unbounded subcritical-tail growth forces an external incidence owner.
+
+The minimal unresolved owner graph after this refinement is therefore
+
+\[
+\boxed{U/R}
+\]
+
+plus the final measurable assembly problem.  This is an owner reduction, not a claim that `U` or `R` has terminated and not a Navier--Stokes regularity theorem.
