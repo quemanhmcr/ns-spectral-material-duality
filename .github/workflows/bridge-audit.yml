@@ -43,3 +43,5 @@ jobs:
         run: python experiments/exp10_exterior_common_deformation.py
       - name: Literal localization owner calculus
         run: python experiments/exp11_literal_owner_calculus.py
+      - name: Current-upstream cyclic and Cauchy closures
+        run: python experiments/exp12_current_head_closures.py

@@ -212,3 +212,73 @@ On any interval where the role type, physical clock/state map and geometry corri
 For the literal Wang hard/smooth registration, writing `R_i=Q_i-P_i` expands the smooth cubic into the hard cubic plus seven overlap terms.  Thus `QP=P` exactly registers hard **field components**, not the scalar cubic before re-projection.  The upstream `Q^2` Hahn-energy law does give a different exact handoff: positive smooth-carrier HH generation is dominated by actual positive physical HH work, after which hard edge geometry/phase is read eventwise.
 
 This theorem therefore does not identify smooth Wang carrier cubic work with hard event HH work between events, and it does not identify ancestry-time Kelvin cuts with physical-time Eulerian localization before the missing state-map theorem.
+
+## Theorem M — One closed triad has one cyclic material interaction phase
+
+For a real Navier--Stokes field on a closed helical triad
+
+\[
+k_0+k_1+k_2=0,
+\]
+
+let `Phi_i=H^T omega_(k_i)` in one real material area frame.  Rooting the same triad at child `-k_i` gives
+
+\[
+\mathcal Z_i
+=\frac1{\det H}\overline{\Phi_{-k_i}}\cdot(\Phi_j\times\Phi_\ell).
+\]
+
+Reality and cyclic invariance of the scalar triple product imply
+
+\[
+\boxed{\mathcal Z_0=\mathcal Z_1=\mathcal Z_2=: \mathcal Z_\triangle.}
+\]
+
+Writing `x_i=s_i/|k_i|`, the three actual child-energy works are
+
+\[
+T_0=2x_0(x_1-x_2)\operatorname{Re}\mathcal Z_\triangle,
+\]
+
+with the two cyclic analogues.  Their real coefficients sum exactly to zero, hence
+
+\[
+\boxed{T_0+T_1+T_2=0.}
+\]
+
+Thus cyclic re-rooting changes only the real helicity/frequency owner coefficient; it does not rotate interaction phase.  Negative donor work is therefore not equivalent to phase loss.  The current Wang cyclic donor/recipient kernel is same-time redistribution of one common cubic interaction among three energy roots, not a new phase source.
+
+## Theorem N — Stochastic Cauchy deformation is the packet material metric replica by replica
+
+On one backward stochastic Kelvin replica in reverse age `sigma`, let
+
+\[
+\partial_\sigma D=D(\nabla u)^T,
+\qquad F_C=D^T,
+\qquad H_C=\rho^2F_C^{-T},
+\qquad M_C=(H_C^TH_C)^{-1}.
+\]
+
+Then exactly
+
+\[
+\boxed{DD^T=F_C^TF_C=\rho^4M_C.}
+\]
+
+Moreover, with `S=sym grad u`,
+
+\[
+\partial_\sigma(DD^T)=2DSD^T,
+\qquad
+\boxed{H_C(\partial_\sigma M_C)H_C^T=2S.}
+\]
+
+Thus the stochastic Cauchy deformation Gram tensor is literally the same Nanson/material packet metric on that replica, and its finite-variation work is objective strain rather than martingale quadratic variation or centered covariance.  Incompressibility fixes `det D` but not metric anisotropy.
+
+For the fixed-past Cauchy bank,
+
+\[
+R_s=\mathbb E[DD^T]=\rho^4\mathbb E[M_C],
+\]
+
+and the total second moment satisfies `Q_s <= W_s R_s` in Loewner order.  This same-replica identity does not identify the deterministic first-bad selected packet with the replica ensemble; selector/replica alignment and state-map descent remain separate open bridges.

@@ -2,8 +2,8 @@
 
 Status: **PDE-first audit at exact-identity / rigorous-consequence level.**  This note uses the literal localization objects present at upstream HEADs
 
-- `wang-ns-triad-diamond` @ `f56517caba641ccc109987c5eee4564b9fe66a55`,
-- `ns-pde-first-kelvin-frontier` @ `517ced374ac2b48ebac9d7170bc5bb4151bd9437`,
+- `wang-ns-triad-diamond` @ `a55ea1faa192427c22ba4e8141beb8c29bb3f263`,
+- `ns-pde-first-kelvin-frontier` @ `2745fa2c979bbcc1c850dd57743e60881a3b565e`,
 
 and compares them only after re-deriving the relevant Navier--Stokes/current identities.  No recurrence termination or regularity claim is made.
 

@@ -164,3 +164,48 @@ Detailed derivation: `docs/11_literal_localization_owner_calculus.md`.
 **EXACT STATE-MAP DESCENT CRITERION.**  For an ancestry scalar cut `chi_Y` and state map `Pi:Y->X`, a target physical selector `chi_X` with `chi_Y=chi_X o Pi` exists iff `chi_Y` is constant on every fiber of `Pi`.  A hard chamber must therefore be a union of state-map fibers.  A quantile/shell cut separating two hidden ancestry states that realize the same physical Kelvin state is non-descending observer localization, not a physical NS source.
 
 **OPEN BRIDGE.**  The Kelvin programme must establish selector descent first, then reverse-age/physical generator intertwining, before ancestry moving-cut faces can be identified with physical-time localized `Z_H` owners.
+
+## 2026-08-12 — Current-upstream re-audit after concurrent HEAD advances
+
+The upstream repositories advanced while the literal-localization audit was in progress.  Re-audited the new heads through MCP Linux Cloud:
+
+- `wang-ns-triad-diamond` `a55ea1faa192427c22ba4e8141beb8c29bb3f263`;
+- `ns-pde-first-kelvin-frontier` `2745fa2c979bbcc1c850dd57743e60881a3b565e`.
+
+The previously audited hard/smooth role, first-bad selector, quantile/shell and clock operator files were not changed by these upstream commits.  Two new upstream theorems create additional direct PDE bridges.
+
+### Cyclic closed-triad phase
+
+**EXACT NSE/PDE / MATERIAL 3-FORM IDENTITY.**  For `k0+k1+k2=0`, reality and cyclicity give one common material interaction
+
+`Z_0=Z_1=Z_2=Z_triangle`.
+
+With `x_i=s_i/|k_i|`, the three root works are `T_i=kappa_i Re Z_triangle` with cyclic `kappa_i=2 x_i(x_j-x_l)` and `sum_i kappa_i=0`.  Thus triad energy conservation is a real-coefficient telescope multiplying one common phase.
+
+**EXACT REPRESENTATION CONVERSION.**  Relative to the current Wang cyclic theorem `T_i=lambda_i R_triangle`, `kappa_i=-(2 s0 s1 s2/(|k0||k1||k2|)) lambda_i`, hence the common Wang cubic factor is the velocity/helical representative of the same material cubic work factor (modulo the common helical sign convention).
+
+**COUNTEREXAMPLE/NO-GO.**  Negative donor/backscatter work is not equivalent to phase dephasing.  The same `Z_triangle` can give positive and negative root works simultaneously because the real root coefficients have different signs.
+
+**RIGOROUS CONSEQUENCE.**  The current Wang donor/recipient kernel is same-time energy-owner redistribution of one common cubic event.  Cyclic re-rooting creates no phase source and cannot be treated as recurrence termination.
+
+Detailed derivation: `docs/12_cyclic_triad_common_phase.md`.
+
+### Stochastic Cauchy/material metric
+
+**EXACT NSE/PDE IDENTITY.**  On one backward stochastic replica, `D_sigma=D(grad u)^T`, `F_C=D^T`, `H_C=rho^2 F_C^-T`, and `M_C=(H_C^T H_C)^-1` give
+
+`D D^T = rho^4 M_C`,
+
+`(D D^T)_sigma = 2 D S D^T`,
+
+and `H_C (M_C)_sigma H_C^T = 2S`.
+
+Thus the fixed-past stochastic Cauchy deformation Gram and the orientation-complete Kelvin packet metric are literally the same right Cauchy--Green geometry on the same replica.
+
+**RIGOROUS CONSEQUENCE.**  `R_s=E[D D^T]=rho^4 E[M_C]`, and the total Cauchy second moment obeys `Q_s <= W_s R_s`.  The geometric factor in this envelope is not an invented norm.
+
+**COUNTEREXAMPLE/NO-GO.**  Cauchy/material metric work is finite-variation strain and is distinct from centered stochastic covariance and martingale q.v.; the upstream affine-vortex calibration has nontrivial stretching with zero centered covariance.
+
+**OPEN BRIDGE.**  Same-replica identity does not align a deterministic/hysteretic first-bad packet with the stochastic replica ensemble.  State-map descent, replica/selector alignment and clock/generator intertwining remain required before charging this bank to a selected physical `Z_H` role.
+
+Detailed derivation: `docs/13_stochastic_cauchy_material_metric.md`.
