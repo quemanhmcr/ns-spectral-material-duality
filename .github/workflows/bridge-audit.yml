@@ -71,3 +71,5 @@ jobs:
         run: python experiments/exp24_kelvin_qv_exterior_ladder.py
       - name: Reduced Cauchy inverse resolution no-go
         run: python experiments/exp25_reduced_cauchy_resolution_no_go.py
+      - name: Wang cyclic single-charge phase fiber
+        run: python experiments/exp26_wang_single_charge_phase_fiber.py

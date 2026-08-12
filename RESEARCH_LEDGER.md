@@ -490,3 +490,15 @@ Re-audited Kelvin upstream `ceca144d51b8585986145f89323fbffa6f075d6e` read-only.
 **ADMISSIBILITY.**  Reduced-state inversion is physical only when the lift is Dirac on the relevant deformation state, the resolution faces are subtracted, they are proved `o(h^3)`, or the theorem explicitly returns physical average plus resolution owner.
 
 Detailed derivation: `docs/37_reduced_cauchy_inverse_resolution_no_go.md`.
+
+## 2026-08-12 — Current Wang `8d21df4`: cyclic hard-cell single charge is phase-diagonal provenance
+
+Re-audited Wang upstream `8d21df4d1971f96c90fd0406136f4fa1882d3ad9` read-only. Its certified hard-cell theorem pushes the already-physical closed-triad donor/recipient measure through deterministic hard cells, preserving canonical donor `dW^-` and good/bad recipient `dW^+` exactly once. Coarse self-loops remain real same-time work with zero recursive depth and no scale progress.
+
+**EXACT PHASE-FIBER CONSEQUENCE.** Theorem M gives one common complex `Z_triangle` for all three cyclic roots. Hence every donor/recipient atom of the physical closed-triad kernel carries the same phase mark. Adjoining that mark to Wang's hard pushforward gives an identity phase kernel: routing changes energy owner/provenance, not interaction phase. Coarse hard-cell self-loops are label aliasing, not phase loops or recurrence.
+
+**COUNTEREXAMPLE/NO-GO.** The unmarked hard donor table cannot reconstruct phase. `Z_+=R exp(i theta)` and `Z_-=R exp(-i theta)` have identical `Re Z`, hence identical root works and donor tables, but opposite phases. The single-charge theorem is an energy-routing theorem, not a hidden phase law.
+
+**SIGN REVERSAL.** Negating the real field sends `Z_triangle -> -Z_triangle`, reverses root works and swaps donor/recipient roles, while routing remains phase-diagonal within the new physical event. This matches Wang's current evolved-NS sign-reversal audit without creating a phase source.
+
+Detailed derivation: `docs/38_wang_single_charge_phase_fiber.md`.

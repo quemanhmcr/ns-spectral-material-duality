@@ -975,3 +975,15 @@ T_h^{red}=2\sin^2(ah),
 \]
 
 so the naive reduced Kelvin-q.v. trace inverse is `12sin^2(ah)/h^3 ~ 12a^2/h`.  These are pure resolution artefacts, not physical diffusion or strain-gradient production.
+
+## Theorem AQ — Wang cyclic single-charge routing is diagonal on the common interaction-phase fiber
+
+Current Wang upstream `8d21df4` pushes the physical closed-triad donor/recipient measure through deterministic hard cells while preserving canonical negative donor and positive recipient work exactly once. For each underlying closed triad, Theorem M gives one common complex interaction `Z_triangle` for all three energy roots. Therefore, after adjoining the phase mark `theta_triangle=arg Z_triangle`, every donor/recipient atom satisfies
+
+\[
+\boxed{\theta_{donor}=\theta_{recipient}.}
+\]
+
+The phase-marked hard table is the pushforward of the same physical measure with `theta_triangle` carried unchanged; forgetting the mark recovers Wang's current table. Thus cyclic donor routing and coarse hard-cell self-loops change energy ownership/provenance but create no phase rotation, phase recurrence, event time, or scale progress.
+
+The unmarked table does not determine phase: `R exp(i theta)` and `R exp(-i theta)` have the same real quadrature and therefore identical signed root works and identical donor tables but opposite phases. Thus the certified single-charge law is an energy-routing theorem, not a phase-reconstruction theorem.
