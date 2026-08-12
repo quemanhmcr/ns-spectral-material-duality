@@ -1723,3 +1723,33 @@ Strict triangle geometry gives `c-a<b`, hence `P_triangle<b^2|R_triangle|`.  Sin
 \]
 
 Therefore a separated event with a low opposite-helicity recipient carries a genuine two-power low-scale suppression.  The low-donor/high-pair geometry remains a separate branch.
+
+## Theorem CF — Finite positive net critical radial action implies continuation
+
+Let `J_1(t)=int_0^infinity[Phi_up(R,t)-Phi_down(R,t)]dR=2(P_create-P_ann)`.  The exact critical-stock ledger is `C'+2nu B=J_1`.  If
+
+\[
+A_1(T)=\int_0^T[J_1(t)]_+dt<\infty,
+\]
+
+then `sup C<=C(0)+A_1`, `2nu int B<=C(0)+A_1`, and `Y^2<=CB` gives `int Y^2<infinity`.  The late-stage enstrophy Gronwall argument continues the `H^1` solution.  Therefore every finite first singular time requires
+
+\[
+\boxed{\int_0^T[J_1(t)]_+dt=\infty.}
+\]
+
+This is sharper than CC because create/annihilate cycling cancels before the criterion is read.
+
+## Theorem CG — Positive and negative helical critical stocks have the same nonlinear source
+
+For `C_+=sum |k|E_(k,+)`, `C_-=sum |k|E_(k,-)` and `B_\pm=sum |k|^3E_(k,\pm)`, with `N=P_create-P_ann=J_1/2`, exact absolute-critical-mass and signed-helicity ledgers give
+
+\[
+\boxed{C_+'+2nu B_+=N,\qquad C_-'+2nu B_-=N.}
+\]
+
+Thus nonlinear pair production injects equal critical charge into both helicity sectors; homochiral traffic vanishes from each critical-sector source.  Signed helicity is the difference mode and has no nonlinear source.
+
+## Theorem CH — Ordinary kinetic-energy dissipation cannot universally bound the final critical action
+
+Under `R^3` Navier--Stokes scaling, `int[J_1]_+dt` is invariant while kinetic energy and integrated kinetic-energy dissipation scale like `lambda^-1`.  Therefore no scale-independent universal bound of the final critical action by the ordinary energy budget can hold over the scaling class.  Any closure must use critical heterochiral/radial/split-merge structure rather than a renamed energy norm.

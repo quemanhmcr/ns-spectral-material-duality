@@ -732,3 +732,11 @@ Detailed derivations: `docs/70_vandermonde_divided_difference_triad_law.md`, `do
 **EXACT RADIAL IDENTITY.**  Net pair creation minus annihilation is half the unweighted radial first moment of the same physical donor/recipient energy current.  This places the final owner directly in Wang's certified radial-control-volume geometry.
 
 **EXACT SEPARATED GEOMETRY.**  For heterochiral normal form `-b<a<c`, `P=b(c-a)|R|` and triangle geometry gives `c-a<b`; the opposite-recipient physical capacity yields `P<=4b^2|a0 a1 a2|`.  Low-opposite and low-donor separated branches are therefore physically distinct.
+
+## 2026-08-13 — CF–CH: quotient the last owner to positive net critical radial action
+
+**RIGOROUS CONTINUATION CRITERION.**  The sharp state-level requirement is finite positive variation of the signed degree-one radial current `J1`, not finite gross pair creation.  Create/annihilate cycling cancels before the criterion.  A first singular time requires `int [J1]_+ = infinity`.
+
+**EXACT NSE/HELICITY IDENTITY.**  The positive- and negative-helicity critical stocks obey twin equations with the same nonlinear source `N=Pcreate-Pann`; signed helicity is the source-free difference mode.  The final nonlinear obstruction is therefore paired two-sector injection.
+
+**COUNTEREXAMPLE/NO-GO.**  The integrated final action is scale-critical whereas the kinetic-energy budget scales subcritically.  A universal energy-budget bound is dimensionally impossible; the remaining proof must exploit heterochiral/radial/split-merge structure.

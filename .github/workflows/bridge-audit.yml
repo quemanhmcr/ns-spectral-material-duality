@@ -111,3 +111,5 @@ jobs:
         run: python experiments/exp44_helical_critical_mass_compensation.py
       - name: Pair action continuation and radial critical moment
         run: python experiments/exp45_pair_action_continuation_radial.py
+      - name: Positive net critical action and twin helical sectors
+        run: python experiments/exp46_net_critical_action_sector_ledgers.py
