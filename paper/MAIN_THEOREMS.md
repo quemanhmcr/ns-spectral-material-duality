@@ -835,3 +835,63 @@ At every smooth point,
 \]
 
 The signed determinant source is therefore a literal competition between spatial variation of local rotation and spatial variation of strain.  For the exact one-mode shear, `|grad omega|^2=2|grad S|_F^2`, so this onset vanishes; the stronger exact shear law has `det Dbar=1` for all horizons.  The symmetric trace-free strain/rotation cross sector, although absent from the determinant trace, is essential to the actual row-Gram covariance orientation.
+
+## Theorem AL — The full vectorized Cauchy covariance has dual Gram projections that separate orientation coupling
+
+For `Sigma_D=Cov(vec D)`, define the exact partial traces
+
+\[
+C_{row}=E[DD^T]-\bar D\bar D^T,
+\qquad
+C_{col}=E[D^TD]-\bar D^T\bar D.
+\]
+
+If `P_mu=partial_mu S` and `Q_mu=(1/2)[partial_mu omega]_x`, then
+
+\[
+\boxed{
+\frac{C_{row}+C_{col}}2
+=\frac{2\nu h^3}{3}\sum_\mu(P_\mu^2-Q_\mu^2)+O(h^4),
+}
+\]
+
+while
+
+\[
+\boxed{
+\frac{C_{row}-C_{col}}2
+=\frac{2\nu h^3}{3}\sum_\mu(P_\mu Q_\mu-Q_\mu P_\mu)+O(h^4).
+}
+\]
+
+Thus the even partial-trace sector contains PSD strain plus Hodge-lifted rotation dispersion, and the odd sector isolates the symmetric trace-free orientation coupling.  Subtracting `(h^3/12)[tr Gamma_K I-Gamma_K]` from the even sector recovers the leading strain-gradient square tensor.
+
+## Theorem AM — Finite-horizon Cauchy trace plus mean exterior volume invert to instantaneous Kelvin q.v. and strain-gradient magnitudes
+
+Let
+
+\[
+T_h=\operatorname{tr}C_{row},
+\qquad
+\delta_h=1-\det\bar D.
+\]
+
+Then at every smooth point,
+
+\[
+\boxed{
+\operatorname{tr}\Gamma_K
+=\lim_{h\downarrow0}\frac{3T_h+6\delta_h}{h^3},
+}
+\]
+
+and
+
+\[
+\boxed{
+\nu|\nabla S|_F^2
+=\lim_{h\downarrow0}\frac{3T_h-6\delta_h}{4h^3}.
+}
+\]
+
+Equivalently, `|grad omega|^2=lim[3T_h+6delta_h]/(2nu h^3)`.  Thus the positive trace of stochastic deformation spread and the signed top-exterior defect form a two-channel infinitesimal inverse dictionary: neither alone separates strain-gradient from vorticity-gradient physics, but together they do.

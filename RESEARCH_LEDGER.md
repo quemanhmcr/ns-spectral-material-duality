@@ -454,3 +454,15 @@ Detailed derivation: `docs/33_growth_covariance_two_flow_no_go.md`.
 **EXACT SHEAR CALIBRATION.**  In one-mode shear, `|grad omega|^2=2|grad S|_F^2`, so exterior-volume onset cancels; the trace-free strain/rotation cross sector is nevertheless essential to rotate the full row-Gram covariance into the single `e2` direction.  This locally explains `det Dbar=1` and the upstream exact covariance orientation.
 
 Detailed derivation: `docs/34_cauchy_gradient_geometry_decomposition.md`.
+
+## 2026-08-12 — Vectorized Cauchy inverse dictionary
+
+**EXACT DUAL PARTIAL TRACES.**  The full `9x9` deformation covariance has two natural contractions: `C_row=E[DD^T]-Dbar Dbar^T` and `C_col=E[D^T D]-Dbar^T Dbar`.  At `O(nu h^3)`, they are respectively sums of `(partial A)^T(partial A)` and `(partial A)(partial A)^T`.
+
+**RIGOROUS MATRIX INVERSE.**  `(C_row+C_col)/2` contains PSD strain-gradient plus Hodge-lifted rotation-gradient dispersion, while `(C_row-C_col)/2` isolates the symmetric trace-free strain/rotation commutator.  Subtracting `(h^3/12)[tr Gamma_K I-Gamma_K]` from the even part recovers `(2nu h^3/3) sum_mu (partial_mu S)^2+O(h^4)`.
+
+**RIGOROUS SCALAR INVERSE.**  With `T_h=tr C_row` and `delta_h=1-det Dbar`, `tr Gamma_K = lim_(h->0) [3T_h+6delta_h]/h^3` and `nu|grad S|_F^2 = lim_(h->0)[3T_h-6delta_h]/(4h^3)`.  Positive deformation covariance trace and signed exterior-volume defect are complementary enough to separate instantaneous vorticity-gradient q.v. trace from strain-gradient magnitude.
+
+**EXACT SHEAR CALIBRATION.**  One-mode shear has row Gram along `e2`, column Gram along `e1`, and their half-difference is exactly the orientation-coupling tensor.  Keeping only one partial trace loses this dual geometry.
+
+Detailed derivation: `docs/35_vectorized_cauchy_inverse_dictionary.md`.
