@@ -150,6 +150,10 @@ At the first amplitude-loss time the sum of physical channel amplitude actions i
 
 Thus loss of favorable physical work cannot occur for free while geometry remains good.  This is a local calculus theorem, not a global recurrence or regularity result.
 
+## Theorem K — Exterior-power common-deformation cancellation
+
+The Fourier parent wedge and the material interaction 3-form obey the same determinant law.  A common trace-free `2x2` generator preserves the polarization `Lambda^2` wedge, and a common trace-free real `3x3` generator preserves the complex vorticity `Lambda^3` interaction volume.  With role-dependent generators, only their differences from an arbitrary common reference (plus the reference trace) enter the derivative.  Thus common incompressible deformation is geometric transport; differential deformation/forcing is the interaction-changing content.
+
 # Current open theorem
 
 The next genuinely new closure target is a **localized phase/work alternative** derived from Theorems E--I:

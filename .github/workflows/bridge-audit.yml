@@ -39,3 +39,5 @@ jobs:
         run: python experiments/exp08_phase_velocity_pde.py
       - name: Local phase-work trichotomy stress
         run: python experiments/exp09_phase_work_trichotomy.py
+      - name: Exterior-algebra common deformation cancellation
+        run: python experiments/exp10_exterior_common_deformation.py

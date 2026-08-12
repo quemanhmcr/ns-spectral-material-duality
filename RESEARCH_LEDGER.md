@@ -93,3 +93,5 @@ Quantify the exact annular constants relating orientation-complete Kelvin q.v. d
 
 - **RIGOROUS CONSEQUENCE:** Inside a good real edge-coefficient corridor, favorable signed work has an exact trichotomy: persistent positive work, cubic-amplitude loss paying at least `log(1/rho)` total channel amplitude action, or phase loss paying at least `acos(c_lo)-acos(c_hi)` total channel phase action.
 - **GUARDRAIL:** These logarithmic amplitude/phase actions are local diagnostic/action quantities, not globally bounded reset resources.  They must be converted to literal scale-sensitive physical source currencies before any recurrence claim.
+
+- **EXACT STRUCTURAL BRIDGE:** The Fourier parent symplectic wedge is a `Lambda^2` determinant invariant under common `SL(2)` deformation; the complex material interaction is a `Lambda^3` determinant invariant under common incompressible deformation.  In both cases only relative generators/forcing change the interaction object.
