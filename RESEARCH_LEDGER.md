@@ -716,3 +716,11 @@ Detailed derivations: `docs/67_global_enstrophy_owner_quotient.md`, `docs/68_con
 **ACTUAL WORK LOWER.** Since split variance `Q Var(x)<=K_triangle^2 Q<4N_q^2Q` on the block, the owner class has donor-work rate `Q_owner>=nu Z_q/(8N_q^2)>= (nu/8)N_q^2E_q`. This is a branch-specific physical work-vs-viscous-rate gate, not a new threshold norm.
 
 Detailed derivations: `docs/70_vandermonde_divided_difference_triad_law.md`, `docs/71_record_split_rate_scale_gate.md`.
+
+## 2026-08-13 — BY–CB: helical critical-mass compensation law
+
+**EXACT NSE/PDE IDENTITY.**  The absolute signed-frequency first moment `C=sum |s|k|| E = sum |k|E` has nonlinear source only when a closed-triad split/merge crosses helicity sign.  Heterochiral one-donor splitting creates equal positive/negative critical-helicity charges; reversing the event annihilates the same pair.  Homochiral events do not create this stock.
+
+**RIGOROUS CONSEQUENCE.**  On fully comparable homochiral splits, high-scale progress leaks critical mass to the lower recipient and the leakage satisfies `L>=V/(4K)`.  On fully comparable heterochiral splits, high-branch critical-mass gain equals the opposite-helicity sibling charge and `V/(16K)<=P<=4V/K`.
+
+**OWNER REDUCTION.**  Combining with BX, a rate-critical comparable split must pay either downward critical-mass leakage `>=nu Z_q/(32N)` or opposite-helicity pair creation `>=nu Z_q/(128N)`.  Exhaustion of these compensation channels remains open; no regularity conclusion is claimed.

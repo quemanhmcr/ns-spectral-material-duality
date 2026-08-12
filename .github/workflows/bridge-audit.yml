@@ -107,3 +107,5 @@ jobs:
         run: python experiments/exp42_convex_branch_heat_inflection.py
       - name: Vandermonde triad and rate critical split scale
         run: python experiments/exp43_vandermonde_split_rate_gate.py
+      - name: Helical critical-mass compensation
+        run: python experiments/exp44_helical_critical_mass_compensation.py

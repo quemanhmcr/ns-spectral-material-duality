@@ -1617,3 +1617,59 @@ Assign split triads by `K_triangle=max_i|k_i|` to dyadic blocks `[N_q,2N_q)` and
 \]
 
 This localizes the unresolved rate problem to separated or comparable **one-donor split** work; two-donor merges never enter the positive gate.
+
+## Theorem BY — Absolute helical critical mass has an exact opposite-helicity pair creation/annihilation ledger
+
+For `x=s|k|` and modal energy `E`, the critical stock `C=sum |x|E` obeys
+
+\[
+\boxed{C'+2\nu\sum |x|^3E=2(P_{create}-P_{ann}).}
+\]
+
+Homochiral split/merge events contribute zero because `|x|` is affine on one sign half-line.  A heterochiral one-donor split creates pair charge `P_triangle=Q min(p_-|x_-|,p_+x_+)` and increases `C` by exactly `2P_triangle`; the reversed two-donor merge annihilates the same charge.  Thus opposite-helicity pair creation is the only nonlinear source of total absolute helical critical mass.
+
+## Theorem BZ — Comparable homochiral scale progress leaks critical mass downward
+
+For a same-sign split `0<a<b<c`, donor `b`, and `lambda=c/b`, the high-recipient critical-mass fraction is `rho=lambda(1-r)/(lambda-r)`, `r=a/b`.  On the fully comparable branch `a,b,c>=c/4`,
+
+\[
+\boxed{1-\rho\ge\tfrac14\log\lambda,\qquad \rho\le\lambda^{-1/4}.}
+\]
+
+Moreover if `V_triangle` is split variance and `L_triangle` is the low-recipient critical-mass leakage,
+
+\[
+\boxed{L_\triangle\ge V_\triangle/(4K).}
+\]
+
+A comparable homochiral split therefore cannot produce enstrophy and move a branch upward without simultaneous downward critical-mass compensation.
+
+## Theorem CA — Comparable heterochiral high-branch gain equals opposite-helicity pair creation
+
+In the normal form `-b<a<c`, donor `a`, define `P_triangle=Q b(c-a)/(b+c)`.  Then
+
+\[
+\boxed{Qp_hc=Qa+P_\triangle,\qquad Qp_ob=P_\triangle.}
+\]
+
+Thus every high same-helicity critical-mass gain is matched one-for-one by an opposite-helicity sibling.  For a fully comparable triad with maximum physical scale `K`,
+
+\[
+\boxed{V_\triangle/(16K)\le P_\triangle\le4V_\triangle/K.}
+\]
+
+## Theorem CB — Rate-critical comparable split work must pay a critical-mass compensation action
+
+At a BX rate-critical shell, if the comparable split class owns at least half of `V_q`, then either homochiral comparable splits supply downward critical-mass leakage
+
+\[
+\boxed{L_q\ge \nu Z_q/(32N),}
+\]
+
+or heterochiral comparable splits supply opposite-helicity pair creation
+
+\[
+\boxed{P_q^{create}\ge \nu Z_q/(128N).}
+\]
+
+Both are on the native critical-mass viscous scale `nu N^3E_q`.  The comparable recurrence problem therefore reduces to downward critical-mass recycling versus opposite-helicity pair creation/annihilation; there is no untyped comparable self-reproduction owner.
