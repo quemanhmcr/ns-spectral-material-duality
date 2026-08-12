@@ -35,3 +35,5 @@ jobs:
         run: python experiments/exp06_moving_cut_time_face.py
       - name: Kelvin loop realization of interaction phase
         run: python experiments/exp07_kelvin_loop_triple.py
+      - name: Physical phase-velocity PDE ledger
+        run: python experiments/exp08_phase_velocity_pde.py

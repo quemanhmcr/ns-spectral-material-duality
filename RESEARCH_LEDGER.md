@@ -86,3 +86,7 @@ Quantify the exact annular constants relating orientation-complete Kelvin q.v. d
 - **EXACT:** The full complex invariant `Z_H=det(H)^(-1) conj(Phi_3).(Phi_1 x Phi_2)` carries both signed-work quadrature and the gauge-invariant interaction phase `arg Z_H`.
 - **EXACT SMALL-LOOP:** `Z_H` is the limit of the determinant-normalized oriented triple product of three role-filtered Kelvin circulation vectors on an orientation-complete small-loop packet.
 - **EXACT:** Where `Z_H != 0`, phase velocity is `D_t arg Z_H = Im[(D_t Z_H)/Z_H]`; the localized PDE source decomposition therefore induces a phase-velocity decomposition without inventing a separate phase budget.
+
+- **EXACT:** For a monochromatic resonant helical edge, viscosity acts on the complex interaction 3-form by real scalar damping `-nu(|k1|^2+|k2|^2+|q|^2) Z`; hence its interaction-phase velocity is exactly zero.
+- **EXACT / CALIBRATED:** On a smooth periodic NSE state, instantaneous interaction-phase velocity splits into the literal vorticity transport and stretching convolutions plus viscosity; Action confirms the channel sum and zero monochromatic viscous phase rotation to floating precision.
+- **OPEN:** Derive a coercive alternative for localized packets: persistent favorable `Re Z`, or quantified phase rotation sourced by literal interface/selection terms, or amplitude loss routed to existing physical reservoirs.
