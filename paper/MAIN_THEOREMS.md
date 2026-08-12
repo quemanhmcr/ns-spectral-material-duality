@@ -748,3 +748,37 @@ with `a>0`, vorticity is spatially uniform, every point is a non-strict spatial 
 \]
 
 For every finite threshold `Theta`, parameters can be chosen so `G>Theta` while the affine solution remains smooth at every finite time.  Thus such a threshold alone cannot be a universal continuation-failure event on any admissible class containing these affine flows.  The calibration does not exclude narrower periodic/finite-energy classes or strict/nondegenerate local-maximum hypotheses, and it does not define the missing first-bad event.
+
+## Theorem AI — Local peak growth and finite-horizon Cauchy deformation covariance are non-equivalent NS mechanisms
+
+Two exact smooth Navier--Stokes solutions separate the mechanisms in both directions.  In the affine vortex-stretch flow, `A` is spatially uniform, so conditional Cauchy deformation is deterministic and
+
+\[
+\boxed{\Sigma_D=C_D^{Gram}=0,}
+\]
+
+while
+
+\[
+\boxed{D_t e=8ar_0^2e^{4at}>0}
+\]
+
+at every non-strict spatial local enstrophy maximum.  Conversely, for the exact periodic one-mode shear at `y=pi/(2k)`,
+
+\[
+\boxed{D_t e=-\nu k^4e^{-2\nu k^2t}<0,}
+\qquad
+\omega\cdot S\omega=|\nabla\omega|^2=0,
+\]
+
+but for every backward horizon `h>0`, with `alpha=nu k^2`,
+
+\[
+\boxed{
+\operatorname{Var}(c_h)
+=k^2e^{-2\alpha t}
+\left[\frac{\cosh(2\alpha h)-1}{2\alpha^2}-h^2\right]>0.
+}
+\]
+
+Thus stochastic deformation covariance is neither necessary nor sufficient for positive local peak growth.  It measures finite-horizon Brownian-anchor sampling of spatially varying velocity gradient, whereas the local growth gate measures current vorticity-direction metric work against instantaneous Kelvin q.v. and curvature flux.

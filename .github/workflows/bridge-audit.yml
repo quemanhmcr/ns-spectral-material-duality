@@ -61,3 +61,5 @@ jobs:
         run: python experiments/exp19_hybrid_phase_work_ledger.py
       - name: Local peak material-metric versus Kelvin qv gate
         run: python experiments/exp20_local_peak_metric_gate.py
+      - name: Exact NS growth versus deformation-covariance no-go
+        run: python experiments/exp21_growth_covariance_two_flow.py

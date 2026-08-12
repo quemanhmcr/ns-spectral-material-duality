@@ -432,3 +432,13 @@ Detailed derivation: `docs/31_hybrid_phase_work_ledger.md`.
 **TYPE SEPARATION.**  The local peak gate is quadratic directional metric/q.v. physics; signed interscale work remains cubic oriented-flux physics.  A future first-bad definition may use both, but cannot identify them.
 
 Detailed derivation: `docs/32_local_peak_metric_qv_gate.md`.
+
+## 2026-08-12 — Exact two-flow no-go: local peak growth versus Cauchy deformation covariance
+
+**EXACT AFFINE BRANCH.**  Spatially uniform affine vortex stretching has `D_t e=8 a r0^2 e^(4at)>0` at every non-strict local enstrophy maximum, while spatially uniform `A` makes the conditional Cauchy deformation deterministic and hence `Sigma_D=C_D^Gram=0`.  Positive peak growth does not require stochastic deformation covariance.
+
+**EXACT PERIODIC SHEAR BRANCH.**  For `u=(e^(-nu k^2t) cos ky,0,0)`, at the strict active-direction enstrophy maximum `y=pi/(2k)`, stretching and instantaneous Kelvin vorticity-gradient q.v. vanish and `D_t e=-nu k^4 e^(-2nu k^2t)<0`.  Nevertheless the exact finite-horizon Cauchy variance is `k^2 e^(-2alpha t)[(cosh(2alpha h)-1)/(2alpha^2)-h^2]>0` for every `h>0`.  The row-Gram covariance lies in `e2`, orthogonal to the `e3` vorticity direction.
+
+**COUNTEREXAMPLE/NO-GO.**  `Sigma_D>0` is neither necessary nor sufficient for positive local peak enstrophy growth.  Current directional stretching and finite-horizon Brownian-anchor deformation dispersion are distinct NS mechanisms and clocks.
+
+Detailed derivation: `docs/33_growth_covariance_two_flow_no_go.md`.
