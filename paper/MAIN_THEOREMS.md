@@ -987,3 +987,186 @@ Current Wang upstream `8d21df4` pushes the physical closed-triad donor/recipient
 The phase-marked hard table is the pushforward of the same physical measure with `theta_triangle` carried unchanged; forgetting the mark recovers Wang's current table. Thus cyclic donor routing and coarse hard-cell self-loops change energy ownership/provenance but create no phase rotation, phase recurrence, event time, or scale progress.
 
 The unmarked table does not determine phase: `R exp(i theta)` and `R exp(-i theta)` have the same real quadrature and therefore identical signed root works and identical donor tables but opposite phases. Thus the certified single-charge law is an energy-routing theorem, not a phase-reconstruction theorem.
+
+## Theorem AR — Actual nonlinear energy routing is a transport-with-killing equation
+
+Let `E_i=|u_i|^2/2` be modal kinetic energies, let `K_ij>=0` be the current physical donor/recipient transport table with row marginal `W_i^-` and column marginal `W_j^+`, and put `d_i=2nu|k_i|^2`.  Then the exact Navier--Stokes modal balance is
+
+\[
+\boxed{
+\dot E_i=\sum_jK_{ji}-\sum_jK_{ij}-d_iE_i.
+}
+\]
+
+If `E_i=0`, the nonlinear work pairing vanishes, so the entire nonnegative donor row `K_i*` vanishes.  Hence `r_ij=K_ij/E_i` for `E_i>0` and `0` otherwise is well defined and
+
+\[
+\boxed{
+\dot E_i=\sum_jr_{ji}E_j-E_i\sum_jr_{ij}-d_iE_i.
+}
+\]
+
+Thus, once the actual donor kernel is fixed, nonlinear NSE energy transfer has an exact time-inhomogeneous Markov disintegration and viscosity is the only killing term.  For every differentiable modal observable `f_i(t)`,
+
+\[
+\boxed{
+\frac d{dt}\sum_if_iE_i
+=\sum_i\dot f_iE_i
++\sum_{i,j}(f_j-f_i)K_{ij}
+-\sum_id_if_iE_i.
+}
+\]
+
+This is a representation theorem, not a claim that energy consists of microscopic particles and not a FIFO/LIFO inventory rule.
+
+## Theorem AS — Future-heat conjugation produces an exact bounded parabolic transport coordinate
+
+For a candidate terminal time `T`, let
+
+\[
+q_i^T(t)=e^{-2\nu|k_i|^2(T-t)},
+\qquad
+w_i^T=1-q_i^T.
+\]
+
+Then
+
+\[
+\mathscr H_T(t)=\sum_iq_i^TE_i
+=\frac12\|e^{\nu(T-t)\Delta}u(t)\|_2^2
+\]
+
+obeys
+
+\[
+\boxed{
+\dot{\mathscr H}_T
+=\sum_{i,j}(q_j^T-q_i^T)K_{ij},
+}
+\]
+
+because the heat-clock face cancels physical viscosity exactly.  Equivalently,
+
+\[
+\boxed{
+\dot{\mathscr B}_T
+=\sum_{i,j}(w_j^T-w_i^T)K_{ij}
+-\sum_i2\nu|k_i|^2E_i,
+\qquad
+\mathscr B_T=\sum_iw_i^TE_i.
+}
+\]
+
+If `a_i=2nu(T-t)|k_i|^2` lies in `[alpha,beta]` and an actual recipient satisfies `|k_j|>=lambda|k_i|`, `lambda>1`, then
+
+\[
+\boxed{
+w_j^T-w_i^T
+\ge
+\min_{a\in[\alpha,\beta]}(e^{-a}-e^{-\lambda^2a})>0.
+}
+\]
+
+Thus parabolic scale matching is exactly what turns physical forward scale progress into a nondegenerate bounded PDE currency.
+
+## Theorem AT — A stopped parabolically forward energy lineage has a finite one-sided budget
+
+Follow a selected energy subpopulation `m_i` with the exact rates `r_ij`, but absorb it at the first edge outside a typed continuation set `C_t`; viscosity kills it at rate `d_i`.  With `M=sum_i m_i`, physical killing `D_m=sum_i d_i m_i`, and exit rate `X`,
+
+\[
+\boxed{\dot M=-D_m-X.}
+\]
+
+For `B_m=sum_iw_i^Tm_i`,
+
+\[
+\boxed{
+\dot B_m
+=F_{prog}-D_m-X_w,
+}
+\]
+
+where `F_prog=sum_C (w_j-w_i)m_i r_ij` and `X_w` is the `w`-weighted absorbing exit.  If every internal continuation edge has `w_j-w_i>=0`, exact mass conservation yields
+
+\[
+\boxed{
+\int_s^tF_{prog}\,dr
+\le
+\sum_iq_i^T(s)m_i(s)
+\le M(s).
+}
+\]
+
+If moreover every continuation edge costs at least `c_*>0`, the expected number of continuation jumps of the normalized killed lineage is at most `1/c_*`.  Reverse/nonforward/reentry transitions are not allowed to cancel this scalar internally; they are typed absorbing exits.
+
+## Theorem AU — Repeated forward scale jumps in a bounded parabolic corridor force linear viscous killing hazard
+
+Along an alive lineage set
+
+\[
+a(t)=2\nu|k(t)|^2(T-t).
+\]
+
+Between jumps, `dot a=-2nu|k|^2`, exactly the viscous killing hazard density.  At a forward jump with `|k^+|>=lambda|k^-|` and `a^->=alpha>0`,
+
+\[
+\Delta a\ge(\lambda^2-1)\alpha=:c_{jump}.
+\]
+
+If the lineage remains below `a<=beta` and undergoes `n` such jumps, then
+
+\[
+\boxed{
+\int2\nu|k(t)|^2dt
+\ge nc_{jump}-\beta,
+}
+\]
+
+so its viscous survival factor is at most
+
+\[
+\boxed{e^{\beta-nc_{jump}}.}
+\]
+
+Therefore total selected energy mass capable of reaching depth `n` through the same forward parabolic corridor is at most `M_0e^{\beta-nc_{jump}}`.
+
+## Theorem AV — A scale-critical parabolic energy lineage has finite depth
+
+Assume, for the same physical stopped lineage,
+
+\[
+\alpha\le2\nu(T-t)N_j^2\le\beta,
+\qquad
+1<\lambda\le\frac{N_{j+1}}{N_j}\le\Lambda,
+\]
+
+and every continuing event carries a same-lineage scale-critical energy floor
+
+\[
+N_jE_j\ge\eta>0.
+\]
+
+Then `N_n<=Lambda^nN_0`, so a depth-`n` event requires `E_n>=eta/(N_0Lambda^n)`, whereas Theorem AU gives `E_n<=M_0e^{beta-nc_jump}`.  If
+
+\[
+\boxed{c_{jump}=(\lambda^2-1)\alpha>\log\Lambda,}
+\]
+
+then depth is finite and obeys
+
+\[
+\boxed{
+ n
+\le
+\frac{\log(M_0N_0/\eta)+\beta}
+{c_{jump}-\log\Lambda}.
+}
+\]
+
+For Wang's currently certified signed-good scale ratios `8/5 < N_child/N_parent < 5/3`, the denominator is positive whenever `alpha>(25/39)log(5/3)≈0.3274`.  This is a compatibility calculation only; the third repo has not proved that the actual first-bad state satisfies the required parabolic corridor or same-lineage energy floor.
+
+## Theorem AW — The parabolic termination hypotheses are logically non-removable
+
+The finite-depth mechanism fails in distinct ways if its physical hypotheses are dropped.  If the lower parabolic face is removed, `N_n=N_0lambda^n` and `T-t_n=C lambda^{-4n}` give infinite forward depth with summable killing hazard.  Reverse jumps can refund the heat coordinate instantaneously and avoid viscous payment.  Without an upper scale-ratio bound, `N_n` may grow faster than the exponential survival loss, so the scale-critical floor need not contradict it.  Without a same-lineage critical mass floor, a zero-mass exceptional branch remains possible.  Free re-entry/cloning restarts the finite survival budget.
+
+Hence the next literal first-bad theorem has a sharp acceptance test: NSE must supply parabolic lower/upper faces, bounded one-sided scale progress, a same-lineage physical energy floor, and explicit ownership of reverse/reentry exits.  Until then AV is a conditional termination mechanism, not a recurrence or regularity theorem.

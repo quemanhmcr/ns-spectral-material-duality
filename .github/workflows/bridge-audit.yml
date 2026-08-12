@@ -73,3 +73,7 @@ jobs:
         run: python experiments/exp25_reduced_cauchy_resolution_no_go.py
       - name: Wang cyclic single-charge phase fiber
         run: python experiments/exp26_wang_single_charge_phase_fiber.py
+      - name: Donor-kernel transport killing and future heat
+        run: python experiments/exp27_energy_transport_killing.py
+      - name: Stopped parabolic lineage and killing depth
+        run: python experiments/exp28_parabolic_killing_depth.py

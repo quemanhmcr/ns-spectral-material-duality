@@ -528,3 +528,19 @@ Transparent failed-referee lineage:
 - `31587469046` failed because subtracting two equal affine-growth values of size about `1e10` produced an absolute floating residual around `1e-6`.  The theorem and threshold were not weakened; the referee was replaced by the dimensionless invariant ratio, yielding residual `2.220e-16` in successful run `31587576636`.
 
 Latest stress signals include: false reduced strain inverse `1.051e+04`, false reduced Kelvin-q.v. inverse `1.137e+04` under pure hidden affine-state mixing; Wang hard-cell phase-fiber residual `0`, `504` sampled coarse self-loops, and phase separation `2.593` radians hidden by an identical unmarked donor table.
+
+## 2026-08-12 — Actual energy donor transport yields a killed lineage and a parabolic termination mechanism
+
+**EXACT NSE / TRANSPORT IDENTITY.**  Using current Wang `8d21df4` only for its literal same-time donor/recipient marginals, modal energy obeys `E_i'=sum_j K_ji-sum_j K_ij-2nu|k_i|^2E_i`.  Since a zero-energy mode has zero nonlinear work, `r_ij=K_ij/E_i` is well typed with zero convention on empty modes.  Conditional on the actual solution and donor kernel this is an exact sub-Markov energy lineage: nonlinearity moves energy, viscosity alone kills it.  No FIFO/LIFO pairing is introduced.
+
+**EXACT FUTURE-HEAT GAUGE.**  `q_i^T=exp[-2nu|k_i|^2(T-t)]` cancels the viscous killing face exactly, so `H_T=sum q_iE_i=(1/2)||exp(nu(T-t)Delta)u||_2^2` changes only by donor transport `sum(q_j-q_i)K_ij`.  The complementary heat-defect `w=1-q` obeys `B_T'=sum(w_j-w_i)K_ij-sum2nu|k_i|^2E_i`.  This is a PDE-generated bounded coordinate, not an external norm penalty.
+
+**RIGOROUS STOPPED-LINEAGE BUDGET.**  Stop a selected lineage at reverse/nonforward/reentry edges.  If all internal edges satisfy `Delta w>=0`, then exact mass conservation gives `int F_progress <= sum q_i(s)m_i(s) <= M(s)`.  If `Delta w>=c_*>0`, the normalized energy lineage has expected continuation depth at most `1/c_*`.  This removes global backscatter cancellation only because reverse transfer is an absorbing physical exit, not because it was discarded.
+
+**RIGOROUS PARABOLIC KILLING LAW.**  For `a=2nu(T-t)N^2`, continuous motion has `a_dot=-2nuN^2`, exactly the killing hazard.  A forward jump `N^+/N^- >= lambda` from `a^->=alpha` raises `a` by at least `c_jump=(lambda^2-1)alpha`.  If the same lineage remains below `a<=beta`, depth `n` forces hazard `>=n c_jump-beta`, hence surviving energy mass `<=M_0 exp(beta-n c_jump)`.
+
+**CONDITIONAL FINITE-DEPTH THEOREM.**  If the same physical continuation additionally has `N_jE_j>=eta` and `lambda<=N_{j+1}/N_j<=Lambda`, then depth is finite whenever `c_jump>log Lambda`, with explicit bound `[log(M_0N_0/eta)+beta]/[c_jump-log Lambda]`.  Wang signed-good ratios make the numerical condition non-vacuous (`alpha>~0.3274`), but the third repo does not import the Wang recursion and does not claim the literal first-bad event satisfies it.
+
+**COUNTEREXAMPLE/NO-GO.**  Removing the lower parabolic face allows infinite geometric depth with finite hazard; reverse jumps refund the heat coordinate without viscous waiting; removing the upper scale ratio lets the critical floor collapse too fast; removing the mass floor leaves zero-mass exceptional paths; free re-entry restarts the budget.  These are now explicit acceptance conditions for the next first-bad theorem.
+
+Detailed derivations: `docs/39_energy_transport_killing.md`, `docs/40_future_heat_parabolic_currency.md`, `docs/41_stopped_lineage_parabolic_budget.md`, `docs/42_parabolic_killing_depth_criterion.md`, `docs/43_parabolic_termination_hypothesis_audit.md`.
