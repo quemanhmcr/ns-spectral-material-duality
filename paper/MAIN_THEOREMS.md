@@ -925,3 +925,53 @@ while the vorticity-gradient contribution to the mean exterior-volume defect is
 \]
 
 Thus the same physical q.v. tensor appears at exterior degrees one, two and three through its induced representations.  If `Gamma_K=lambda nn^T` is rank one, `R_2(Gamma_K)=lambda(I-nn^T)`: the two-plane Cauchy rotation dispersion is exactly the Hodge complement of the q.v. direction.  Strain-gradient and strain/rotation-coupling sectors remain separate owners.
+
+## Theorem AO — Reduced Cauchy inverse formulas require explicit hidden-state covariance and top-exterior resolution faces
+
+For a reduced/full lift kernel `R(y,dY)`, current Kelvin upstream `ceca144` gives the exact vector law `Sigma_D^red=R Sigma_D+Cov_R(vec Dbar)`.  Consequently both exact Gram projections split as
+
+\[
+C_{row}^{red}=R C_{row}+C_{row}^{res},
+\qquad
+C_{col}^{red}=R C_{col}+C_{col}^{res},
+\]
+
+and the mean top-exterior defect splits as
+
+\[
+\boxed{
+\delta^{red}=R\delta+\delta_{\Lambda^3}^{res},
+\qquad
+\delta_{\Lambda^3}^{res}=R[\det\bar D]-\det(R\bar D).
+}
+\]
+
+Hence, with `T_h^red=tr C_row^red`,
+
+\[
+\frac{3T_h^{red}\pm6\delta_h^{red}}{h^3}
+=R\frac{3T_h\pm6\delta_h}{h^3}
++\frac{3T_h^{res}\pm6\delta_{\Lambda^3,h}^{res}}{h^3}.
+\]
+
+If hidden full states have different current traceless velocity gradients, the resolution covariance is generically `O(h^2)`, one order earlier than intrinsic same-clock Cauchy covariance.  Thus the full-state inverse formulas cannot be applied to reduced ancestry data without typing/removing the resolution face.
+
+## Theorem AP — Pure hidden affine-state mixing can manufacture divergent false Kelvin-q.v. or strain-gradient inverse signals
+
+Let a reduced state equally mix two exact smooth affine Navier--Stokes full states.  For the pair of pure strains `A_+=S`, `A_-=-S`, `S=diag(a,-a,0)`, every full state has `grad S=grad omega=Sigma_D=0`, but
+
+\[
+T_h^{red}=2\sinh^2(ah),
+\qquad
+\delta_h^{red}=-\sinh^2(ah),
+\]
+
+so the naive reduced strain inverse is `3sinh^2(ah)/h^3 ~ 3a^2/h`.  For the pair of opposite rigid rotations `A_+=Omega`, `A_-=-Omega`, every full state again has zero physical gradient currencies, but
+
+\[
+T_h^{red}=2\sin^2(ah),
+\qquad
+\delta_h^{red}=\sin^2(ah),
+\]
+
+so the naive reduced Kelvin-q.v. trace inverse is `12sin^2(ah)/h^3 ~ 12a^2/h`.  These are pure resolution artefacts, not physical diffusion or strain-gradient production.

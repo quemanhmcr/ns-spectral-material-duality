@@ -476,3 +476,17 @@ Detailed derivation: `docs/35_vectorized_cauchy_inverse_dictionary.md`.
 **TYPE SEPARATION.**  The exterior ladder resolves the rotation/vorticity-gradient branch only; strain-gradient and strain/rotation coupling remain separately typed physical sectors.  Reducing `Gamma_K` immediately to its trace preserves the top-volume contribution but destroys two-plane orientation information.
 
 Detailed derivation: `docs/36_kelvin_qv_exterior_power_ladder.md`.
+
+## 2026-08-12 — Current Kelvin `ceca144`: reduced-state covariance resolution blocks naive Cauchy inverse
+
+Re-audited Kelvin upstream `ceca144d51b8585986145f89323fbffa6f075d6e` read-only.  It now explicitly specializes the existing connected vector-covariance/pair theorem to `Sigma_D` and proves the reduced/full law `Sigma_D^red=R Sigma_D+Cov_R(zbar)`: intrinsic same-clock deformation covariance and hidden-state resolution covariance are distinct additive sectors.  The actual ancestry lift kernel remains open-literal.
+
+**EXACT REDUCED GRAM/EXTERIOR LEDGER.**  Both row and column Cauchy Gram covariances inherit separate resolution faces.  Mean top exterior power has the independent face `delta_Lambda3^res=R det(Dbar)-det(RDbar)`, so `delta_red=R delta_full+delta_Lambda3^res`.  Therefore the AL/AM inverse combinations at reduced state equal averaged physical gradient currencies plus explicit resolution contamination.
+
+**RIGOROUS ORDER NO-GO.**  If hidden full states have different current traceless gradients, `Cov_R(Dbar)=O(h^2)` generically, one order earlier than intrinsic Brownian-anchor Cauchy covariance `O(nu h^3)`.  Applying the `h^-3` inverse formulas without removing resolution can therefore diverge.
+
+**EXACT AFFINE NSE COUNTEREXAMPLES.**  An equal hidden mixture of exact affine `+/-` pure strains has zero physical `grad S` and `grad omega` in every full state but produces `T_red=2sinh^2(ah)`, `delta_red=-sinh^2(ah)`, causing the naive reduced strain inverse to behave as `3a^2/h`.  An equal hidden mixture of exact `+/-` rigid rotations likewise has zero physical gradient currencies but produces `T_red=2sin^2(ah)`, `delta_red=sin^2(ah)`, causing the naive reduced Kelvin-q.v. inverse to behave as `12a^2/h`.
+
+**ADMISSIBILITY.**  Reduced-state inversion is physical only when the lift is Dirac on the relevant deformation state, the resolution faces are subtracted, they are proved `o(h^3)`, or the theorem explicitly returns physical average plus resolution owner.
+
+Detailed derivation: `docs/37_reduced_cauchy_inverse_resolution_no_go.md`.
