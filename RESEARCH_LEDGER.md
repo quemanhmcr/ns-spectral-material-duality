@@ -146,3 +146,11 @@ This is the exact dual analogue of the primal localization commutator.  The lite
 **RIGOROUS CONSEQUENCE.**  On a fixed typed interval, any exact decomposition `Zdot=sum_o Zdot_o` into literal physical owners refines the existing trichotomy: amplitude loss pays total named log-amplitude action at least `log(1/rho)`; phase loss pays total named phase action at least `acos(c_lo)-acos(c_hi)`; otherwise favorable localized cubic interaction persists while geometry remains good.  Reselection, reset, geometry exit, or unresolved clock/state-map change is a typed stop requiring re-registration, not a free continuous payment.
 
 Detailed derivation: `docs/11_literal_localization_owner_calculus.md`.
+
+### Wang eventwise phase versus smooth-carrier energy handoff — follow-up audit
+
+**EXACT OPERATOR IDENTITY / COUNTEREXAMPLE-NO-GO.**  For the literal commuting hard/smooth roles, `Q_i P_i=P_i Q_i=P_i`.  Writing `R_i=Q_i-P_i`, the smooth oriented cubic equals the hard cubic plus the seven nonempty `P/R` overlap terms.  `QP=P` therefore registers `P(Qv)=Pv` exactly but does not register the scalar cubic before hard projection.  No phase/cancellation conclusion about a hard edge follows from `Z_Q` alone.
+
+**RIGOROUS CONSEQUENCE.**  The Wang smooth-material-carrier theorem supplies a different, genuinely physical handoff: for signed actual HH work density `r` and `0<=q<=1`, `[int q^2 r]_+ <= int q^2[r]_+ <= int[r]_+`.  Positive smooth-carrier HH energy therefore forces actual positive physical HH work, after which hard Fourier/helical roles and edge phase are read anew at the nonlinear event.  The literal architecture is `smooth carrier -> Q^2 energy gate -> actual positive HH work -> hard event edge/phase`, not persistent hard-edge phase between events.
+
+**OPEN BRIDGE.**  A smooth-triple `Z_Q` trichotomy does not become Wang's causal event-phase theorem until the seven overlap terms are controlled or the next hard event is re-read.  The vorticity phase owner `C_Q` and the native `Q^2` kinetic-energy interface share the same relative resolved generator but are non-equivalent observables/currencies.

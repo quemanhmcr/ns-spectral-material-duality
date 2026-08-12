@@ -320,7 +320,108 @@ It must **not** be charged as `Qdot` or as a new moving-cut currency.
 
 ---
 
-## 7. Smooth SGS is a work reader, not another microscopic role source
+## 7. Exact hard/smooth overlap expansion: energy handoff is available, phase handoff is not automatic
+
+For the literal Wang event registration, the scalar smooth envelope and the hard Fourier/helical role commute and satisfy
+
+\[
+Q_iP_i=P_iQ_i=P_i.
+\]
+
+Define the overlap operator
+
+\[
+R_i:=Q_i-P_i.
+\]
+
+Then `R_i P_i=P_i R_i=0`, but in general `R_i` is not zero.  For the oriented cubic trilinear form
+
+\[
+\mathcal T(v_1,v_2,v_3)
+=\frac1{\det H}\overline{H^Tv_3}\cdot(H^Tv_1\times H^Tv_2),
+\]
+
+trilinearity gives the literal seven-term overlap expansion
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal T(Q_1v_1,Q_2v_2,Q_3v_3)
+={}&\mathcal T(P_1v_1,P_2v_2,P_3v_3)\\
+&+\mathcal T(R_1v_1,P_2v_2,P_3v_3)
++\mathcal T(P_1v_1,R_2v_2,P_3v_3)\\
+&+\mathcal T(P_1v_1,P_2v_2,R_3v_3)\\
+&+\mathcal T(R_1v_1,R_2v_2,P_3v_3)
++\mathcal T(R_1v_1,P_2v_2,R_3v_3)\\
+&+\mathcal T(P_1v_1,R_2v_2,R_3v_3)
++\mathcal T(R_1v_1,R_2v_2,R_3v_3).
+\end{aligned}
+}
+\]
+
+No identity in `QP=P` cancels the seven overlap terms.  On the other hand, hard extraction from the smooth field is exact:
+
+\[
+\boxed{P_i(Q_i v_i)=P_i v_i.}
+\]
+
+So the **field component** is registered exactly, while the scalar cubic formed before re-projecting is not.
+
+**Classification: EXACT OPERATOR IDENTITY and COUNTEREXAMPLE/NO-GO against a scalar-cubic handoff from `QP=P` alone.**
+
+This is exactly where the literal Wang architecture chooses a different physical observable.  Its smooth-material-carrier theorem does not claim phase inheritance.  It uses the `Q^2` carrier-energy law.  If `r(t,\xi,\alpha)` is the signed density of actual HH child-energy work and `0\le q\le1` is the scalar carrier symbol, then for every event set
+
+\[
+\boxed{
+\left[\int q^2 r\right]_+
+\le
+\int q^2[r]_+
+\le
+\int[r]_+.
+}
+\]
+
+Thus a lower bound for positive HH generation of the smooth carrier forces at least as much **actual positive physical HH work** on the same support.  This is a Hahn-measure statement about kinetic-energy work; it does not select one signed edge and it does not determine its phase.
+
+At the actual nonlinear event, the hard Fourier/helical roles are then read anew from the physical work.  The one-edge theorem supplies the exact edge phase/alignment through the physical identity
+
+\[
+T_e\,\mathrm{gscale}=A_eJ_ec_e,
+\]
+
+and our material theorem identifies the same signed edge work with a real geometric coefficient times `Re Z_H`.  Geometry-good/bad positive work, backscatter, fate purity and Young marking are then routed **eventwise** by the upstream Hahn law.
+
+Therefore the correct Wang bridge is
+
+\[
+\boxed{
+\text{smooth carrier between events}
+\;\xrightarrow{\;Q^2\text{ energy gate}\;}
+\text{actual positive HH work}
+\;\xrightarrow{\;\text{hard event read}\;}
+\text{edge geometry/phase}.
+}
+\]
+
+It is not
+
+\[
+\text{persistent hard edge phase between events}.
+\]
+
+**Classification: RIGOROUS CONSEQUENCE of the literal upstream energy/Hahn identities plus the exact event registration.**
+
+A consequence for the present phase programme is sharp: a local `Z_Q` phase/work theorem for a smooth triple is mathematically valid on its fixed typed interval, but it is **not the causal phase variable used by the Wang recursion** until the seven overlap terms are controlled or a hard event is re-read.  The already available positive-energy handoff does not control their signed complex cancellation.
+
+**Classification: OPEN BRIDGE.**
+
+There is also a useful owner non-equivalence.  The resolved relative generator appears both in the vorticity phase source `C_Q` and in the native `Q^2` kinetic-energy interface law, but the pairings are different.  After common-gauge quotient, the upstream `Q^2` law sends skew resolved work to conservative relink and symmetric work to the existing strain provenance.  The vorticity `C_Q` law tells how the complex cubic phase/amplitude changes.  These are two readings of the same relative PDE generator, not equal currencies; one may not replace the other by an estimate-free identification.
+
+**Classification: EXACT COMMON-MECHANISM / NON-EQUIVALENT-OBSERVABLE DISTINCTION.**
+
+---
+
+## 8. Smooth SGS is a work reader, not another microscopic role source
 
 The literal Wang smooth-SGS objects live at a second level:
 
@@ -347,7 +448,7 @@ If one deliberately chooses `G_N` itself as a vorticity localization operator, i
 
 ---
 
-## 8. Literal Kelvin first-bad operator is current-side, not a primal Eulerian `Q`
+## 9. Literal Kelvin first-bad operator is current-side, not a primal Eulerian `Q`
 
 The Kelvin upstream's intrinsic first-bad map is
 
@@ -375,7 +476,7 @@ But it acts on **current/germ coefficient space**, not directly on Eulerian vort
 
 ---
 
-## 9. Exact dual current-owner calculus
+## 10. Exact dual current-owner calculus
 
 The correct analogue of the primal commutator is obtained by duality, not analogy.
 
@@ -442,7 +543,7 @@ Finally, common material-frame connection must be charged only once.  The Nanson
 
 ---
 
-## 10. Literal hysteretic first-bad selector has no smooth `Mdot` between events
+## 11. Literal hysteretic first-bad selector has no smooth `Mdot` between events
 
 The implemented selector is
 
@@ -476,7 +577,7 @@ A finite selector reset therefore cannot be promoted to a positive smooth phase-
 
 ---
 
-## 11. Moving quantile/shell cuts: fixed mass cancels only the integrated face
+## 12. Moving quantile/shell cuts: fixed mass cancels only the integrated face
 
 For a genuine moving cut on a state space,
 
@@ -544,7 +645,7 @@ The correct statement is
 
 ---
 
-## 12. Physical time and ancestry/reverse-age time cannot be merged
+## 13. Physical time and ancestry/reverse-age time cannot be merged
 
 The preceding quantile formula in the Kelvin upstream is currently derived on the normalized ancestry/reverse-age state with its probability current.  Under reverse-age clock reversal the current velocity changes sign.
 
@@ -564,7 +665,7 @@ Therefore the ancestry moving-cut face and the physical Eulerian `Qdot+[K_u,Q]` 
 
 ---
 
-## 13. Stochastic Kelvin q.v. is not cubic interaction phase
+## 14. Stochastic Kelvin q.v. is not cubic interaction phase
 
 For the literal orientation-complete Kelvin packet, the shared-noise quadratic-variation matrix is
 
@@ -590,7 +691,7 @@ A state-map / stochastic-Kelvin theorem may relate their viscous provenance, but
 
 ---
 
-## 14. Common owner calculus
+## 15. Common owner calculus
 
 After the type corrections above, the two architectures share the following small set of mechanisms.
 
@@ -613,7 +714,7 @@ Two absolute prohibitions follow:
 
 ---
 
-## 15. Typed owner-resolved local phase/work alternative
+## 16. Typed owner-resolved local phase/work alternative
 
 Let a fixed, physically typed localized role triple be valid on an open interval with no hard reselection, no clock/state-map change, and no geometry exit.  Suppose its exact complex interaction satisfies
 
@@ -659,7 +760,7 @@ For the Kelvin programme the orientation-complete current selector is now litera
 
 ---
 
-## 16. What was actually advanced
+## 17. What was actually advanced
 
 The localization frontier is narrower than before.
 
@@ -681,7 +782,7 @@ Neither theorem is presently proved.
 
 ---
 
-## 17. Action adversarial calibration
+## 18. Action adversarial calibration
 
 `experiments/exp11_literal_owner_calculus.py` is an **ACTION STRESS TEST**, not a proof.  It is designed to run only in GitHub Actions and checks:
 

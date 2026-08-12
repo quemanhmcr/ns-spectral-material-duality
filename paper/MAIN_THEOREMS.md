@@ -209,4 +209,6 @@ so realization/connection and support transport are the only continuous current-
 
 On any interval where the role type, physical clock/state map and geometry corridor remain fixed, the local phase/work trichotomy refines to these named exact owners: loss of cubic amplitude or phase forces the corresponding sum of owner actions to pay the same logarithmic/angular threshold; otherwise favorable localized cubic interaction persists.  Hard reselection, first-bad reset, or an unresolved clock/state-map transition is a typed exit requiring re-registration, not a positive continuous payment.
 
-This theorem does not identify smooth Wang carrier cubic work with hard event HH work between events, and it does not identify ancestry-time Kelvin cuts with physical-time Eulerian localization before the missing state-map theorem.
+For the literal Wang hard/smooth registration, writing `R_i=Q_i-P_i` expands the smooth cubic into the hard cubic plus seven overlap terms.  Thus `QP=P` exactly registers hard **field components**, not the scalar cubic before re-projection.  The upstream `Q^2` Hahn-energy law does give a different exact handoff: positive smooth-carrier HH generation is dominated by actual positive physical HH work, after which hard edge geometry/phase is read eventwise.
+
+This theorem therefore does not identify smooth Wang carrier cubic work with hard event HH work between events, and it does not identify ancestry-time Kelvin cuts with physical-time Eulerian localization before the missing state-map theorem.
