@@ -634,3 +634,42 @@ r_i=O(\nu h^2),
 \]
 
 The first two sectors can rotate phase; the pure common-deformation exterior-volume sector is radial while `det Dbar>0`.  The hierarchy is local causal ordering, not a recurrence or regularity estimate.
+
+## Theorem AD — A hard first-bad Boolean on reduced ancestry state exists iff the full physical event is kernel-pure
+
+Let `kappa_y` lift a reduced ancestry state to full physical Kelvin states and let `B_i` be a full-state physical bad set with occupancy `beta_i=kappa_y(B_i)`.  Then a deterministic reduced Boolean `bad_flags[i]` represents the physical event exactly iff
+
+\[
+\boxed{\beta_i\in\{0,1\}.}
+\]
+
+Equivalently,
+
+\[
+\boxed{
+\beta_i(1-\beta_i)
+=\frac12E[(1_{B_i}(Y_1)-1_{B_i}(Y_2))^2\mid y]
+=0.
+}
+\]
+
+The physical resolve event has an independent identical criterion.  If an occupancy lies strictly between zero and one, replacing it by a Boolean necessarily misclassifies positive conditional mass; replacing the hard selector by the occupancy would be a different architecture.  Any full bad/resolve set must additionally be invariant under exact representation gauges before it can be called a physical Navier--Stokes event.
+
+## Theorem AE — First-bad entry/resolve carries an exact finite complex interaction face
+
+Let `chi^-` and `chi^+` be the legitimate scalar event weights immediately before and after a selector event and let `Z(Y)` be the same-state complex interaction.  Then
+
+\[
+\boxed{Z^+-Z^-=E[(\chi^+-\chi^-)Z].}
+\]
+
+If `alpha^\pm=E chi^\pm>0` and `Zhat^\pm=Z^\pm/alpha^\pm`, then
+
+\[
+\boxed{
+Zhat^+-Zhat^-
+=\frac{E[(\chi^+-\chi^-)(Z-Zhat^-)]}{\alpha^+}.
+}
+\]
+
+Thus reset phase/amplitude changes are finite selection-reweighting data, not smooth phase-action density.  For a common Cauchy payoff `Z=T(Dw_0,Dw_1,Dw_2)` with `D in SL(3)`, the same jump equals the terminal jump with `D` removed pathwise.  No positive reset reservoir or termination conclusion follows from the identity.

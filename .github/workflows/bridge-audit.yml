@@ -55,3 +55,5 @@ jobs:
         run: python experiments/exp16_full_cauchy_payoff_factorization.py
       - name: Vorticity transpose gauge and Cauchy onset hierarchy
         run: python experiments/exp17_transpose_mixed_onset.py
+      - name: First-bad Boolean kernel and finite cubic jump
+        run: python experiments/exp18_first_bad_kernel_jump.py

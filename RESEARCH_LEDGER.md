@@ -398,3 +398,15 @@ Detailed derivations: `docs/24_full_cauchy_payoff_factorization.md`, `docs/25_se
 **RIGOROUS SHORT-HORIZON HIERARCHY.**  For smooth fixed-past terminal fields, terminal-anchor cubic resolution starts at `O(nu h)`, mixed deformation--terminal correlation at `O(nu h^2)`, and pure deformation exterior-volume resolution at `O(nu h^3)` when the corresponding leading coefficients are nonzero.  This is a causal-order statement, not a long-time norm comparison or lower bound.
 
 Detailed derivations: `docs/26_vorticity_transpose_connection_gauge.md`, `docs/27_mixed_cauchy_terminal_correlation_pde.md`, `docs/28_cauchy_resolution_onset_hierarchy.md`.
+
+## 2026-08-12 — First-bad Boolean realizability and finite interaction reset face
+
+**EXACT BOOLEAN REALIZABILITY.**  If a reduced ancestry state `y` lifts through `kappa_y` to full physical states and a full-state bad set has occupancy `beta_i=kappa_y(B_i)`, then the current deterministic `bad_flags[i]` can represent that physical event iff `beta_i in {0,1}`.  Equivalently its same-ancestor pair disagreement `beta_i(1-beta_i)` vanishes.  The independent `resolved` oracle obeys the same criterion for its own physical event set.  Mixed occupancy cannot be silently substituted into the hard hysteretic API.
+
+**NECESSARY ADMISSIBILITY.**  Full bad/resolve events must also be invariant under exact representation gauges: ancestry reference gauge, passive packet `GL(3)` orientation changes, and the `A`/`A^T` connection gauge with compensating role-source re-registration.  Otherwise the same physical NS state would produce different event flags.
+
+**EXACT FINITE EVENT IDENTITY.**  For event weights `chi^- -> chi^+` and complex same-state cubic `Z(Y)`, the unnormalized jump is `Z^+-Z^-=E[(chi^+-chi^-)Z]`.  For positive selected masses, the normalized jump is `[E Delta chi (Z-Zhat^-)]/alpha^+`.  This is a finite complex reweighting face, not a continuous positive source.  Common `SL(3)` Cauchy deformation cancels pathwise through the jump.
+
+**OPEN BRIDGE.**  Kelvin still supplies no literal physical badness or resolve set.  These theorems constrain any future definition but do not invent one.
+
+Detailed derivations: `docs/29_first_bad_boolean_kernel_realizability.md`, `docs/30_finite_selector_cubic_jump.md`.
