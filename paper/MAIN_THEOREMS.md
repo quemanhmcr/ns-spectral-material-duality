@@ -1866,3 +1866,19 @@ so the normalized pair-action and opposite-helicity positive child-work laws hav
 \]
 
 Thus the only pure-UV final core is first-shell, comparable, heterochiral, true-upward, and already carried by actual positive child-energy work.
+
+## Theorem CR — Fixed-critical rate production forces a positive action sublaw of uniformly efficient mixed-polarization edges
+
+Assume one comparable block satisfies `||c||_1<=sqrt(V_0N^3)||c||_2` and participating critical mass `mu=NE<=M_0nu^2`.  With the physical helical capacity `dA_e=4sqrt(2)N^2|a_0a_1a_2|`, the CB rate gate implies
+
+\[
+\boxed{P/A\ge\rho_0:=1/(2048\sqrt{V_0M_0}).}
+\]
+
+Therefore edges with `dP/dA>=rho_0/2` carry at least half of actual pair action.  Every such edge has `eta_pair>=rho_0/sqrt2`, hence `1-delta^2>=rho_0^2/64`; by CO its fresh-source minority-helicity fraction obeys
+
+\[
+\boxed{r_{min}\ge\rho_0^4/65536.}
+\]
+
+Thus a fixed-mass rate-critical core contains a positive actual-action sublaw that is simultaneously work-efficient, geometrically nondegenerate, and fresh-polarization mixed.  Temporal ancestry/fresh-source dominance remains separate.

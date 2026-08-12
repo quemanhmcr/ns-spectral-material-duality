@@ -123,5 +123,7 @@ jobs:
         run: python experiments/exp51_heterochiral_birth_polarization.py
       - name: Pair action true upward first shell bridge
         run: python experiments/exp52_pair_true_upward_support.py
+      - name: Fixed critical efficient mixed polarization sublaw
+        run: python experiments/exp53_fixed_critical_efficiency_mixing.py
       - name: Rate critical Fourier participation and sparse ladder no-go
         run: python experiments/exp49_rate_critical_fourier_participation.py

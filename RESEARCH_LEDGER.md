@@ -784,3 +784,9 @@ Action `31651734164` passed the corrected Hadamard polarization lanes but exp49 
 Re-audited Wang `76e6ee97efe2f014e67e2e2209b3f6228af7b0a5` read-only.  Its certified hard-tail theorem uses actual radial `Phi_up`, proves pure-UV upward atoms only enter `M=2N` with comparable parents, and forces every deeper direct upward atom to have resolved-scale parent contact.
 
 **EXACT REPO-3 CONSEQUENCE.**  A heterochiral pair-creation split always contains a donor-to-high-recipient true-upward atom.  On Wang's first-shell pure-UV branch the pair charge `dP=b dT_o^+` is within fixed `N` factors of the actual opposite-helicity positive child-work law, and CB becomes an actual-work rate lower.  Deep supply is not silently renamed strain; positive resolved-contact binding remains open exactly as upstream states.
+
+## 2026-08-13 — CR: fixed-critical rate gate forces efficient mixed-polarization edges
+
+**RIGOROUS CONDITIONAL CONSEQUENCE.**  Under the natural `O(N^3)` Fourier support-volume bound and a fixed participating critical mass `mu<=M0 nu^2`, the comparable pair rate lower is a fixed fraction of a literal helical capacity measure.  At least half actual pair action lies on edges with uniform positive work/capacity efficiency.
+
+**FULL-VECTOR CONSEQUENCE.**  Those efficient edges are uniformly away from triangle degeneracy, so CO forces a fixed nonzero minority-helicity fraction in their fresh child source.  This supplies local efficiency/polarization hypotheses for a future weighted reuse/holonomy assembly without asserting that old child state is fresh-source dominated.
