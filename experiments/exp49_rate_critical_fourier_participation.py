@@ -39,7 +39,7 @@ def main():
         lower=nu*N**3*E/128.0
         required=(nu*N/(2048.0*np.sqrt(E)))**2
         upper_at_required=16.0*N**2*np.sqrt(required)*E**1.5
-        rate=max(rate,max(0.0,lower-upper_at_required))
+        rate=max(rate,abs(lower-upper_at_required)/(1.0+abs(lower)+abs(upper_at_required)))
 
         M0=float(rng.uniform(1.0,64.0))
         mu=nu*nu
@@ -53,7 +53,7 @@ def main():
     print(f"maximum sparse-ladder participation deficit factor: {sparse_signal:.3e}")
     assert young<2e-11
     assert participation<2e-11
-    assert rate<2e-10
+    assert rate<2e-12
     assert sparse_signal>1.0
     print("PASS: rate-critical Fourier participation / sparse-ladder no-go calibrations")
 

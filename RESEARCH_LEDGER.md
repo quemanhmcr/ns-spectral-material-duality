@@ -774,3 +774,7 @@ Initial Action `31650446519` correctly rejected the hand-written explicit compar
 **EXACT NSE/WALEFFE IDENTITY.**  Opposite-helicity parents do not generate an independently choosable child helicity.  The two child-fiber source magnitudes are in ratio `(1+delta)/(1-delta)`, `delta=(a-b)/c`, giving exact Stokes polarization `2delta/(1+delta^2)`.  Every strict triad births both helicities.
 
 **RIGOROUS CONSEQUENCE.**  Near-pure fresh birth forces `|delta|->1`, hence triangle-area/Waleffe depletion.  This supplies a full-vector renewal constraint missing from rooted energy/helicity channel graphs; inherited old polarization remains a separate state case.
+
+### CL/CM referee normalization provenance
+
+Action `31651734164` passed the corrected Hadamard polarization lanes but exp49 stopped on an absolute subtraction residual `9.313e-10` between two algebraically identical rate-gate expressions evaluated at large random magnitudes.  Young and participation violations were exactly zero.  The referee now records the native relative equality residual; no theorem constant or hypothesis was changed.
