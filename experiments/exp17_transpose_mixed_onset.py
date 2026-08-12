@@ -89,9 +89,11 @@ def trilinear_anchor_source(rng):
                 + triple(w[0], dw[1][mu], dw[2][mu])
             )
 
-        # Check against a central second-difference of the cubic under a common
-        # scalar spatial coordinate with derivatives dw and zero second derivatives.
-        eps = 1e-5
+        # Check against the exact symmetric second difference of the cubic.
+        # Along one perturbation coordinate the trilinear expression is a cubic
+        # polynomial in eps, so eps=1 cancels the odd terms and returns the
+        # quadratic coefficient without small-step roundoff amplification.
+        eps = 1.0
         approx = 0.0j
         for mu in range(3):
             zp = [w[i] + eps * dw[i][mu] for i in range(3)]
