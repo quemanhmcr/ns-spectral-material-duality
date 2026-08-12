@@ -466,3 +466,13 @@ Detailed derivation: `docs/34_cauchy_gradient_geometry_decomposition.md`.
 **EXACT SHEAR CALIBRATION.**  One-mode shear has row Gram along `e2`, column Gram along `e1`, and their half-difference is exactly the orientation-coupling tensor.  Keeping only one partial trace loses this dual geometry.
 
 Detailed derivation: `docs/35_vectorized_cauchy_inverse_dictionary.md`.
+
+## 2026-08-12 — Kelvin q.v. exterior-power ladder
+
+**EXACT EXTERIOR REPRESENTATION.**  For any `G:R^3->R^3`, the induced actions are `R_1(G)=G`, `*G^[2]*^-1=(tr G)I-G^T`, and `R_3(G)=tr G`.  Applying this to the symmetric Kelvin q.v. tensor `Gamma_K` gives one rigid degree-1/2/3 hierarchy.
+
+**RIGOROUS CAUCHY CONSEQUENCE.**  The rotation-gradient Cauchy covariance is `C_Omega=(h^3/12) R_2(Gamma_K)+O(h^4)`, while the vorticity-gradient contribution to `1-det Dbar` is `(h^3/12) R_3(Gamma_K)+O(h^4)`.  The common coefficient is forced by the reverse-age Cauchy onset.  Rank-one q.v. along `n` lifts to an exact transverse-plane tensor `lambda(I-nn^T)` at degree two.
+
+**TYPE SEPARATION.**  The exterior ladder resolves the rotation/vorticity-gradient branch only; strain-gradient and strain/rotation coupling remain separately typed physical sectors.  Reducing `Gamma_K` immediately to its trace preserves the top-volume contribution but destroys two-plane orientation information.
+
+Detailed derivation: `docs/36_kelvin_qv_exterior_power_ladder.md`.

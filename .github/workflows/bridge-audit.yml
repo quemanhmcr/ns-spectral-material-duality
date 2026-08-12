@@ -67,3 +67,5 @@ jobs:
         run: python experiments/exp22_cauchy_gradient_decomposition.py
       - name: Vectorized Cauchy inverse dictionary
         run: python experiments/exp23_vectorized_cauchy_inverse.py
+      - name: Kelvin qv exterior-power ladder
+        run: python experiments/exp24_kelvin_qv_exterior_ladder.py

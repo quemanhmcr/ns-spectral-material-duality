@@ -895,3 +895,33 @@ and
 \]
 
 Equivalently, `|grad omega|^2=lim[3T_h+6delta_h]/(2nu h^3)`.  Thus the positive trace of stochastic deformation spread and the signed top-exterior defect form a two-channel infinitesimal inverse dictionary: neither alone separates strain-gradient from vorticity-gradient physics, but together they do.
+
+## Theorem AN — Kelvin q.v. propagates into stochastic Cauchy geometry through the exterior-power representation ladder
+
+For a linear map `G` on `R^3`, let `G^[p]` denote its induced Lie-algebra action on `Lambda^p R^3`.  Under the Hodge identification of `Lambda^2 R^3` with `R^3`,
+
+\[
+R_1(G)=G,
+\qquad
+R_2(G)=*G^{[2]}*^{-1}=(\operatorname{tr}G)I-G^T,
+\qquad
+R_3(G)=\operatorname{tr}G.
+\]
+
+For the symmetric instantaneous Kelvin q.v. tensor `Gamma_K=2nu(grad omega)(grad omega)^T`, the Cauchy rotation-gradient sector satisfies
+
+\[
+\boxed{
+C_\Omega(h)=\frac{h^3}{12}R_2(\Gamma_K)+O(h^4),
+}
+\]
+
+while the vorticity-gradient contribution to the mean exterior-volume defect is
+
+\[
+\boxed{
+\delta_\omega(h)=\frac{h^3}{12}R_3(\Gamma_K)+O(h^4).
+}
+\]
+
+Thus the same physical q.v. tensor appears at exterior degrees one, two and three through its induced representations.  If `Gamma_K=lambda nn^T` is rank one, `R_2(Gamma_K)=lambda(I-nn^T)`: the two-plane Cauchy rotation dispersion is exactly the Hodge complement of the q.v. direction.  Strain-gradient and strain/rotation-coupling sectors remain separate owners.
