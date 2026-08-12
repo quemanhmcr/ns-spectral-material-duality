@@ -47,3 +47,5 @@ jobs:
         run: python experiments/exp12_current_head_closures.py
       - name: Event readout, state-map clock residual, and replica phase cancellation
         run: python experiments/exp13_event_clock_replica.py
+      - name: Kernel selector purity and cubic-resolution transfer
+        run: python experiments/exp14_kernel_cubic_resolution.py

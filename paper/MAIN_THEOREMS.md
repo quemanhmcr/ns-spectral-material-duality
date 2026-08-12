@@ -361,3 +361,82 @@ and
 Equivalently, a common real generator contributes only `(tr G)Z`; for incompressible common deformation this vanishes.  If the three legs have generators `G_i`, then after subtracting any common reference `G`, the cubic derivative contains only the relative generators `G_i-G` and explicit forcing terms.
 
 Therefore severe same-replica Cauchy metric stretching can coexist with exactly fixed cubic phase.  Continuous phase rotation in the Kelvin bridge must come from relative replica/current realization, moving-cut or state-map/clock mismatch, viscosity/forcing, or a separately typed jump.  Martingale q.v. and centered covariance remain second-order and are not substitutes for this oriented cubic owner.
+
+## Theorem R — Kernel selector purity is exactly same-ancestor pair agreement
+
+Let `kappa_y(dY)` be a conditional lift from a reduced Kelvin ancestry state to full physical current-shape states, and let `chi_A` be a hard physical selector.  Define
+
+\[
+\alpha(y)=\int\chi_A(Y)\,\kappa_y(dY).
+\]
+
+Then
+
+\[
+\boxed{
+\alpha(1-\alpha)
+=
+\frac12\iint[\chi_A(Y_1)-\chi_A(Y_2)]^2
+\,\kappa_y(dY_1)\kappa_y(dY_2).
+}
+\]
+
+A hard reduced selector exists iff this quantity vanishes, equivalently iff `chi_A` is constant `kappa_y`-almost surely.  Thus the existing same-ancestor pair process exactly detects whether a reduced ancestry label resolves the physical side of a selected interface.  If the kernel intertwining defect `D_R=partial_t R+L_yR-RL_Y` is nonzero, it is a separate state-resolution/generator owner.  The earlier deterministic state-map theorem is only the Dirac-kernel branch; for an Itô map one must also match the pushed diffusion tensor before the remaining hard-interface defect reduces to a normal drift face.
+
+## Theorem S — Physical same-state cubic differs from independent-replica cubic by an exact third-order resolution object
+
+For three complex full-state interaction legs `Phi_i(Y)` and the oriented trilinear form
+
+\[
+\mathcal T(z_0,z_1,z_2)=\overline z_0\cdot(z_1\times z_2),
+\]
+
+let `m_i=R Phi_i`.  Then
+
+\[
+\overline{\mathcal Z}=R\mathcal T(\Phi_0,\Phi_1,\Phi_2)
+\]
+
+is the same-hidden-state physical conditional cubic, while three conditionally independent replicas give exactly
+
+\[
+\mathcal Z_{ind}=\mathcal T(m_0,m_1,m_2).
+\]
+
+Writing `xi_i=Phi_i-m_i`,
+
+\[
+\boxed{
+\begin{aligned}
+\overline{\mathcal Z}-\mathcal Z_{ind}
+={}&R\mathcal T(\xi_0,\xi_1,m_2)
++R\mathcal T(\xi_0,m_1,\xi_2)\\
+&+R\mathcal T(m_0,\xi_1,\xi_2)
++R\mathcal T(\xi_0,\xi_1,\xi_2).
+\end{aligned}
+}
+\]
+
+The final centered third-order term is genuinely invisible to all first- and second-order data.  Even- versus odd-parity four-state kernels can have identical means and second moments but opposite signed cubic interaction.  Hence covariance/q.v. and independent variance replicas cannot determine physical signed phase without a same-state coupling theorem or an explicit third-order resolution object.
+
+## Theorem T — Trilinear carré-du-champ is the exact stochastic cubic-resolution transfer law
+
+For a diffusion generator `L`, define
+
+\[
+\Gamma_L^{(3)}[f_0,f_1,f_2]
+=L\mathcal T(f_0,f_1,f_2)
+-\sum_i\mathcal T(f_0,\ldots,Lf_i,\ldots,f_2).
+\]
+
+If `L=b.grad+(1/2)a^{alpha beta}partial_{alpha beta}`, this defect consists exactly of the three pair derivative contractions weighted by the remaining third leg.  If `H_y R=R H_Y`, `H=partial_tau-L`, and the full legs are homogeneous, then the cubic resolution object from Theorem S obeys
+
+\[
+\boxed{
+H_y\Delta_3^{res}
+=\Gamma_{L_y}^{(3)}[m_0,m_1,m_2]
+-R\Gamma_{L_Y}^{(3)}[\Phi_0,\Phi_1,\Phi_2].
+}
+\]
+
+With physical leg sources there is one additional exact source-resolution trilinear defect.  Thus stochastic q.v. can transfer cubic interaction only through an oriented pair-cross term carrying the third leg; it is not itself a replacement for cubic phase.  Common incompressible Cauchy finite-variation deformation remains phase-neutral, while kernel/interface defects, relative generators, trilinear diffusion transfer, explicit source correlations, and finite typed resets remain distinct owners.

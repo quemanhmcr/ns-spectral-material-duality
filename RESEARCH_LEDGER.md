@@ -285,3 +285,49 @@ Adversarial calibrations:
 - maximum sampled relative-replica cubic-rate magnitude: `7.597e+01`.
 
 **Classification: ACTION STRESS TEST only, not proof.**  The large smooth-summary gap and relative-replica rate are intentional adversaries: they confirm that the exact cancellations disappear when the theorem's hard-readout/common-replica hypotheses are removed.
+
+## 2026-08-12 — Conditional-kernel selector and cubic-resolution closure
+
+Re-audited `ns-pde-first-kelvin-frontier` at `2745fa2c979bbcc1c850dd57743e60881a3b565e` through MCP Linux Cloud only.  No upstream file, branch, issue, or pull request was modified.
+
+### Reduced ancestry is generally a kernel, not a deterministic state map
+
+**EXACT KERNEL/PDE IDENTITY.**  For the literal conditional lift `R F(y)=int F(Y) kappa_y(dY)`, the complete generator-intertwining owner is
+
+`D_R = partial_t R + L_y R - R L_Y`.
+
+The earlier deterministic `Pi` theorem is the Dirac-kernel branch.  For a deterministic Itô map, both drift and pushed diffusion must match; only after diffusion compatibility does a hard-interface mismatch reduce to the normal drift residual.
+
+### Selector purity has an exact pair witness
+
+For a physical hard selected set `A`, let `alpha=kappa_y(A)`.  Then
+
+`alpha(1-alpha) = (1/2) E[(chi_A(Y1)-chi_A(Y2))^2 | y]`.
+
+**EXACT NECESSARY AND SUFFICIENT CRITERION.**  A hard reduced selector exists iff this quantity is zero, equivalently iff the conditional kernel lies entirely on one physical side of the cut.  Positive value is unresolved physical-side membership, not viscous q.v.
+
+### Same-state cubic versus independent replicas
+
+**EXACT THIRD-ORDER RESOLUTION IDENTITY.**  The conditional physical cubic `R T(Phi0,Phi1,Phi2)` equals the cubic of conditional means plus three pair-resolution contractions and one centered third-order oriented moment.  Three independent conditional replicas give only the cubic of means.
+
+**COUNTEREXAMPLE/NO-GO.**  Uniform even- and odd-parity four-hidden-state kernels can have identical first and second moments while their same-state signed cubic interactions are opposite.  Therefore no covariance/q.v.-only bridge can reconstruct signed phase.
+
+### Trilinear stochastic transfer
+
+**EXACT GENERATOR IDENTITY.**  The diffusion product defect
+
+`Gamma_L^(3)=L T - sum_i T(...,L Phi_i,...)`
+
+is exactly the sum of pair derivative contractions with the third leg retained.  Under exact kernel intertwining, the homogeneous cubic resolution object obeys
+
+`H_y Delta_3^res = Gamma_y^(3)[m] - R Gamma_Y^(3)[Phi]`.
+
+With physical leg sources there is one separately typed source-resolution defect.  This is the third-order analogue of the upstream covariance carre-du-champ transfer law.
+
+**PHYSICAL TYPING.**  Common incompressible Cauchy finite-variation deformation remains phase-neutral.  Stochastic state diffusion can transfer cubic content only through the oriented trilinear `Gamma^(3)` owner.  Independent variance replicas must not be substituted for same-state interaction legs by analogy.
+
+Detailed derivations: `docs/17_kernel_selector_resolution.md`, `docs/18_conditional_cubic_resolution.md`, `docs/19_trilinear_resolution_transfer.md`.
+
+### New frontier
+
+The Kelvin bridge is now reduced to literal semantics rather than an estimate problem: construct the actual full/reduced ancestry state and conditional kernel; determine whether the first-bad selected set is kernel-pure; identify the literal full-state interaction-leg/payoff observables; then evaluate the exact third-order resolution and trilinear diffusion/source owners.  No recurrence, restart-capacity, or regularity claim is made.
