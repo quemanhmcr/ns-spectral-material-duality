@@ -46,7 +46,7 @@ def main():
     a=b=0.75
     c=1.0
     eta = eta_pair(a,b,c)
-    target = math.sqrt(5.0)/24.0
+    target = math.sqrt(10.0)/24.0
     comparable = abs(eta-target)
 
     print(f"worst exact heterochiral pair-capacity formula residual: {formula:.3e}")
@@ -60,7 +60,7 @@ def main():
     assert low_donor < 2e-12
     assert low_opp < 2e-12
     assert comparable < 2e-12
-    assert eta > 0.09
+    assert eta > 0.13
     assert signal > 0.02
     print("PASS: heterochiral Waleffe depletion / comparable-core no-go calibrations")
 

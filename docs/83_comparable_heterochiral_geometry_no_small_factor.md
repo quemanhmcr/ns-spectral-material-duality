@@ -42,7 +42,7 @@ All physical sides lie in `[K/4,K]`.  Heron's formula gives
 
 \[
 \Delta
-=K^2\sqrt{\frac{5}{128}}.
+=K^2\frac{\sqrt5}{8}.
 \]
 
 Therefore
@@ -51,8 +51,8 @@ Therefore
 \boxed{
 \eta_{pair}
 =
-\frac{\sqrt5}{24}
-\approx0.0931695.
+\frac{\sqrt{10}}{24}
+\approx0.131761569.
 }
 \]
 

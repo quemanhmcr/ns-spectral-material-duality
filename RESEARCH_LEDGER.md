@@ -745,10 +745,14 @@ Detailed derivations: `docs/70_vandermonde_divided_difference_triad_law.md`, `do
 
 **EXACT NSE/WALEFFE CONSEQUENCE.**  Heterochiral pair action has a closed area/coupling envelope.  Low-donor/high-pair events gain one low/high ratio; low opposite-helicity recipients gain two low-scale factors.  These exhaust separated heterochiral geometry.
 
-**COUNTEREXAMPLE/NO-GO.**  The fully comparable triangle `(3/4,3/4,1)` has dimensionless pair-capacity coefficient `sqrt(5)/24`, so the local heterochiral core has no scale-decaying Waleffe factor.  The remaining closure is genuinely critical rather than a missed geometric depletion.
+**COUNTEREXAMPLE/NO-GO.**  The fully comparable triangle `(3/4,3/4,1)` has dimensionless pair-capacity coefficient `sqrt(10)/24`, so the local heterochiral core has no scale-decaying Waleffe factor.  The remaining closure is genuinely critical rather than a missed geometric depletion.
 
 ## 2026-08-13 — CK: exact Hadamard heterochiral diamond adversary
 
 **COUNTERMODEL/NO-GO.**  The lattice recurrence `p+q, p-q` gives an exact nested comparable diamond with scale ratio `sqrt(2)` and alternating `+/-` helicity tracks.  Static one-donor fractions amplify high-branch critical mass by `4-2sqrt(2)>1` even while kinetic energy fraction falls.  Thus topology, conservation and parabolic-time summability alone cannot close the final action.
 
 **ACTION TARGET.**  The companion full Fourier--Galerkin NSE referee asks whether actual shared-mode birth phases generate both first and second Hadamard generations.  A positive signal is adversarial evidence only, not a cascade proof.
+
+### CI/CJ referee correction provenance
+
+Initial Action `31650446519` correctly rejected the hand-written explicit comparable constant while all structural Waleffe/depletion residuals were green.  The Heron area for `(3/4,3/4,1)K` is `K^2 sqrt(5)/8`, giving the stronger exact coefficient `sqrt(10)/24 = 0.131761569...`; no theorem hypothesis or tolerance was weakened.

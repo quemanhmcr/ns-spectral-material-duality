@@ -1782,7 +1782,7 @@ Since `c>a`, these exhaust genuinely separated heterochiral pair creation.  Only
 The dilation-invariant pair-capacity coefficient is nonzero at fixed comparable geometry.  For `a=b=3K/4`, `c=K`,
 
 \[
-\boxed{\eta_{pair}=\sqrt5/24\approx0.0931695.}
+\boxed{\eta_{pair}=\sqrt{10}/24\approx0.131761569.}
 \]
 
 Hence no universal scale-decaying Waleffe factor suppresses the comparable heterochiral core.  Closure of the final critical action must use recurrence/cancellation/killing or another critical structure, not a missing single-triad geometric epsilon.
