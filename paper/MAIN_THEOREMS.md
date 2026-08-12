@@ -1221,3 +1221,64 @@ Then first-singular-time semantics force `L_N<=T-t`; otherwise the solution woul
 \]
 
 Thus the lower parabolic face would be a consequence of actual PDE lifespan, not an observer threshold.  Current Wang own-scale service is only carrier/shell-local, and current Kelvin `dc26c0c` only refines selected-current/deformation pair typing; neither is silently promoted to this full-solution continuation theorem.  Combined with AX/AY and AR--AV, this gives a short conditional termination skeleton, but literal first-bad semantics, the same-selected-energy floor, and repeated typed exit/re-entry assembly remain open.
+
+## Theorem BA — Enstrophy record growth forces a uniform scale-critical shell on the active NSE state
+
+Let `Y=||grad u||_2^2` and `Z=||Delta u||_2^2`.  The exact NSE enstrophy balance is
+
+\[
+\frac12Y'+\nu Z=\mathcal W_{ens},
+\qquad
+\mathcal W_{ens}=\langle \mathbb P(u\cdot\nabla u),\Delta u\rangle.
+\]
+
+For a standard dyadic LP decomposition define `B_(1/2)=sup_q lambda_q^(1/2)||P_q u||_2`.  Decomposing this already-identified physical work into low--high, high--low and comparable high--high interactions gives
+
+\[
+\boxed{|
+\mathcal W_{ens}|
+\le C_{LP}B_{1/2}Z.}
+\]
+
+Hence every nontrivial time with `Y'>=0` satisfies
+
+\[
+\boxed{
+B_{1/2}\ge\nu/C_{LP},
+}
+\]
+
+so at least one actual shell has
+
+\[
+\boxed{
+\lambda_q\|P_qu\|_2^2
+\ge\nu^2/C_{LP}^2.}
+\]
+
+A finite first singular time forces `Y` unbounded by the standard `H^1` restart estimate `Y'<=C nu^-3 Y^3`; first hitting times of increasing enstrophy records therefore provide such active critical shells arbitrarily close to the candidate singular time.  This is an active-event floor only, not a uniform floor on every structural ancestry root.
+
+## Theorem BB — A materially reused low-strain catalyst has a geometric service half-life against an advancing scale
+
+For one material reservoir, Kelvin kinematics gives `L^T k=const` and
+
+\[
+\frac d{dt}\log|k|=-\hat k^TS\hat k\le\|S\|_{op}.
+\]
+
+Thus over one generation with strain action `Sigma_j`, its scale satisfies `M_(j+1)/M_j<=exp(Sigma_j)`.  A low-band physical increment sampled at child scale `N` obeys
+
+\[
+\|\delta_ru_M\|_2\lesssim(M/N)\|u_M\|_2,
+\qquad |r|\sim N^{-1},
+\]
+
+so its maximum squared scale-critical service per unit physical reservoir energy scales as `M^3/N^2`.  If child scales advance by `N_(j+1)/N_j>=lambda>1`, the same reservoir under `Sigma_j<=sigma` obeys
+
+\[
+\boxed{
+\mathsf C_{j+1}^{max}/\mathsf C_j^{max}
+\le e^{3\sigma}/\lambda^2.}
+\]
+
+When `e^(3sigma)<lambda^2`, one old low-strain reservoir has finite total future service capacity.  Infinite efficient catalyst reuse must therefore exit through high strain, material/spectral relink, fragmentation/replication, or service failure.  This is the catalyst-side complement to donor-energy viscous killing; the two currencies are not identified.

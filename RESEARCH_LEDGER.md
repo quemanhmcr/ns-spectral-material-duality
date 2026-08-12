@@ -556,3 +556,15 @@ Detailed derivations: `docs/39_energy_transport_killing.md`, `docs/40_future_hea
 **CURRENT KELVIN `dc26c0c` READ-ONLY AUDIT.**  The new upstream theorem gives `T(P,D)=P tensor D^T`, proves Cauchy deformation cannot manufacture a boundary seam for a closed selected cycle, and splits replica-dependent selected pair content into selector, deformation, and mandatory cross sectors.  It also proves by exact heat-shear NS that local `D` does not close finite current shape.  This supports the no-cloning/type discipline but is not identified with the modal energy lineage of AR--AV.
 
 Detailed derivations: `docs/44_terminal_parabolic_corridor_decay.md`, `docs/45_parabolic_corridor_capture.md`, `docs/46_first_bad_parabolic_reduction.md`.
+
+## 2026-08-12 — Active enstrophy record floor and the donor/catalyst split
+
+**EXACT NSE ENSTROPHY OWNER.**  `Y=||grad u||_2^2` obeys `(1/2)Y'+nu||Delta u||_2^2=W_ens`, with pressure absent by Leray/gauge orthogonality.  Only after this physical work is identified, a dyadic Bony decomposition gives `|W_ens|<=C_LP [sup_N sqrt(N)||P_Nu||_2] ||Delta u||_2^2`.
+
+**RIGOROUS ACTIVE-EVENT FLOOR.**  At every nontrivial enstrophy record-growth time `Y'>=0`, some actual shell satisfies `N||P_Nu||_2^2>=nu^2/C_LP^2`.  A candidate first singular time has arbitrarily late such record events because bounded `H^1` gives a standard positive restart interval.  This floor applies to the active record shell only and therefore does not contradict the Wang amplitude-homogeneity no-go against fixed mass on every ancestry root.
+
+**DONOR/CATALYST TYPE SPLIT.**  The energy donor side is governed by AR--AX killed-lineage physics.  A distinct low-frequency structural parent may catalyze high-scale generation without losing the same energy.  For one materially reused reservoir, Kelvin covector transport gives `M_(j+1)/M_j<=exp(Sigma_j)`, while Galilean-neutral increment service per unit physical energy scales as `M^3/N^2`.  Against child progress `N_(j+1)/N_j>=lambda`, low strain `Sigma_j<=sigma` gives catalyst service ratio `<=exp(3sigma)/lambda^2`.  If this is `<1`, one old reservoir cannot service infinitely many uniformly efficient generations.
+
+**OPEN SCALE-ROLE BRIDGE.**  The active critical shell forced at an enstrophy record is not yet proved to sit in the terminal parabolic corridor.  If it is too low, it must be treated as a catalyst/strain reservoir rather than mislabeled as the donor child.  The remaining literal theorem must route each record event to parabolic donor continuation or to strain/interface/relink/high-tail/service exits.
+
+Detailed derivations: `docs/47_record_enstrophy_critical_shell.md`, `docs/48_material_reservoir_service_half_life.md`.
