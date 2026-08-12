@@ -17,22 +17,29 @@ def main():
         K = rng.exponential(scale=0.4, size=(n, n))
         np.fill_diagonal(K, 0.0)
         d = 2.0 * nu * radii * radii
-        edot = K.sum(axis=0) - K.sum(axis=1) - d * energy
+        edot = np.array([
+            math.fsum(float(K[j, i]) for j in range(n))
+            - math.fsum(float(K[i, j]) for j in range(n))
+            - float(d[i] * energy[i])
+            for i in range(n)
+        ])
 
         R = float(rng.uniform(np.min(radii), np.max(radii)))
         high = radii >= R
         low = ~high
         if not np.any(high) or not np.any(low):
             continue
-        phi_up = float(K[np.ix_(low, high)].sum())
-        phi_down = float(K[np.ix_(high, low)].sum())
-        diss = float(np.dot(d[high], energy[high]))
-        lhs = float(edot[high].sum()) + diss + phi_down
+        hi = [i for i in range(n) if high[i]]
+        lo = [i for i in range(n) if low[i]]
+        phi_up = math.fsum(float(K[i, j]) for i in lo for j in hi)
+        phi_down = math.fsum(float(K[i, j]) for i in hi for j in lo)
+        diss = math.fsum(float(d[i] * energy[i]) for i in hi)
+        lhs = math.fsum(float(edot[i]) for i in hi) + diss + phi_down
         continuity = max(continuity, abs(lhs - phi_up))
 
-        Ehigh = float(energy[high].sum())
+        Ehigh = math.fsum(float(energy[i]) for i in hi)
         dmin = 2.0 * nu * R * R
-        gen_lhs = float(edot[high].sum()) + dmin * Ehigh
+        gen_lhs = math.fsum(float(edot[i]) for i in hi) + dmin * Ehigh
         generator_violation = max(generator_violation, max(0.0, gen_lhs - phi_up))
         flux_signal = max(flux_signal, phi_up)
         diss_signal = max(diss_signal, diss)
