@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research programme, please cite the repository and the specific theorem/commit used."
+title: "NS Spectral–Material Duality"
+type: software
+authors:
+  - family-names: "Que"
+    given-names: "Manh"
+repository-code: "https://github.com/quemanhmcr/ns-spectral-material-duality"
+license: MIT
+version: 0.1.0
+date-released: 2026-08-12
