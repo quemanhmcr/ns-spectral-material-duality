@@ -85,3 +85,5 @@ jobs:
         run: python experiments/exp31_enstrophy_transport_moment.py
       - name: Unique parabolic energy currency
         run: python experiments/exp32_unique_parabolic_currency.py
+      - name: Parabolic corridor current and hysteretic reentry
+        run: python experiments/exp33_corridor_current_hysteresis.py

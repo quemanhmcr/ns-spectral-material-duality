@@ -1324,3 +1324,47 @@ For `a_i=2nu|k_i|^2(T-t)` and any `C^1` scalar weight `f`,
 Requiring clock motion to cancel viscosity for every modal spectrum gives `f'+f=0`; with `f(0)=1`, uniquely `q=e^-a`.  Requiring clock plus viscosity to retain exactly the unweighted kinetic-energy killing gives `f'+f=1`; with `f(0)=0`, uniquely `w=1-e^-a`.
 
 Thus the future-heat pair is forced by the NSE generator.  For a fixed scale ratio `lambda>1`, its unit-killing scale price is `Delta_lambda w=e^-a-e^(-lambda^2 a)`, which tends to zero both as `a->0` and `a->infinity` and is maximal at `a_*=2 log(lambda)/(lambda^2-1)`.  Therefore no exact bounded unit-killing energy currency can price multiplicative scale progress uniformly across all parabolic heights.  The matched corridor plus sub/superparabolic owner split is structurally forced rather than an arbitrary proof case split.
+
+## Theorem BE — The parabolic corridor obeys an exact moving-cut energy Reynolds law
+
+For `a_i=2nu|k_i|^2(T-t)` and the hard corridor selector `chi_i=1_{alpha<=a_i<=beta}`,
+
+\[
+\boxed{
+\frac d{dt}\sum_i\chi_iE_i
+=
+\sum_{i,j}(\chi_j-\chi_i)K_{ij}
+-
+\sum_i2\nu|k_i|^2\chi_iE_i
++
+\sum_i\dot\chi_iE_i.}
+\]
+
+The three faces are respectively actual nonlinear crossing, physical viscous killing, and the moving heat-clock face.  Since `dot a_i=-2nu|k_i|^2<0`, clock motion crosses `beta` only from superparabolic into the corridor and crosses `alpha` only from corridor into subparabolic.  Repeated subparabolic-to-corridor reentry therefore cannot be manufactured by the same clock; it requires nonlinear up-frequency transfer or a distinct relink/reselection owner.
+
+## Theorem BF — One old stopped matched-corridor population is asymptotically incapable of carrying H1 blow-up
+
+A finite first singular time satisfies the standard lower rate `Y(t)>=c_H nu^(3/2)(T-t)^(-1/2)`, obtained from `Y'<=C_H nu^-3Y^3`.  For a selected population initialized at `s`, stopped at every corridor exit and receiving no later incoming mass, Theorem AX gives `M_m(t)<=C(T-t)^alpha`.  If its alive states satisfy `a<=beta`, then its enstrophy contribution obeys
+
+\[
+Y_m(t)\le\frac\beta{\nu(T-t)}M_m(t)\le C(T-t)^{\alpha-1}.
+\]
+
+Hence for `alpha>1/2`, `Y_m/Y ->0` as `t->T`.  Thus a singularity cannot be carried by one old stopped corridor population; persistent corridor enstrophy requires arbitrarily late nonlinear/clock/relink input.  The one-way clock topology of BE means recurrent fresh corridor input ultimately reduces to actual nonlinear/relink ownership.
+
+## Theorem BG — A physical hysteresis gap makes repeated parabolic reentry pay viscous killing hazard
+
+Suppose a selected lineage exits below `a<=alpha_-` and can be re-admitted only at `a>=alpha_+`, with `alpha_+>alpha_-`.  Over one completed reentry cycle the exact path law is
+
+\[
+a_{end}-a_{start}=-\int2\nu|k|^2dt+\sum_j\Delta a_j.
+\]
+
+If all internal continuation jumps have `Delta a_j>=0`, then before the lineage returns to the lower face it must pay
+
+\[
+\boxed{
+\int2\nu|k|^2dt\ge\alpha_+-\alpha_-.}
+\]
+
+After `n` clean hysteretic cycles its energy survival is at most `exp[-n(alpha_+-alpha_-)]`.  A negative-`Delta a` jump can shortcut this cost only by firing an actual reverse/down-frequency owner.  The theorem is conditional on a literal physical bad/resolve semantics supplying a nonzero hysteresis gap; current Kelvin's selector is hysteretic but its bad/resolve predicates remain open-literal.

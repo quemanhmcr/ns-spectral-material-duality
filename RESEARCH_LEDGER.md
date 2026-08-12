@@ -588,3 +588,13 @@ Detailed derivation: `docs/49_enstrophy_energy_transport_moment.md`.
 **COUNTEREXAMPLE/NO-GO.**  For every fixed multiplicative scale ratio `lambda>1`, `Delta w=e^-a-e^(-lambda^2 a)` vanishes as `a->0` and `a->infinity`.  Thus the exact bounded kinetic-energy currency cannot assign a uniform price to scale jumps globally.  Its sensitivity peaks at `a_*=2log lambda/(lambda^2-1)`.  The parabolic corridor and typed sub/superparabolic exits are forced by the generator itself.
 
 Detailed derivation: `docs/50_unique_parabolic_energy_coordinate.md`.
+
+## 2026-08-12 — Corridor Reynolds current, mass-floor-free blow-up exclusion, and hysteretic reentry cost
+
+**EXACT MOVING-CUT CURRENT.**  The hard parabolic corridor energy obeys `M_C'=sum(chi_j-chi_i)K_ij-sum d_i chi_i E_i+sum dot(chi_i)E_i`.  Nonlinear crossing, viscous killing and heat-clock motion are distinct.  Since `a_dot=-d<0`, the upper clock face enters the corridor and the lower clock face exits it; clock motion cannot generate a recurrent sub->corridor loop.
+
+**RIGOROUS MASS-FLOOR-FREE SECTOR EXCLUSION.**  A first singular solution has `H1` lower blow-up rate `Y>=c_H nu^(3/2)tau^-1/2`.  An old selected corridor population with lower face `alpha>1/2`, no incoming mass, and upper face `beta` has mass `O(tau^alpha)` and enstrophy `O(tau^(alpha-1))`, hence contributes a vanishing fraction `O(tau^(alpha-1/2))` of the required singular enstrophy.  Persistent matched-corridor activity therefore needs arbitrarily late physical input, not mere survival of old energy.
+
+**RIGOROUS HYSTERETIC CYCLE CONSEQUENCE.**  If actual bad/resolve semantics uses `alpha_-<alpha_+`, one clean reentry-return cycle with no negative parabolic jump costs at least `alpha_+-alpha_-` of viscous killing hazard.  Repeated cycles have exponential survival loss.  A reverse jump avoiding that hazard is itself a physical down-frequency owner.  Current Kelvin's hysteresis makes this a natural acceptance test, but its physical bad/resolve gap is not yet supplied.
+
+Detailed derivations: `docs/51_parabolic_corridor_reynolds_current.md`, `docs/52_corridor_cannot_carry_h1_blowup.md`, `docs/53_hysteretic_parabolic_reentry_killing.md`.
