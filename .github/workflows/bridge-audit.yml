@@ -109,3 +109,5 @@ jobs:
         run: python experiments/exp43_vandermonde_split_rate_gate.py
       - name: Helical critical-mass compensation
         run: python experiments/exp44_helical_critical_mass_compensation.py
+      - name: Pair action continuation and radial critical moment
+        run: python experiments/exp45_pair_action_continuation_radial.py

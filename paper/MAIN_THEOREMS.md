@@ -1673,3 +1673,53 @@ or heterochiral comparable splits supply opposite-helicity pair creation
 \]
 
 Both are on the native critical-mass viscous scale `nu N^3E_q`.  The comparable recurrence problem therefore reduces to downward critical-mass recycling versus opposite-helicity pair creation/annihilation; there is no untyped comparable self-reproduction owner.
+
+## Theorem CC — Finite opposite-helicity pair-creation action implies continuation
+
+Let `C=sum |k|E`, `B=sum |k|^3E`, and `P_create` be the exact BY pair-creation rate.  If `P_T=int_0^T P_create dt<infinity`, then `C_*:=C(0)+2P_T` satisfies
+
+\[
+\sup_{t<T}C(t)\le C_*,
+\qquad
+2\nu\int_0^T Bdt\le C_*.
+\]
+
+The moment inequality `Y^2<=CB` gives
+
+\[
+\boxed{\int_0^T Y^2dt\le C_*^2/(2\nu)<\infty.}
+\]
+
+A late-stage enstrophy estimate yields `Y'<=C nu^-3 Y^3=(C nu^-3Y^2)Y`, so Gronwall bounds `Y` and the `H^1` solution restarts through `T`.  Therefore every finite first singular time necessarily has
+
+\[
+\boxed{\int_0^T P_{create}(t)dt=\infty.}
+\]
+
+## Theorem CD — Pair creation is the first radial moment of the physical energy current
+
+For net radial kinetic-energy current `F(R)=Phi_up(R)-Phi_down(R)`, the truncated linear layer cake is exact.  Under finite first radial moment,
+
+\[
+\boxed{\int_0^\infty F(R)dR
+=\int(|k_r|-|k_d|)d\mathcal M
+=2(P_{create}-P_{ann}).}
+\]
+
+Thus the critical-mass pair ledger is the degree-one radial reading of the same physical donor current whose degree-two reading is enstrophy production.  Homochiral first radial moments cancel; heterochiral sign crossing is exactly the uncancelled critical radial moment.
+
+## Theorem CE — Pair creation is quadratically suppressed by a low opposite-helicity recipient
+
+For a heterochiral split in normal form `-b<a<c`,
+
+\[
+\boxed{P_\triangle=b(c-a)|R_\triangle|.}
+\]
+
+Strict triangle geometry gives `c-a<b`, hence `P_triangle<b^2|R_triangle|`.  Since `P_triangle=b T_o^+` for the opposite-helicity recipient and current Wang edge capacity gives `T_o^+<=4b|a_0a_1a_2|`,
+
+\[
+\boxed{P_\triangle\le4b^2|a_0a_1a_2|.}
+\]
+
+Therefore a separated event with a low opposite-helicity recipient carries a genuine two-power low-scale suppression.  The low-donor/high-pair geometry remains a separate branch.

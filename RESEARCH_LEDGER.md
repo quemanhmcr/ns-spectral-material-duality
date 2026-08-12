@@ -724,3 +724,11 @@ Detailed derivations: `docs/70_vandermonde_divided_difference_triad_law.md`, `do
 **RIGOROUS CONSEQUENCE.**  On fully comparable homochiral splits, high-scale progress leaks critical mass to the lower recipient and the leakage satisfies `L>=V/(4K)`.  On fully comparable heterochiral splits, high-branch critical-mass gain equals the opposite-helicity sibling charge and `V/(16K)<=P<=4V/K`.
 
 **OWNER REDUCTION.**  Combining with BX, a rate-critical comparable split must pay either downward critical-mass leakage `>=nu Z_q/(32N)` or opposite-helicity pair creation `>=nu Z_q/(128N)`.  Exhaustion of these compensation channels remains open; no regularity conclusion is claimed.
+
+## 2026-08-13 — CC–CE: finite pair action continues the PDE
+
+**RIGOROUS CONTINUATION CRITERION.**  If the total actual opposite-helicity pair-creation action is finite on `[0,T)`, the exact critical-mass ledger bounds both `sup C` and `int B`; modal Cauchy gives `int Y^2<infinity`, and only then a standard enstrophy Gronwall step bounds `H^1`.  Hence a finite first singular time requires `int P_create=infinity`.
+
+**EXACT RADIAL IDENTITY.**  Net pair creation minus annihilation is half the unweighted radial first moment of the same physical donor/recipient energy current.  This places the final owner directly in Wang's certified radial-control-volume geometry.
+
+**EXACT SEPARATED GEOMETRY.**  For heterochiral normal form `-b<a<c`, `P=b(c-a)|R|` and triangle geometry gives `c-a<b`; the opposite-recipient physical capacity yields `P<=4b^2|a0 a1 a2|`.  Low-opposite and low-donor separated branches are therefore physically distinct.
