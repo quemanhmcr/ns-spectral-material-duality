@@ -81,3 +81,5 @@ jobs:
         run: python experiments/exp29_terminal_corridor_capture.py
       - name: Enstrophy record shell and catalyst half-life
         run: python experiments/exp30_record_shell_catalyst_half_life.py
+      - name: Enstrophy as donor-energy transport moment
+        run: python experiments/exp31_enstrophy_transport_moment.py

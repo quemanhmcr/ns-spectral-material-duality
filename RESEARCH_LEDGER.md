@@ -568,3 +568,13 @@ Detailed derivations: `docs/44_terminal_parabolic_corridor_decay.md`, `docs/45_p
 **OPEN SCALE-ROLE BRIDGE.**  The active critical shell forced at an enstrophy record is not yet proved to sit in the terminal parabolic corridor.  If it is too low, it must be treated as a catalyst/strain reservoir rather than mislabeled as the donor child.  The remaining literal theorem must route each record event to parabolic donor continuation or to strain/interface/relink/high-tail/service exits.
 
 Detailed derivations: `docs/47_record_enstrophy_critical_shell.md`, `docs/48_material_reservoir_service_half_life.md`.
+
+## 2026-08-12 — Enstrophy is the first spectral moment of the same actual energy donor transport
+
+**EXACT NSE / DONOR-MOMENT IDENTITY.**  Because `(1/2)||grad u||_2^2=sum |k_i|^2 E_i`, AR with `f_i=|k_i|^2` gives `(1/2)Y'+nu Z=sum_ij(|k_j|^2-|k_i|^2)K_ij`.  The global vorticity/enstrophy producer is therefore not a separate mysterious cubic currency: it is the first squared-frequency moment of the already-physical single-charge energy transport table.
+
+**RIGOROUS RECORD-GROWTH CONSEQUENCE.**  Splitting the moment into up/down frequency parts, every `Y'>=0` time has `F_kappa^+>=nu Z+F_kappa^-`.  Thus record growth requires actual upward energy transport sufficient to beat viscosity and any simultaneous backscatter/down-frequency transport.
+
+**EXACT PARABOLIC READING.**  With `a=2nu(T-t)|k|^2`, the nonlinear parabolic drift is `F_a=2nu(T-t)[Y'/2+nu Z]`.  For a forward edge with both endpoints below `beta`, `Delta w>=exp(-beta)Delta a`; hence record-producing work inside a bounded heat corridor spends the stopped future-heat currency directly.  Remaining record growth is forced into subparabolic, superparabolic/nonlocal, or typed exit sectors.
+
+Detailed derivation: `docs/49_enstrophy_energy_transport_moment.md`.

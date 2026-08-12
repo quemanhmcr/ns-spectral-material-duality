@@ -1282,3 +1282,28 @@ so its maximum squared scale-critical service per unit physical reservoir energy
 \]
 
 When `e^(3sigma)<lambda^2`, one old low-strain reservoir has finite total future service capacity.  Infinite efficient catalyst reuse must therefore exit through high strain, material/spectral relink, fragmentation/replication, or service failure.  This is the catalyst-side complement to donor-energy viscous killing; the two currencies are not identified.
+
+## Theorem BC — Global enstrophy production is exactly the first squared-frequency moment of the physical energy donor kernel
+
+With `E_i=|u_i|^2/2`, `kappa_i=|k_i|^2`, and the exact donor table `K_ij`,
+
+\[
+\frac12\|\nabla u\|_2^2=\sum_i\kappa_iE_i.
+\]
+
+Therefore Theorem AR with the observable `f_i=kappa_i` gives
+
+\[
+\boxed{
+\frac12\frac d{dt}\|\nabla u\|_2^2
++\nu\|\Delta u\|_2^2
+=\sum_{i,j}(\kappa_j-\kappa_i)K_{ij}.}
+\]
+
+Writing the positive/negative squared-frequency transport moments as `F_kappa^+` and `F_kappa^-`, every enstrophy record-growth time satisfies
+
+\[
+\boxed{F_\kappa^+\ge\nu\|\Delta u\|_2^2+F_\kappa^-\ge\nu\|\Delta u\|_2^2.}
+\]
+
+Thus global enstrophy growth is literally kinetic energy transported upward in squared frequency strongly enough to beat both viscosity and simultaneous downward transfer.  For the terminal coordinate `a_i=2nu(T-t)kappa_i`, the same moment is `F_a=2nu(T-t)[Y'/2+nu Z]`.  On a bounded corridor `a_i<a_j<=beta`, future-heat progress satisfies `Delta w>=e^-beta Delta a`, so the corridor part of actual enstrophy-producing transport consumes the exact one-sided heat currency of AT.  Any unpaid record-growth transport must lie in subparabolic, superparabolic/nonlocal, or already typed exit sectors.
