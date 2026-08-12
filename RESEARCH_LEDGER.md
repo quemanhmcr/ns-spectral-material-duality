@@ -679,8 +679,8 @@ Detailed derivations: `docs/62_low_strain_carrier_memory_erasure.md`, `docs/63_h
 
 ## 2026-08-12 — Radial record-gate owner trichotomy
 
-**EXACT POSITIVE-FLOW PARTITION.** At a BN gate, `F=Phi_up-Phi_down>=nu G` implies `Phi_up>=nu G`. Splitting actual upward donor mass at `R/4`, then the near branch by recipient `4R`, gives a fixed owner pigeonhole.
+**EXACT POSITIVE-FLOW PARTITION.** At a BN gate, `Phi_up>=nu G`. Partition the actual upward recipient law first by whether **either quadratic interaction parent** lies below `R/4`. This prevents a near-boundary energy donor with a low companion from being mistyped as local HH.
 
-**RIGOROUS CONSEQUENCE.** Every record gate has either (i) hard-event low--high work whose exact skew-redistribution or symmetric-strain row carries at least `nu G/4`; (ii) local outward work at least `nu G/4` with donor/recipient ratio at most `16`; or (iii) UV-skip work at least `nu G/4`, in which every closed triad has a companion above `3R`.
+**RIGOROUS CONSEQUENCE.** Every record gate has either (i) hard low--high work whose exact skew-redistribution or symmetric-strain row carries at least `nu G/4`; (ii) genuinely comparable outward work at least `nu G/4`, with all three mode scales in `[R/4,5R)` and total ratio `<20`; or (iii) UV-skip work at least `nu G/4`, in which every closed triad has a companion above `3R`.
 
-This removes generic “nonlocal companion” language from all but the true skip branch. Detailed derivation: `docs/64_record_gate_owner_trichotomy.md`.
+Detailed derivation: `docs/64_record_gate_owner_trichotomy.md`.
