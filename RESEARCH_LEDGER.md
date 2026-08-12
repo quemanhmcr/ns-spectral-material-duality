@@ -676,3 +676,11 @@ Detailed derivation: `docs/61_radial_record_flux_gate.md`.
 **OWNER REDUCTION.** Passive old high-companion service is not an independent recurrence mechanism. After resolved incidence is split, the remaining UV seam is fresh generic HH/relink/source renewal alternating with strain. The graph is sharpened from `U/R` to `G/R`, where `G` denotes fresh typed high-frequency owner recurrence, not a new scalar currency.
 
 Detailed derivations: `docs/62_low_strain_carrier_memory_erasure.md`, `docs/63_high_companion_owner_reduction.md`.
+
+## 2026-08-12 — Radial record-gate owner trichotomy
+
+**EXACT POSITIVE-FLOW PARTITION.** At a BN gate, `F=Phi_up-Phi_down>=nu G` implies `Phi_up>=nu G`. Splitting actual upward donor mass at `R/4`, then the near branch by recipient `4R`, gives a fixed owner pigeonhole.
+
+**RIGOROUS CONSEQUENCE.** Every record gate has either (i) hard-event low--high work whose exact skew-redistribution or symmetric-strain row carries at least `nu G/4`; (ii) local outward work at least `nu G/4` with donor/recipient ratio at most `16`; or (iii) UV-skip work at least `nu G/4`, in which every closed triad has a companion above `3R`.
+
+This removes generic “nonlocal companion” language from all but the true skip branch. Detailed derivation: `docs/64_record_gate_owner_trichotomy.md`.

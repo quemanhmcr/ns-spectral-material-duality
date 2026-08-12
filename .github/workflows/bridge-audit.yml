@@ -99,3 +99,5 @@ jobs:
         run: python experiments/exp38_radial_record_flux_gate.py
       - name: Low-strain carrier memory and owner forcing
         run: python experiments/exp39_low_strain_carrier_memory.py
+      - name: Radial record gate owner trichotomy
+        run: python experiments/exp40_record_gate_owner_trichotomy.py
