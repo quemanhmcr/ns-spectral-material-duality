@@ -113,3 +113,5 @@ jobs:
         run: python experiments/exp45_pair_action_continuation_radial.py
       - name: Positive net critical action and twin helical sectors
         run: python experiments/exp46_net_critical_action_sector_ledgers.py
+      - name: Heterochiral Waleffe depletion and comparable no-go
+        run: python experiments/exp47_heterochiral_waleffe_depletion.py

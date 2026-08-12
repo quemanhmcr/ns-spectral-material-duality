@@ -1753,3 +1753,36 @@ Thus nonlinear pair production injects equal critical charge into both helicity 
 ## Theorem CH — Ordinary kinetic-energy dissipation cannot universally bound the final critical action
 
 Under `R^3` Navier--Stokes scaling, `int[J_1]_+dt` is invariant while kinetic energy and integrated kinetic-energy dissipation scale like `lambda^-1`.  Therefore no scale-independent universal bound of the final critical action by the ordinary energy budget can hold over the scaling class.  Any closure must use critical heterochiral/radial/split-merge structure rather than a renamed energy norm.
+
+## Theorem CI — Exact Waleffe geometry depletes every separated heterochiral pair-creation event
+
+For the heterochiral normal form `-b<a<c`, Wang's exact coupling magnitude and common phase factor give
+
+\[
+\boxed{P_\triangle
+\le\sqrt2\,\Delta(a,b,c)\frac{(c-a)(a+c-b)}{ac}|a_0a_1a_2|.}
+\]
+
+If the donor `a` is the low leg and `K=max(b,c)`, triangle geometry yields
+
+\[
+\boxed{P_\triangle\le\sqrt2\,aK|a_0a_1a_2|.}
+\]
+
+If the opposite-helicity recipient `b` is the low leg,
+
+\[
+\boxed{P_\triangle<\sqrt2\,b^2|a_0a_1a_2|.}
+\]
+
+Since `c>a`, these exhaust genuinely separated heterochiral pair creation.  Only the fully comparable branch lacks a small scale ratio.
+
+## Theorem CJ — Fully comparable heterochiral pair creation has no hidden Waleffe small factor
+
+The dilation-invariant pair-capacity coefficient is nonzero at fixed comparable geometry.  For `a=b=3K/4`, `c=K`,
+
+\[
+\boxed{\eta_{pair}=\sqrt5/24\approx0.0931695.}
+\]
+
+Hence no universal scale-decaying Waleffe factor suppresses the comparable heterochiral core.  Closure of the final critical action must use recurrence/cancellation/killing or another critical structure, not a missing single-triad geometric epsilon.

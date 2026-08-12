@@ -740,3 +740,9 @@ Detailed derivations: `docs/70_vandermonde_divided_difference_triad_law.md`, `do
 **EXACT NSE/HELICITY IDENTITY.**  The positive- and negative-helicity critical stocks obey twin equations with the same nonlinear source `N=Pcreate-Pann`; signed helicity is the source-free difference mode.  The final nonlinear obstruction is therefore paired two-sector injection.
 
 **COUNTEREXAMPLE/NO-GO.**  The integrated final action is scale-critical whereas the kinetic-energy budget scales subcritically.  A universal energy-budget bound is dimensionally impossible; the remaining proof must exploit heterochiral/radial/split-merge structure.
+
+## 2026-08-13 — CI–CJ: exact separated Waleffe depletion and local-core no-go
+
+**EXACT NSE/WALEFFE CONSEQUENCE.**  Heterochiral pair action has a closed area/coupling envelope.  Low-donor/high-pair events gain one low/high ratio; low opposite-helicity recipients gain two low-scale factors.  These exhaust separated heterochiral geometry.
+
+**COUNTEREXAMPLE/NO-GO.**  The fully comparable triangle `(3/4,3/4,1)` has dimensionless pair-capacity coefficient `sqrt(5)/24`, so the local heterochiral core has no scale-decaying Waleffe factor.  The remaining closure is genuinely critical rather than a missed geometric depletion.
