@@ -267,3 +267,21 @@ Equivalently a common generator contributes only `tr(G) Z`, hence zero for incom
 **OPEN BRIDGE.**  The literal selected first-bad packet is still not identified with a stochastic replica/coupling.  The remaining task is to construct that coupling and the programme-specific state map, then evaluate the relative-generator and normal-interface residuals rather than a generic covariance surrogate.
 
 Detailed derivation: `docs/16_common_replica_phase_cancellation.md`.
+
+### ACTION STRESS TEST — run 31582930093
+
+GitHub Actions passed `experiments/exp13_event_clock_replica.py` on theorem commit `a43519b0239dd4ab014656fc4e947bfd0ecd221a`.
+
+Adversarial calibrations:
+
+- hard-event plateau readout residual: `0.000e+00`;
+- maximum smooth-summary overlap gap: `3.000e+01`;
+- quadratic-energy / phase-rotation residual: `7.105e-15`;
+- state-map chain-rule residual: `2.842e-14`;
+- tangential hard-face contraction residual: `2.665e-15`;
+- minimum sampled normal hard-face signal: `3.335e-02`;
+- common-replica `SL(3)` cubic residual: `6.439e-14`;
+- relative-generator decomposition residual: `1.589e-14`;
+- maximum sampled relative-replica cubic-rate magnitude: `7.597e+01`.
+
+**Classification: ACTION STRESS TEST only, not proof.**  The large smooth-summary gap and relative-replica rate are intentional adversaries: they confirm that the exact cancellations disappear when the theorem's hard-readout/common-replica hypotheses are removed.
