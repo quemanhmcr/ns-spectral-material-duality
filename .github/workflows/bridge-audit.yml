@@ -29,3 +29,5 @@ jobs:
         run: python experiments/exp03_helicity_edge_work.py
       - name: Material flux triple reproduces signed edge work
         run: python experiments/exp04_material_flux_triple.py
+      - name: Localized material-flux PDE ledger
+        run: python experiments/exp05_localized_flux_pde.py

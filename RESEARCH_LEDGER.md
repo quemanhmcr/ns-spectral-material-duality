@@ -71,3 +71,12 @@ Determine whether a material-current observable can distinguish positive forward
 ### OPEN — viscous scale bridge beyond monochromatic shells
 
 Quantify the exact annular constants relating orientation-complete Kelvin q.v. density to scale-normalized Fourier-shell viscous payment without identifying smooth LP and hard projections.
+
+## 2026-08-12 — Oriented flux and localized PDE bridge
+
+- **EXACT:** For one helical edge, signed child-energy work equals a frequency/helicity coefficient times the GL(3)-invariant oriented material vorticity-flux 3-form `det(H)^(-1) Re(conj(Phi_q) . (Phi_1 x Phi_2))`.
+- **NO-GO REFINED:** Metric/covariance alone cannot determine signed work because they are second-order; the missing information is genuinely third-order oriented flux information.
+- **EXACT:** For `Phi_Q=H^T Q omega`, `D_t Phi_Q = H^T[(partial_t Q+[u.grad,Q])omega +(Q A-A Q)omega + nu Q Delta omega]`.
+- **EXACT:** For `Q=I`, both localization commutators vanish and only the Kelvin/Nanson viscous flux remains.
+- **EXACT:** The oriented cubic flux derivative splits linearly into interface/moving-cut, strain-selection, and viscosity terms; passive material-frame motion is not an additional source.
+- **OPEN:** Instantiate this identity for the literal smooth/hard Fourier roles and literal Kelvin germ/quantile roles, then compare their physical source partitions without importing upstream closure claims.
