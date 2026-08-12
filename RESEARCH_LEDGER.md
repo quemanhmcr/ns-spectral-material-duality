@@ -630,3 +630,17 @@ After AR--BJ and read-only audits of Wang `ae85f4d` / Kelvin `7dc3a87`, the glob
 Phase, common deformation, covariance, hard-cell/checkpoint rereading, old matched energy populations, eventually-pure high strain, and eventually-pure signed-good HH no longer need independent infinite-cycle nodes in the proposed global proof skeleton.  Breadth/entropy is retained as a mechanism for renewing U/R ancestry, not as an additional energy source.
 
 Detailed reduction: `docs/57_minimal_unresolved_owner_graph.md`.
+
+## 2026-08-12 — AR--BJ proof-mechanism Action lineage
+
+All executable checks below were run only by GitHub Actions after commit/push.  They are **ACTION STRESS TESTS**, not proofs; the analytic identities and consequences are recorded separately in the theorem spine/docs.
+
+- AR--AW, commit `501fcd14b395456c4ae720be0e884175b8753c6c`: run `31600977353` SUCCESS.  Donor-kernel master/Dynkin/future-heat residuals were at `0`--`2.3e-13`; stopped-lineage/hazard/depth checks passed; the collapsing-lower-face adversary retained finite hazard after 80 forward jumps and reverse-jump refund closed to `2.22e-16`.
+- AX--AZ, commit `d7ebcf491f62a2eadea5806985388fd2ccc08493`: run `31602163531` SUCCESS.  Corridor decay, capture, and conditional lower-face violations were zero; unbounded jumps skipped the corridor as intended and `alpha<1/2` preserved the cheap-survival no-go.
+- BA--BB, commit `4992db2c9a9f7089b8dbd86924a35bfc014d33ab`: run `31603373405` SUCCESS.  Actual spectral amplitude homogeneity passed at `1.326e-13`; catalyst service ratio at `7.772e-16`; Wang-compatible ratio `(21/20)^3(5/8)^2=0.452197266`.
+- BC, commit `99b8484e4c2753a4c18312b7c453191f040d7802`: run `31603864970` SUCCESS.  Enstrophy/donor-energy transport-moment and heat-corridor identities passed.
+- BD was committed locally as `35bd6bd1f7d12cd06a06522093188416dc6071e6`; its first `git push` hit a Linux-Cloud network/cgroup timeout before remote mutation.  No theorem or Action failed.  The exact commit was then included unchanged in the next successful push together with BE--BG.
+- BD + BE--BG, remote head `ee31b8cf2c67912e420ff8e5a512ba92548d3e9c`: run `31604972072` SUCCESS.  Unique heat-coordinate generator residual `2.842e-14`; both endpoint price no-gos visible; corridor current `1.421e-14`; clock monotonicity, hysteretic gap, and survival identities exact to displayed precision; reverse shortcut explicitly registered as a `0.7` owner signal.
+- BH--BJ + minimal S/U/R owner graph, commit `edc71e1ea66a28946d19caad2ffb3820810dbfec`: run `31606469143` SUCCESS.  Radial outward/inward/enstrophy layer-cake residuals `4.547e-13`, heat-weighted radial residual `3.553e-15`; nonlocal companion, parabolic-skip companion fraction, and highest-critical-shell selector violations all `0`.
+
+Read-only upstream compatibility was re-audited at Wang `ae85f4df372cd2942a0181c1a8f105cd4118edec` (certified helical mode-set energy continuity) and Kelvin `7dc3a871cfa5f8e9c362a38a383978b13988940e` (full current-shape Kelvin covariance / deformation--circulation cross covariance).  Neither upstream was modified.
