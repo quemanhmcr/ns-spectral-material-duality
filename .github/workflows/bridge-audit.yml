@@ -87,3 +87,7 @@ jobs:
         run: python experiments/exp32_unique_parabolic_currency.py
       - name: Parabolic corridor current and hysteretic reentry
         run: python experiments/exp33_corridor_current_hysteresis.py
+      - name: Radial mode flux layer cake
+        run: python experiments/exp34_radial_flux_layer_cake.py
+      - name: Nonlocal companion and record critical shell
+        run: python experiments/exp35_nonlocal_companion_record_selector.py

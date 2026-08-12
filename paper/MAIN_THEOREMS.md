@@ -1368,3 +1368,68 @@ If all internal continuation jumps have `Delta a_j>=0`, then before the lineage 
 \]
 
 After `n` clean hysteretic cycles its energy survival is at most `exp[-n(alpha_+-alpha_-)]`.  A negative-`Delta a` jump can shortcut this cost only by firing an actual reverse/down-frequency owner.  The theorem is conditional on a literal physical bad/resolve semantics supplying a nonzero hysteresis gap; current Kelvin's selector is hysteretic but its bad/resolve predicates remain open-literal.
+
+## Theorem BH — Enstrophy and future-heat progress are two layer-cake readings of the same radial energy current
+
+For radial mode sets `A_R={i:|k_i|^2<=R}`, define actual outward/inward donor currents
+
+\[
+\Phi_\uparrow(R)=\sum_{\kappa_i\le R<\kappa_j}K_{ij},
+\qquad
+\Phi_\downarrow(R)=\sum_{\kappa_j\le R<\kappa_i}K_{ij}.
+\]
+
+Current Wang mode-set continuity gives the exact radial stock law.  Layer cake then yields
+
+\[
+\boxed{
+F_\kappa^+=\int_0^\infty\Phi_\uparrow(R)dR,
+\qquad
+F_\kappa^-=\int_0^\infty\Phi_\downarrow(R)dR,}
+\]
+
+hence
+
+\[
+\boxed{
+\frac12Y'+\nu Z
+=\int_0^\infty[\Phi_\uparrow-\Phi_\downarrow]dR.}
+\]
+
+For the unique future-heat defect `w=1-exp[-2nu(T-t)R]`, the same donor transport obeys
+
+\[
+\boxed{
+\sum_{ij}(w_j-w_i)K_{ij}
+=
+\int_0^\infty2\nu(T-t)e^{-2\nu(T-t)R}
+[\Phi_\uparrow(R)-\Phi_\downarrow(R)]dR.}
+\]
+
+Thus global enstrophy production and parabolic progress are not separate currencies: they are unweighted and heat-weighted readings of one actual radial kinetic-energy current.  This upgrades AR/BC from finite modal-table algebra to the native helical mode-set control-volume structure now certified upstream, without importing Wang recurrence architecture.
+
+## Theorem BI — A nonlocal upward donor-energy jump requires a comparable high-frequency companion in the same physical triad
+
+For a closed triad `k_d+k_c+k_r=0`, if an actual energy recipient obeys `|k_r|>=Lambda|k_d|` relative to one donor, then
+
+\[
+\boxed{|k_c|\ge(1-Lambda^{-1})|k_r|.}
+\]
+
+In particular, a same-time jump from `a_d<alpha` to `a_r>beta` has a third physical root satisfying
+
+\[
+\boxed{|k_c|>(1-\sqrt{alpha/beta})|k_r|.}
+\]
+
+Thus a corridor-skipping ultraviolet energy jump cannot create an isolated high scale from purely low-frequency content.  It requires contemporaneous comparable high-frequency ancestry: either an old/materially reused companion subject to catalyst/strain geometry, or a fresh/relinked/fragmented companion which is itself a typed owner.  The theorem supplies geometry, not an amplitude lower bound.
+
+## Theorem BJ — Every enstrophy record has a highest PDE-critical shell, giving a non-oracular first-bad candidate
+
+At a record-growth time BA gives `B_(1/2)>=nu/C_LP`.  Fix `0<theta<1` and set `A_*=theta nu/C_LP`.  Smoothness before the candidate singular time implies the set
+
+\[
+\{q:\lambda_q^{1/2}\|P_qu\|_2\ge A_*\}
+\]
+
+is nonempty and bounded above, hence has a highest shell `q_*`.  It obeys the fixed active-event floor `lambda_(q_*)||P_(q_*)u||_2^2>=A_*^2`, while every higher shell is critical-subthreshold.  The first later time a higher shell reaches `A_*` is therefore a PDE-derived higher-critical crossing event.  This constructs a rigorous spectral record-event selector without a free Boolean oracle, but promotion to the Kelvin first-bad selector still requires kernel purity, a physical resolve rule and material/current-state compatibility.

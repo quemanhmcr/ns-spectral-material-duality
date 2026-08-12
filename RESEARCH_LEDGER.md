@@ -598,3 +598,35 @@ Detailed derivation: `docs/50_unique_parabolic_energy_coordinate.md`.
 **RIGOROUS HYSTERETIC CYCLE CONSEQUENCE.**  If actual bad/resolve semantics uses `alpha_-<alpha_+`, one clean reentry-return cycle with no negative parabolic jump costs at least `alpha_+-alpha_-` of viscous killing hazard.  Repeated cycles have exponential survival loss.  A reverse jump avoiding that hazard is itself a physical down-frequency owner.  Current Kelvin's hysteresis makes this a natural acceptance test, but its physical bad/resolve gap is not yet supplied.
 
 Detailed derivations: `docs/51_parabolic_corridor_reynolds_current.md`, `docs/52_corridor_cannot_carry_h1_blowup.md`, `docs/53_hysteretic_parabolic_reentry_killing.md`.
+
+## 2026-08-12 — Radial mode-set layer cake after Wang `ae85f4d`
+
+**READ-ONLY UPSTREAM COMPATIBILITY.**  Wang `ae85f4d` certifies helical mode-set energy continuity: persistent stock is physical helical modal energy, same-time donor flow has exact graph divergence on arbitrary measurable mode sets, and radial mode boundaries are explicitly named as the next scale-bearing specialization.  This independently validates the physical stock/current ontology of AR while preserving the anti-theorem that gross internal nonlinear traffic is not a finite energy budget.
+
+**EXACT RADIAL LAYER CAKE.**  For `A_R={|k|^2<=R}`, actual outward/inward donor currents `Phi_up/Phi_down` satisfy `F_kappa^+=int Phi_up dR`, `F_kappa^-=int Phi_down dR`.  Therefore enstrophy production is the net unweighted radial kinetic-energy current.  Future-heat progress is the same net radial current weighted by `2nu tau exp(-2nu tau R)`.  The matched/sub/superparabolic split is literally a decomposition of this physical radial control-volume current.
+
+Detailed derivation: `docs/54_radial_mode_flux_layer_cake.md`.
+
+## 2026-08-12 — Nonlocal companion geometry and a record-derived critical-shell selector
+
+**EXACT CLOSED-TRIAD GEOMETRY.**  A donor-to-recipient jump with `|k_r|>=Lambda|k_d|` forces the third triad root to satisfy `|k_c|>=(1-1/Lambda)|k_r|`.  A subparabolic-to-superparabolic skip therefore has a contemporaneous comparable high-frequency companion.  UV skipping is not low-frequency energy teleportation; it reduces to donor transfer plus high-frequency companion ancestry.
+
+**RIGOROUS RECORD-EVENT CONSTRUCTION.**  At every enstrophy record choose a strict fraction of BA's PDE-forced critical amplitude and take the highest dyadic shell above that level.  Smoothness makes this highest shell finite; all higher shells are critical-subthreshold.  The first later higher-shell crossing of the same PDE-derived level is a well-defined spectral event.  Optional two-level hysteresis avoids grazing but is not yet identified with the Kelvin bad/resolve semantics.
+
+**OPEN BRIDGE.**  The remaining subparabolic problem can now be asked on a concrete state: before the next higher critical crossing, the entire higher tail is uniformly subthreshold, so continued record growth must be produced by low-scale strain/catalyst interaction or by a typed source/relink/high-tail event.  A full PDE theorem turning that alternative into continuation/termination remains open.
+
+Detailed derivations: `docs/55_nonlocal_jump_companion_geometry.md`, `docs/56_record_critical_shell_event_semantics.md`.
+
+## 2026-08-12 — Minimal unresolved owner graph
+
+After AR--BJ and read-only audits of Wang `ae85f4d` / Kelvin `7dc3a87`, the global recurrence frontier is compressed to three genuine seams rather than a long owner list.
+
+**S: subparabolic critical-shell renewal.**  BJ supplies a highest PDE-critical record shell and subthreshold higher tail, but a full-PDE own-scale lifespan / first-stop theorem is still missing.
+
+**U: high-companion renewal.**  BI proves every nonlocal UV energy jump needs a comparable high-frequency triad companion.  Old low-strain companions have finite service, high-strain tracking fires its own owner, so indefinite UV skipping requires repeated new/relinked/fragmented companion ancestry or genuine high-tail/source renewal.
+
+**R: material/reselection reentry.**  Kelvin `7dc3a87` closes full current-shape joint covariance/cross terms but keeps finite shape as its own state.  A physical hysteresis gap would let BG price repeated reentry; gapless or kernel-impure relabelled reentry remains open.
+
+Phase, common deformation, covariance, hard-cell/checkpoint rereading, old matched energy populations, eventually-pure high strain, and eventually-pure signed-good HH no longer need independent infinite-cycle nodes in the proposed global proof skeleton.  Breadth/entropy is retained as a mechanism for renewing U/R ancestry, not as an additional energy source.
+
+Detailed reduction: `docs/57_minimal_unresolved_owner_graph.md`.
