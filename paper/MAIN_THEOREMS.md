@@ -1829,3 +1829,24 @@ Any fixed-width ladder has bounded `M_eff`, while CL requires `M_eff~N^3` at fix
 For `p perpendicular q`, `|p|=|q|=N`, helicities `p:+`, `q:-`, and normal `n=p_hat cross q_hat`, the exact Leray-projected sources at `p+q` and `p-q` are both parallel to `n`.  Hence each first child is linearly polarized and has equal-magnitude `+/-` helical projections.  The two generated siblings have zero mutual quadratic interaction because their velocities are normal to both planar wavevectors.
 
 Moreover the full real seed is 2D3C: its horizontal streamfunction is monochromatic with `-Delta psi=N^2 psi`, so horizontal nonlinearity is pure pressure and `v(t)=exp(-nu N^2t)v(0)`; the normal component is a passive scalar.  Thus the static single-helicity Hadamard ladder does not compose into a 3D feedback cascade in actual NSE.
+
+## Theorem CO — Fresh heterochiral child polarization is fixed exactly by parent scale imbalance
+
+For opposite-helicity parents of radii `a,b` feeding child radius `c`, the two child-helicity source magnitudes satisfy
+
+\[
+\boxed{|F_\pm|=\frac{(a+b)\Delta}{\sqrt2abc}(c\pm(a-b))|AB|.}
+\]
+
+With `delta=(a-b)/c`,
+
+\[
+\boxed{\Pi_F=\frac{2\delta}{1+\delta^2},\qquad
+r_{min}=\frac{(1-|\delta|)^2}{2(1+\delta^2)}.}
+\]
+
+Every nondegenerate fresh heterochiral child therefore contains both helicities; equal parent radii give exact linear polarization.  Pure-helicity birth occurs only at the degenerate triangle boundary where the Waleffe source vanishes.
+
+## Theorem CP — Near-pure fresh helicity pays geometric coupling depletion
+
+If the minority fresh-source energy fraction satisfies `r_min<=epsilon`, then `1-|delta|<=2 sqrt(epsilon)`.  Heron's formula forces the interaction area, and hence total fresh-source amplitude, to lose an `epsilon^(1/4)` geometric factor.  Thus fresh heterochiral renewal cannot be both arbitrarily helicity-pure and order-one nondegenerate in Waleffe coupling.

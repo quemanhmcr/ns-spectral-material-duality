@@ -119,5 +119,7 @@ jobs:
         run: python experiments/exp48_hadamard_heterochiral_galerkin.py
       - name: Orthogonal heterochiral polarization identity
         run: python experiments/exp50_orthogonal_heterochiral_polarization.py
+      - name: Heterochiral fresh birth polarization law
+        run: python experiments/exp51_heterochiral_birth_polarization.py
       - name: Rate critical Fourier participation and sparse ladder no-go
         run: python experiments/exp49_rate_critical_fourier_participation.py

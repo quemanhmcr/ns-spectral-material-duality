@@ -768,3 +768,9 @@ Initial Action `31650446519` correctly rejected the hand-written explicit compar
 **FAILURE LINEAGE / EXACT PDE CORRECTION.**  Actions `31651033582` and `31651133703` strongly birthed the first Hadamard siblings but kept the proposed second axial modes at `~1e-20`; the failed assertion was not weakened.  Direct NSE algebra shows why: orthogonal equal-scale `+/-` parents generate both first siblings parallel to the common normal, hence with equal `+/-` helical magnitudes and zero sibling mutual interaction.
 
 **EXACT NSE/PDE IDENTITY.**  The whole seed lies in a 2D3C class.  The horizontal flow is a single Laplacian eigenspace and evolves only by heat decay; the vertical component is passive.  Static rooted-helicity channels therefore cannot be recursively composed without the full vector polarization state.
+
+## 2026-08-13 — CO–CP: full-vector heterochiral birth polarization law
+
+**EXACT NSE/WALEFFE IDENTITY.**  Opposite-helicity parents do not generate an independently choosable child helicity.  The two child-fiber source magnitudes are in ratio `(1+delta)/(1-delta)`, `delta=(a-b)/c`, giving exact Stokes polarization `2delta/(1+delta^2)`.  Every strict triad births both helicities.
+
+**RIGOROUS CONSEQUENCE.**  Near-pure fresh birth forces `|delta|->1`, hence triangle-area/Waleffe depletion.  This supplies a full-vector renewal constraint missing from rooted energy/helicity channel graphs; inherited old polarization remains a separate state case.
