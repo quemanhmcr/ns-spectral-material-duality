@@ -820,3 +820,32 @@ Action `31652859240` reached exp51 after all preceding corrected lanes passed.  
 ### CT downstream exp49 constant-sync provenance
 
 Action `31653241490` passed CO/CP, CQ, CR, CS, CT and CU lanes, then exp49 exposed one stale implementation constant: the required `M_eff` had been strengthened using CT's `64/27` capacity, while `upper_at_required` still used the old crude `16`.  The resulting `0.7419` equality residual compared two different formulas rather than testing the theorem.  The referee is synchronized to `64/27`; no theorem hypothesis or constant changed.
+
+## 2026-08-13 — Frontier compression after CV
+
+The current global obstruction is no longer a generic owner graph.  CF requires infinite positive net degree-one radial action at a finite singular time.  Deep/nonlocal pair creation routes to resolved mixed strain or a bounded-ratio core (CQ/CS); sparse ladders are excluded at the record rate (CL/CM); the fixed-critical local core is dense, has a positive efficient actual-work sublaw, and has edgewise nondegenerate mixed fresh polarization (CR/CO/CT); CU forces recent nonlinear amplitude.  CV shows that spin-2 azimuthal organization can nevertheless cancel minority source at the aggregate child state.
+
+**OPEN BRIDGE.**  The remaining theorem is a full-vector source/temporal-ancestry attachment: either the efficient first-shell source survives into a nonaccumulating state consequence, or its spin-2/time cancellation must be routed into a quantitative phase/geometry/reuse action on the same physical work law.  No regularity conclusion is claimed.
+
+## 2026-08-13 — BY–CV final Action certification and failure lineage closure
+
+Final integrated bridge Action `31653630227` completed successfully on exact code/theorem ancestry through CV.  The run passed the corrected Galerkin Hadamard polarization obstruction, orthogonal full-vector polarization, CO/CP fresh-birth polarization, CQ true-upward binding, CR efficient mixed sublaw, CS plateau resolved binding, CT universal capacity, CU fresh-amplitude funding, CV spin-2 cancellation, and the strengthened CL/CM participation referee.
+
+Key final residuals/signals:
+- CO child-helicity cross-multiplied ratio residual `3.248e-15`; Stokes residual `1.780e-15`;
+- CQ first-radial-moment residual `1.819e-12`, RN/gate violations zero;
+- CR average-efficiency and half-action violations zero, nondegeneracy residual `1.665e-16`;
+- CS support violations zero, K/S positive-cover residual `4.441e-16`;
+- CT universal/envelope violations zero, sampled `eta_pair=0.198041634 < 4sqrt(2)/27=0.209513120`;
+- CU old-amplitude residual `1.219e-16`, fresh-amplitude violation `4.441e-16`;
+- CV spin-2 rotation residuals `~1e-32`, two-atom cancellation residual `1.059e-16`, positive-work violation zero;
+- strengthened CL/CM rate-gate residual `2.243e-16` with sparse participation deficit signal `1.429e3`.
+
+Failure lineage retained rather than erased:
+- `31650446519`: referee exposed the incorrect hand-written Heron constant; corrected to the stronger `sqrt(10)/24` with no theorem weakening;
+- `31651033582` / `31651133703`: actual Galerkin NSE rejected the static second-generation Hadamard ladder; this produced the exact CN 2D3C/full-polarization theorem instead of a relaxed threshold;
+- `31651734164`: exp49 absolute cancellation normalization mismatch; changed to native relative equality residual;
+- `31652859240`: direct `F+/F-` ratio became ill-conditioned near the strict-triangle boundary; replaced by equivalent cross-multiplied CO identity;
+- `31653241490`: CT-strengthened `M_eff` formula was paired with a stale old capacity constant `16` in exp49; synchronized to `64/27` without changing theorem constants.
+
+**CURRENT OPEN BRIDGE.**  The proof frontier is now the full-vector temporal source/ancestry attachment recorded in `docs/96_final_dense_heterochiral_source_attachment_frontier.md`: infinite positive net degree-one radial action must be exhausted on a recently funded dense first-shell heterochiral work law after resolved/deep routing, while CV shows that spin-2 azimuthal organization can cancel edgewise minority source.  No global-regularity theorem is claimed.
