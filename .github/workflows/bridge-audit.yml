@@ -201,3 +201,5 @@ jobs:
         run: python experiments/exp89_enstrophy_ranking_crossing_event_typing.py
       - name: Affine target reanchor and many crossings
         run: python experiments/exp90_affine_target_reanchor_many_crossings.py
+      - name: Selector boundary zero-depth owner projection
+        run: python experiments/exp91_selector_boundary_zero_depth_owner_projection.py

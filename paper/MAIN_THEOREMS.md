@@ -2743,3 +2743,24 @@ Theorem GY gives, for every finite `N`, an exact smooth periodic NSE flow with a
 ## Theorem HA — Cross-program event assembly must keep physical owner, target coboundary, selector, and event clock separately typed
 
 For a pure selector reset on a fixed physical library and fixed target, `A=I` and `d=0`, so the underlying physical library has no event while `DeltaY=(E_+-E_-)X` can be nonzero.  The selector therefore cannot add an extra physical-owner vertex by itself.  When a true event and/or target change is simultaneous, the affine readout faces remain mandatory, but they do not license duplicating the underlying NSE owner into extra recurrence generations.  Endogenous selector local finiteness, actual badness/resolve timing, and Wang mixed genuine-owner recurrence remain open.
+
+
+## Theorem HB — Arbitrary-finite exact-NS ranking crossings produce exactly linear selector-label jump q.v.
+
+In Theorem GY the enstrophy gap is `Delta e=2 epsilon E O` with `E>0`, and the exponential Chebyshev theorem makes the `N` prescribed roots of `O` the only roots and all simple.  Hence the non-hysteretic winner label alternates exactly `N` times.  Encoding the active branch by `q_0=(1,0)`, `q_1=(0,1)` gives `|DeltaY|^2=2` at every switch and therefore
+\[
+\boxed{\operatorname{tr}\mathcal J_Y=2N.}
+\]
+For even `N`, the selector endpoint returns to its initial label while this jump variation remains positive, realizing the selector-history non-coboundary on exact smooth NSE.
+
+## Theorem HC — Selector label q.v. can be arbitrarily large while the selected scalar and the Navier--Stokes field remain continuous
+
+For `M=max(e_0,e_pi)`, every ranking tie has zero scalar jump while its one-sided derivative changes by the nonzero transverse gap rate.  Given any finite `L`, Theorem GY with `N>L/2` gives `tr J_Y=2N>L` although the exact periodic shear is smooth and satisfies `(u.grad)u=0` identically.  Thus selector path variation is not a jump of the field or selected scalar and cannot by itself certify hard nonlinear generation.
+
+## Theorem HD — Wang Moyal boundary charge and Kelvin selector jump variation are distinct currencies with the same zero-depth guardrail
+
+Current Wang's same-state selected-family anti-theorem permits exact `R_switch>0` while all coherent cell increments, positive/negative increment work and total state change vanish; the boundary charge itself has zero generation depth.  Repo-3 exact heat shears permit arbitrarily large finite selector-label jump q.v. with zero nonlinear advection.  No equality between these currencies is asserted.  Together they refute the universal implication `positive selection/boundary sidecar => physical nonlinear generation`.
+
+## Theorem HE — Any hard-generation assembly must annihilate the demonstrated pure-sidecar event directions
+
+A recurrence event record must keep underlying physical owner/event `A`, own-local target coboundary `d`, selector change `DeltaE`, and boundary sidecars separately.  Exact counterexamples force any physically faithful hard-generation increment rule to assign zero increment to: a pure selector reset on fixed library/target; a same-state Wang selected-family boundary reread absent independent service/source work; and a pure target q.v.-reanchor witness with zero nonlinear advection.  If a genuine physical event is simultaneous, these faces remain mandatory bookkeeping but may not clone the physical owner into extra generations.  Full factorization through a completed owner quotient is still open.
