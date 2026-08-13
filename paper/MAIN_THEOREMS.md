@@ -1936,3 +1936,75 @@ Fix a child axis and rotate one strict heterochiral parent pair around it by `ph
 \]
 
 Thus two equally efficient positive-work atoms at `phi=0,pi/2` have `f_+^tot=2f_+(0)` but `f_-^tot=0`, despite CO giving nonzero minority birth on each atom.  For a rotated orbit the aggregate minority is controlled by the second angular harmonic `Q_2=E[e^{2i phi}]`.  Therefore CR/CO require an additional spin-2 source-coherence/cancellation theorem before yielding mixed child state.  CF's global pair-action criterion is unaffected.
+
+## Theorem CW — The resolved linearized NSE has an explicit connection/metric Cartan split
+
+For every smooth divergence-free resolved transporter `V`,
+\[
+\mathcal L_V=\mathbb P(V\cdot\nabla+\nabla V)
+=\mathcal K_V+\mathcal S_V,
+\]
+with
+\[
+\boxed{\mathcal K_V=\mathbb P(V\cdot\nabla+\Omega_V),\qquad
+\mathcal S_V=\mathbb P(S_V\,\cdot),}
+\]
+`K_V^*=-K_V` and `S_V^*=S_V`.  Thus the symmetric Wang owner is the literal resolved strain tensor; the skew owner is resolved transport/rotation modulo Leray gauge.
+
+## Theorem CX — Wang symmetric resolved work is exactly resolved material-metric velocity
+
+For the resolved flow deformation `F_V`, `H_V=F_V^{-T}`, `M_V=F_V^TF_V`,
+\[
+H_V\dot M_VH_V^T=2S_V.
+\]
+Hence for divergence-free probes
+\[
+\boxed{\langle f,\mathcal S_Vg\rangle
+=\frac12\int(H_V^Tf)^T\dot M_V(H_V^Tg)\,dx.}
+\]
+This is an equality of physical geometry, not an analogy or estimate.
+
+## Theorem CY — Complete event roles see a skew 2-form and one symmetric metric-velocity form
+
+For any complete orthogonal role family `w_a`, the matrices
+\[
+K_{ab}=\langle w_a,\mathcal K_Vw_b\rangle,
+\qquad S_{ab}=\langle w_a,\mathcal S_Vw_b\rangle
+\]
+obey `K^T=-K`, `S^T=S`.  Under any orthogonal role-coordinate change `O`,
+\[
+\boxed{K\mapsto O^TKO,\qquad S\mapsto O^TSO.}
+\]
+The entire symmetric role matrix is the coordinate matrix of the material metric-velocity bilinear form.  Interface versus diagonal strain is representation; the strain tensor is physical.
+
+## Theorem CZ — Wang and Kelvin share the symmetric tensor but not an identical skew connection
+
+For `A=S+Omega`, vector and transpose-dual material/covector generators have the same symmetric part and opposite skew parts:
+\[
+\boxed{A-A^T=[\omega]_\times,\qquad \operatorname{sym}A=\operatorname{sym}A^T=S.}
+\]
+Therefore Wang `S` identifies exactly with Kelvin metric strain, while Wang `K` may not be silently identified with a Kelvin connection without the correct transpose/clock/localization map.
+
+## Theorem DA — Kelvin reconstructed residual drift splits exactly into resolved strain, unresolved strain, and q.v.
+
+Using current Kelvin's exact law and any typed split `u=V+h`,
+\[
+\boxed{
+\frac d{d\sigma}\frac12|r|^2\Big|_{drift}
+=-r\cdot S_Vr-r\cdot S_hr+\nu\|\widehat Q\|_F^2.}
+\]
+The scalar cross dyad satisfies
+\[
+\boxed{
+\frac d{d\sigma}(\omega\cdot r)\Big|_{drift}
+=-2\omega\cdot S_Vr-2\omega\cdot S_hr+\operatorname{tr}\Gamma_{\omega r}.}
+\]
+Thus Kelvin and Wang probe the same local symmetric bilinear form `a.S_V b`, but they do not share a scalar currency.
+
+## Theorem DB — Resolved material metric velocity and full physical Kelvin metric velocity are non-equivalent
+
+Exact periodic Navier--Stokes shears provide both directions of the no-go.  A high-only shear can have `S_V=0` while `S_u!=0`; a low+high exact shear can be tuned at one point/time so `S_u=0` while `S_V!=0` and `S_h=-S_V`.  Hence only
+\[
+\boxed{S_u=S_V+S_h}
+\]
+is a valid full/resolved bridge.

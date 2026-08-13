@@ -849,3 +849,13 @@ Failure lineage retained rather than erased:
 - `31653241490`: CT-strengthened `M_eff` formula was paired with a stale old capacity constant `16` in exp49; synchronized to `64/27` without changing theorem constants.
 
 **CURRENT OPEN BRIDGE.**  The proof frontier is now the full-vector temporal source/ancestry attachment recorded in `docs/96_final_dense_heterochiral_source_attachment_frontier.md`: infinite positive net degree-one radial action must be exhausted on a recently funded dense first-shell heterochiral work law after resolved/deep routing, while CV shows that spin-2 azimuthal organization can cancel edgewise minority source.  No global-regularity theorem is claimed.
+
+## 2026-08-13 — CW–DB: resolved Wang strain is literal material metric work; Kelvin sees the same tensor with an unresolved correction
+
+**EXACT NSE OPERATOR IDENTITY / EXACT MATERIAL GEOMETRY.**  Re-audited Wang `main` `76e6ee97...` and the read-only resolved-contact theorem branch `9d615568...`; no upstream write occurred.  For the actual resolved linearized operator, `L_V=P(V·grad+grad V)`, the adjoint split is explicitly `K_V=P(V·grad+Omega_V)` and `S_V=P(S_V .)`.  The symmetric bilinear form is exactly `int f.S_V g`, and the resolved material metric satisfies `H_V Mdot_V H_V^T=2S_V`.  Therefore Wang `S` work is literally resolved material metric-velocity work.
+
+**RIGOROUS ROLE-GAUGE CONSEQUENCE.**  On any complete hard-role partition the K matrix is a skew 2-form and the S matrix is a symmetric metric-velocity form; orthogonal role changes act by congruence.  Off-diagonal interface strain is a coordinate reading of the same material tensor, not a new source.
+
+**EXACT KELVIN BRIDGE / OWNER TYPING.**  Re-audited Kelvin `8eb6bb1597...` read-only.  Its reconstructed residual drift uses full `S_u`.  Inserting the actual spectral split `u=V+h` gives exactly `-r.S_V r-r.S_h r+qv`; the `omega.r` cross drift likewise splits through the same bilinear tensor plus signed cross q.v.  Wang and Kelvin therefore share the local symmetric tensor owner, not a scalar bank.
+
+**COUNTEREXAMPLE/NO-GO.**  Vector and Kelvin/covector skew connections are transpose-dual and must not be silently identified.  Exact periodic NSE shears also show `S_V` neither determines nor is determined by full `S_u`; the unresolved strain correction is mandatory.

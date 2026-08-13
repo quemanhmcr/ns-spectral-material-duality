@@ -135,3 +135,9 @@ jobs:
         run: python experiments/exp57_spin2_azimuthal_cancellation.py
       - name: Rate critical Fourier participation and sparse ladder no-go
         run: python experiments/exp49_rate_critical_fourier_participation.py
+      - name: Resolved Cartan material metric bridge
+        run: python experiments/exp58_resolved_cartan_material_metric.py
+      - name: Role-space Cartan gauge dictionary
+        run: python experiments/exp59_role_space_cartan_gauge.py
+      - name: Kelvin resolved/full strain exact-NS no-go
+        run: python experiments/exp60_kelvin_resolved_full_strain_no_go.py
