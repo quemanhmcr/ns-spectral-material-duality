@@ -217,3 +217,5 @@ jobs:
         run: python experiments/exp97_enstrophy_value_space_current.py
       - name: Support edge owner renewal grammar
         run: python experiments/exp98_support_edge_owner_renewal_grammar.py
+      - name: Running record renewal owner split
+        run: python experiments/exp99_running_record_renewal_owner_split.py

@@ -3132,3 +3132,83 @@ For affine strain-spin `u=(-ax-Omega y,Omega x-ay,2az)` with `Omega'=2aOmega`, c
 ## Theorem JI — Owner admission now has a four-layer intrinsic causal order
 
 Current Kelvin's `theta->1` compatibility numerator selects the active support-edge lineage; the record owner margin `2sigma-delta` decides whether the edge grows; `mathfrak N` decides whether scale-free stretching efficiency is renewed; current Wang native service quotient separately controls whether material/ancestry observations carry independently certified recursive physical service.  These currencies are not identified.  The remaining recurrence seam is to bound positive renewal excess or force/resolve support-edge theorem-domain exits using native PDE ancestry/service structure.
+
+## Theorem JJ — The physical running enstrophy record has an exact intrinsic contact law
+
+Let `M=max_x e` and `Mrec(t)=max_(s<=t)M(s)`.  Then `Mrec` is absolutely continuous and a.e. `Mrec'=1_(M=Mrec)[M']_+`.  With `d vartheta=sqrt(Mrec)dt`, `Sigma=alpha/sqrt(Mrec)`, and `Delta_rec=nu(|grad omega|^2-Delta e)/Mrec^(3/2)` at the active maximum,
+\[
+\boxed{\rho_{rec}:=\frac{Mrec'}{Mrec^{3/2}}=1_{\{M=Mrec\}}[2\Sigma-\Delta_{rec}]_+.}
+\]
+The historical edge moves only at current-edge contact with positive physical owner margin.
+
+## Theorem JK — Running-record stretching efficiency obeys an exact Riccati law through subrecord excursions
+
+On a unique nondegenerate current maximizing lineage, `Sigma=alpha/sqrt(Mrec)` satisfies
+\[
+\boxed{\frac{d\Sigma}{d\vartheta}=-\Sigma^2+\mathfrak N_{rec}.}
+\]
+Because `Mrec` is flat whenever the current maximum lies below the old record, temporary decay of `M` cannot inflate `Sigma` merely by shrinking the normalization denominator.
+
+## Theorem JL — Running-record renewal splits into local core, geometry harvesting, and normalization
+
+The exact renewal excess is `N_rec=N_core+N_sweep+N_norm`, with
+\[
+\begin{aligned}
+\mathfrak N_{core}={}&\frac{|(I-\xi\xi^T)S\xi|^2}{Mrec}-\frac{\xi^T(\nabla^2p)\xi}{Mrec}
++\frac{\nu\xi^T\Delta S\,\xi}{Mrec}\\
+&+\frac{2\nu}{Mrec|\omega|}\Delta\omega\cdot(S\xi-\alpha\xi),
+\end{aligned}
+\]
+`N_sweep=((xdot_*-u).grad alpha)/Mrec`, and `N_norm=-(1/2)Sigma rho_rec`.  These are distinct causal currencies.
+
+## Theorem JM — Running-record normalization is never a positive renewal source
+
+`rho_rec>=0`.  If `Sigma>=0`, `N_norm<=0`.  If `Sigma<0`, then `2Sigma-Delta_rec<0` at record contact and hence `rho_rec=0`; off contact it is also zero.  Therefore
+\[
+\boxed{\mathfrak N_{norm}\le0\quad\text{always}.}
+\]
+No subrecord decline can mint positive renewal through denominator shrinkage.
+
+## Theorem JN — Geometry harvesting is an exact inverse-Morse-metric coupling
+
+At a strict nondegenerate maximum put `G=-H_e>0`, `Ghat=G/Mrec^(3/2)`, `gahat=grad alpha/Mrec^(3/4)`, and `gRhat=grad R/Mrec^(7/4)`.  Then
+\[
+\boxed{\frac{\dot x_*-u}{Mrec^{1/4}}=\widehat G^{-1}\widehat g_R,\qquad
+\mathfrak N_{sweep}=\widehat g_\alpha^T\widehat G^{-1}\widehat g_R.}
+\]
+The inverse-Morse Cauchy bound follows.  Harvesting requires a nonflat specific-stretching landscape coupled to critical relative drift; speed alone is insufficient.
+
+## Theorem JO — The transverse core face is literal vorticity-direction turning
+
+The unit-vorticity equation gives
+\[
+(I-\xi\xi^T)S\xi=D_t\xi-\nu(I-\xi\xi^T)\Delta\omega/|\omega|.
+\]
+Hence the nonnegative transverse term in `N_core` is the running-record-normalized square of material direction turning after subtracting viscous orientation drift.  For Euler it is exactly `|D_t xi|^2/Mrec`.
+
+## Theorem JP — Eventual nonpositive running-record renewal excludes finite-time record divergence across dips
+
+If from some `vartheta_0` onward one differentiable nondegenerate maximizing branch persists and `N_rec<=0`, then `Sigma'<=-Sigma^2`.  For `Sigma_0>0`, `Sigma<=Sigma_0/(1+Sigma_0 Delta vartheta)` and
+\[
+\boxed{Mrec(vartheta)\le Mrec_0[1+Sigma_0\Delta\vartheta]^2.}
+\]
+For `Sigma_0<=0`, `rho_rec=0`.  Since `dt/dvartheta=Mrec^{-1/2}`, the record cannot diverge at finite physical time.  This remains valid through arbitrary subrecord excursions.
+
+## Theorem JQ — A hypothetical finite-time unbounded record has a core/harvesting/domain-exit trichotomy
+
+If the running enstrophy record becomes unbounded at a finite endpoint, arbitrarily late behavior must contain at least one of: positive local core renewal `N_core>0`; positive geometry harvesting `N_sweep>0`; or exit from the unique nondegenerate support-edge theorem domain.  JP forces positive total renewal unless the domain exits, while JM forbids the normalization face from supplying that positivity.  This is a reduction, not a termination theorem.
+
+## Theorem JR — Exact periodic ABC separates suppressive local renewal from positive geometry harvesting
+
+At the fixed strict ABC critical point `(pi/4,pi/4,pi/4)`, `S=0`, `alpha=0`, and with the running record anchored at `t=0`, `Mrec=3`.  For viscous amplitude `a=e^{-nu t}`,
+\[
+\boxed{\mathfrak N_{core}=-\frac{2a^2}{3},\qquad
+\mathfrak N_{sweep}=+\frac{2a^2}{3},\qquad
+\mathfrak N_{norm}=0,\qquad
+\mathfrak N_{rec}=0.}
+\]
+The fixed critical point moves relative to the fluid and harvests an existing stretching landscape strongly enough to cancel pressure suppression without changing selected stretching efficiency.
+
+## Theorem JS — Singular critical speed is not geometry renewal and recurrence admission remains fail-closed
+
+For every exact x-shear `u=(U(y,t),0,0)`, `xi=e_z`, `S xi=0`, `alpha=0` and `grad alpha=0`; hence `N_sweep=0` on every critical sheet.  The exact two-mode merger has critical speed diverging like `1/d` while this harvesting face stays zero.  Combined with Wang's native-service fail-close and Kelvin's signed moving-readout law, raw critical speed, selector motion or material address cannot be admitted as a new renewal/generation owner without independent physical evidence.

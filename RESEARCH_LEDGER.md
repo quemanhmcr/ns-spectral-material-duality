@@ -1251,3 +1251,11 @@ Corrected bridge Action `31689876267` is **completed/success**.  Exp97 outputs: 
 **OPEN BRIDGE.**  The next seam is no longer generic event counting.  It is to decompose/bound positive renewal excess by native finite-capacity owners or prove that repeated support-edge theorem-domain exits cannot remain admissible under full Kelvin/Nanson ancestry and Wang native-service causality.  No restart/continuation/global-regularity claim.
 
 **JA–JI ACTION CERTIFICATE.**  GitHub Actions `31707632509` on theorem SHA `51033a4f1d7a0918fe8cf157182b6e179e5d2d90` completed successfully.  Exp98: global-max and support-defect residuals `0`; constant-affine Riccati `1.202e-17`, zero-renewal `5.512e-17`, exact quadratic-bound saturation `1.722e-16`; accelerating-affine NSE symmetry `1.479e-16`, positive-renewal `1.860e-16`, Riccati `5.551e-16`, `M(T-t)^2` `1.472e-16`; PASS.  No continuation/global-regularity claim.
+
+## 2026-08-13 — JJ–JS: running-record renewal gauge
+
+**EXACT PDE STRUCTURE.** The monotone enstrophy running record gives a Riccati efficiency law whose renewal term splits into local core, geometry harvesting, and record normalization. The normalization face is never positive.
+
+**RIGOROUS CONSEQUENCE.** Eventual nonpositive total renewal on one persistent nondegenerate maximizing branch forces a quadratic record bound in intrinsic time and rules out finite-physical-time record divergence on that branch, including through subrecord excursions.
+
+**OPEN BRIDGE.** A hypothetical finite-endpoint unbounded record must use positive local core renewal, positive geometry harvesting, or support-edge theorem-domain exit arbitrarily late. No termination or global-regularity claim.
