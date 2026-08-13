@@ -169,3 +169,5 @@ jobs:
         run: python experiments/exp73_kelvin_mode_top_form_sl2.py
       - name: Material holonomy helical phase bridge
         run: python experiments/exp74_material_holonomy_helical_phase.py
+      - name: Common Wang Kelvin nonaffine Hessian jet
+        run: python experiments/exp75_common_nonaffine_hessian_jet.py

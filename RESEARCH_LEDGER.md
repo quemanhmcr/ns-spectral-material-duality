@@ -929,3 +929,9 @@ Failure lineage retained rather than erased:
 **EXACT CROSS-PROGRAMME COMMUTATOR.**  The trace-free transverse generator already used by Wang is the trace-free material metric velocity from repo 3.  Its noncommutator is a real `SO(2)` polar-rotation generator; in the circular/helical basis the same matrix is opposite imaginary phase on the two helicities.  The anisotropy-area coefficient is common-frame invariant.
 
 **EXACT NSE CALIBRATION / SCOPE.**  A time-dependent symmetric trace-free affine NSE family realizes nonzero commutator curvature with a fixed transverse carrier.  Its second Magnus term is explicit.  This identifies local holonomy algebra only; higher time-ordering and transfer/recurrence remain separate.
+
+## 2026-08-13 — EP–ES: Wang Gaussian exit and Kelvin finite-shape nonaffinity share the exact same normalized Hessian jet
+
+**READ-ONLY UPSTREAM BRIDGE / EXACT IDENTITY.**  Wang's grain-normalized velocity-curvature tensor `B` and Kelvin's codeforming quadratic jet `J_2(L)` are identical index by index.  Kelvin's leading nonaffinity field is `(1/2)B[xi,xi]`; Wang's first transverse Gaussian shape exit sees only `Sym B` after its tangent-manifold quotient.
+
+**EXACT NS CALIBRATION / NO-GO.**  The quadratic heat shear activates both channels from one physical Hessian jet.  A smooth periodic divergence-free jet has `Sym B=0` but `B!=0`, proving that Wang third-Hermite transverse forcing cannot replace Kelvin total codeforming nonaffinity.  The common object is the full Hessian jet before representation-specific quotienting.

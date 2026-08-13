@@ -2375,3 +2375,31 @@ The exact second Magnus face is
 \boxed{\Omega_2(T)=-(d\gamma T^3/6)J,}
 \]
 which becomes opposite diagonal helical phases.  No claim is made that higher Magnus terms vanish or that this local holonomy is a global transfer cost.
+
+## Theorem EP — Wang grain curvature and Kelvin codeforming quadratic jet are exactly the same tensor
+
+Current Wang defines
+\[
+B_{abc}=(L^{-1})_{ai}(\partial_j\partial_ku_i)L_{jb}L_{kc},
+\]
+while current Kelvin defines `J_2(L)=L^{-1}(nabla^2u)L^(tensor 2)`.  Therefore
+\[
+\boxed{B=\mathfrak J_2(L)}
+\]
+index by index.  The quadratic Kelvin codeforming field begins as `N_L(xi)=(1/2)B[xi,xi]`.
+
+## Theorem EQ — Wang and Kelvin take different physical quotients of the common nonaffine Hessian jet
+
+Wang's first genuine Gaussian packet-shape exit satisfies
+\[
+\boxed{\|F_\perp\|_2^2/\|\psi\|_2^2=(3/8)\|\operatorname{Sym}B\|_F^2,}
+\]
+where affine/tangent packet parameters have been quotiented.  Kelvin's codeforming position/area and moment-tower laws use the full `B`.  Hence the common cause is `B`, while the observables are non-equivalent projections.
+
+## Theorem ER — Exact quadratic heat shear activates both nonaffine representations from one physical jet
+
+For exact NSE `u=(y^2+2nu t,0,0)` at the centered anchor with `L=I`, `B_122=2`; both `Sym B` and the Kelvin quadratic nonaffinity field are nonzero.  One exact NSE velocity-curvature event therefore feeds both programmes without temporal matching.
+
+## Theorem ES — `Sym B=0` does not imply Kelvin codeforming affinity
+
+The smooth periodic divergence-free state `u=(0,sin x sin z,-sin x sin y)` has, at the origin, nonzero Hessian tensor `B` with `Sym B=0`.  Wang's first third-Hermite transverse-shape forcing vanishes at that jet while Kelvin's quadratic codeforming field is nonzero.  The bridge must carry full `B` before programme-specific quotienting.
