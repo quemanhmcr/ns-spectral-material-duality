@@ -34,7 +34,7 @@ def main():
             gt = (-0.5*g/(M-a))*Mdot
             ga_over_g = -0.5/a + 0.5/(M-a)
             Ja = -c*g*(1.0 + a*ga_over_g)
-            continuity_res = max(continuity_res, rel(gt + Ja, 0.0))
+            continuity_res = max(continuity_res, rel(gt, -Ja))
 
             B = 4.0*k*k*np.sqrt((M-a)/a)
             K = 8.0*k*k*root
