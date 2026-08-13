@@ -1926,3 +1926,13 @@ Then the old heat-surviving vector has norm at most `(1/4)sqrt(eta/N)` and
 \]
 
 Thus late critical state is not only fresh in radial energy flux (BK) but has a definite recent nonlinear source-generated amplitude.  Applying CO to that state still requires a type-correct source-owner/cancellation disintegration.
+
+## Theorem CV — Edgewise mixed heterochiral birth does not descend to mixed child state without spin-2 coherence control
+
+Fix a child axis and rotate one strict heterochiral parent pair around it by `phi`.  After multiplying the parent-product phase by `exp(i phi)` so the `+` child source is aligned, rotational covariance gives
+
+\[
+\boxed{f_+(\phi)=f_+(0),\qquad f_-(\phi)=e^{2i\phi}f_-(0).}
+\]
+
+Thus two equally efficient positive-work atoms at `phi=0,pi/2` have `f_+^tot=2f_+(0)` but `f_-^tot=0`, despite CO giving nonzero minority birth on each atom.  For a rotated orbit the aggregate minority is controlled by the second angular harmonic `Q_2=E[e^{2i phi}]`.  Therefore CR/CO require an additional spin-2 source-coherence/cancellation theorem before yielding mixed child state.  CF's global pair-action criterion is unaffected.

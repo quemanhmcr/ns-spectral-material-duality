@@ -810,3 +810,9 @@ Re-audited Wang `76e6ee97efe2f014e67e2e2209b3f6228af7b0a5` read-only.  Its certi
 ### CO/CP referee ratio-coordinate provenance
 
 Action `31652859240` reached exp51 after all preceding corrected lanes passed.  The Stokes-polarization and minority-fraction identities were at `~1e-15`, while the direct quotient `|F+|/|F-|` produced a `2.054e-05` numerical residual near the strict-triangle boundary where the denominator tends to zero.  The referee now checks the equivalent cross-multiplied identity `F+(1-delta)=F-(1+delta)` in a native normalized residual.  No CO/CP hypothesis or theorem constant changed.
+
+## 2026-08-13 — CV: exact spin-2 azimuthal cancellation blocks a false polarization shortcut
+
+**COUNTEREXAMPLE/NO-GO.**  Rotational covariance around a fixed child axis, combined with a compensating common parent-product phase, leaves the `+` child source unchanged while multiplying the `-` source by `exp(2i phi)`.  Two individually efficient mixed-polarization atoms separated by `pi/2` therefore add in positive `+` work and cancel their minority source exactly.
+
+**OPEN BRIDGE SHARPENING.**  Edgewise CO/CR mixedness cannot be attached to child state without controlling the spin-2 angular order parameter of the actual source law (or routing its cancellation through an existing phase/geometry owner).  This no-go does not affect the global CF pair-action continuation criterion because each event's opposite-helicity recipient work remains real modal state injection.

@@ -131,5 +131,7 @@ jobs:
         run: python experiments/exp55_universal_pair_capacity_constant.py
       - name: Radial high tail fresh amplitude funding
         run: python experiments/exp56_fresh_amplitude_funding.py
+      - name: Spin2 azimuthal polarization cancellation
+        run: python experiments/exp57_spin2_azimuthal_cancellation.py
       - name: Rate critical Fourier participation and sparse ladder no-go
         run: python experiments/exp49_rate_critical_fourier_participation.py
