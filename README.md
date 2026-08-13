@@ -45,7 +45,9 @@ A small set of exact Navier--Stokes laws now organizes both upstream description
 - **projector gauge:** fixed roles display conservative `K` relink, connection-comoving roles absorb it into observer motion, while strain cannot be gauged away by an orthogonal frame;
 - **typed pressure:** `grad p` is gauge for divergence-free work/closed circulation, while `Hess p` is a real strain/material-metric curvature face;
 - **typed viscosity:** spectral enstrophy killing is exactly the full-state Kelvin q.v. trace/Dirichlet form, while the q.v. tensor contains additional directional information;
-- **first non-affine jet:** Wang's normalized velocity-Hessian tensor and Kelvin's codeforming quadratic jet are exactly the same tensor `B=L^{-1}(nabla^2u)L^(tensor 2)`, after which the two programmes take different quotients.
+- **full non-affine affine quotient:** Wang's Gaussian residual and Kelvin's anchor-Taylor residual differ exactly by an affine field, so all physical jets `p>=2` coincide; `B=L^{-1}(nabla^2u)L^(tensor 2)` is only the quadratic member, after which programme-specific quotients may differ;
+- **common synthesis functor:** genuine linear refinement/event synthesis forces the full tensor-square pair state, including cross pairs; diagonal-only bookkeeping is exact only under additional orthogonality;
+- **selector typing:** Kelvin's first-bad selector is a readout of a persistent physical library, not a universal transport map from the previously selected residual.
 
 The original metric dictionary remains in [`docs/01_common_deformation_dictionary.md`](docs/01_common_deformation_dictionary.md).  The current integrated bridge spine is in [`docs/122_core_pde_bridge_spine.md`](docs/122_core_pde_bridge_spine.md).
 
@@ -55,10 +57,10 @@ The center of this repository is **strengthening the Wang and Kelvin programmes 
 
 The highest-priority seams are now:
 
-1. identify a literal state-map/selector bridge between Wang physical roles/coherent ancestry and Kelvin current/germ state without losing connection, interface, q.v. or finite-reset faces;
-2. extend the exact common non-affine-jet dictionary beyond the quadratic Hessian layer where justified;
-3. carry the exact pressure and viscosity dictionaries through real moving/localized roles with every commutator and boundary face retained;
-4. continue read-only audits of Wang resolved-contact/HH routing and Kelvin current-shape/first-bad developments, adding equivalences **or no-go theorems** in this repository as the PDE dictates.
+1. build, or rule out, the literal cross-program state map with all required state attached: Eulerian/coherent field, material current/shape, clock/history, linear physical synthesis, and the persistent full pair/library state; a selected channel alone is not compositional;
+2. use the now-closed affine-quotient law for all `p>=2` physical jets, then derive only the programme-specific Hermite/moment readouts that are actually needed rather than reopening a fictitious higher-jet equivalence problem;
+3. carry the exact pressure and viscosity dictionaries through real moving/localized roles with every commutator, boundary face, q.v. cross block and clock face retained;
+4. continue read-only audits of Wang's resolved-contact plus pure-UV true-upward routing and Kelvin's frame-aware event/library/first-bad developments, adding exact equivalences **or no-go theorems** in this repository as the PDE dictates.
 
 Interaction phase, recurrence, and possible regularity consequences remain important downstream applications, but they are not allowed to replace the repository's primary PDE-first bridge task.
 
@@ -80,7 +82,8 @@ The action currently stress-tests, among other things:
 - spectral viscous killing versus Kelvin q.v. trace, including tensor-information no-gos;
 - affine wavefront radial transport versus fiber metric work;
 - Wang objective `SL(2)` polarization, carrier/top-form balance, and material/helical holonomy;
-- common Wang/Kelvin non-affine Hessian-jet identities and representation-kernel counterexamples.
+- common Wang/Kelvin full non-affine affine-quotient identities, Gaussian/anchor gauge mismatch, and representation-kernel counterexamples;
+- tensor-square refinement/pair coherence and finite-shape state-map no-gos.
 
 Every executable calibration is run in GitHub Actions and is treated only as an adversarial referee for manually derived claims.
 

@@ -38,12 +38,34 @@ For a smooth incompressible flow map with deformation gradient `F`:
 - objective strain: recovered from metric velocity;
 - connection/holonomy: the rotational/time-ordering information not contained in the symmetric metric alone.
 
+- full non-affine velocity class modulo affine motions: `[R_W]_/Aff=[N_L]_/Aff`, with common physical jets `J_p(L)` for every `p>=2`;
+- actual material current/shape and its linear synthesis maps;
+- persistent candidate-library/full pair state when hysteretic selector readout is allowed;
+- physical clock/replica/history data needed to distinguish same-clock transport from ancestry/future-bank state.
+
+## Current bridge frontier after affine-quotient closure
+
+The higher-jet field seam is no longer an open tower: it is one affine-quotient law.  The unresolved cross-program state problem is instead typed as
+
+\[
+\boxed{
+\text{Eulerian/coherent field}
++\text{material current/shape}
++\text{clock/history}
++\text{linear synthesis}
++\text{persistent full pair/library state}.}
+\]
+
+Current Kelvin further shows that a first-bad selector switch is a **readout change**, not a universal physical transport of the old selected residual, and that one same-replica packet library carries a full common-noise Gram tensor with genuine cross-germ blocks.  Those facts sharpen the state-map target; they do not supply the missing Wang→Kelvin current/library/clock instantiation.
+
 ## Non-equivalences that must be preserved
 
 - vortex stretching is not interscale Fourier energy transfer;
 - material metric anisotropy is not signed edge work;
 - covariance is not deterministic mean rank-one stretching;
 - stochastic ancestry time is not automatically physical recurrence time;
+- selector readout is not physical packet transport;
+- diagonal child/germ energies or q.v. blocks are not a substitute for the full pair/Gram state;
 - passive connection motion is not positive production;
 - geometry/capacity is not causal work.
 

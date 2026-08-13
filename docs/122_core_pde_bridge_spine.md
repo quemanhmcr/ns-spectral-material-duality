@@ -260,40 +260,62 @@ Noncommuting trace-free strains then have one exact commutator which appears as:
 
 Thus Wang symplectic/helical geometry and repo-3 material holonomy are different basis readings of the same transverse metric-deformation algebra.
 
-## 9. First non-affine layer: both programmes use the same normalized Hessian jet
+## 9. Full non-affine seam: one exact affine-quotient law
 
-After the affine layer, current Wang and current Kelvin meet again at exactly one tensor:
+The quadratic Hessian bridge is now only the first derivative-level shadow of a stronger full-field statement.  In normalized material coordinates,
+
+\[
+v_W(z)=L^{-1}[u(X+Lz)-\dot X]
+=c+A_Lz+\mathcal N_L(z),
+\]
+
+while Wang's Gaussian best-affine residual is
+
+\[
+R_W=v_W-\bar v-\bar A z.
+\]
+
+Therefore
 
 \[
 \boxed{
-B
-=L^{-1}(\nabla^2u)L^{\otimes2}
-=\mathfrak J_2(L).
-}
+R_W-\mathcal N_L
+=(c-\bar v)+(A_L-\bar A)z\in\mathrm{Aff}.}
 \]
 
-Wang then projects this common physical curvature through its Gaussian tangent quotient:
+The two full residual fields are not identical, but they define exactly one physical non-affine class:
 
 \[
-B\mapsto\operatorname{Sym}B
-\mapsto\text{third-Hermite packet-shape forcing}.
+\boxed{[R_W]_{/\mathrm{Aff}}=[\mathcal N_L]_{/\mathrm{Aff}}.}
 \]
 
-Kelvin keeps the full tensor in its codeforming residual field and surface-moment tower:
+Every higher physical jet is then forced, not guessed:
 
 \[
-B\mapsto\frac12B[\xi,\xi]
-\mapsto\text{position/area/moment transport}.
+\boxed{
+D^pR_W=D^p\mathcal N_L
+=L^{-1}(\nabla^p u)L^{\otimes p},
+\qquad p\ge2.}
 \]
 
-A divergence-free kernel example has
+Thus the old “higher-jet seam” has collapsed at field level.  The common Hessian
 
 \[
-\operatorname{Sym}B=0,
-\qquad B\ne0,
+B=L^{-1}(\nabla^2u)L^{\otimes2}=\mathfrak J_2(L)
 \]
 
-so these programme-specific quotients are provably non-equivalent even though the physical cause is exactly common.
+is simply the `p=2` member of this one quotient law.  Programme-specific readouts can still discard information: Wang's third-Hermite transverse shape sees `Sym B`, while Kelvin's codeforming surface dynamics keeps the full `B`; the exact divergence-free kernel with `Sym B=0` but `B\ne0` remains a no-go against identifying those quotients.
+
+Only **after** this exact typing may a norm be used.  Gaussian orthogonality gives
+
+\[
+\|\mathcal N_L\|_\rho^2
+=\|R_W\|_\rho^2
++|\bar v-c|^2
++\operatorname{tr}[(\bar A-A_L)C_\rho(\bar A-A_L)^T],
+\]
+
+so `R_W` is the minimal `L^2(rho)` representative of the common affine class and the Kelvin excess is exactly affine-gauge mismatch.  This residual norm is **not** Wang's coherent deformation variance `K_C^2=E||grad W-Abar||_F^2`.
 
 ## 10. Current Wang/Kelvin dictionary
 
@@ -308,18 +330,29 @@ so these programme-specific quotients are provably non-equivalent even though th
 | viscous enstrophy loss | spectral killing | `1/2 tr Gamma_K` after full-state integration | **same scalar Dirichlet form** |
 | q.v. tensor | not determined by scalar killing | orientation-complete tensor | strictly richer directional information |
 | trace-free transverse `D` | helical conversion / `SL(2)` polarization | material metric holonomy | same transverse metric-deformation tensor |
-| normalized Hessian `B` | `Sym B` after Gaussian tangent quotient | full codeforming `J_2(L)` | **same input, different quotient** |
-| first-bad selector | no direct Wang identity | current/germ projector with finite events | state-map bridge remains open |
+| full non-affine field | Gaussian best-affine residual `R_W` | anchor-Taylor residual `N_L` | **same class modulo `Aff`; distinct gauges** |
+| higher jet `J_p`, `p>=2` | derivatives of Gaussian residual before programme-specific Hermite readout | derivatives of codeforming nonaffinity | **exactly the same physical jet** |
+| normalized Hessian `B=J_2` | `Sym B` after third-Hermite transverse quotient | full codeforming `J_2(L)` | **same input, different quotient** |
+| linear synthesis/refinement | coherent child sum with cross-pair energy | frame-aware current/event synthesis | **same tensor-square functor; cross pairs are physical** |
+| first-bad selector | no direct Wang identity | readout `E_g` of a persistent germ library, not physical transport | state-map must retain hidden library/full pair state |
 
 ## 11. What remains central
 
 The next core questions are not “can this already prove regularity?”  They are:
 
-1. **State-map/selector bridge.**  Identify the literal map, if one exists, from Wang physical roles/coherent ancestry to Kelvin current/germ state while preserving the Cartan defect `G_P`, connection orientation, and finite jump semantics.
-2. **Higher non-affine jets.**  Determine whether Wang higher packet-normal directions and Kelvin `J_p(L)` moment tower share the same higher physical jets before programme-specific quotienting.
-3. **Localized pressure/viscosity.**  Push the exact full-state pressure/Dirichlet dictionaries through actual smooth roles without losing commutator, boundary, q.v. or clock faces.
-4. **Resolved-contact branch semantics.**  Continue to audit Wang's native PDE contact binding and place each resulting K/S/HH branch into the material/current dictionary without modifying upstream.
-5. **Kelvin first-bad physical semantics.**  Use current Kelvin's full current-shape/residual laws to determine which selector/state quantities can descend literally and which remain open.
+1. **Literal state-map assembly.**  Any viable Wang→Kelvin lift must now preserve, as separately typed state data,
+   \[
+   oxed{	ext{Eulerian/coherent field}
+   +	ext{material current/shape}
+   +	ext{clock/history}
+   +	ext{linear physical synthesis}
+   +	ext{persistent full pair/library state}.}
+   \]
+   The selector is a readout of that state, not a substitute for physical transport.
+2. **Programme-specific readouts after quotient closure.**  The full higher-jet field seam is closed by the affine-quotient law.  What remains is to derive only those Wang Hermite/packet and Kelvin surface/moment projections actually used by the two programmes, without pretending the quotients are identical.
+3. **Localized pressure/viscosity.**  Push the exact full-state pressure/Dirichlet dictionaries through actual smooth roles without losing commutator, boundary, q.v., common-noise cross blocks or clock faces.
+4. **Wang native branch semantics.**  Continue read-only placement of resolved-contact K/S/HH routing and the new pure-UV true-upward first-shell natural-window branch into the material/current dictionary without turning support/capacity into causal recurrence.
+5. **Kelvin first-bad library instantiation.**  Current Kelvin now has exact frame-aware event synthesis, projector traffic, event gauge normal form, selector-as-readout no-go, and same-replica Gram dynamics.  The remaining literal seam is which physical candidate current library, shapes/frames, replica and clock the actual first-bad construction selects, plus control of its full pair/projector state and cross-clock ancestry lift.
 
 These tasks strengthen the two upstream programmes whether or not they eventually contribute to any global regularity argument.
 
