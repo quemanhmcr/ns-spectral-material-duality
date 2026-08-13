@@ -1177,3 +1177,7 @@ No upstream write was made.  No Zeno exclusion, recurrence assembly, continuatio
 **EXACT CALIBRATIONS.** Periodic one-mode heat shear has zero stretching and strictly decaying record through curvature diffusion.  Exact Euclidean affine strain-spin NSE has zero viscous defect and strictly growing enstrophy record owned purely by extensional vortex stretching, with an explicit first-hit time.
 
 **OPEN BRIDGE.** `log R` gives a necessary accumulated effective-stretching measure for any hypothetical unbounded record, but no bound on that measure is proved.  The next seam is whether NSE geometry/transport/ancestry forces depletion, cancellation, donor exhaustion or owner reuse on record-growth states.  No recurrence/restart/continuation/termination/global-regularity claim.
+
+### HS–HZ Action certification
+
+Theorem SHA `455dd2d70b3a39858789a17044af5a14cf2fa0c2` is certified by bridge Action `31686689214` (**completed/success**).  Exact exp94 outputs: heat-shear PDE residual `1.235e-16`; active-record owner residual `1.004e-16`; largest heat-shear record rate `-5.318182e-03`; affine NSE matrix residual `7.081e-17`; pure-stretching owner residual `0`; affine minimum positive owner margin `1.207224`; first-hit and first-hit-stretching residuals `0`; exact ranking tie residual `0` with both candidates decaying (largest rate `-6.008887e-01`) while the ranking gap crosses; seven selector switches below the old record produce exactly zero record increment.  PASS.

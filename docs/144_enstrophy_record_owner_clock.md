@@ -519,3 +519,24 @@ The record clock is not allowed to count:
 unless those events coincide with an independently witnessed positive local owner rate that raises the actual enstrophy record.
 
 This is a PDE-derived owner projection, not a human-imposed recurrence rule.
+
+---
+
+## Action certification
+
+The executable theorem batch at SHA `455dd2d70b3a39858789a17044af5a14cf2fa0c2` passed bridge Action `31686689214`.
+
+Key exact/referee signals from `exp94_enstrophy_record_owner_clock.py`:
+
+- heat-shear PDE residual: `1.235e-16`;
+- heat-shear active-record owner residual: `1.004e-16`;
+- heat-shear largest record rate: `-5.318182e-03`;
+- affine strain-spin NSE matrix residual: `7.081e-17`;
+- affine pure-stretching owner residual: `0`;
+- affine minimum positive owner margin: `1.207224`;
+- exact first-hit residual: `0`;
+- first-hit stretching formula residual: `0`;
+- ranking-crossing active tie residual: `0`, while both candidate rates remain negative;
+- seven closed/subrecord selector switches: physical record increment `0`.
+
+**Label: ACTION STRESS TEST.**
