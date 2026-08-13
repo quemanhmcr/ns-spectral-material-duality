@@ -816,3 +816,7 @@ Action `31652859240` reached exp51 after all preceding corrected lanes passed.  
 **COUNTEREXAMPLE/NO-GO.**  Rotational covariance around a fixed child axis, combined with a compensating common parent-product phase, leaves the `+` child source unchanged while multiplying the `-` source by `exp(2i phi)`.  Two individually efficient mixed-polarization atoms separated by `pi/2` therefore add in positive `+` work and cancel their minority source exactly.
 
 **OPEN BRIDGE SHARPENING.**  Edgewise CO/CR mixedness cannot be attached to child state without controlling the spin-2 angular order parameter of the actual source law (or routing its cancellation through an existing phase/geometry owner).  This no-go does not affect the global CF pair-action continuation criterion because each event's opposite-helicity recipient work remains real modal state injection.
+
+### CT downstream exp49 constant-sync provenance
+
+Action `31653241490` passed CO/CP, CQ, CR, CS, CT and CU lanes, then exp49 exposed one stale implementation constant: the required `M_eff` had been strengthened using CT's `64/27` capacity, while `upper_at_required` still used the old crude `16`.  The resulting `0.7419` equality residual compared two different formulas rather than testing the theorem.  The referee is synchronized to `64/27`; no theorem hypothesis or constant changed.

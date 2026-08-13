@@ -38,7 +38,7 @@ def main():
         E=float(rng.uniform(1e-5,4.0))
         lower=nu*N**3*E/128.0
         required=(27.0*nu*N/(8192.0*np.sqrt(E)))**2
-        upper_at_required=16.0*N**2*np.sqrt(required)*E**1.5
+        upper_at_required=(64.0/27.0)*N**2*np.sqrt(required)*E**1.5
         rate=max(rate,abs(lower-upper_at_required)/(1.0+abs(lower)+abs(upper_at_required)))
 
         M0=float(rng.uniform(1.0,64.0))
