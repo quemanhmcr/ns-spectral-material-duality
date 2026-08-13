@@ -1191,3 +1191,7 @@ Theorem SHA `455dd2d70b3a39858789a17044af5a14cf2fa0c2` is certified by bridge Ac
 **EXACT SIGN CALIBRATIONS TO BE ACTION-CERTIFIED.**  Constant-strain affine NSE has positive pressure curvature equal to the positive strain-square face.  Viscous periodic ABC at `(pi/2,0,0)` has `P=0`, `Q_S=1`, pressure face `-5`, hence material owner derivative `-4`; pressure can overpower self-strain.  These examples type pressure as a signed regulator, not a universal sink/source.
 
 **OPEN BRIDGE.**  Record generation and stretching-owner persistence are now separate nested gates.  The next question is whether pressure/strain geometry plus material/donor ancestry constrains repeated fresh owner renewal.  No recurrence/termination/continuation/global-regularity claim.
+
+### IA–IH Action certification
+
+Theorem SHA `e76af8ef68dac706713e3897a4bbeef7e28e8357` is certified by bridge Action `31687505801` (**completed/success**).  Exp95 gives affine owner-law residual `0`, exact equality of self-strain and positive pressure-curvature faces (`0` residual), ABC full owner-law residual `1.831e-16`, inviscid-core residual `1.244e-16`, viscous-face residual `0`, pressure-Poisson trace residual `2.187e-16`.  At the exact ABC suppression point, `P≈2.45e-16`, `Q_S=1`, `C_p=-5`, and material owner derivative `-4`; pressure trace is `2` while the vorticity-direction contraction is `5`.  At the ABC origin, `P=Q_S=3`, pressure face `0`, advective owner derivative `3`.  PASS.

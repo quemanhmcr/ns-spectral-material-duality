@@ -378,3 +378,26 @@ This is closer to an endogenous causal grammar than an event taxonomy.  The seco
 The next open seam is to determine whether repeated **fresh** record-owner episodes can be forced to reuse bounded ancestry/donor/strain resources, or whether the pressure/strain system admits an unbounded renewal route.  Nothing here proves that the latter is impossible.
 
 **Label: RIGOROUS CONSEQUENCE + OPEN BRIDGE.**
+
+---
+
+## Action certification
+
+The executable theorem batch at SHA `e76af8ef68dac706713e3897a4bbeef7e28e8357` passed bridge Action `31687505801`.
+
+Exact/referee signals from `exp95_stretching_owner_self_constraint.py`:
+
+- affine stretching-owner residual: `0`;
+- affine self-strain/pressure-face equality residual: `0`;
+- minimum positive affine pressure-curvature face: `5.553230e-01`;
+- ABC full stretching-owner residual: `1.831e-16`;
+- ABC inviscid-core residual: `1.244e-16`;
+- ABC viscous-face residual: `0`;
+- ABC pressure-Poisson trace residual: `2.187e-16`;
+- ABC suppression point: `P=2.449294e-16`, `Q_S=1`, `C_p=-5`, `D_tP=-4`;
+- same point: pressure trace `2`, vorticity-direction pressure contraction `5`;
+- ABC origin: `P=3`, `Q_S=3`, pressure face `0`, advective owner derivative `3`.
+
+This batch extends the earlier pressure-Hessian deformation theorem (DX) by identifying the exact directional pressure-curvature face in the evolution of the now-PDE-certified record owner `P=omega.S.omega`.
+
+**Label: ACTION STRESS TEST.**
