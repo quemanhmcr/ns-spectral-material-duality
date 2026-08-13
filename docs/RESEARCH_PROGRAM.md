@@ -48,6 +48,9 @@ For a smooth incompressible flow map with deformation gradient `F`:
 - an explicit event type/clock distinguishing ranking crossing, critical-geometry degeneracy/support exit, selector/readout reset, physical packet event, and Wang hard nonlinear-work event.
 - own-local target/anchor state sufficient to form the affine event coboundary `d=A Omega_- - Omega_+` and its target-gradient noise face;
 - Wang selected-family Moyal boundary charge/provenance when inherited-stock sidecars are present, kept separate from physical work, stock, and smooth `K_phys`.
+- critical-lineage theorem domain: invertible `H_e` for isolated points or the active normal Hessian/shape operator plus support chart for symmetry sheets/manifolds;
+- selector/readout path accumulator when used, with exact one-hot law `tr J_Y=2N` on the arbitrary-finite crossing family;
+- branch ancestry kept separately from instantaneous packet-state equality at a merger.
 
 ## Current bridge frontier after affine-quotient closure
 
@@ -58,14 +61,15 @@ The higher-jet field seam is no longer an open tower: it is one affine-quotient 
 \text{Eulerian/coherent field}
 +\text{material current/shape}
 +\text{packet/frame state modulo passive gauge}
-+\text{critical-locus current/geometry when used or reconstructing jets}
++\text{critical-locus current/geometry and lineage theorem domain when used}
 +\text{typed ranking/geometry/selector/event clock-history}
-+\text{underlying physical event/synthesis }A
++\text{underlying physical owner/event/synthesis }A
 +\text{own-local target/anchor coboundary }d
++\text{typed boundary sidecars and inherited stock/ancestry when used}
 +\text{persistent library with full relative pair/Gram state}.}
 \]
 
-Current Kelvin further shows that a first-bad selector switch is a **readout change**, not universal physical transport; own-local target changes make the physical residual event affine rather than purely linear; one same-replica library carries a full common-noise Gram; and continuous-source revaluation is distinct from finite jump q.v.  Repo-3 adds closed-loop history, passive packet quotient, critical-current/material-current separation, local 2-jet branch-rate no-go, and arbitrary-finite exact-NS ranking crossings with zero nonlinear advection.  Current Wang independently proves that a positive selected-family Moyal boundary charge can have zero generation depth on an identical state.  These facts sharpen the state/event map; they do not supply the missing badness/resolve, target-generation, central/joint-stop owner integration, or assembly theorem.
+Current Kelvin further shows that a first-bad selector switch is a **readout change**, not universal physical transport; own-local target changes make the residual event affine; and exact head `d0c5863...` now instantiates one real critical-sheet merger.  Under a specified fixed-shape translated packet functor, the merger gives `A=E_0`, `d=0`, zero target-gradient coboundary, nonzero full same-replica cross blocks and zero selected physical packet jump, while different admissible packet shapes at the same scalar merger remain inequivalent and ancestry does not collapse.  Repo-3 adds passive packet quotient, critical-current/material-current separation, local 2-jet branch-rate no-go, exact `tr J_Y=2N`, a zero-depth owner-kernel condition, and compact-interval separation of ranking, lineage-degeneracy and nonlinear-owner clocks.  Current Wang independently proves that positive selected-family Moyal boundary charge can have zero generation depth on an identical state.  These facts sharpen the state/event map; they do not supply the missing badness/resolve, target/shape generation, endogenous selector local finiteness, central/joint-stop owner integration, ancestry identification, or assembly theorem.
 
 ## Non-equivalences that must be preserved
 
@@ -86,6 +90,9 @@ Current Kelvin further shows that a first-bad selector switch is a **readout cha
 - Kelvin own-local target reanchoring is not Wang passive material-carrier reanchoring;
 - Wang Moyal selected-family boundary energy is not Kelvin selector jump q.v. or target q.v. revaluation, even though all can be positive without hard nonlinear generation;
 - ranking/selector event count is not a physical generation-depth counter.
+- winner/readout equality is not critical-lineage-domain equality and is not physical-owner equality;
+- critical position/scalar coalescence is not canonical full Kelvin packet coalescence without a supplied physical packet functor;
+- instantaneous packet-state coalescence is not branch-ancestry identification.
 - passive connection motion is not positive production;
 - geometry/capacity is not causal work.
 
