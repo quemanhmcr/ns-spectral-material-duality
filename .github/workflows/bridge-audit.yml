@@ -195,3 +195,5 @@ jobs:
         run: python experiments/exp86_stock_vs_path_simultaneous_owner.py
       - name: Passive packet gauge physical ranking
         run: python experiments/exp87_passive_packet_gauge_physical_ranking.py
+      - name: Enstrophy critical current geometry
+        run: python experiments/exp88_enstrophy_critical_current_geometry.py

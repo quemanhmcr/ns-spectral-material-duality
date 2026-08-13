@@ -1070,3 +1070,16 @@ Failure lineage retained rather than erased:
 **COUNTEREXAMPLE/NO-GO.**  Raw coefficient ranking can be reversed by a passive basis choice while physical residual ordering stays fixed.  Exact one-mode NSE gives an even sharper calibration: opposite half-period residuals have equal physical energy, yet a passive gauge on one candidate produces a raw coefficient energy ratio `9` with no physical change.
 
 **CROSS-PROGRAM CONSEQUENCE.**  Wang hard roles and Kelvin first-bad selectors are not identified.  The common physicality rule is that event-role/selector logic must factor through the relevant physical equivalence class.  Raw packet coordinates are not bridge state unless the frame and passive-gauge quotient are carried explicitly.
+
+
+## 2026-08-13 — GL–GO: NSE enstrophy critical current, material-current no-go, and curvature-volume law
+
+**LATEST READ-ONLY INPUTS.**  Wang was refreshed read-only to `ff8259ab5e0a57dfb342b9453f149be95aa3f5d8`; its smooth material-carrier theorem keeps a genuine material carrier continuous between actual interactions and types common affine re-anchoring as gauge composition.  Kelvin was refreshed read-only to `54d8a361a6a3697e919484f24869ff880867b03d`; the exact PDE layers used here are local enstrophy growth `37c635f`, nondegenerate critical speed `c27d1f1`, and critical-Hessian evolution `884956e`, all with green exact-head upstream Actions.  No upstream write was made.
+
+**EXACT NSE/PDE IDENTITY.**  With `e=|omega|^2/2` and `R=omega.S.omega-nu|grad omega|^2+nu Delta e`, a differentiable nondegenerate critical branch obeys `H_e(xdot_*-u)+grad R=0`.  Through the exact Kelvin packet metric dictionary, the viscous face is the orientation-complete q.v. bulk, so the relative current is driven by gradients of stretching, Kelvin q.v. bulk, and curvature diffusion rather than by an observer score.
+
+**COUNTEREXAMPLE/NO-GO.**  Exact periodic ABC has a fixed strict nondegenerate enstrophy maximum at `(pi/4,pi/4,pi/4)` while the local fluid velocity is nonzero.  Hence enstrophy-critical current and material carrier current are not universally the same physical object.  Wang common-slice affine re-anchoring is gauge; this critical/material relative drift is physical.
+
+**EXACT CURVATURE-VOLUME CONSEQUENCE.**  The critical Hessian evolves by growth-landscape curvature + local fluid congruence + relative critical transport.  The congruence contributes exactly `-2 div u` to `d log|det H_e|/dt`, hence zero for incompressible flow, while Hessian shape can still evolve.  The remaining determinant-volume faces are `H_e^{-1} Hess R` and relative transport through `grad H_e`.
+
+**OPEN BRIDGE.**  This does not instantiate the actual first-bad germ.  If future first-bad logic uses a critical-locus candidate, its support/nondegeneracy, branch births/mergers, event clock, persistent library coupling, and relation to Wang genuine-owner recurrence must still be proved.  No recurrence/continuation/global-regularity claim.

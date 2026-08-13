@@ -2656,3 +2656,36 @@ For exact shear `u=e^{-nu k^2t}cos(ky)e_1`, the half-period Kelvin residual pair
 ## Theorem GK — Cross-program role/selector maps must act on physical equivalence classes, not representation gauges
 
 Kelvin first-bad logic must factor through the quotient `(H,epsilon)~(HS,S^T epsilon)`, equivalently through the physical residual or other gauge-invariant physical data.  Wang hard event roles remain distinct physical event-owner observables, not Kelvin selectors; the common bridge is only that role/selector decisions must be functions of physical state rather than arbitrary coordinate representatives.  A literal Wang--Kelvin state map therefore cannot treat raw packet coefficients as physical state without retaining the frame and quotienting the passive gauge.
+
+
+## Theorem GL — Navier--Stokes forces an exact relative current for every differentiable nondegenerate enstrophy critical branch
+
+Let `e=|omega|^2/2` and `R=omega.S.omega-nu|grad omega|_F^2+nu Delta e`.  If `grad e(x_*(t),t)=0` and `H_e=Hess e` is invertible, differentiating the critical constraint and the exact local enstrophy PDE gives
+\[
+\boxed{H_e(\dot x_*-u)+\nabla R=0,\qquad \dot x_*-u=-H_e^{-1}\nabla R.}
+\]
+Using the orientation-complete Kelvin packet identity `nu|grad omega|^2=(1/2)tr(Gamma_H M_H)`, the three physical drivers of the relative current are the gradients of vortex stretching, Kelvin q.v. bulk, and curvature diffusion.  A nondegenerate enstrophy critical branch is material exactly when `grad R=0` along it.
+
+## Theorem GM — A nondegenerate enstrophy critical current is not universally a material carrier
+
+For the exact viscously decaying periodic ABC Beltrami solution, `x_*=(pi/4,pi/4,pi/4)` is a fixed strict nondegenerate enstrophy maximum with `xdot_*=0`, while `u(x_*,t)=sqrt(2) A e^{-nu t}(1,1,1) != 0` and `det Hess e=-(1/2)A^6 e^{-6nu t}`.  Thus a material particle initially at the maximum immediately leaves the critical branch.  Therefore a Kelvin critical-locus candidate current cannot be universally identified with Wang's continuing material carrier current.
+
+## Theorem GN — Incompressibility cancels the local velocity-gradient contribution to enstrophy-critical curvature volume, not to curvature shape
+
+Along any differentiable enstrophy critical branch,
+\[
+\frac{d_*H_e}{dt}=\nabla^2R-(\nabla u)^TH_e-H_e\nabla u+((\dot x_*-u)\cdot\nabla)H_e.
+\]
+For nondegenerate `H_e`, the connection contribution to `d log|det H_e|/dt` is exactly `-2 div u`.  Hence incompressible Navier--Stokes obeys
+\[
+\boxed{\frac d{dt}\log|\det H_e|=\operatorname{tr}(H_e^{-1}\nabla^2R)+\operatorname{tr}[H_e^{-1}((\dot x_*-u)\cdot\nabla)H_e].}
+\]
+After substituting Theorem GL, the second face is the physical relative-transport correction driven by `-H_e^{-1}grad R`.  Zero connection contribution to determinant volume does not imply frozen Hessian shape or eigenstructure.
+
+## Theorem GO — Physical critical-locus drift cannot be quotiented as material affine re-anchoring gauge
+
+Wang's smooth material-carrier relay treats common affine re-anchoring of the same carrier as coordinate gauge, while a nondegenerate enstrophy critical locus satisfies a physical relative-current law.  If a material trajectory and critical branch coincide at `t_0`, then
+\[
+\boxed{\frac d{dt}(x_*-X_m)|_{t_0}=-H_e^{-1}\nabla R.}
+\]
+When nonzero this separates two physical loci and cannot be removed by re-anchoring without changing the tracked object.  Therefore any literal cross-program construction using an enstrophy-critical candidate must keep the material carrier and critical-locus current/geometry separately, or reconstruct the latter from the Eulerian field and required local jets.  This is not an identification of the actual Kelvin first-bad selector.
