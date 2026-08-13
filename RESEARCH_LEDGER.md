@@ -959,3 +959,9 @@ Failure lineage retained rather than erased:
 **READ-ONLY WANG/KELVIN INPUT / EXACT COMMON ALGEBRA.**  Wang coherent localization refines additively at the linear field level, while Kelvin residual state is synthesized linearly before covariance readout.  In both cases the quadratic state is forced by the tensor-square functor, so all cross-pair coherences are physical unless the refinement is genuinely orthogonal.
 
 **STATE-MAP ACCEPTANCE RULE.**  Kelvin's left/right/quadratic reset faces are exactly the finite-difference expansion of this universal pair law.  A future Wang-to-Kelvin linear state lift must therefore descend the full pair state by `J Q J^T` and preserve cross coherence; diagonal child energies or first moments are insufficient.  No common state-space identification is claimed.
+
+## 2026-08-13 — FE–FG: Wang and Kelvin full non-affine fields are the same physical defect modulo affine gauge
+
+**READ-ONLY UPSTREAM DEFINITIONS / EXACT QUOTIENT BRIDGE.**  Wang's normalized velocity and Kelvin's codeforming field satisfy `v_W=c+A_L z+N_L`.  Therefore Wang's Gaussian least-squares remainder and Kelvin's anchor-Taylor remainder differ only by an affine function.  They define the same class modulo affine motions, and every derivative order `p>=2` is exactly the same Kelvin codeforming jet `J_p(L)`.
+
+**EXACT NSE GAUGE NO-GO.**  Periodic one-mode shear shows the full residual fields are not equal: Wang's Gaussian affine slope differs from Kelvin's anchor derivative, while their higher jets coincide.  Higher-jet bridge work should therefore begin from this common affine-quotient field and only then apply programme-specific Hermite/moment projections; no p-by-p equivalence is to be guessed by pattern.

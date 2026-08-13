@@ -2485,3 +2485,23 @@ For `A_+=A_-+Delta A`,
 \boxed{\Delta Q=\Delta A\mathbb Q A_-^T+A_-\mathbb Q\Delta A^T+\Delta A\mathbb Q\Delta A^T.}
 \]
 Thus any future linear Wang-to-Kelvin state lift must preserve the full pair pushforward and cross coherence; first moments or diagonal child energies alone cannot define the quadratic state bridge.
+
+## Theorem FE — Wang and Kelvin full non-affine velocity fields differ exactly by an affine gauge
+
+With Wang normalized velocity `v_W=L^{-1}[u(X+Lz)-Xdot]`, put `c=L^{-1}[u(X)-Xdot]` and `A_L=L^{-1}(grad u(X))L`.  Kelvin's codeforming field satisfies `v_W=c+A_L z+N_L`.  Therefore Wang's Gaussian remainder `R_W=v_W-vbar-Abar z` obeys
+\[
+\boxed{R_W-N_L=(c-vbar)+(A_L-Abar)z\in\mathrm{Aff}.}
+\]
+Hence `[R_W]_/Aff=[N_L]_/Aff` exactly.
+
+## Theorem FF — All higher physical jets of the two full non-affine fields coincide
+
+For every smooth state and every `p>=2`,
+\[
+\boxed{D^pR_W(0)=D^pN_L(0)=L^{-1}(\nabla^p u(X))L^{\otimes p}=\mathfrak J_p(L).}
+\]
+This identifies the common higher physical input without asserting a separate Wang packet-normal/Hermite formula at every order.
+
+## Theorem FG — Wang Gaussian affine gauge and Kelvin anchor affine gauge are non-identical in exact periodic NSE
+
+For exact shear `u=(e^{-nu t} sin y,0,0)` at `X=0,L=I`, Kelvin has `N=e^{-nu t}(sin y-y)e_1`, while Wang's centered Gaussian affine fit gives `R_W=e^{-nu t}(sin y-kappa_rho y)e_1` with `0<kappa_rho<1`.  Their difference is nonzero affine, while all derivatives of order at least two agree.

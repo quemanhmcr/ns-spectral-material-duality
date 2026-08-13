@@ -177,3 +177,5 @@ jobs:
         run: python experiments/exp77_wang_field_kelvin_shape_no_go.py
       - name: Common refinement tensor-square pair functor
         run: python experiments/exp78_common_refinement_pair_functor.py
+      - name: Wang Kelvin full nonaffine affine-gauge quotient
+        run: python experiments/exp79_wang_kelvin_affine_gauge_quotient.py
