@@ -460,3 +460,27 @@ The next literal seam is therefore narrower:
 5. only then define hard-generation depth and attempt local finiteness/termination.
 
 No Zeno exclusion, recurrence assembly, restart, continuation or global-regularity theorem is claimed here.
+
+
+## 10. Action certification
+
+The theorem batch is executable at repo-3 SHA `f3ca29119ceab9cb0a56b36e6df1ea5c0771803b`.  GitHub Actions run `31685600783` completed **success**.  The exact exp93 log reports:
+
+- moving-loop Kelvin/Reynolds residual `2.696e-16`;
+- heat-equation residual `1.201e-16`;
+- moving-slab enstrophy four-face residual `7.720e-16`;
+- nonzero moving-slab sweep signal `1.021614e+01`;
+- tangential relative-motion kernel residual `5.572e-16`;
+- critical-merger distance-weighted sweep coefficient `4.028288033e-02`;
+- smallest-`d` coefficient residual `1.259e-04`;
+- smallest-`d` circulation continuity error `3.633e-05`;
+- Nanson merger history `Delta gamma=-5.167864107`;
+- endpoint residual-fiber tie residual `0`;
+- transport-frame history separation `5.529615`;
+- holonomy separation from identity `5.167864`;
+- holonomy determinant-one residual `1.110e-16`;
+- nonlinear advection `0`;
+- enstrophy stretching face `0`;
+- final status: **PASS**.
+
+**Label: ACTION STRESS TEST.**

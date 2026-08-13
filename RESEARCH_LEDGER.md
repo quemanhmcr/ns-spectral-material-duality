@@ -1163,5 +1163,5 @@ No upstream write was made.  No Zeno exclusion, recurrence assembly, continuatio
 - Imported read-only Kelvin head `4888b6e19293edc0950047fd2e52ad6b64fbe3ac`: Nanson transport retains a nontrivial merger history holonomy even when endpoint current/residual fiber coalesces.
 - Imported read-only Wang head `24a725798948d7067afae1976afb9c712fb23b47`: central/joint routing now enforces physical-stop first, typed material/Moyal sidecar second, while preserving genuine independently witnessed material service.
 - New necessary assembly rule: moving-boundary transfer remains a real transfer ledger but carries zero hard-generation depth unless an independent source/work owner is present.
-- Action stress test: `experiments/exp93_relative_boundary_transport_owner_law.py`; certification pending at commit time.
+- Action stress test `experiments/exp93_relative_boundary_transport_owner_law.py` certified on run `31685600783` at theorem SHA `f3ca29119ceab9cb0a56b36e6df1ea5c0771803b`: moving-loop residual `2.696e-16`, moving-slab four-face residual `7.720e-16`, tangential-kernel residual `5.572e-16`, endpoint residual-fiber tie `0`, nonzero frame-history separation `5.529615`, holonomy determinant residual `1.110e-16`; PASS.
 - No upstream writes. No Zeno, recurrence, restart, continuation, termination, or global-regularity claim.
