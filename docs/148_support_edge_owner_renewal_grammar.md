@@ -460,3 +460,29 @@ These arrows are **not identities of currency**.  Compatibility selects which ac
 The next open theorem is now sharply phrased: can positive `mathfrak N` itself be reduced to a finite-capacity/reused set of native PDE owners, or can support-edge theorem-domain exits accumulate indefinitely while the full Kelvin/Wang physical state stays admissible?
 
 **Label: RIGOROUS CROSS-PROGRAM CONSEQUENCE + OPEN BRIDGE.**
+
+---
+
+## 10. Action certification
+
+The theorem batch was audited on GitHub Actions run `31707632509`, executable SHA `51033a4f1d7a0918fe8cf157182b6e179e5d2d90`, with conclusion **success**.
+
+Selected exp98 metrics:
+
+- four-mode global-max residual: `0`;
+- right/left support-edge defect residuals: `0 / 0`;
+- constant-affine NSE symmetry / specific-stretching residuals: `0 / 0`;
+- constant-affine Riccati residual: `1.202e-17`;
+- constant-affine zero-renewal residual: `5.512e-17`;
+- exact no-renewal bound saturation residual: `1.722e-16`;
+- accelerating-affine NSE symmetry residual: `1.479e-16`;
+- accelerating-affine specific-stretching residual: `8.739e-17`;
+- accelerating-affine positive-renewal residual: `1.860e-16`;
+- accelerating-affine Riccati residual: `5.551e-16`;
+- `M(T-t)^2` residual: `1.472e-16`;
+- accelerating renewal signal: `9.918667e-01`;
+- PASS.
+
+The accelerating affine calibration remains explicitly nonperiodic/infinite-energy and is not a regularity counterexample.
+
+**Label: ACTION STRESS TEST.**
