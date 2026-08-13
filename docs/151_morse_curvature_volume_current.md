@@ -389,3 +389,5 @@ This sits beside, but is not identified with,
 The remaining hard problem is to prove a capacity/nonaccumulation law across these typed channels near a candidate terminal endpoint.  No termination, restart, continuation, or global-regularity theorem is claimed.
 
 **Label: RIGOROUS CONSEQUENCE + OPEN BRIDGE.**
+
+**KD–KN ACTION CERTIFICATE.** Action 31714985899 on theorem SHA d9af664d5c15974b2b1def115fcaad59c48fd92a: connection 9.770e-15; similarity 1.597e-15; ABC determinant 1.839e-16; merger derivative identity 1.627e-16; G_n/d^2 residual 2.812e-12; d-squared log-rate residual 9.409e-17; negative log-volume drop 2.150569e+01; negative log-rate signal 1.860000e+10; nonlinear advection 0; PASS.
