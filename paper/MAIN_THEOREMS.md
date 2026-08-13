@@ -1910,3 +1910,19 @@ The proof splits `K=max(b,c)`: when `K=c`, area `<=ab/2` and the triangle interv
 \]
 
 strengthening CL/CR.  In CR the fixed-critical mean-efficiency constant becomes `rho_0=27/(8192 sqrt(V_0M_0))`.
+
+## Theorem CU — A late critical high-frequency shell has a definite recent nonlinear Duhamel amplitude
+
+For `u_R=P_(|k|>=R)u`, the exact mild equation gives `u_R(t)=exp(nu L Delta)u_R(t-L)+G_R`.  If a terminal shell satisfies `N||P_Cu(t)||_2^2>=eta`, choose
+
+\[
+L_N^{amp}=\frac1{\nu R^2}\log\left(4\sqrt{E_*N/\eta}\right).
+\]
+
+Then the old heat-surviving vector has norm at most `(1/4)sqrt(eta/N)` and
+
+\[
+\boxed{\|G_R\|_2\ge(3/4)\sqrt{\eta/N}.}
+\]
+
+Thus late critical state is not only fresh in radial energy flux (BK) but has a definite recent nonlinear source-generated amplitude.  Applying CO to that state still requires a type-correct source-owner/cancellation disintegration.

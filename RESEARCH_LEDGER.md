@@ -802,3 +802,7 @@ Re-audited Wang `76e6ee97efe2f014e67e2e2209b3f6228af7b0a5` read-only.  Its certi
 **RIGOROUS TRIAD GEOMETRY.**  Every heterochiral pair-creation coefficient satisfies `eta_pair<=4sqrt(2)/27`.  This is proved analytically by separate `K=c` and `K=b` triangle envelopes, not inferred from Action search.
 
 **RIGOROUS DOWNSTREAM STRENGTHENING.**  The aggregate comparable capacity improves from the intentionally crude constant `16` to `64/27`; CL participation and CR mean-efficiency constants were updated accordingly.  No physical hypothesis was changed.
+
+## 2026-08-13 — CU: heat memory erosion upgraded from fresh energy to fresh amplitude
+
+**EXACT MILD NSE / RIGOROUS CONSEQUENCE.**  On a high-pass set, heat semigroup erases the old vector itself.  A terminal critical shell therefore forces a recent nonlinear Duhamel contribution of at least `3/4` of the critical amplitude after a logarithmic natural-scale window.  This supplies the missing amplitude-side input for future polarization attachment; inter-atom/time cancellation remains a separately typed phase phenomenon.
