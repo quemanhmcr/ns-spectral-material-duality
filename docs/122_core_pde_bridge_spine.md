@@ -484,3 +484,16 @@ D_tP=\omega^TS^2\omega-\omega^T(Hess p)\omega+V_P.
 \]
 
 The first term is nonnegative self-strain, while the pressure face is a signed directional curvature determined by the global incompressibility solve `-Delta p=|S|^2-|omega|^2/2`; viscosity has its own diffusion/gradient-conversion decomposition.  Exact affine strain--spin and periodic ABC calibrations realize opposite pressure signs.  Thus the common spine now has two nested owner gates: actual record growth requires stretching dominance, and persistence/renewal of stretching is itself constrained by strain square, pressure curvature and viscosity.
+
+
+## Endogenous moving-readout refinement after II--IQ
+
+The Eulerian moving localization can now be generated directly from the physical enstrophy field.  For every regular superlevel boundary `e=lambda(t)`,
+
+\[
+(V-u)\cdot n=\frac{R-\dot\lambda}{|\nabla e|}.
+\]
+
+For fixed levels, coarea integrates the boundary owner flux over all `lambda` to `d/dt int e`; the certified BR--BT theorem then identifies the same global quantity with split variance minus merge variance minus viscous killing.  Current Kelvin `2227e1a` independently shows that a supplied moving Eulerian ancestry readout acts by signed **total** boundary population flux with no fourth covariance source.  If the ancestry density obeys `partial_t rho+div J_rho=0`, the correct composition is `(rho V-J_rho).n = rho(R-dot lambda)/|grad e| + (rho u-J_rho).n`: NSE level-set sweep plus intrinsic ancestry-current mismatch.  The second face vanishes for deterministic material transport and in Kelvin's audited uniform shear normal marginal, but not universally.
+
+This is the first exact chain in the spine from local PDE owner -> intrinsic moving geometry -> global enstrophy owner ledger -> ancestry moving-readout revaluation.  What remains open is which level rule is forced by the actual first-bad obstruction and how to cross critical/topology-changing levels.

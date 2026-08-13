@@ -1195,3 +1195,15 @@ Theorem SHA `455dd2d70b3a39858789a17044af5a14cf2fa0c2` is certified by bridge Ac
 ### IA–IH Action certification
 
 Theorem SHA `e76af8ef68dac706713e3897a4bbeef7e28e8357` is certified by bridge Action `31687505801` (**completed/success**).  Exp95 gives affine owner-law residual `0`, exact equality of self-strain and positive pressure-curvature faces (`0` residual), ABC full owner-law residual `1.831e-16`, inviscid-core residual `1.244e-16`, viscous-face residual `0`, pressure-Poisson trace residual `2.187e-16`.  At the exact ABC suppression point, `P≈2.45e-16`, `Q_S=1`, `C_p=-5`, and material owner derivative `-4`; pressure trace is `2` while the vorticity-direction contraction is `5`.  At the ABC origin, `P=Q_S=3`, pressure face `0`, advective owner derivative `3`.  PASS.
+
+## 2026-08-13 — II–IQ: endogenous enstrophy moving readout and local-to-global owner layer cake
+
+**NEW READ-ONLY KELVIN INPUT.**  Kelvin advanced during the previous Action to `2227e1a9d3fbe48de591cfee2d4d09fe09b4f1bf` (Action `31686276216`, success).  It composes physical Kelvin ancestry through a conditional lift into a supplied Eulerian moving localization, with exact intrinsic/resolution/localization covariance layers and signed Reynolds boundary revaluation; it explicitly leaves the programme-specific first-bad localization Open-literal.  No upstream write was made.
+
+**EXACT NSE LEVEL-SET LAW.**  For a regular enstrophy superlevel boundary `e=lambda(t)`, the outward relative speed is `(V-u).n=(R-dot lambda)/|grad e|`.  Consequently superlevel volume changes by the boundary integral of that owner mismatch, and the selected enstrophy has stretching, bulk viscosity, diffusive boundary flux, and signed moving-threshold revaluation as distinct faces.
+
+**LOCAL-TO-GLOBAL BRIDGE.**  Fixed-level coarea gives `int_0^infty int_(e=lambda) R/|grad e| = int R = d/dt int e`.  Combining with certified BR--BT yields the exact all-level identity `level-set owner flux = V_split - V_merge - nu Z`.  This is an integrated bridge only; no individual spectral atom is assigned to one level set.
+
+**KELVIN COMPOSITION.**  For an ancestry density satisfying `partial_t rho+div J_rho=0` on a compatible observation clock, the signed selected-mass gain is `(rho V-J_rho).n = rho(R-dot lambda)/|grad e| + (rho u-J_rho).n`.  The first face is NSE level-set sweep; the second is intrinsic ancestry/Fokker--Planck current mismatch and must not be discarded.  In deterministic material transport, and in Kelvin's exact uniform two-mode shear normal marginal, the second face vanishes and the calibrated flux reduces to `rho(R-dot lambda)/|grad e|`.  No extra selector covariance source is introduced.
+
+**OPEN BRIDGE.**  The actual first-bad level rule, critical-level topology changes, and a levelwise spectral/donor localization remain unproved.  No recurrence/restart/continuation/termination/global-regularity claim.

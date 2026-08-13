@@ -124,3 +124,10 @@ The programme should now attack the owner states themselves: determine whether e
 The HS--HZ clock identified `P=omega.S.omega` as the necessary positive owner of fresh enstrophy-record growth.  IA--IH now derives the exact material evolution of `P`: nonnegative `|S omega|^2`, signed directional pressure curvature, and viscous conversion.  Pressure is not an outside stabilizer; on the torus its Hessian is the nonlocal Riesz image of `|S|^2-|omega|^2/2`, so the whole incompressible field constrains the local owner.
 
 The next programme target is therefore owner *renewal*, not owner detection: determine whether repeated stretching-dominant record episodes must reuse/deplete bounded strain, pressure, material ancestry or donor resources.  Keep local record owner and global spectral donor owner distinct until an exact localization theorem connects them.
+
+
+## II--IQ programme update: let NSE supply the moving localization
+
+Current Kelvin now requires the first-bad/moving localization to come from an actual NS observable rather than an external threshold oracle.  Repo-3 supplies a canonical family: regular enstrophy superlevel sets.  Their relative boundary velocity is exactly `(R-dot lambda)/|grad e|`, so the local owner field itself drives ancestry/space population crossing.  Coarea then closes the all-level local flux to the global enstrophy and certified split/merge owner ledger.
+
+Do not overread this as a finished first-bad rule.  The remaining theorem must derive the physically forced level rule (or another obstruction), control critical-level topology/degeneracy, and only then ask whether owner renewal along that endogenous localization is finite.
