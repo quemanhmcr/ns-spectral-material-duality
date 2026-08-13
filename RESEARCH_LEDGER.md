@@ -911,3 +911,9 @@ Failure lineage retained rather than erased:
 **EXACT LOCAL-AFFINE GEOMETRY.**  A transported wavefront and a material area Hodge vector obey the same `-A^T` law.  Their log-radius rate is `-khat.S.khat`; connection rotates without radial change.  Material lines have the opposite strain sign.
 
 **PHYSICAL TYPING / NO-GO.**  The skew-adjoint transport inside Wang `K_V` can move spectral content across radius while conserving total `L^2`; the self-adjoint `S_V` operator is separate fiber/material metric work.  The same strain tensor appears in both representations, but radial scale progress must not be retyped as energy generation.
+
+## 2026-08-13 — EF–EI: deterministic vorticity curvature and Kelvin q.v. share the exterior-square representation but not the physical input
+
+**EXACT NSE SOURCE ANATOMY.**  `-Omega^2=(1/4)R2(omega omega^T)`, so the strain PDE splits exactly into strain self-action, transverse vorticity geometry, pressure Hessian and viscous diffusion.  Material metric acceleration adds the symmetric trace-free `[S,Omega]` orientation-coupling face.
+
+**CROSS-KELVIN REPRESENTATION / NO-GO.**  Kelvin q.v. enters stochastic geometry through the same `R2` functor applied to `Gamma_K`, but exact affine rotation and periodic shear show deterministic vorticity-amplitude curvature and gradient-q.v. curvature are independent in both directions.  The bridge is representation-theoretic, not a covariance/currency identification.

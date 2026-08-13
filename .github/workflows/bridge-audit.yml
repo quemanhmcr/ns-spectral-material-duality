@@ -163,3 +163,5 @@ jobs:
         run: python experiments/exp70_kelvin_qv_tensor_phase_no_go.py
       - name: Affine phase-space Cartan transport
         run: python experiments/exp71_affine_phase_space_cartan_transport.py
+      - name: Vorticity dyad exterior strain source
+        run: python experiments/exp72_vorticity_dyad_exterior_strain.py

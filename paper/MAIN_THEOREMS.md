@@ -2276,3 +2276,35 @@ Incompressible scalar transport preserves total `L^2`, yet its local affine wave
 ## Theorem EE — Phase-space strain and fiber metric strain are distinct representations of the same tensor
 
 `V.grad` carries `S_V` through the wavevector characteristic `kdot=-A_V^T k`, while the self-adjoint operator `S_V^{op}` carries the same tensor as vector-amplitude/material metric work.  Hence radial scale progress and symmetric strain work are non-equivalent physical observables even though both depend on `S_V`.
+
+## Theorem EF — Deterministic rotation curvature is the exterior-square lift of the vorticity dyad
+
+With `Omega=(1/2)[omega]_x`,
+\[
+\boxed{-\Omega^2=\frac14R_2(\omega\omega^T)
+=\frac14(|\omega|^2I-\omega\omega^T).}
+\]
+The tensor is PSD transverse to vorticity and has trace `|omega|^2/2` after the factor `1/4`.
+
+## Theorem EG — Exact strain dynamics have four typed local source faces
+
+The symmetric gradient equation can be written
+\[
+\boxed{
+D_tS=-S^2+\frac14R_2(\omega\omega^T)-\nabla^2p+\nu\Delta S.}
+\]
+These are strain self-interaction, deterministic transverse-vorticity geometry, pressure curvature, and viscous strain diffusion.  Taking trace recovers the pressure Poisson equation exactly.
+
+## Theorem EH — Material metric acceleration has a five-face deterministic anatomy
+
+Using `1/2 H Mddot H^T = ringS + 2S^2`,
+\[
+\boxed{
+\frac12H\ddot MH^T
+=S^2+\frac14R_2(\omega\omega^T)-\nabla^2p+\nu\Delta S+[S,\Omega].}
+\]
+The commutator `[S,Omega]` is symmetric trace-free orientation coupling.
+
+## Theorem EI — Deterministic vorticity curvature and Kelvin q.v. curvature share `R_2` but are non-equivalent
+
+Affine rigid rotation has `R_2(omega omega^T)!=0` and `Gamma_K=0`; an exact periodic shear at a vorticity-zero symmetry point has `R_2(omega omega^T)=0` but `Gamma_K!=0`.  The common `R_2` is a representation law, not a physical equivalence of amplitude and gradient-q.v. inputs.

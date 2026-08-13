@@ -783,9 +783,11 @@ After the type corrections above, the two architectures share the following smal
 | true HH generation | hard-cell work from `-Q B(h,h)`; vorticity curl `-Q K_h zeta` | no literal direct analogue yet | **architecture-specific** |
 | conservative relay/relink | skew part of the native `Q^2` carrier interface after common gauge quotient | fixed-mass local cut relay / germ support crossing | **same conservation pattern**, not same currency |
 | symmetric strain work | native `Q^2` smooth-carrier strain contribution | material metric/current-frame deformation data | **do not identify with signed cubic work without a theorem** |
-| viscosity | `nu Q Delta omega`; SGS boundary viscosity at a different level | stochastic Kelvin q.v./future-variance bank on its own clock | **common viscous provenance only; no direct equality yet** |
+| viscosity | `nu Q Delta omega`; full spectral enstrophy killing `2 nu sum |k|^4 E_(k,s)`; SGS boundary viscosity at a different level | instantaneous full-state `Gamma_K=2nu grad omega grad omega^T`; future/reduced covariance on separate state/clocks | **exact only at the unlocalized full-state trace level:** `2 nu sum |k|^4 E = nu||grad omega||_2^2 = (1/2)int tr Gamma_K`; directional tensor, localized, future and reduced objects remain distinct |
 | finite reselection | hard event re-anchor | first-bad entry/resolve jump | **same event type only**, not a positive payment |
 | decomposition gauge | resolved cutoff renewal | ancestry coordinate/reference reparameterization when exact | **zero physical source when the exact repartition identity holds** |
+
+The viscosity row is now sharpened by Theorem DZ/EB: the old “common provenance only” statement is replaced by an exact **instantaneous full-state trace equality**.  This does not alter the prohibition in §16: second-order q.v. still cannot replace signed cubic interaction work, and the full tensor/future/reduced covariance objects retain additional state information.
 
 Two absolute prohibitions follow:
 
