@@ -3252,3 +3252,47 @@ Current read-only Kelvin `1095c1353d42b67b9d0905e913ff494601770f1f` (Action `317
 ## Theorem KC — Untyped support-edge domain exit splits into scalar degeneracy and physical transverse-support/ancestry channels
 
 On a compact positive-time classical interval, scalar ranking accumulation is removed as an independent escape channel inside the Morse regime: interior Zeno forces Morse/normal degeneration.  Kelvin's transverse-support no-go separately proves that scalar/chamber localization cannot replace packet-support state, and the exact merger already forces transport ancestry/frame holonomy.  Future first-bad recurrence must therefore type `positive core renewal | positive geometry harvesting | Morse/normal degeneration | transverse support noncollapse/ancestry`; no termination or global-regularity claim follows.
+
+## Theorem KD — Strict enstrophy maxima carry an exact critical curvature-volume current
+
+For a strict nondegenerate maximum with G=-Hess(e)>0, the certified critical-Hessian law and incompressibility give d/dt log det(G) = -tr(G^-1 Hess(R)) + tr(G^-1 ((w_* . grad)G)). The two velocity-gradient connection traces cancel exactly.
+
+## Theorem KE — Critical curvature volume has owner and relative-geometry faces
+
+With C_owner=-tr(G^-1 Hess(R)) and C_sweep=tr(G^-1((w_* . grad)G)), one has d log det(G)/dt=C_owner+C_sweep. Common incompressible deformation is determinant-volume neutral although it may change curvature shape.
+
+## Theorem KF — Running-record normalized Morse volume is similarity invariant
+
+K_Morse=det(G)/Mrec^(9/2) is similarity invariant. With d vartheta=sqrt(Mrec)dt and rho_rec=Mrec_dot/Mrec^(3/2), d_vartheta log K_Morse = C_owner/sqrt(Mrec) + C_sweep/sqrt(Mrec) - (9/2)rho_rec. The normalization face is nonpositive.
+
+## Theorem KG — Literal Morse degeneration requires infinite negative log-curvature-volume variation
+
+If a strict critical lineage stays nondegenerate on [t0,t_*) and det(G)->0, then log det(G)->-infinity. For c=d log det(G)/dt=C_owner+C_sweep, the negative variation integral int[-c]_+ dt diverges. Genuine Hessian degeneration therefore cannot occur with finite total negative curvature-volume currency.
+
+## Theorem KH — Interior selector Zeno routes into quantitative curvature depletion on a degenerating strict-max lineage
+
+JT-KC forces interior winner-Zeno in a classical positive-time interval through critical Hessian degeneration. If that degeneration is approached along a strict-max lineage, KG upgrades the route to winner-Zeno -> Morse degeneration -> infinite negative curvature-volume variation. Selector q.v. is not identified with this geometry currency.
+
+## Theorem KI — The exact two-mode Kelvin merger has quadratic normal-Morse curvature collapse
+
+For r=cos(d)=exp(3(nu t-1)) and alpha=exp(-nu t)=e^-1 r^-1/3, the side critical-sheet normal curvature is G_n=alpha^2(2r^2+1)(1-r^2)/(4r^2)>0 and G_n/d^2 -> 3/(4e^2) as d->0.
+
+## Theorem KJ — The exact merger log-curvature current has a forced singular coefficient
+
+Along the same merger, d/dt log G_n = -8nu + 12nu r^2/(2r^2+1) - 6nu r^2/(1-r^2), so d^2 d/dt log G_n -> -6nu. Since d^2~6nu(t_*-t), the rate is asymptotic to -1/(t_*-t) and its accumulated negative variation diverges.
+
+## Theorem KK — Merger geometry divergence remains separate from field regularity
+
+The exact two-mode merger keeps a finite Fourier velocity field with zero nonlinear advection while normal critical curvature vanishes and its logarithmic depletion rate diverges. These are different physical statements.
+
+## Theorem KL — Exact periodic ABC has finite negative curvature-volume current without degeneration
+
+At the fixed strict ABC maximum, G=a(t)^2 G0, det(G)=(1/2)a^6, and d log det(G)/dt=-6nu for every finite time while det(G)>0. A negative instantaneous curvature current is therefore not enough for a geometry exit.
+
+## Theorem KM — Scalar Morse volume and Kelvin transverse packet support are independent geometry currencies
+
+Morse curvature volume measures local scalar critical geometry. Current Kelvin 1095c13 shows an intrinsic chamber can collapse while tangential packet support B_parallel=P L L^T P remains O(1). Control of det(G) therefore does not imply transverse packet-support control.
+
+## Theorem KN — The scalar geometry-exit channel is an exact current rather than a Boolean flag
+
+The endpoint grammar now keeps positive core renewal, positive specific-stretching geometry harvesting, negative Morse curvature-volume depletion, transverse packet-support noncollapse, and ancestry/frame holonomy as distinct channels. Literal Morse degeneration consumes infinite negative curvature-volume variation. No termination or continuation theorem is claimed.

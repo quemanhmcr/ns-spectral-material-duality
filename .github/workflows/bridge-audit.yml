@@ -221,3 +221,5 @@ jobs:
         run: python experiments/exp99_running_record_renewal_owner_split.py
       - name: Morse analytic selector finiteness
         run: python experiments/exp100_morse_analytic_selector_finiteness.py
+      - name: Morse curvature volume current
+        run: python experiments/exp101_morse_curvature_volume_current.py
