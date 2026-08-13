@@ -2465,3 +2465,23 @@ The exact no-go implies the full finite-current state can only have a bridge of 
 =\Phi(\text{Eulerian/Wang physical state},\text{material shape/current state},\text{causal clock/history}),}
 \]
 not a universal function of Eulerian role data alone.  The theorem does not prescribe a unique such lift.
+
+## Theorem FB — Every linear physical refinement/synthesis has an exact tensor-square pair lift
+
+If `y=sum_alpha y_alpha`, then
+\[
+\boxed{y\otimes y=\sum_{\alpha,\beta}y_\alpha\otimes y_\beta,}
+\]
+so quadratic energy contains all diagonal children plus all cross coherences.  A diagonal-only refinement is exact only under physical orthogonality.
+
+## Theorem FC — Wang coherent refinement and Kelvin residual synthesis obey the same pair functor in different state spaces
+
+Current Wang has additive coherent localization `T_E=sum_alpha T_(E_alpha)`, hence `f_E=sum_alpha f_alpha` and the pair state contains all `alpha,beta` cross terms.  Current Kelvin has `Q_A=A mathbb Q A^T`, the ensemble/covariance form of the same `A tensor A` pushforward.  This is a common functorial law, not an identification of Wang cells with Kelvin germs.
+
+## Theorem FD — Kelvin left/right/quadratic reset faces are the finite-difference expansion of the universal pair functor
+
+For `A_+=A_-+Delta A`,
+\[
+\boxed{\Delta Q=\Delta A\mathbb Q A_-^T+A_-\mathbb Q\Delta A^T+\Delta A\mathbb Q\Delta A^T.}
+\]
+Thus any future linear Wang-to-Kelvin state lift must preserve the full pair pushforward and cross coherence; first moments or diagonal child energies alone cannot define the quadratic state bridge.

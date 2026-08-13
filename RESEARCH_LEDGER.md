@@ -953,3 +953,9 @@ Failure lineage retained rather than erased:
 **EXACT PERIODIC NSE STATE-MAP NO-GO.**  One-mode shear gives a closed finite-surface residual `4a e^{-nu t}(b-sin b)`.  Same instantaneous Eulerian field, same surface area/orientation, different aspect ratios produce different Kelvin residuals.  Therefore a full Wang-to-Kelvin finite-current state map must carry actual material current/shape state in addition to Eulerian/coherent data and the correct causal clock/history.
 
 **HIGHER-JET NECESSITY.**  At the symmetry anchor the shared quadratic jet `B=J_2(L)` vanishes exactly while the finite Kelvin residual remains nonzero and begins at cubic surface-size order.  The current Kelvin higher-jet/moment tower is therefore physically necessary; repo 3 will not extrapolate Wang higher-Hermite formulas beyond certified upstream theorems merely by pattern matching.
+
+## 2026-08-13 — FB–FD: Wang coherent refinement and Kelvin residual synthesis share one tensor-square pair functor
+
+**READ-ONLY WANG/KELVIN INPUT / EXACT COMMON ALGEBRA.**  Wang coherent localization refines additively at the linear field level, while Kelvin residual state is synthesized linearly before covariance readout.  In both cases the quadratic state is forced by the tensor-square functor, so all cross-pair coherences are physical unless the refinement is genuinely orthogonal.
+
+**STATE-MAP ACCEPTANCE RULE.**  Kelvin's left/right/quadratic reset faces are exactly the finite-difference expansion of this universal pair law.  A future Wang-to-Kelvin linear state lift must therefore descend the full pair state by `J Q J^T` and preserve cross coherence; diagonal child energies or first moments are insufficient.  No common state-space identification is claimed.

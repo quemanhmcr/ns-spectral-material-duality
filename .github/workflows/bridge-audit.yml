@@ -175,3 +175,5 @@ jobs:
         run: python experiments/exp76_kelvin_principal_projector_bridge.py
       - name: Wang field Kelvin finite-shape state-map no-go
         run: python experiments/exp77_wang_field_kelvin_shape_no_go.py
+      - name: Common refinement tensor-square pair functor
+        run: python experiments/exp78_common_refinement_pair_functor.py
