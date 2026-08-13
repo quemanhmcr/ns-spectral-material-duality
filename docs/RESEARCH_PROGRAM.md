@@ -43,6 +43,9 @@ For a smooth incompressible flow map with deformation gradient `F`:
 - persistent candidate library with its **full ordered pair/Gram coupling**, including relative coupling modulo only the legitimate common latent gauge;
 - current same-replica noise-response/source data whenever a q.v. ledger is part of the target theorem;
 - physical clock/replica/**selector-event history** data, or an equivalent path accumulator, whenever optional jump variation is used.
+- packet/frame representation only modulo the passive `GL(3)` gauge, or equivalently the reconstructed physical residual/metric data;
+- enstrophy critical-locus current/Hessian/rate data whenever such a candidate is used, kept distinct from material current unless reconstructed from the Eulerian field by the exact PDE law;
+- an explicit event type/clock distinguishing ranking crossing, critical-geometry degeneracy/support exit, selector/readout reset, physical packet event, and Wang hard nonlinear-work event.
 
 ## Current bridge frontier after affine-quotient closure
 
@@ -52,12 +55,14 @@ The higher-jet field seam is no longer an open tower: it is one affine-quotient 
 \boxed{
 \text{Eulerian/coherent field}
 +\text{material current/shape}
-+\text{selector-event clock/history}
-+\text{linear physical event/synthesis}
++\text{packet/frame state modulo passive gauge}
++\text{critical-locus current/geometry when used or reconstructing jets}
++\text{typed ranking/geometry/selector/event clock-history}
++\text{physical event/synthesis}
 +\text{persistent library with full relative pair/Gram state}.}
 \]
 
-Current Kelvin further shows that a first-bad selector switch is a **readout change**, not universal physical transport; one same-replica library carries a full common-noise Gram with genuine cross-germ blocks; a simultaneous physical event plus selector has a mandatory `DeltaE DeltaA` face; and continuous-source rate revaluation is distinct from finite jump q.v.  Repo-3 now adds the closed-loop no-go: accumulated selector jump q.v. is not an endpoint-state coboundary.  These facts sharpen the state-map target; they do not supply the missing Wang→Kelvin current/library/event-timing instantiation.
+Current Kelvin further shows that a first-bad selector switch is a **readout change**, not universal physical transport; one same-replica library carries a full common-noise Gram with genuine cross-germ blocks; a simultaneous physical event plus selector has a mandatory `DeltaE DeltaA` face; and continuous-source rate revaluation is distinct from finite jump q.v.  Repo-3 adds the closed-loop history no-go, passive packet-coordinate quotient, exact critical-current/material-current separation, and the exact shear witness that equal local velocity 2-jets can carry different critical branch rates while a ranking crossing occurs with zero nonlinear interaction.  These facts sharpen the state-map target; they do not supply the missing Wang→Kelvin badness/resolve/current-library/event-timing instantiation.
 
 ## Non-equivalences that must be preserved
 
@@ -71,6 +76,10 @@ Current Kelvin further shows that a first-bad selector switch is a **readout cha
 - continuous q.v. source, signed continuous-source rate revaluation, selector optional jump q.v., and endpoint pair reset are not one quadratic budget;
 - selector-event and physical-event faces do not add naively at finite jumps because `DeltaE DeltaA` is mandatory;
 - accumulated selector jump q.v. is not an endpoint state function;
+- raw packet coefficient size is not physical packet energy/ranking under passive frame gauge;
+- enstrophy critical-locus current is not automatically material current;
+- local velocity 2-jet equality is not branch-rate equality;
+- ranking crossing/selector reset is not automatically critical-geometry failure or Wang hard nonlinear work;
 - passive connection motion is not positive production;
 - geometry/capacity is not causal work.
 

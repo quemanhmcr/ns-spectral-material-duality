@@ -337,6 +337,9 @@ so `R_W` is the minimal `L^2(rho)` representative of the common affine class and
 | first-bad selector | no direct Wang identity | readout `E_g` of a persistent germ library, not physical transport | state-map must retain hidden library/full pair state |
 | full ordered pair/Gram coupling | coherent child pairs retain relative phase/coherence | same-replica cross-germ Gram retains relative common-driver orientation | **diagonal marginals lose physical relative coupling** |
 | selector jump history | no direct instantaneous Wang identity | optional jump-q.v. accumulator of the càdlàg selected readout | **not an endpoint-state function** |
+| packet/frame representation | no direct raw-coordinate Wang identity | `(H,epsilon)` with passive `(H,epsilon)~(HS,S^T epsilon)` | physical residual/inverse-Gram energy live on the quotient; raw coefficient norm does not |
+| enstrophy critical current | continuing material carrier follows the material flow between genuine events | nondegenerate critical locus satisfies `xdot_*-u=-H_e^{-1} grad R` | **different currents in general**; exact ABC separates them |
+| candidate ranking crossing | hard role requires actual nonlinear work/interaction | two persistent critical candidates can exchange rank by the three-face enstrophy-rate law | **not a hard interaction clock**; exact heat shear has crossing with zero nonlinearity |
 
 ### Hybrid event/readout ledger: same quadratic algebra, different physical owners
 
@@ -387,17 +390,19 @@ The next core questions are not “can this already prove regularity?”  They a
 
 1. **Literal state-map assembly.**  Any viable Wang→Kelvin lift must now preserve, as separately typed data whenever the target theorem uses them,
    \[
-   oxed{	ext{Eulerian/coherent field}
-   +	ext{material current/shape}
-   +	ext{selector-event clock/history}
-   +	ext{linear physical event/synthesis}
-   +	ext{persistent library with full relative pair/Gram coupling}.}
+   \boxed{\text{Eulerian/coherent field}
+   +\text{material current/shape}
+   +\text{packet/frame physical state modulo passive gauge}
+   +\text{critical-locus current/geometry when used, or reconstructing jets}
+   +\text{typed ranking/geometry/selector/event clock-history}
+   +\text{physical event/synthesis}
+   +\text{persistent library with full relative pair/Gram coupling}.}
    \]
    The selector is a readout, not physical transport.  Full pair state means the ordered cross coupling modulo only the legitimate **common** latent gauge; diagonal marginals create an artificial product gauge and lose synthesis data.  Accumulated selector jump q.v. has nonzero closed-loop circulation, so if a theorem uses that path functional it must carry history/an equivalent accumulator or prove an independent physical timing theorem that reconstructs it from the endpoint.
-2. **Programme-specific readouts after quotient closure.**  The full higher-jet field seam is closed by the affine-quotient law.  What remains is to derive only those Wang Hermite/packet and Kelvin surface/moment projections actually used by the two programmes, without pretending the quotients are identical.
+2. **Programme-specific readouts after quotient closure.**  The full higher-jet field seam is closed by the affine-quotient law.  What remains is to derive only those Wang Hermite/packet and Kelvin surface/moment projections actually used by the two programmes, without pretending the quotients are identical.  Exact periodic NSE now gives a sharp order witness: two enstrophy critical sheets can have identical local velocity 2-jets but different third jets and therefore different curvature branch rates.  Thus quotient closure does not mean a `p=2` truncation; the PDE decides which higher readout is needed.
 3. **Localized pressure/viscosity.**  Push the exact full-state pressure/Dirichlet dictionaries through actual smooth roles without losing commutator, boundary, q.v., common-noise cross blocks or clock faces.
 4. **Wang native branch semantics.**  Continue read-only placement of resolved-contact K/S/HH routing and the new pure-UV true-upward first-shell natural-window branch into the material/current dictionary without turning support/capacity into causal recurrence.
-5. **Kelvin first-bad library/timing instantiation.**  Current Kelvin now also has the exact simultaneous packet-selector product rule (including `DeltaE DeltaA`), signed continuous-source rate revaluation, selector optional jump q.v., and hybrid semimartingale bookkeeping.  The remaining literal seam is which physical candidate current library, shapes/frames, replica, event maps and clock/history the actual first-bad construction selects, plus control of its full pair/projector state and cross-clock ancestry lift.
+5. **Kelvin first-bad library/timing instantiation.**  Current Kelvin has the exact simultaneous packet-selector product rule (including `DeltaE DeltaA`), signed continuous-source rate revaluation, selector optional jump q.v., hybrid semimartingale bookkeeping, and exact enstrophy critical-current/ranking laws.  Repo-3 now proves critical-current/material-current separation, local `p<=2` branch-rate nonclosure, and a smooth ranking crossing with zero Wang hard nonlinear event.  The remaining literal seam is which physical candidate current library, shapes/frames, badness/resolve rule, event maps and clock/history the actual first-bad construction selects, plus control of its full pair/projector state and cross-clock ancestry lift.
 
 These tasks strengthen the two upstream programmes whether or not they eventually contribute to any global regularity argument.
 

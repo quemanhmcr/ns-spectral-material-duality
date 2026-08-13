@@ -1096,3 +1096,8 @@ Failure lineage retained rather than erased:
 **COUNTEREXAMPLE/NO-GO — EVENT TYPE.**  The crossing shear has `(u.grad)u=0` globally.  A smooth ranking crossing can therefore occur with no Wang hard nonlinear interaction/work event.  The selected scalar max is continuous at the tie while its branch index and derivative switch, so readout reset and physical state jump are also distinct.
 
 **OPEN BRIDGE.**  Raw crossing, branch degeneracy/support exit, physical packet event, hysteretic selector event, and Wang hard interaction have separate clocks/owners.  The actual first-bad badness/resolve functional must say which one triggers selection and how history is used.  No recurrence/continuation/global-regularity claim.
+
+
+## 2026-08-13 — docs consolidation through GH–GU [skip-ci target]
+
+The integrated bridge spine is synchronized through the Action-certified passive packet quotient (GH–GK), enstrophy critical-current/material-current separation and critical-curvature-volume law (GL–GO), and exact branch-ranking/event-typing no-gos (GP–GU).  The literal state target now keeps packet/frame data only modulo passive gauge; distinguishes material current from any critical-locus current/geometry used by first-bad logic; records the actual programme-specific jet order demanded by the PDE (the exact crossing shear needs the third velocity jet although the common affine quotient is already closed for every `p>=2`); and keeps ranking crossing, critical-geometry events, selector/readout events, physical packet events, and Wang hard nonlinear-work events as separate clocks/types unless an independent NSE theorem identifies them.  This is documentation consolidation only and adds no recurrence/continuation/global-regularity claim.
