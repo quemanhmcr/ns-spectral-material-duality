@@ -161,3 +161,5 @@ jobs:
         run: python experiments/exp69_viscous_dirichlet_kelvin_spectral.py
       - name: Kelvin qv tensor phase no-go
         run: python experiments/exp70_kelvin_qv_tensor_phase_no_go.py
+      - name: Affine phase-space Cartan transport
+        run: python experiments/exp71_affine_phase_space_cartan_transport.py

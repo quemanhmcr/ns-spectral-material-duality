@@ -905,3 +905,9 @@ Failure lineage retained rather than erased:
 **EXACT VISCOUS DICTIONARY.**  At the instantaneous full physical state, Parseval identifies Wang's spectral enstrophy killing with the vorticity Dirichlet form and exactly one half of the orientation-complete Kelvin q.v. trace.  This closes the old "common provenance only" seam at trace/integrated level.
 
 **COUNTEREXAMPLE/NO-GO.**  Exact monochromatic transverse NSE solutions with the same helical modal energies but different relative helicity phase have the same scalar killing and q.v. trace while the Kelvin q.v. tensor changes.  Directional q.v., future covariance and reduced resolution information remain strictly richer/different.
+
+## 2026-08-13 — EC–EE: Wang radial scale motion and Kelvin area motion are conservative phase-space deformation, distinct from fiber strain work
+
+**EXACT LOCAL-AFFINE GEOMETRY.**  A transported wavefront and a material area Hodge vector obey the same `-A^T` law.  Their log-radius rate is `-khat.S.khat`; connection rotates without radial change.  Material lines have the opposite strain sign.
+
+**PHYSICAL TYPING / NO-GO.**  The skew-adjoint transport inside Wang `K_V` can move spectral content across radius while conserving total `L^2`; the self-adjoint `S_V` operator is separate fiber/material metric work.  The same strain tensor appears in both representations, but radial scale progress must not be retyped as energy generation.

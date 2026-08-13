@@ -2254,3 +2254,25 @@ The omitted local Laplacian term is spatial curvature flux whose integral vanish
 ## Theorem EB — Scalar spectral killing does not determine the Kelvin q.v. tensor
 
 Exact one-wavevector transverse NSE solutions with fixed `|a_+|,|a_-|` but different relative helical phase have identical modal energies and scalar viscous killing, while their integrated orientation-complete `Gamma_K` tensors differ.  Only the trace is fixed by the spectral killing.
+
+## Theorem EC — Local affine wavefront radius is driven by directional strain inside conservative transport
+
+For `V=Ax`, `A=S+Omega`, a transported local phase covector obeys
+\[
+\dot k=-A^Tk=(-S+\Omega)k,
+\]
+so
+\[
+\boxed{\frac d{dt}\log|k|=-\hat k\cdot S\hat k,}
+\qquad
+\boxed{\dot{\hat k}=\Omega\hat k-(I-\hat k\hat k^T)S\hat k.}
+\]
+The same laws hold for a material area Hodge vector; material-line magnitude has the opposite strain sign.
+
+## Theorem ED — Radial spectral motion can be conservative transport rather than energy production
+
+Incompressible scalar transport preserves total `L^2`, yet its local affine wavevector can change radius by Theorem EC.  The transport term inside the skew-adjoint resolved `K_V` therefore can relocate spectral content across radius without creating total energy.
+
+## Theorem EE — Phase-space strain and fiber metric strain are distinct representations of the same tensor
+
+`V.grad` carries `S_V` through the wavevector characteristic `kdot=-A_V^T k`, while the self-adjoint operator `S_V^{op}` carries the same tensor as vector-amplitude/material metric work.  Hence radial scale progress and symmetric strain work are non-equivalent physical observables even though both depend on `S_V`.
