@@ -947,3 +947,9 @@ Failure lineage retained rather than erased:
 **CONNECTION NO-GO.**  The metric eigenframe connection `C_M` is not the fluid vorticity/Cartan connection `Omega_u`: exact affine pure strain has `Omega_u=0` while a non-aligned finite line metric has `C_M!=0`.  Skew type alone is insufficient for physical identification.
 
 **RESET SCOPE SHARPENING.**  Repo-3's finite projector jump is exact only for a frozen physical state/library.  Current Kelvin physical residual refinement changes the synthesis map itself and therefore requires the full `A tensor A` pair reset (left/right/quadratic faces) plus any metric revaluation.  Positive quadratic reset squares are not standalone costs.
+
+## 2026-08-13 — EY–FA: finite Kelvin current state cannot descend from Wang Eulerian data without physical shape, and `B=J_2` is not enough
+
+**EXACT PERIODIC NSE STATE-MAP NO-GO.**  One-mode shear gives a closed finite-surface residual `4a e^{-nu t}(b-sin b)`.  Same instantaneous Eulerian field, same surface area/orientation, different aspect ratios produce different Kelvin residuals.  Therefore a full Wang-to-Kelvin finite-current state map must carry actual material current/shape state in addition to Eulerian/coherent data and the correct causal clock/history.
+
+**HIGHER-JET NECESSITY.**  At the symmetry anchor the shared quadratic jet `B=J_2(L)` vanishes exactly while the finite Kelvin residual remains nonzero and begins at cubic surface-size order.  The current Kelvin higher-jet/moment tower is therefore physically necessary; repo 3 will not extrapolate Wang higher-Hermite formulas beyond certified upstream theorems merely by pattern matching.

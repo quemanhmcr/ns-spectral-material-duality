@@ -2439,3 +2439,29 @@ If only a projector changes on a frozen state, the repo-3 finite projector jump 
 \boxed{\Delta Q=\Delta A\mathbb Q A_-^T+A_-\mathbb Q\Delta A^T+\Delta A\mathbb Q\Delta A^T,}
 \]
 and weighted events additionally carry geometry revaluation.  The tensor-square pair reset is mandatory; it cannot be replaced by one positive projector-distance payment.
+
+## Theorem EY — An instantaneous Eulerian/Wang field does not determine a Kelvin finite-current residual without material shape state
+
+For exact periodic NSE `u=(e^{-nu t} sin y,0,0)`, a centered rectangle of half-widths `(a,b)` has finite-to-local Kelvin flux residual
+\[
+\boxed{\varepsilon_\Sigma=4ae^{-\nu t}(b-\sin b).}
+\]
+Two rectangles with the same area and orientation but different aspect ratio have different residuals in the identical Eulerian field.  Hence a universal field-only Wang-to-Kelvin finite-current state map is impossible; actual material shape/current data are mandatory.
+
+## Theorem EZ — The common Hessian jet `B=J_2(L)` is insufficient for finite Kelvin shape
+
+At the same one-mode shear anchor `y=0`, `nabla^2u=0`, hence `B=J_2(L)=0` for every L and Wang's Hessian-driven third-Hermite transverse forcing vanishes.  Nevertheless the finite Kelvin residual above is nonzero, with
+\[
+\varepsilon_\Sigma=(2/3)ae^{-\nu t}b^3-(1/30)ae^{-\nu t}b^5+O(b^7).
+\]
+Thus higher jets/moments or the full codeforming field are physically necessary for finite-shape descent.
+
+## Theorem FA — A valid Wang-to-Kelvin state bridge must augment Eulerian/coherent data by material current/shape and correct clock/history
+
+The exact no-go implies the full finite-current state can only have a bridge of the typed form
+\[
+\boxed{
+\text{Kelvin current state}
+=\Phi(\text{Eulerian/Wang physical state},\text{material shape/current state},\text{causal clock/history}),}
+\]
+not a universal function of Eulerian role data alone.  The theorem does not prescribe a unique such lift.
