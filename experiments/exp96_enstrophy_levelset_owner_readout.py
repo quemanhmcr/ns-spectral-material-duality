@@ -51,14 +51,16 @@ def main():
         Z = 2.0*np.pi*M*k*k
         global_owner_res = max(global_owner_res, rel(layer_rate, -nu*Z))
 
-    # Direct quadrature stress of the fixed-level coarea/layer derivative at one time.
+    # Direct coarea quadrature at one time.  The lambda-coordinate integrand has an
+    # integrable endpoint singularity.  Use the exact regularizing change
+    # lambda=M sin^2(theta), which turns V_t d lambda into
+    # -8 nu k^2 M sin^2(theta) d theta.
     t = 0.41*t_end
     M = Minit*np.exp(-2.0*nu*k*k*t)
     Mdot = -2.0*nu*k*k*M
-    lam = np.linspace(1e-8*M, (1.0-1e-8)*M, 200001)
-    r = np.sqrt(lam/M)
-    Vt = -4.0*nu*k*k*r/np.sqrt(1.0-r*r)
-    coarea_integral = np.trapezoid(Vt, lam)
+    theta = np.linspace(0.0, 0.5*np.pi, 20001)
+    coarea_density_theta = -8.0*nu*k*k*M*np.sin(theta)**2
+    coarea_integral = np.trapezoid(coarea_density_theta, theta)
     target_rate = np.pi*Mdot
     quadrature_res = rel(coarea_integral, target_rate)
 
@@ -77,7 +79,7 @@ def main():
     assert moving_fraction_res < 2e-14
     assert layercake_res < 2e-14
     assert global_owner_res < 2e-14
-    assert quadrature_res < 3e-3
+    assert quadrature_res < 2e-11
     print("PASS: NSE itself generates regular enstrophy moving readouts, their level-set flux layer-cakes to the global enstrophy owner ledger, and moving thresholds are signed revaluation rather than new generation")
 
 
