@@ -2563,3 +2563,24 @@ For one stochastic-flow replica, `Gamma_gh=2nu Sigma_g Sigma_h^T`.  A common Bro
 ## Theorem FQ — No universal diagonal-marginal quadratic state map can preserve Wang/Kelvin linear synthesis
 
 The Wang and Kelvin relative couplings are different physical objects, but both are erased by diagonal marginalization and both enter their exact tensor-square synthesis laws.  Therefore a universal cross-program quadratic bridge based only on diagonal child/germ marginals is impossible: it must carry the relevant full ordered pair/Gram state or supply an independent Navier--Stokes theorem reconstructing the missing relative coupling.  Exact one-mode NSE realizes the Kelvin negative-coupling branch with equal diagonal q.v. blocks and complete sum-synthesis cancellation.
+
+
+## Theorem FR — Frozen-selector Brownian q.v. and finite selector jump variation are different path mechanisms
+
+For a persistent same-replica library `dChi=sqrt(2nu) Q dW`, `Gamma_lib=2nu Q Q^T`, a frozen selector gives `dY=sqrt(2nu) E_g Q dW` and continuous q.v. rate `d[Y]^c/dsigma=E_g Gamma_lib E_g^T`.  At a selector-only event with continuous library, `Delta Y=(E_+-E_-)Chi`; this creates no atom in `[Y]^c`, although total optional q.v. contains `Delta Y Delta Y^T`.  Continuous viscous production and finite readout path variation are therefore distinct physical types.
+
+## Theorem FS — Selector optional jump q.v. is only the quadratic face of endpoint pair revaluation
+
+For `Y_+=Y_-+Delta Y`,
+\[
+\boxed{Y_+Y_+^T-Y_-Y_-^T=\Delta Y\,Y_-^T+Y_-\Delta Y^T+\Delta Y\Delta Y^T.}
+\]
+The optional jump-q.v. atom is only `Delta Y Delta Y^T`; the two linear faces are signed.  Hence positive jump q.v. cannot replace the full pair reset ledger or be identified with deterministic pair/coherence production.
+
+## Theorem FT — Exact NSE selector sign flip has positive jump q.v. but zero pair revaluation, and a closed excursion has positive path q.v. with zero net state
+
+For exact shear `u=e^{-nu k^2t}cos(ky)e_1` and Kelvin half-period asymmetric packets of side `rho=pi/(2k)`, `chi_0=4e^{-nu k^2t}k^2/pi^2` and `chi_1=-chi_0`.  A selector switch `chi_0 e_z -> -chi_0 e_z` has jump square `4chi_0^2 P_z>0` but endpoint dyad jump exactly zero because the signed linear faces cancel it.  The closed excursion `0->1->0` returns to the identical selected state while accumulating jump-q.v. trace `8chi_0^2=128e^{-2nu k^2t}k^4/pi^4>0`.  Thus selector jump q.v. is path variation, not a monotone physical state/covariance bank.
+
+## Theorem FU — Simultaneous physical event plus selector is the composed map, not a sum of independent positive reset costs
+
+If the library event is `Chi_+=A Chi_-` and the selector changes `E_- -> E_+`, then `Y_+=E_+A Chi_-` and the literal jump is `J=(E_+A-E_-)Chi_-`.  Different exact intermediate decompositions of `J` exist, but `JJ^T` contains their cross faces.  Therefore a simultaneous event cannot generically be charged as “selector jump square plus physical-event jump square” unless an independent orthogonality theorem removes the cross terms.  Physical event transport and selector readout must remain separately typed before the composed pair functor is formed.

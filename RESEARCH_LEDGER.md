@@ -1004,3 +1004,14 @@ Failure lineage retained rather than erased:
 **KELVIN SPECIALIZATION.**  In one stochastic-flow replica, one common `O(3)` rotation is Brownian-driver basis gauge.  Independent germwise right rotations leave diagonal q.v. blocks fixed but alter cross-germ Gram blocks and physical synthesis, hence change the coupling/model rather than coordinates.  The earlier exact one-mode NSE shear realizes the negative relative sign with equal diagonal q.v. and exact sum cancellation.
 
 **OPEN BRIDGE / NO-GO.**  A universal Wang--Kelvin quadratic state map cannot be built from diagonal child/germ marginals alone.  Full ordered pair/Gram coupling must be carried, or an independent physical theorem must reconstruct it from other NSE state data.  The Wang relative phase and Kelvin relative driver orientation remain distinctly typed physical information despite the common block-Gram representation law.
+
+
+## 2026-08-13 — FR–FU: hybrid selected path separates continuous q.v., jump variation and pair reset
+
+**LATEST READ-ONLY KELVIN INPUT.**  Kelvin advanced to `b8caf4862eb11e5661a69d0600b9050e7d1ca929`; upstream Action `31664212015` is green.  Its hybrid selected-residual law is exact conditional on a supplied same-replica library and selector path.  Wang latest is `efb286e6710d9c20cb25a6303d2cb16b3a9e344a` (integration-baseline refresh only).  No upstream write was made.
+
+**EXACT PHYSICAL TYPE SEPARATION.**  On frozen selector intervals, selected continuous q.v. is the selected block of the common-replica Brownian Gram.  A selector-only event is a finite readout jump: its square enters optional càdlàg q.v. but not the continuous bracket.  Endpoint pair revaluation additionally has signed left/right faces, so jump square is not the pair reset itself.
+
+**EXACT NSE NO-GO.**  The half-period one-mode shear gives `chi_1=-chi_0`.  A single selector sign flip has strictly positive jump q.v. but zero selected endpoint dyad change because signed linear faces cancel the quadratic face exactly.  A closed `0->1->0` excursion accumulates positive jump q.v. while returning to the identical selected state.  Selector jump-square is therefore path variation, not a monotone covariance/energy/continuation bank.
+
+**EVENT/SELECTOR COMPOSITION.**  When a physical library map `A` and selector change occur together, the literal post-selected map is `E_+ A`.  Any split into event and selector pieces introduces cross terms in the jump square; adding separate positive costs is invalid absent physical orthogonality.  This sharpens the state-map rule: transport, readout, q.v. and reset are distinct faces even when they occur at one clock time.

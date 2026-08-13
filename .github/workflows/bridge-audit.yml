@@ -185,3 +185,5 @@ jobs:
         run: python experiments/exp81_selector_library_pair_gram_functor.py
       - name: Relative coupling block Gram no-go
         run: python experiments/exp82_relative_coupling_block_gram_no_go.py
+      - name: Hybrid selector qv reset typing
+        run: python experiments/exp83_hybrid_selector_qv_reset_typing.py
