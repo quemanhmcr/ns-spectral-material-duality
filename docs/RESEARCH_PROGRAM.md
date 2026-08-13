@@ -102,3 +102,18 @@ These failures are part of the theory, not inconveniences to be hidden.
 ### Relative-boundary owner frontier (HK–HR)
 
 New exact PDE law: observation/control boundaries contribute through `V-u` only.  The programme must therefore distinguish intrinsic source/sink, physical flux, relative-boundary sweep, selector/target/boundary sidecars, and transport ancestry memory.  A critical-selector speed singularity is not itself a generation event; the exact heat-shear merger has singular sweep rate with analytic NSE field and zero nonlinear/stretching generation.  The next first-bad bridge must derive the actual badness/control object's moving-boundary law and show which independently witnessed source/work owner, if any, is allowed to increase generation depth.
+
+
+## HS--HZ programme update: an intrinsic first-hit owner clock
+
+Repo-3 now has a literal PDE owner candidate for one physically meaningful badness channel.  The running maximum record of local enstrophy is monotone by construction, but its increment law is not imposed externally: on the active set the NSE itself gives `omega.S.omega - nu(|grad omega|^2-Delta e)`, with critical-selector drift annihilated by `grad e=0`.  Every positive record increment therefore has a stretching-dominant owner.
+
+This sharpens the non-equivalence table:
+
+- ranking/selector activity != record generation;
+- moving-cut sweep != record generation;
+- inherited stock/boundary charge != record generation;
+- critical drift/geometry != critical-value owner;
+- strain magnitude != owner unless vorticity alignment makes `omega.S.omega` beat the viscous defect.
+
+The programme should now attack the owner states themselves: determine whether exact material/packet ancestry, strain geometry, donor supply or depletion laws restrict the recurrence of *fresh* stretching-dominant record increments.  Do not replace this with raw event counts or an abstract norm bootstrap.

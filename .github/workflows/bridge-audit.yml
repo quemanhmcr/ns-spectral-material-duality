@@ -207,3 +207,5 @@ jobs:
         run: python experiments/exp92_critical_lineage_persistence_clock_separation.py
       - name: Relative-boundary transport owner law
         run: python experiments/exp93_relative_boundary_transport_owner_law.py
+      - name: Enstrophy record owner clock
+        run: python experiments/exp94_enstrophy_record_owner_clock.py

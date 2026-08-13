@@ -2833,3 +2833,63 @@ A sweep term is genuine transfer and must remain in the exact ledger, but the ex
 ## Theorem HR — Cross-program event assembly has an owner-first triangular order
 
 Exact NSE moving-boundary laws first determine intrinsic source/sink/flux and then the relative-boundary/readout currency.  Independently, current Wang central routing first classifies physical first stops and only then attaches typed material/Moyal sidecars.  These currencies are not identified, but both force the same assembly hygiene: physical owner classification precedes sidecar/readout attachment, and no sidecar or sweep is promoted to hard generation without an independent physical theorem.  First-bad closure and termination remain open.
+
+## Theorem HS — The spatial enstrophy maximum obeys an exact active-owner law
+
+For smooth periodic NSE, `e=|omega|^2/2`, `M(t)=max_x e(x,t)` and active set `A(t)={e=M}`, Danskin's theorem and the local enstrophy PDE give
+\[
+\boxed{D_+M(t)=\max_{x\in A(t)}[\omega\cdot S\omega-\nu|\nabla\omega|^2+\nu\Delta e].}
+\]
+At every active maximizer, `grad e=0` and `Delta e<=0`; the advective/readout term is absent exactly.
+
+## Theorem HT — Critical-selector drift changes the maximizing location but contributes zero direct critical-value currency
+
+Along any differentiable active critical branch, `d e(x_*(t),t)/dt=partial_t e` because `grad e=0`, even when `xdot_*-u=-H_e^{-1}grad R` is nonzero or singular.  Thus critical geometry/drift determines where the readout lives, while the local NSE owner determines its value rate.  Ranking switches may change the active branch and derivative, but do not add a selector-speed term.
+
+## Theorem HU — Positive enstrophy-record growth forces stretching to beat the full viscous defect
+
+At an active maximizer define `D_nu=nu(|grad omega|^2-Delta e)>=nu|grad omega|^2>=0`.  Then
+\[
+D_+M=\max_A[\omega\cdot S\omega-D_\nu].
+\]
+Hence `D_+M>0` implies an active maximizer with `omega.S.omega>D_nu`.  If `omega!=0`, equivalently `hat omega^T S hat omega>D_nu/(2M)>=0`.  Positive record growth therefore has an intrinsic extensional-vortex-stretching owner and cannot be minted by selector, sweep, gauge, target or boundary sidecar activity alone.
+
+## Theorem HV — The running enstrophy record is a canonical monotone PDE owner clock
+
+Let `R(t)=max_{0<=s<=t}M(s)`.  On every smooth compact interval `R` is absolutely continuous and almost everywhere
+\[
+\boxed{R'=1_{\{M=R\}}[M']_+=1_{\{M=R\}}\left[\max_A(\omega\cdot S\omega-D_\nu)\right]_+.}
+\]
+Thus ranking loops, selector jumps, subrecord sweep activity, passive gauge, target coboundaries and inherited/boundary sidecars lie in the record clock's kernel unless an independently present local owner raises the actual physical enstrophy record.
+
+## Theorem HW — Every smooth finite first hit of a higher enstrophy level has a stretching-owned approach sequence
+
+For `L>M(0)` and `tau_L=inf{t:M(t)>=L}<infty`, smoothness gives `M(tau_L)=L` and `M<L` before `tau_L`.  On every interval ending at `tau_L` the running record increases; absolute continuity therefore provides record-growth times `t_n up tau_L` and active maximizers `x_n` with
+\[
+\boxed{\omega\cdot S\omega(x_n,t_n)>\nu(|\nabla\omega|^2-\Delta e)(x_n,t_n)>=\nu|\nabla\omega|^2(x_n,t_n).}
+\]
+No transversality of the hit is required.
+
+## Theorem HX — Exact periodic heat shear has curvature-driven record decay and no generation owner
+
+For `u=(A e^{-nu k^2t} sin(ky),0,0)`, stretching and nonlinear advection vanish, while `M=A^2k^2e^{-2nu k^2t}/2` and `M'=-2nu k^2M<0`.  At the active maxima `|grad omega|=0` and the entire viscous defect is `-nu Delta e`.  The existing exact three-mode shear can simultaneously switch the winning critical candidate while both candidate rates are negative, so a selector switch does not imply positive record-owner currency.
+
+## Theorem HY — Exact affine strain--spin NSE activates the record owner by pure stretching
+
+For `a>0`, `Omega=Omega_0 e^{2at}` and
+\[
+u=(-ax-\Omega y,\Omega x-ay,2az),
+\]
+`div u=0`, `Delta u=0`, and `A'+A^2=diag(a^2-Omega^2,a^2-Omega^2,4a^2)` is symmetric, hence a quadratic pressure gives an exact smooth Euclidean NSE solution.  Here `omega=(0,0,2Omega)`, `S=diag(-a,-a,2a)`, `M=2Omega^2`, the viscous defect is zero, and
+\[
+\boxed{M'=4aM=\omega\cdot S\omega>0.}
+\]
+The exact first hit of `L>M(0)` is `tau_L=(4a)^{-1}log(L/M(0))`.
+
+## Theorem HZ — Finite-time unbounded enstrophy record would require infinite accumulated effective record stretching
+
+For `R(0)>0`, define `G(t)=log(R(t)/R(0))`.  Almost everywhere on smooth record-growth times,
+\[
+\boxed{G'=1_{\{M=R\}}\frac{[\max_A(\omega\cdot S\omega-D_\nu)]_+}{R}.}
+\]
+Consequently `R(t)->infty` at finite time would force `G(t)->infty`, i.e. divergent accumulated positive effective stretching on actual record states.  This is only a necessary owner condition; it is not a continuation, termination or global-regularity theorem.

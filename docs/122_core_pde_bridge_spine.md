@@ -460,3 +460,16 @@ The latest exact Kelvin merger also forces a transport-memory slot: endpoint anc
 Current owner-first order:
 
 `intrinsic NSE source/sink/flux -> PDE-generated relative selector/boundary motion -> swept readout currency -> typed selector/target/Moyal sidecars`, with ancestry memory carried through the event.  Wang's current central routing independently enforces the same ordering principle for its own distinct currencies: physical stop first, sidecar second.  This is architecture hygiene, not yet a recurrence/termination theorem.
+
+
+## Record-owner refinement after HS--HZ
+
+The exact moving-boundary owner law now has a pointwise first-hit counterpart.  For the literal enstrophy field `e=|omega|^2/2`, the active spatial maximum satisfies
+
+\[
+D_+M=\max_{A(t)}[\omega\cdot S\omega-\nu(|\nabla\omega|^2-\Delta e)].
+\]
+
+Critical drift, ranking and selector motion determine which branch is read but contribute no direct value currency because `grad e=0` on the active set.  The running record `R(t)=max_{s<=t}M(s)` is therefore an intrinsic monotone owner clock whose positive increments require stretching to beat the full viscous/curvature defect.  This clock is deliberately distinct from selector q.v., moving-cut sweep, Moyal boundary charge, target reanchoring and inherited ancestry.  Any future first-bad assembly that uses enstrophy-record growth must route those side data after the local owner has been identified.
+
+The remaining hard seam is no longer to invent a generation counter.  It is to prove or disprove an NSE law limiting *fresh effective stretching on record states* through geometry, material ancestry, donor exhaustion or owner reuse.

@@ -1165,3 +1165,15 @@ No upstream write was made.  No Zeno exclusion, recurrence assembly, continuatio
 - New necessary assembly rule: moving-boundary transfer remains a real transfer ledger but carries zero hard-generation depth unless an independent source/work owner is present.
 - Action stress test `experiments/exp93_relative_boundary_transport_owner_law.py` certified on run `31685600783` at theorem SHA `f3ca29119ceab9cb0a56b36e6df1ea5c0771803b`: moving-loop residual `2.696e-16`, moving-slab four-face residual `7.720e-16`, tangential-kernel residual `5.572e-16`, endpoint residual-fiber tie `0`, nonzero frame-history separation `5.529615`, holonomy determinant residual `1.110e-16`; PASS.
 - No upstream writes. No Zeno, recurrence, restart, continuation, termination, or global-regularity claim.
+
+## 2026-08-13 — HS–HZ: enstrophy record owner clock and first-hit stretching funnel
+
+**READ-ONLY INPUTS.** Wang remains `24a725798948d7067afae1976afb9c712fb23b47`; Kelvin remains `4888b6e19293edc0950047fd2e52ad6b64fbe3ac`.  No upstream write was made.
+
+**EXACT NSE/PDE IDENTITY.** For `M(t)=max_x |omega|^2/2`, the right derivative is the maximum over the active maximizing set of the literal local enstrophy rate.  Since `grad e=0` and `Delta e<=0` there, critical-selector motion is annihilated from the value rate and positive record growth requires `omega.S.omega > nu(|grad omega|^2-Delta e) >= nu|grad omega|^2` at an active maximizer.
+
+**RIGOROUS CONSEQUENCE.** The running record `R(t)=max_{s<=t}M(s)` is a canonical monotone owner clock.  It increments only on actual record states with positive stretching-dominant local owner rate; ranking/selector loops, subrecord sweep, gauge/target changes, Moyal boundaries and inherited stock do not increment it by themselves.  Any smooth finite first hit of a higher level has a sequence of stretching-owned record states approaching the hit from below, without a transversality assumption.
+
+**EXACT CALIBRATIONS.** Periodic one-mode heat shear has zero stretching and strictly decaying record through curvature diffusion.  Exact Euclidean affine strain-spin NSE has zero viscous defect and strictly growing enstrophy record owned purely by extensional vortex stretching, with an explicit first-hit time.
+
+**OPEN BRIDGE.** `log R` gives a necessary accumulated effective-stretching measure for any hypothetical unbounded record, but no bound on that measure is proved.  The next seam is whether NSE geometry/transport/ancestry forces depletion, cancellation, donor exhaustion or owner reuse on record-growth states.  No recurrence/restart/continuation/termination/global-regularity claim.
