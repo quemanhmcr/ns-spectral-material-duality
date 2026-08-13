@@ -197,3 +197,5 @@ jobs:
         run: python experiments/exp87_passive_packet_gauge_physical_ranking.py
       - name: Enstrophy critical current geometry
         run: python experiments/exp88_enstrophy_critical_current_geometry.py
+      - name: Enstrophy ranking crossing event typing
+        run: python experiments/exp89_enstrophy_ranking_crossing_event_typing.py

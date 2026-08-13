@@ -2689,3 +2689,32 @@ Wang's smooth material-carrier relay treats common affine re-anchoring of the sa
 \boxed{\frac d{dt}(x_*-X_m)|_{t_0}=-H_e^{-1}\nabla R.}
 \]
 When nonzero this separates two physical loci and cannot be removed by re-anchoring without changing the tracked object.  Therefore any literal cross-program construction using an enstrophy-critical candidate must keep the material carrier and critical-locus current/geometry separately, or reconstruct the latter from the Eulerian field and required local jets.  This is not an identification of the actual Kelvin first-bad selector.
+
+
+## Theorem GP — Enstrophy branch-ranking competition has an exact three-face Navier--Stokes gap law
+
+For two differentiable enstrophy critical objects, `Delta e=e_1-e_2` obeys
+\[
+\boxed{\dot{\Delta e}=(S_1-S_2)-(K_1-K_2)+(C_1-C_2),}
+\]
+where `S_i=omega.S.omega`, `K_i=nu|grad omega|^2` is the Kelvin q.v. bulk, and `C_i=nu Delta e` is curvature diffusion.  A transverse crossing is `Delta e=0`, `dot Delta e!=0`; it is a physical rate competition, not a norm threshold.
+
+## Theorem GQ — Exact periodic NSE has a transverse winner crossing with both candidates decaying and with zero nonlinear interaction
+
+For the exact periodic shear in `docs/139_enstrophy_ranking_crossing_event_typing.md`, the critical sheets `y=0,pi` tie at `t_*=1/nu` with value `(9/2)e^{-2}` and active transverse curvatures `-12e^{-2}`, `-60e^{-2}`.  Stretching and local Kelvin q.v. bulk vanish at both sheets, so both branch rates are negative curvature-only rates while `dot Delta e=48 nu e^{-2}>0`; the winner switches because one smooth branch decays faster.  Globally `(u.grad)u=0`.
+
+## Theorem GR — The local velocity 2-jet does not determine enstrophy critical-branch rate even on exact smooth NSE
+
+At the exact crossing of Theorem GQ, the two sheets have identical `u`, `grad u`, and `Hess u`: `U=0`, `U_y=-3e^{-1}`, `U_yy=0`.  But `U_yyy` equals `4e^{-1}` and `20e^{-1}` respectively, producing different `e_yy=U_y U_yyy` and different branch rates.  Therefore no universal branch-rate or post-crossing-winner map can factor through the local velocity 2-jet alone.  The needed third jet/equivalent curvature observable is still part of the already closed common affine quotient; this identifies programme-specific readout order rather than reopening the quotient seam.
+
+## Theorem GS — An enstrophy ranking crossing is not universally a Wang hard interaction event
+
+The exact crossing shear has zero advective nonlinearity everywhere, hence no nonlinear HH work that could create a Wang hard interaction role, while its enstrophy candidate ranking switches transversely.  Since Wang hard roles are created at actual nonlinear work events, branch-ranking crossing and Wang hard interaction are distinct event types absent an independent identifying theorem.
+
+## Theorem GT — A selected ranking scalar can be continuous while its active branch label and derivative switch
+
+For `M(t)=max(e_0,e_pi)` in Theorem GQ, `M` is continuous at the tie but its derivative jumps from `-60 nu e^{-2}` to `-12 nu e^{-2}`.  Thus a selector/readout index can change without a physical scalar-state jump.  Any vector packet jump attached to the new branch is a readout reset and must not be retyped as field production or physical transport.
+
+## Theorem GU — Raw ranking-crossing time does not close hysteretic first-bad event timing
+
+A physical first-bad construction must keep distinct: branch-ranking crossing, critical-geometry degeneracy/support exit, Kelvin physical packet/library event, hysteretic selector/readout event, and Wang hard nonlinear interaction.  Kelvin's hysteretic switch may lag or ignore a raw value crossing according to a separate badness/resolve predicate, while the exact shear proves ranking crossing can occur with no Wang nonlinear event.  Therefore a generic `bad event` quotient or endpoint scalar clock is not compositional; selector history/rule state remains necessary unless NSE supplies an independent timing theorem.

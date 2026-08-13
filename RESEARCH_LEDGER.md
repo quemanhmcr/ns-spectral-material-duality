@@ -1083,3 +1083,16 @@ Failure lineage retained rather than erased:
 **EXACT CURVATURE-VOLUME CONSEQUENCE.**  The critical Hessian evolves by growth-landscape curvature + local fluid congruence + relative critical transport.  The congruence contributes exactly `-2 div u` to `d log|det H_e|/dt`, hence zero for incompressible flow, while Hessian shape can still evolve.  The remaining determinant-volume faces are `H_e^{-1} Hess R` and relative transport through `grad H_e`.
 
 **OPEN BRIDGE.**  This does not instantiate the actual first-bad germ.  If future first-bad logic uses a critical-locus candidate, its support/nondegeneracy, branch births/mergers, event clock, persistent library coupling, and relation to Wang genuine-owner recurrence must still be proved.  No recurrence/continuation/global-regularity claim.
+
+
+## 2026-08-13 — GP–GU: exact NS ranking crossing, 2-jet no-go, and event-clock separation
+
+**LATEST READ-ONLY INPUT.**  Kelvin advanced to `881bf32adbdcb09376e64c4f466ca93a106660b8`, merging `b3c87f7` on enstrophy branch competition; current-head Action `31678459542` is green.  Wang remains read-only at `ff8259ab5e0a57dfb342b9453f149be95aa3f5d8`.  No upstream write was made.
+
+**EXACT NSE/PDE IDENTITY.**  Two critical branch values compete by the exact difference of stretching, Kelvin q.v.-bulk loss, and curvature diffusion.  The exact periodic three-mode shear has a transverse `y=0` versus `y=pi` crossing at `t=1/nu` where both candidates decay and the crossing is driven only by different curvature rates.
+
+**COUNTEREXAMPLE/NO-GO — LOCAL CLOSURE.**  At that exact crossing the two locations have identical local velocity 2-jets (`U`, `U_y`, `U_yy`) and identical local vorticity/first derivative, but different `U_yyy`, hence different enstrophy curvature and branch rates.  A local `p<=2` first-bad ranking state is therefore insufficient even on exact smooth NSE.  This does not reopen the common affine quotient; it identifies a required programme-specific higher-jet readout.
+
+**COUNTEREXAMPLE/NO-GO — EVENT TYPE.**  The crossing shear has `(u.grad)u=0` globally.  A smooth ranking crossing can therefore occur with no Wang hard nonlinear interaction/work event.  The selected scalar max is continuous at the tie while its branch index and derivative switch, so readout reset and physical state jump are also distinct.
+
+**OPEN BRIDGE.**  Raw crossing, branch degeneracy/support exit, physical packet event, hysteretic selector event, and Wang hard interaction have separate clocks/owners.  The actual first-bad badness/resolve functional must say which one triggers selection and how history is used.  No recurrence/continuation/global-regularity claim.
