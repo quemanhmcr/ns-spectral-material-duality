@@ -40,8 +40,9 @@ For a smooth incompressible flow map with deformation gradient `F`:
 
 - full non-affine velocity class modulo affine motions: `[R_W]_/Aff=[N_L]_/Aff`, with common physical jets `J_p(L)` for every `p>=2`;
 - actual material current/shape and its linear synthesis maps;
-- persistent candidate-library/full pair state when hysteretic selector readout is allowed;
-- physical clock/replica/history data needed to distinguish same-clock transport from ancestry/future-bank state.
+- persistent candidate library with its **full ordered pair/Gram coupling**, including relative coupling modulo only the legitimate common latent gauge;
+- current same-replica noise-response/source data whenever a q.v. ledger is part of the target theorem;
+- physical clock/replica/**selector-event history** data, or an equivalent path accumulator, whenever optional jump variation is used.
 
 ## Current bridge frontier after affine-quotient closure
 
@@ -51,12 +52,12 @@ The higher-jet field seam is no longer an open tower: it is one affine-quotient 
 \boxed{
 \text{Eulerian/coherent field}
 +\text{material current/shape}
-+\text{clock/history}
-+\text{linear synthesis}
-+\text{persistent full pair/library state}.}
++\text{selector-event clock/history}
++\text{linear physical event/synthesis}
++\text{persistent library with full relative pair/Gram state}.}
 \]
 
-Current Kelvin further shows that a first-bad selector switch is a **readout change**, not a universal physical transport of the old selected residual, and that one same-replica packet library carries a full common-noise Gram tensor with genuine cross-germ blocks.  Those facts sharpen the state-map target; they do not supply the missing Wang→Kelvin current/library/clock instantiation.
+Current Kelvin further shows that a first-bad selector switch is a **readout change**, not universal physical transport; one same-replica library carries a full common-noise Gram with genuine cross-germ blocks; a simultaneous physical event plus selector has a mandatory `DeltaE DeltaA` face; and continuous-source rate revaluation is distinct from finite jump q.v.  Repo-3 now adds the closed-loop no-go: accumulated selector jump q.v. is not an endpoint-state coboundary.  These facts sharpen the state-map target; they do not supply the missing Wang→Kelvin current/library/event-timing instantiation.
 
 ## Non-equivalences that must be preserved
 
@@ -66,6 +67,10 @@ Current Kelvin further shows that a first-bad selector switch is a **readout cha
 - stochastic ancestry time is not automatically physical recurrence time;
 - selector readout is not physical packet transport;
 - diagonal child/germ energies or q.v. blocks are not a substitute for the full pair/Gram state;
+- independent child/germ latent gauges are not the legitimate common coherent/Brownian gauge;
+- continuous q.v. source, signed continuous-source rate revaluation, selector optional jump q.v., and endpoint pair reset are not one quadratic budget;
+- selector-event and physical-event faces do not add naively at finite jumps because `DeltaE DeltaA` is mandatory;
+- accumulated selector jump q.v. is not an endpoint state function;
 - passive connection motion is not positive production;
 - geometry/capacity is not causal work.
 

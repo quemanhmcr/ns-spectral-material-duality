@@ -1026,3 +1026,12 @@ Failure lineage retained rather than erased:
 **EXACT NSE CALIBRATION.**  The half-period one-mode shear gives opposite exact Kelvin residual readouts.  On that frozen exact-NSE payload, the stationary selector history and `0->1->0` end at the same selected state/pair while the loop carries jump-q.v. `8chi_0^2P_z`, trace `128e^{-2nu k^2t}k^4/pi^4`.  This activates the state-map obstruction but does not claim actual first-bad event timing realizes the loop.
 
 **OPEN BRIDGE.**  The `clock/history` seam is now literal: any cross-program state map requiring accumulated selector path variation must carry selector-event history/an equivalent accumulator, unless a separate Navier--Stokes event-timing theorem reconstructs it from endpoint data.  Continuous q.v. production, source-rate revaluation, optional jump q.v. and endpoint pair reset remain four separately typed faces.
+
+
+## 2026-08-13 — core-spine consolidation after FV–FY and Kelvin `ad8cd25`
+
+**RIGOROUS CONSEQUENCE / FRONTIER CORRECTION.**  The surviving state-map seam is now recorded as `Eulerian/coherent field + material current/shape + selector-event clock/history + linear physical event/synthesis + persistent library with full relative pair/Gram coupling`.  “Full pair” is not merely a list of diagonal child/germ energies: diagonal marginalization enlarges the latent gauge to an artificial blockwise product gauge and deletes relative synthesis coupling.  “History” is not merely a clock label: selector jump optional q.v. has positive closed-loop circulation and is not an endpoint-state coboundary.
+
+**EXACT HYBRID LEDGER.**  For a simultaneous physical library map and selector change, `D=E_+A-E_-=E_-DeltaA+DeltaE+DeltaE DeltaA`; the mixed face is mandatory.  Endpoint pair revaluation, signed continuous-source rate revaluation, finite optional jump q.v. and accumulated selector jump history are separately typed even though all use quadratic pair algebra.  None is promoted to a monotone energy/covariance/continuation bank.
+
+**LATEST READ-ONLY REMOTE TRUTH.**  Wang remains `efb286e6710d9c20cb25a6303d2cb16b3a9e344a`.  Kelvin is `ad8cd25c8fa0d8aa73bc2f37ec86d8a763820063`; Action `31665051054` is green and its combined-event/source-rate tests pass on Python 3.11/3.12.  No upstream write was made.

@@ -335,24 +335,69 @@ so `R_W` is the minimal `L^2(rho)` representative of the common affine class and
 | normalized Hessian `B=J_2` | `Sym B` after third-Hermite transverse quotient | full codeforming `J_2(L)` | **same input, different quotient** |
 | linear synthesis/refinement | coherent child sum with cross-pair energy | frame-aware current/event synthesis | **same tensor-square functor; cross pairs are physical** |
 | first-bad selector | no direct Wang identity | readout `E_g` of a persistent germ library, not physical transport | state-map must retain hidden library/full pair state |
+| full ordered pair/Gram coupling | coherent child pairs retain relative phase/coherence | same-replica cross-germ Gram retains relative common-driver orientation | **diagonal marginals lose physical relative coupling** |
+| selector jump history | no direct instantaneous Wang identity | optional jump-q.v. accumulator of the càdlàg selected readout | **not an endpoint-state function** |
+
+### Hybrid event/readout ledger: same quadratic algebra, different physical owners
+
+Let `X` denote the persistent Kelvin library, `E_- -> E_+` a selector/readout change, and `A` a specified linear physical library event.  The literal combined readout operator is
+
+\[
+\boxed{
+D:=E_+A-E_-
+=E_-\Delta A+\Delta E+\Delta E\,\Delta A.}
+\]
+
+The mixed finite face `DeltaE DeltaA` is mandatory.  It is an observer/physical-event interaction, not Brownian q.v.
+
+For a full library pair state `P`, the selected endpoint pair revaluation is
+
+\[
+\boxed{
+\Delta P_{\rm sel}
+=DP E_-^T+E_-P D^T+DPD^T.}
+\]
+
+For one same-replica noise-response library `N`, put `B_-=E_-N`, `dB=DN`.  The **continuous Brownian source-rate revaluation** is
+
+\[
+\boxed{
+\Delta\Gamma_{\rm cont}
+=2\nu\left(dB B_-^T+B_-dB^T+dB dB^T\right).}
+\]
+
+By contrast, for a pathwise library state `X`, the finite selected jump is `J=DX` and the optional jump-q.v. atom is only
+
+\[
+\boxed{\Delta[Y]_{\rm jump}=JJ^T.}
+\]
+
+Finally, along a supplied selector path,
+
+\[
+\mathcal J[Y]=\sum_j\Delta_jY\,\Delta_jY^T
+\]
+
+is a **history functional**.  Pair revaluation telescopes on a closed loop, whereas `\mathcal J` can be strictly positive.  Hence the current endpoint pair, the current continuous source rate, the finite jump square, and the accumulated jump history are not interchangeable quadratic budgets.
+
 
 ## 11. What remains central
 
 The next core questions are not “can this already prove regularity?”  They are:
 
-1. **Literal state-map assembly.**  Any viable Wang→Kelvin lift must now preserve, as separately typed state data,
+1. **Literal state-map assembly.**  Any viable Wang→Kelvin lift must now preserve, as separately typed data whenever the target theorem uses them,
    \[
    oxed{	ext{Eulerian/coherent field}
    +	ext{material current/shape}
-   +	ext{clock/history}
-   +	ext{linear physical synthesis}
-   +	ext{persistent full pair/library state}.}
+   +	ext{selector-event clock/history}
+   +	ext{linear physical event/synthesis}
+   +	ext{persistent library with full relative pair/Gram coupling}.}
    \]
-   The selector is a readout of that state, not a substitute for physical transport.
+   The selector is a readout, not physical transport.  Full pair state means the ordered cross coupling modulo only the legitimate **common** latent gauge; diagonal marginals create an artificial product gauge and lose synthesis data.  Accumulated selector jump q.v. has nonzero closed-loop circulation, so if a theorem uses that path functional it must carry history/an equivalent accumulator or prove an independent physical timing theorem that reconstructs it from the endpoint.
 2. **Programme-specific readouts after quotient closure.**  The full higher-jet field seam is closed by the affine-quotient law.  What remains is to derive only those Wang Hermite/packet and Kelvin surface/moment projections actually used by the two programmes, without pretending the quotients are identical.
 3. **Localized pressure/viscosity.**  Push the exact full-state pressure/Dirichlet dictionaries through actual smooth roles without losing commutator, boundary, q.v., common-noise cross blocks or clock faces.
 4. **Wang native branch semantics.**  Continue read-only placement of resolved-contact K/S/HH routing and the new pure-UV true-upward first-shell natural-window branch into the material/current dictionary without turning support/capacity into causal recurrence.
-5. **Kelvin first-bad library instantiation.**  Current Kelvin now has exact frame-aware event synthesis, projector traffic, event gauge normal form, selector-as-readout no-go, and same-replica Gram dynamics.  The remaining literal seam is which physical candidate current library, shapes/frames, replica and clock the actual first-bad construction selects, plus control of its full pair/projector state and cross-clock ancestry lift.
+5. **Kelvin first-bad library/timing instantiation.**  Current Kelvin now also has the exact simultaneous packet-selector product rule (including `DeltaE DeltaA`), signed continuous-source rate revaluation, selector optional jump q.v., and hybrid semimartingale bookkeeping.  The remaining literal seam is which physical candidate current library, shapes/frames, replica, event maps and clock/history the actual first-bad construction selects, plus control of its full pair/projector state and cross-clock ancestry lift.
 
 These tasks strengthen the two upstream programmes whether or not they eventually contribute to any global regularity argument.
 
