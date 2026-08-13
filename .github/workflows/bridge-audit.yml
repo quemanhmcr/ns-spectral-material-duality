@@ -205,3 +205,5 @@ jobs:
         run: python experiments/exp91_selector_boundary_zero_depth_owner_projection.py
       - name: Critical lineage persistence clock separation
         run: python experiments/exp92_critical_lineage_persistence_clock_separation.py
+      - name: Relative-boundary transport owner law
+        run: python experiments/exp93_relative_boundary_transport_owner_law.py

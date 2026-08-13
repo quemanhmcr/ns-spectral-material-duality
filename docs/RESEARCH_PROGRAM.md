@@ -97,3 +97,8 @@ Current Kelvin further shows that a first-bad selector switch is a **readout cha
 - geometry/capacity is not causal work.
 
 These failures are part of the theory, not inconveniences to be hidden.
+
+
+### Relative-boundary owner frontier (HK–HR)
+
+New exact PDE law: observation/control boundaries contribute through `V-u` only.  The programme must therefore distinguish intrinsic source/sink, physical flux, relative-boundary sweep, selector/target/boundary sidecars, and transport ancestry memory.  A critical-selector speed singularity is not itself a generation event; the exact heat-shear merger has singular sweep rate with analytic NSE field and zero nonlinear/stretching generation.  The next first-bad bridge must derive the actual badness/control object's moving-boundary law and show which independently witnessed source/work owner, if any, is allowed to increase generation depth.

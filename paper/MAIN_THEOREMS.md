@@ -2785,3 +2785,51 @@ In Theorem GY choose a compact interval `K` containing all prescribed crossing t
 ## Theorem HJ — Ranking, critical-geometry, and hard nonlinear-owner clocks cannot be universally identified
 
 Theorem HI realizes `N_rank=N` with zero tracked normal-degeneracy events on the entire interval and zero nonlinear advection, for arbitrary finite `N`.  Hence ranking/readout crossings cannot universally stand for critical-branch birth/death or Wang hard nonlinear owner events.  Any critical-candidate first-bad state must keep ranking/selector data, the Hessian or appropriate normal-lineage theorem domain, and physical owner/work events separately.  Hysteretic selector timing remains an additional open rule clock.
+
+## Theorem HK — Every moving scalar balance splits into bulk source, physical flux, and relative-boundary sweep
+
+If `div u=0`, `(partial_t+u·grad)f=s+div J`, and `D_t` has boundary velocity `V`, then
+\[
+\boxed{\frac d{dt}\int_{D_t}f=\int_{D_t}s+\int_{\partial D_t}J\cdot n+\int_{\partial D_t}f(V-u)\cdot n.}
+\]
+The sweep face depends only on the boundary velocity relative to the material.  Material motion `V=u` and pure tangential relative motion both lie in its kernel.
+
+## Theorem HL — Moving Navier--Stokes enstrophy has an exact four-face owner law
+
+For `e=|omega|^2/2`, every smooth moving control volume satisfies
+\[
+\boxed{\frac d{dt}\int_{D_t}e=\int_{D_t}\omega\cdot S\omega-\nu\int_{D_t}|\nabla\omega|^2+\nu\int_{\partial D_t}\nabla e\cdot n+\int_{\partial D_t}e(V-u)\cdot n.}
+\]
+Stretching, bulk viscous loss, diffusive boundary transport and relative-boundary sweep are therefore distinct exact PDE faces.
+
+## Theorem HM — Arbitrary moving loops obey an exact swept-ribbon Kelvin law
+
+For a smooth closed loop `C_t` with point velocity `v` and `w=v-u`, circulation obeys
+\[
+\boxed{\dot\Gamma=\nu\oint_{C_t}\Delta u\cdot dx-\oint_{C_t}(w\times\omega)\cdot dx=\nu\oint_{C_t}\Delta u\cdot dx+\oint_{C_t}\omega\cdot(w\times dx).}
+\]
+The second term is vorticity flux through the ribbon swept by the loop relative to the fluid.  Tangential reparameterization contributes zero.
+
+## Theorem HN — Critical-selector boundary currency is driven by relative critical drift, not absolute selector speed
+
+On a nondegenerate enstrophy critical branch, `dot x_*-u=-H_e^{-1}grad R`.  Whenever a control boundary/readout is attached to that branch, the moving-boundary faces in Theorems HK--HM use this relative drift in the active normal direction.  Thus the exact causal chain is local NSE balance -> critical relative drift -> swept-boundary transfer.
+
+## Theorem HO — Exact smooth NSE has a singular critical moving-cut rate with continuous current and zero nonlinear/stretching generation
+
+In the two-mode periodic heat shear, side critical sheets satisfy `d|dot a|->3nu` at their analytic merger.  The one-sided circulation sweep obeys
+\[
+ d|K'_{sweep}|\to\frac{3\nu\ell e^{-1}}2(1-\cos s)^2,
+\]
+while circulation remains continuous, `(u·grad)u=0`, and `omega·S omega=0`.  Hence a divergent selector/readout transfer rate is not universally a blow-up, jump atom, or hard-generation event.
+
+## Theorem HP — Endpoint current/residual coalescence does not determine literal transport ancestry
+
+For the same exact merger, common pre-merger Nanson initialization yields `J_{0<-s}=I+Delta gamma_* E_xy != I`, `det J=1`, at the common endpoint, even though anchor, vorticity, circulation, own-local coefficient residual, physical residual and codeforming residual can coincide.  Any ancestry-preserving state map must therefore carry frame/support history, this relative holonomy, or an independently proved equivalent.
+
+## Theorem HQ — Relative-boundary sweep has zero hard-generation depth unless an independent source/work owner is present
+
+A sweep term is genuine transfer and must remain in the exact ledger, but the exact heat-shear witness has nonzero and even singular sweep currency with zero nonlinear advection and zero enstrophy stretching.  Therefore no universal hard-generation rule may increment generation depth from sweep magnitude, sign or singularity alone.
+
+## Theorem HR — Cross-program event assembly has an owner-first triangular order
+
+Exact NSE moving-boundary laws first determine intrinsic source/sink/flux and then the relative-boundary/readout currency.  Independently, current Wang central routing first classifies physical first stops and only then attaches typed material/Moyal sidecars.  These currencies are not identified, but both force the same assembly hygiene: physical owner classification precedes sidecar/readout attachment, and no sidecar or sweep is promoted to hard generation without an independent physical theorem.  First-bad closure and termination remain open.

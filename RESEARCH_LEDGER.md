@@ -1152,3 +1152,16 @@ The bridge spine now uses Kelvin's latest own-local **affine** event interface `
 **LATEST READ-ONLY WANG.**  Wang remains `94cd83726123814ef7abc19ffa82c9c62a446698`; selected-family Moyal `R_switch` is a typed zero-generation-depth boundary currency on same-state rereading, while genuine material/source recurrence still requires independent physical service/source evidence.  Central/joint-stop integration and mixed genuine-owner ancestry remain open.
 
 No upstream write was made.  No Zeno exclusion, recurrence assembly, continuation, restart, termination, or global-regularity theorem is claimed.
+
+## 2026-08-13 — HK–HR: relative-boundary transport law, swept-ribbon Kelvin currency, and transport-ancestry obstruction
+
+- Derived the exact moving-balance identity `d int_D f = int_D s + int_boundary J.n + int_boundary f(V-u).n`; selector/boundary motion enters only through velocity relative to the material.
+- Specialized it to the exact Navier--Stokes enstrophy four-face law: stretching, bulk viscous loss, diffusive boundary flux, and relative sweep.
+- Derived the arbitrary-moving-loop Kelvin law `dot Gamma = nu*oint Delta u.dx - oint((v-u)xomega).dx`, equivalently vorticity flux through the swept ribbon.
+- Bound the new sweep face to the existing critical-current law `dot x_*-u=-H_e^{-1}grad R`; absolute selector speed is not the intrinsic currency.
+- On Kelvin's exact two-mode heat-shear merger, identified the `1/d` critical packet cusp as a singular but continuous relative-boundary transfer with zero nonlinear advection and zero enstrophy stretching.
+- Imported read-only Kelvin head `4888b6e19293edc0950047fd2e52ad6b64fbe3ac`: Nanson transport retains a nontrivial merger history holonomy even when endpoint current/residual fiber coalesces.
+- Imported read-only Wang head `24a725798948d7067afae1976afb9c712fb23b47`: central/joint routing now enforces physical-stop first, typed material/Moyal sidecar second, while preserving genuine independently witnessed material service.
+- New necessary assembly rule: moving-boundary transfer remains a real transfer ledger but carries zero hard-generation depth unless an independent source/work owner is present.
+- Action stress test: `experiments/exp93_relative_boundary_transport_owner_law.py`; certification pending at commit time.
+- No upstream writes. No Zeno, recurrence, restart, continuation, termination, or global-regularity claim.

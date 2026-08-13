@@ -449,3 +449,14 @@ The repository will continue to follow this order:
 \]
 
 A shorter proof architecture, if one emerges, is an **effect** of discovering these rigid physical laws.  It is not the object imposed on them from above.
+
+
+## Relative-boundary transport layer (HK–HR)
+
+The physical state/event spine now has one further forced separation.  For any moving balance surface/control object, the selector enters the exact PDE ledger through **relative** boundary velocity `V-u`, never through absolute selector speed.  Scalar inventories obey bulk-source + physical-flux + swept-boundary transfer; circulation obeys the corresponding swept-ribbon Kelvin law.  A pure boundary sweep is real transfer, not gauge, but exact heat shear proves that its magnitude or singular rate cannot be promoted to hard nonlinear/source generation.
+
+The latest exact Kelvin merger also forces a transport-memory slot: endpoint anchor/current/residual coalescence can coexist with nontrivial Nanson frame holonomy.  Therefore the core typed state must preserve `transport ancestry/frame history (or equivalent holonomy)` separately from current residual readout.
+
+Current owner-first order:
+
+`intrinsic NSE source/sink/flux -> PDE-generated relative selector/boundary motion -> swept readout currency -> typed selector/target/Moyal sidecars`, with ancestry memory carried through the event.  Wang's current central routing independently enforces the same ordering principle for its own distinct currencies: physical stop first, sidecar second.  This is architecture hygiene, not yet a recurrence/termination theorem.

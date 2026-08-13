@@ -115,3 +115,5 @@ Research assistance: **OpenAI ChatGPT (GPT-5.6 Sol)** for derivation support, ad
 The first genuinely nonlinear result is an exact **no-go theorem**: fixed material metric/carrier geometry cannot determine the sign of helical child-energy work because the relative complex phase remains free. See [`docs/03_metric_phase_no_go.md`](docs/03_metric_phase_no_go.md).
 
 A chronological status ledger is maintained in [`RESEARCH_LEDGER.md`](RESEARCH_LEDGER.md), and the paper skeleton is in [`paper/OUTLINE.md`](paper/OUTLINE.md).
+
+- **Relative-boundary owner law (HK–HR):** every moving NSE balance sees selector motion only through `V-u`; moving enstrophy splits exactly into stretching, bulk viscous loss, diffusive boundary flux and relative sweep, while moving circulation obeys a swept-ribbon Kelvin law.  The exact critical-sheet merger shows a `1/d` sweep-rate singularity with continuous current, zero nonlinear advection and zero enstrophy stretching.  Endpoint residual coalescence still does not erase Nanson transport ancestry.
