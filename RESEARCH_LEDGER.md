@@ -1101,3 +1101,18 @@ Failure lineage retained rather than erased:
 ## 2026-08-13 — docs consolidation through GH–GU [skip-ci target]
 
 The integrated bridge spine is synchronized through the Action-certified passive packet quotient (GH–GK), enstrophy critical-current/material-current separation and critical-curvature-volume law (GL–GO), and exact branch-ranking/event-typing no-gos (GP–GU).  The literal state target now keeps packet/frame data only modulo passive gauge; distinguishes material current from any critical-locus current/geometry used by first-bad logic; records the actual programme-specific jet order demanded by the PDE (the exact crossing shear needs the third velocity jet although the common affine quotient is already closed for every `p>=2`); and keeps ranking crossing, critical-geometry events, selector/readout events, physical packet events, and Wang hard nonlinear-work events as separate clocks/types unless an independent NSE theorem identifies them.  This is documentation consolidation only and adds no recurrence/continuation/global-regularity claim.
+
+
+## 2026-08-13 — GV–HA: own-local affine target coboundary and arbitrary finite ranking-crossing no-go
+
+**LATEST READ-ONLY INPUTS.**  Wang remains `ff8259ab5e0a57dfb342b9453f149be95aa3f5d8`.  Kelvin advanced to `3397d3153d55ec460ac857a9a8d40a172c82779a`; its own-local Kelvin event interface is affine and exact-head Action `31679953296` is green.  No upstream write was made.
+
+**EXACT REPRESENTATION LAW.**  Own-local residual events are `x_+=Ax_-+d`, `d=A Omega_- - Omega_+`; the offset is a compositional coboundary.  Simultaneous selector readout is `DeltaY=(E_+A-E_-)X+E_+d`, so affine target cross faces survive in pair/q.v. bookkeeping.
+
+**COUNTEREXAMPLE/NO-GO — REANCHORING TYPE.**  Wang common carrier reanchoring is passive chart gauge.  Kelvin target reanchoring can change residual/q.v. source even with `A=I`.  Exact cubic heat shear gives `Q_a=0` at the packet's own target and `Q_0=-12ab ell` after target reanchor, while nonlinear advection remains zero.  Same composition law does not imply same physical quotient.
+
+**EXACT NSE/PDE IDENTITY — MANY CROSSINGS.**  For arbitrary finite prescribed times, an odd-mode exponential Chebyshev interpolation supplies `O(t_i)=0`, `O'(t_i)!=0`.  Adding one even heat mode gives an exact periodic shear with `Delta e=2 epsilon E O` between `y=0,pi`, zero nonlinear advection, and—after small odd-sector scaling—strict negative transverse enstrophy curvature on both sheets at every crossing.
+
+**COUNTEREXAMPLE/NO-GO — GENERATION COUNT.**  Ranking/selector crossing count can therefore be made arbitrarily large at finite prescribed times while hard nonlinear interaction remains absent.  A pure selector reset on fixed library/target may change readout with no physical library event.  Selector/ranking count and target q.v. revaluation are not universal Wang hard-generation-depth currencies and may not create extra recurrence vertices by observer fiat.
+
+**OPEN BRIDGE.**  This does not prove selector Zeno/local finiteness, does not identify the actual first-bad score, and does not close Wang sidecar-bearing mixed genuine-owner recurrence or any assembly/termination theorem.  No recurrence/continuation/global-regularity claim.

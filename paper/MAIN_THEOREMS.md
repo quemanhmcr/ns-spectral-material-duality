@@ -2718,3 +2718,28 @@ For `M(t)=max(e_0,e_pi)` in Theorem GQ, `M` is continuous at the tie but its der
 ## Theorem GU — Raw ranking-crossing time does not close hysteretic first-bad event timing
 
 A physical first-bad construction must keep distinct: branch-ranking crossing, critical-geometry degeneracy/support exit, Kelvin physical packet/library event, hysteretic selector/readout event, and Wang hard nonlinear interaction.  Kelvin's hysteretic switch may lag or ignore a raw value crossing according to a separate badness/resolve predicate, while the exact shear proves ranking crossing can occur with no Wang nonlinear event.  Therefore a generic `bad event` quotient or endpoint scalar clock is not compositional; selector history/rule state remains necessary unless NSE supplies an independent timing theorem.
+
+
+## Theorem GV — Own-local Kelvin current events require an affine target coboundary
+
+If an unreanchored readout `z=x+Omega` obeys the supplied linear event `z_+=A z_-`, then the own-local residual obeys `x_+=A x_-+d` with `d=A Omega_- - Omega_+`.  Consecutive offsets compose by `A_2d_1+d_2=(A_2A_1)Omega_0-Omega_2`.  With a simultaneous selector change, `DeltaY=(E_+A-E_-)X+E_+d`; hence the target offset and its signed second-moment/q.v. cross faces are mandatory and are not contained in the linear tensor-square functor alone.
+
+## Theorem GW — Wang passive carrier reanchoring and Kelvin own-local target reanchoring are inequivalent physical operations
+
+Wang common-slice affine reanchoring is a chart/observer gauge of the same continuing material carrier.  Kelvin own-local target reanchoring can have `A=I` but nonzero `d=Omega_- - Omega_+` and target-gradient Brownian response `G_- - G_+`.  Since it can change the physical residual/q.v. source, it cannot be quotiented as the same passive carrier-coordinate gauge merely because its offset composes as a coboundary.
+
+## Theorem GX — Exact cubic heat-shear NSE activates the target-reanchoring no-go with zero nonlinear advection
+
+For `u=(y^3+6nu t y,0,0)`, `(u.grad)u=0` and the heat equation is exact.  A rectangular Kelvin loop centered at `y=a` has residual-noise coefficient `Q_p=12 b ell (p-a)` against target `p`.  Thus the own target `p=a` gives `Q_a=0`, whereas the same current/frame reanchored to `p=0` gives `Q_0=-12ab ell !=0` with `A=I`.  Target-induced q.v.-source revaluation is therefore neither Wang passive carrier gauge nor a hard nonlinear-work event.
+
+## Theorem GY — Exact periodic NSE heat shears realize arbitrarily many prescribed transverse critical-sheet ranking crossings with zero nonlinear interaction
+
+Given any `N` ordered positive times, choose `N+1` distinct odd Fourier modes and a nonzero coefficient vector annihilating the `N` exponential interpolation rows.  The resulting odd exponential polynomial `O(t)` has exactly those prescribed roots and each is simple by the Chebyshev-system zero theorem.  Adding an even mode `E=B e^{-4nu t}` yields an exact periodic shear with enstrophy gap `Delta e=2 epsilon E O` between the fixed critical sheets `y=0,pi`.  Hence all prescribed roots are transverse ranking crossings while `(u.grad)u=0` identically.  Scaling the odd sector small keeps both sheets strict transverse enstrophy maxima at every crossing.
+
+## Theorem GZ — Ranking/selector event count cannot be a universal Wang hard-generation-depth currency
+
+Theorem GY gives, for every finite `N`, an exact smooth periodic NSE flow with at least `N` prescribed ranking crossings and identically zero nonlinear advection.  Therefore ranking-crossing count, selector-switch count, selector jump variation, or target-induced q.v.-source revaluation cannot universally equal or increment Wang hard nonlinear-work generation depth.  This is a no-go for observer/rule-generated recursion, not a statement that viscous evolution or every other physical owner vanishes.
+
+## Theorem HA — Cross-program event assembly must keep physical owner, target coboundary, selector, and event clock separately typed
+
+For a pure selector reset on a fixed physical library and fixed target, `A=I` and `d=0`, so the underlying physical library has no event while `DeltaY=(E_+-E_-)X` can be nonzero.  The selector therefore cannot add an extra physical-owner vertex by itself.  When a true event and/or target change is simultaneous, the affine readout faces remain mandatory, but they do not license duplicating the underlying NSE owner into extra recurrence generations.  Endogenous selector local finiteness, actual badness/resolve timing, and Wang mixed genuine-owner recurrence remain open.
