@@ -2764,3 +2764,24 @@ Current Wang's same-state selected-family anti-theorem permits exact `R_switch>0
 ## Theorem HE — Any hard-generation assembly must annihilate the demonstrated pure-sidecar event directions
 
 A recurrence event record must keep underlying physical owner/event `A`, own-local target coboundary `d`, selector change `DeltaE`, and boundary sidecars separately.  Exact counterexamples force any physically faithful hard-generation increment rule to assign zero increment to: a pure selector reset on fixed library/target; a same-state Wang selected-family boundary reread absent independent service/source work; and a pure target q.v.-reanchor witness with zero nonlinear advection.  If a genuine physical event is simultaneous, these faces remain mandatory bookkeeping but may not clone the physical owner into extra generations.  Full factorization through a completed owner quotient is still open.
+
+
+## Theorem HF — Invertible enstrophy Hessian forces a unique local critical lineage
+
+For a smooth Navier--Stokes solution, let `F=grad e`.  If `F(x_0,t_0)=0` and `H_e=D_xF` is invertible, the implicit-function theorem gives a unique local critical branch `x_*(t)` through `(x_0,t_0)`.  Its differentiated constraint is `H_e xdot_* + partial_t grad e=0`, hence the exact PDE speed law `xdot_*-u=-H_e^{-1}grad R`.  A local isolated critical-lineage birth/death/merge cannot occur at an interior point where this theorem domain remains valid.
+
+## Theorem HG — Critical Morse type is invariant on a connected nondegenerate lineage interval
+
+Along a nondegenerate critical branch, the real-symmetric Hessian eigenvalues vary continuously and none can cross zero while `det H_e!=0`.  Therefore the Hessian inertia, and hence strict maximum/minimum/saddle type, is constant until a degeneracy or theorem-domain exit occurs.
+
+## Theorem HH — Normal nondegeneracy is the correct lineage condition for translation-symmetric critical sheets
+
+For a shear enstrophy `e(y,t)`, if `e_y(y_0,t_0)=0` and `e_yy(y_0,t_0)!=0`, the scalar implicit-function theorem gives a unique local normal critical lineage even though tangent `x,z` Hessian directions vanish by symmetry.  Negative `e_yy` preserves strict normal-max type until normal degeneracy.
+
+## Theorem HI — Exact periodic NSE admits arbitrarily many ranking crossings on one interval with zero normal-geometry events and zero nonlinear advection
+
+In Theorem GY choose a compact interval `K` containing all prescribed crossing times.  With `m_E=min_K E>0`, `M_0=max_K|O|`, `M_2=max_K|O_2|`, choose `epsilon M_0<m_E` and `epsilon M_2<4m_E`.  Then for every `t in K`, the fixed sheets `y=0,pi` have positive vorticity amplitudes and strictly negative normal enstrophy curvatures.  Thus both are persistent strict normal maxima on all of `K`, while the gap `Delta e=2 epsilon E O` retains all `N` prescribed transverse crossings and `(u.grad)u=0` identically.
+
+## Theorem HJ — Ranking, critical-geometry, and hard nonlinear-owner clocks cannot be universally identified
+
+Theorem HI realizes `N_rank=N` with zero tracked normal-degeneracy events on the entire interval and zero nonlinear advection, for arbitrary finite `N`.  Hence ranking/readout crossings cannot universally stand for critical-branch birth/death or Wang hard nonlinear owner events.  Any critical-candidate first-bad state must keep ranking/selector data, the Hessian or appropriate normal-lineage theorem domain, and physical owner/work events separately.  Hysteretic selector timing remains an additional open rule clock.
