@@ -2308,3 +2308,70 @@ The commutator `[S,Omega]` is symmetric trace-free orientation coupling.
 ## Theorem EI — Deterministic vorticity curvature and Kelvin q.v. curvature share `R_2` but are non-equivalent
 
 Affine rigid rotation has `R_2(omega omega^T)!=0` and `Gamma_K=0`; an exact periodic shear at a vorticity-zero symmetry point has `R_2(omega omega^T)=0` but `Gamma_K!=0`.  The common `R_2` is a representation law, not a physical equivalence of amplitude and gradient-q.v. inputs.
+
+## Theorem EJ — Wang transverse strain trace equals Kelvin-carrier radial dilation
+
+For the exact affine Kelvin mode in Wang's objective transverse frame `E`, with `B_perp=E^T S E`,
+\[
+\boxed{\operatorname{tr}B_\perp=\frac d{dt}\log|k|.}
+\]
+Thus scalar transverse deformation and carrier-radius deformation are one incompressibility constraint, not independent parameters.
+
+## Theorem EK — Kelvin-mode carrier radius and transverse polarization area obey an exact top-form balance
+
+If `U_perp` is the transverse amplitude fundamental map,
+\[
+\boxed{
+\frac d{dt}\log(|k|\det U_\perp)=-2\nu|k|^2,}
+\]
+so
+\[
+\boxed{
+|k(t)|\det U_\perp(t)e^{2\nu\int_0^t|k|^2ds}=|k(0)|.}
+\]
+Inviscidly `|k| det U_perp` is constant.  This is a Kelvin-mode phase/polarization top-form law, structurally parallel to incompressible `Lambda^3` neutrality but not identified with literal material volume.
+
+## Theorem EL — Wang's objective polarization `SL(2)` map is the forced trace-free material-metric quotient
+
+Writing `B_perp=sigma I+D`, `tr D=0`,
+\[
+U_\perp=\left(\frac{|k_0|}{|k|}\right)^{1/2}e^{-\nu\int|k|^2}\widetilde U
+\]
+gives
+\[
+\boxed{\dot{\widetilde U}=-D\widetilde U,\qquad \det\widetilde U=1.}
+\]
+Moreover `D=tf[(1/2)E^T H Mdot H^T E]`; it is the trace-free transverse material metric velocity.  In two real dimensions the map is symplectic.
+
+## Theorem EM — Raw transverse polarization is generally not `SL(2)` when carrier radius changes
+
+Exact affine pure strain gives `|k|=e^{-at}` and inviscid raw `U_perp=diag(e^{at},1)`, so `det U_perp=e^{at}!=1` while `|k|det U_perp=1`.  Only the physically normalized trace-free map is determinant one.
+
+## Theorem EN — Wang helical phase commutator is the circular-basis image of material strain holonomy
+
+For trace-free transverse material metric velocities
+\[
+D_j=\begin{pmatrix}\delta_j&\beta_j\\\beta_j&-\delta_j\end{pmatrix},
+\]
+\[
+\boxed{[D_1,D_2]=2(\delta_1\beta_2-\beta_1\delta_2)J.}
+\]
+In the circular/helical basis `C`, `C^*JC=diag(i,-i)`.  Thus the same noncommutativity is a real polar-holonomy generator and an opposite-helicity phase generator.  The coefficient is invariant under a common `SO(2)` transverse frame rotation.
+
+## Theorem EO — An exact affine NSE family realizes nonzero material/helical commutator curvature
+
+For
+\[
+S(t)=\begin{pmatrix}d&\gamma t&0\\\gamma t&-d&0\\0&0&0\end{pmatrix},
+\qquad u=S(t)x,
+\qquad \nabla^2p=-\dot S-S^2,
+\]
+the flow is an exact affine NSE solution, `k=e_3` is fixed, and the transverse strain obeys
+\[
+[D(t_1),D(t_2)]=2d\gamma(t_2-t_1)J.
+\]
+The exact second Magnus face is
+\[
+\boxed{\Omega_2(T)=-(d\gamma T^3/6)J,}
+\]
+which becomes opposite diagonal helical phases.  No claim is made that higher Magnus terms vanish or that this local holonomy is a global transfer cost.
