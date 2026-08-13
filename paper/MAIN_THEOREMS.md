@@ -2008,3 +2008,51 @@ Exact periodic Navier--Stokes shears provide both directions of the no-go.  A hi
 \boxed{S_u=S_V+S_h}
 \]
 is a valid full/resolved bridge.
+
+## Theorem DC — Spectral cutoff repartition preserves Cartan owner types exactly
+
+For every real scalar Fourier split `u=V+h`,
+\[
+\boxed{S_u=S_V+S_h,\qquad \Omega_u=\Omega_V+\Omega_h,}
+\]
+and the linearized operators satisfy
+\[
+\boxed{\mathcal K_u=\mathcal K_V+\mathcal K_h,\qquad
+\mathcal S_u=\mathcal S_V+\mathcal S_h.}
+\]
+Changing cutoff from `R_0` to `R_1` transfers equal and opposite skew/symmetric tensors between resolved and unresolved sectors.  It creates no third interface owner.
+
+## Theorem DD — Full Kelvin metric velocity is invariant under resolved/unresolved repartition
+
+After conjugating each analysis metric velocity to Eulerian tensor space,
+\[
+\boxed{
+H_u\dot M_uH_u^T
+=H_V\dot M_VH_V^T+H_h\dot M_hH_h^T
+=2S_u.}
+\]
+Raw metric histories are not identified; the equality is the instantaneous physical strain tensor identity.
+
+## Theorem DE — Moving resolution has an unavoidable metric-velocity time face after differentiation
+
+For `V=R(t,D)u`,
+\[
+S_V=RS_u,
+\qquad
+\boxed{\partial_tS_V=\dot R\,S_u+R\partial_tS_u.}
+\]
+A finite reset has `Delta S_V=(R^+-R^-)S_u` while full `S_u` remains unchanged at a continuous physical state.
+
+## Theorem DF — Resolved objective strain differs from filtered full objective strain by four typed faces
+
+With `h=u-V`,
+\[
+\boxed{
+\mathring S_V-R\mathring S_u
+=\dot R S_u+[V\cdot\nabla,R]S_u-R(h\cdot\nabla S_u)+\mathcal R_{rot},}
+\]
+where
+\[
+\mathcal R_{rot}=(RS_u)(R\Omega_u)-(R\Omega_u)(RS_u)-R(S_u\Omega_u-\Omega_uS_u).
+\]
+These are respectively moving-cut, filter-interface, unresolved-incidence and rotation-filter faces.  The same identity is the material metric-acceleration mismatch through the exact metric-acceleration formula.

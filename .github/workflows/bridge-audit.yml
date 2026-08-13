@@ -141,3 +141,5 @@ jobs:
         run: python experiments/exp59_role_space_cartan_gauge.py
       - name: Kelvin resolved/full strain exact-NS no-go
         run: python experiments/exp60_kelvin_resolved_full_strain_no_go.py
+      - name: Moving cutoff metric acceleration faces
+        run: python experiments/exp61_moving_cutoff_metric_acceleration.py

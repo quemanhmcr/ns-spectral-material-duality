@@ -859,3 +859,9 @@ Failure lineage retained rather than erased:
 **EXACT KELVIN BRIDGE / OWNER TYPING.**  Re-audited Kelvin `8eb6bb1597...` read-only.  Its reconstructed residual drift uses full `S_u`.  Inserting the actual spectral split `u=V+h` gives exactly `-r.S_V r-r.S_h r+qv`; the `omega.r` cross drift likewise splits through the same bilinear tensor plus signed cross q.v.  Wang and Kelvin therefore share the local symmetric tensor owner, not a scalar bank.
 
 **COUNTEREXAMPLE/NO-GO.**  Vector and Kelvin/covector skew connections are transpose-dual and must not be silently identified.  Exact periodic NSE shears also show `S_V` neither determines nor is determined by full `S_u`; the unresolved strain correction is mandatory.
+
+## 2026-08-13 — DC–DF: cutoff repartition is metric gauge; moving resolution has a typed acceleration face
+
+**EXACT REPARTITION.**  For scalar Fourier resolution `u=V+h`, symmetric strain and skew connection split linearly, and so do the Cartan operators.  Changing cutoff transfers equal and opposite `K/S` tensors between resolved and unresolved sectors; full physical Kelvin metric velocity stays `2S_u`.
+
+**EXACT MOVING-CUT IDENTITY.**  If the multiplier depends on time, instantaneous metric velocity remains `S_V=R S_u`, but differentiation creates `dot R S_u`.  The full resolved objective-strain mismatch has exactly four typed faces: moving-cut time face, transport/filter commutator, unresolved incidence, and nonlinear rotation-filter mismatch.  No norm remainder or cutoff-switch currency is introduced.
