@@ -2521,3 +2521,28 @@ Hence `||R_W||_rho^2=inf_(a,B)||v_W-a-Bz||_rho^2`: the Gaussian residual is the 
 ## Theorem FI — Kelvin anchor residual norm contains an explicit affine-gauge mismatch beyond the common nonaffinity
 
 The nonnegative difference `||N_L||_rho^2-||R_W||_rho^2` is exactly the mismatch between Kelvin's local anchor affine gauge and Wang's Gaussian best affine gauge; it is not additional physical non-affinity.  Exact periodic shear with `rho=pi^-1/2 exp(-y^2)` gives excess `(1/2)e^{-2nu t}(1-e^{-1/4})^2`.
+
+
+## Theorem FJ — A genuine Kelvin selector switch is not universal transport of the old selected residual
+
+For a persistent finite residual library `X` with germ extraction maps `E_g`, a switch `g!=h` cannot satisfy `E_h=T E_g` on the whole library for any matrix `T`, because `ker E_g` contains nonzero vectors supported in germ `h` while `ker E_h` does not.  More generally, after a specified physical library event `A_full`, a reduced selected transition exists exactly when `E_h A_full=T E_g`, equivalently `ker E_g subset ker(E_h A_full)`.  Thus selector readout and physical transport are different operations; a restricted reduction requires an independently proved admissible-state relation.
+
+## Theorem FK — The active selected pair block is not a universal compositional state across genuine switches
+
+For full library pair state `P=E[XX^T]`, the selected block is `P_g=E_g P E_g^T` and a switch obeys
+\[
+\boxed{P_h-P_g=\Delta E\,P E_g^T+E_gP\,\Delta E^T+\Delta E\,P\,\Delta E^T.}
+\]
+There exist deterministic PSD pair states `P_i=X_iX_i^T`, `X_1=(a,b_1)`, `X_2=(a,b_2)`, with identical old selected block `aa^T` and different new blocks `b_i b_i^T`.  Hence, absent an extra admissible factorization theorem, hidden library coordinates and cross pairs are mandatory for universal selector composition.
+
+## Theorem FL — Deterministic pair coherence and same-replica Kelvin q.v. obey one tensor-square event functor but remain distinct physical faces
+
+Every linear physical event `X_+=AX` pushes a state pair/second moment by `P_+=APA^T`.  For a one-replica Kelvin residual library with stacked common-noise response `Sigma`, `Gamma_lib=2nu Sigma Sigma^T`; the same event gives `Sigma_+=A Sigma` and
+\[
+\boxed{\Gamma_+=A\Gamma_{lib}A^T.}
+\]
+Thus Wang coherent refinement, Kelvin residual pair synthesis, and Kelvin same-replica q.v. all carry the same `A tensor A` congruence law.  This does not identify the objects: `P` is pair/coherence state, while `Gamma_lib` is the continuous martingale q.v. source.  One common three-dimensional Brownian driver also forces `rank Gamma_lib<=3`.
+
+## Theorem FM — Diagonal independent per-germ q.v. is not the same physical Kelvin replica
+
+For exact NSE shear `u=e^{-nu k^2t}cos(ky)e_1`, Kelvin asymmetric packets with `rho=pi/(2k)`, anchors `Y_1=pi/(2k)`, `Y_2=3pi/(2k)` have exact anchor-noise coefficients `q_1=-4e^{-nu k^2t}k^3/pi^2`, `q_2=-q_1`.  Hence in one common stochastic-flow replica `Gamma_12=-Gamma_11`, and synthesis `A=[I I]` gives `A Gamma_lib A^T=0`.  Replacing the common driver by independent per-germ noises deletes the cross block and gives `A Gamma_ind A^T=4nu Sigma_1 Sigma_1^T>0`.  Therefore diagonal-only q.v. changes the physical stochastic model rather than approximating the same replica.
