@@ -965,3 +965,9 @@ Failure lineage retained rather than erased:
 **READ-ONLY UPSTREAM DEFINITIONS / EXACT QUOTIENT BRIDGE.**  Wang's normalized velocity and Kelvin's codeforming field satisfy `v_W=c+A_L z+N_L`.  Therefore Wang's Gaussian least-squares remainder and Kelvin's anchor-Taylor remainder differ only by an affine function.  They define the same class modulo affine motions, and every derivative order `p>=2` is exactly the same Kelvin codeforming jet `J_p(L)`.
 
 **EXACT NSE GAUGE NO-GO.**  Periodic one-mode shear shows the full residual fields are not equal: Wang's Gaussian affine slope differs from Kelvin's anchor derivative, while their higher jets coincide.  Higher-jet bridge work should therefore begin from this common affine-quotient field and only then apply programme-specific Hermite/moment projections; no p-by-p equivalence is to be guessed by pattern.
+
+## 2026-08-13 — FH–FI: after exact affine typing, Wang's Gaussian residual is the minimal quotient representative and Kelvin's excess is explicit gauge mismatch
+
+**NORM ONLY AFTER STRUCTURE.**  FE–FG first identify the common physical non-affine class modulo affine motions.  Only then Gaussian orthogonality gives an exact Pythagorean law: Wang's Gaussian residual is the minimal `L^2(rho)` representative over that affine class, while Kelvin's anchor residual norm adds a computable local-vs-Gaussian affine-gauge mismatch.  This residual norm is not Wang's coherent deformation variance `K_C^2=E||grad W-Abar||_F^2`; the latter is a distinct gradient-level observable.  The affine-gauge excess is not retyped as new physical non-affinity.
+
+**EXACT NSE CALIBRATION.**  Periodic one-mode shear realizes a strictly positive gauge excess with identical higher jets.  This provides a safe way to compare Gaussian/Kelvin residual magnitudes without using a norm to invent the underlying bridge.

@@ -2505,3 +2505,19 @@ This identifies the common higher physical input without asserting a separate Wa
 ## Theorem FG — Wang Gaussian affine gauge and Kelvin anchor affine gauge are non-identical in exact periodic NSE
 
 For exact shear `u=(e^{-nu t} sin y,0,0)` at `X=0,L=I`, Kelvin has `N=e^{-nu t}(sin y-y)e_1`, while Wang's centered Gaussian affine fit gives `R_W=e^{-nu t}(sin y-kappa_rho y)e_1` with `0<kappa_rho<1`.  Their difference is nonzero affine, while all derivatives of order at least two agree.
+
+## Theorem FH — Wang Gaussian residual is the minimal Gaussian-norm representative of the common affine-equivalence class
+
+With `N_L=R_W+(vbar-c)+(Abar-A_L)z` and centered Gaussian covariance `C_rho`, Wang affine orthogonality gives
+\[
+\boxed{
+\|N_L\|_\rho^2
+=\|R_W\|_\rho^2
++|vbar-c|^2
++\operatorname{tr}[(Abar-A_L)C_\rho(Abar-A_L)^T].}
+\]
+Hence `||R_W||_rho^2=inf_(a,B)||v_W-a-Bz||_rho^2`: the Gaussian residual is the quotient-norm representative after the exact common affine class has been identified.  This is not Wang's coherent deformation variance `K_C^2=E||grad W-Abar||_F^2`; that is a distinct gradient-level observable related only by Wang's OU spectral-gap estimates.
+
+## Theorem FI — Kelvin anchor residual norm contains an explicit affine-gauge mismatch beyond the common nonaffinity
+
+The nonnegative difference `||N_L||_rho^2-||R_W||_rho^2` is exactly the mismatch between Kelvin's local anchor affine gauge and Wang's Gaussian best affine gauge; it is not additional physical non-affinity.  Exact periodic shear with `rho=pi^-1/2 exp(-y^2)` gives excess `(1/2)e^{-2nu t}(1-e^{-1/4})^2`.

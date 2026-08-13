@@ -179,3 +179,5 @@ jobs:
         run: python experiments/exp78_common_refinement_pair_functor.py
       - name: Wang Kelvin full nonaffine affine-gauge quotient
         run: python experiments/exp79_wang_kelvin_affine_gauge_quotient.py
+      - name: Gaussian minimal nonaffinity quotient norm
+        run: python experiments/exp80_gaussian_minimal_nonaffinity.py
