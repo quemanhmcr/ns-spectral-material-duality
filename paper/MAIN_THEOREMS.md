@@ -2115,3 +2115,36 @@ For `u=V+h`,
 +[R_r,\Omega_V]+[R_r,\Omega_h]+\Gamma_r.}
 \]
 This is the dyad-space counterpart of Wang/repo-3 resolved/unresolved `K/S` Cartan geometry, with Kelvin q.v. retained as a distinct stochastic source.
+
+## Theorem DM — Incompressible Cartan deformation has a rigid exterior sign ladder
+
+For `A=S+Omega`, `tr A=0`, the induced three-dimensional Hodge representations are
+\[
+\boxed{R_1(A)=S+\Omega,\qquad R_2(A)=-S+\Omega,\qquad R_3(A)=0.}
+\]
+Strain flips sign from line to area representation, skew connection keeps the same Hodge-vector sign, and top volume is neutral.
+
+## Theorem DN — Material area normals and local affine Fourier wavevectors are the same degree-two representation
+
+Material line/inviscid vorticity obey `dot a=Aa`, while material area Hodge vectors and locally affine Fourier covectors obey
+\[
+\boxed{\dot n=\dot k=-A^T(n\text{ or }k)=(-S+\Omega)(n\text{ or }k).}
+\]
+Thus Wang spectral wavefront geometry and Kelvin material-surface geometry are literally the same local `Lambda^2` action.
+
+## Theorem DO — Material vorticity flux cancels strain and connection separately
+
+For Navier--Stokes,
+\[
+D_t\omega=A\omega+\nu\Delta\omega,
+\qquad D_tn=-A^Tn,
+\]
+so
+\[
+\boxed{D_t(\omega\cdot n)=\nu(\Delta\omega)\cdot n.}
+\]
+The strain and skew-connection contributions each cancel separately by degree-one/degree-two duality.
+
+## Theorem DP — Common Cartan deformation is separately neutral on the interaction top form
+
+For three common degree-one legs, the top wedge derivative is `tr A` times the wedge.  Incompressibility gives zero; moreover `tr S=tr Omega=0`, so common strain and common connection are separately neutral on `Lambda^3`.

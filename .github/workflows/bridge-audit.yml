@@ -147,3 +147,5 @@ jobs:
         run: python experiments/exp62_hh_cartan_material_rows.py
       - name: Kelvin dyad Cartan five-face dictionary
         run: python experiments/exp63_kelvin_dyad_cartan_five_faces.py
+      - name: Cartan exterior physical ladder
+        run: python experiments/exp64_cartan_exterior_physical_ladder.py

@@ -877,3 +877,9 @@ Failure lineage retained rather than erased:
 **EXACT KELVIN/ITÔ IDENTITY.**  The reconstructed residual dyad law splits as `-{S,R}+[R,Omega]+Gamma`.  Pure connection acts by orthogonal conjugation and is isospectral; strain changes dyad shape/trace; q.v. is a separate positive source.
 
 **CROSS-PROGRAMME DICTIONARY.**  With `u=V+h`, the Kelvin dyad has exactly resolved/unresolved strain, resolved/unresolved connection, and q.v. faces.  These are the physical-dyad representations corresponding to Wang/repo-3 `S_V,S_h,K_V,K_h`, not identical scalar currencies or state coordinates.
+
+## 2026-08-13 — DM–DP: physical Cartan exterior ladder unifies Wang wavefronts and Kelvin surfaces
+
+**EXACT EXTERIOR/PDE DICTIONARY.**  Specializing the existing exterior representation theorem to incompressible `A=S+Omega` gives `(S+Omega,-S+Omega,0)` on Hodge degrees 1,2,3.  Material area vectors and local affine Fourier wavevectors are the same degree-two representation; vorticity/material lines are degree one.
+
+**EXACT NSE FLUX CONSEQUENCE.**  In the material vorticity-flux pairing, strain and connection cancel separately, leaving only `nu Delta omega` as the local viscous source.  Common strain and common connection are separately neutral on the top interaction form.  This strengthens the structural Wang/Kelvin dictionary without adding a scalar budget.
