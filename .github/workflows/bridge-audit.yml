@@ -193,3 +193,5 @@ jobs:
         run: python experiments/exp85_adaptive_event_five_face_no_go.py
       - name: Stock versus path simultaneous-owner no-go
         run: python experiments/exp86_stock_vs_path_simultaneous_owner.py
+      - name: Passive packet gauge physical ranking
+        run: python experiments/exp87_passive_packet_gauge_physical_ranking.py

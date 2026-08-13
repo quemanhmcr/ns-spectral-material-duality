@@ -2639,3 +2639,20 @@ For a typed product event state `Z=(S,R_1,...,R_q)`, the component projection `q
 ## Theorem GG — A literal Wang--Kelvin state map must keep carrier ancestry stock and selector-event path history separately when both are used
 
 Same-carrier inheritance memory records physical carrier identity plus current inherited energy stock.  Selector-event memory records a traversed readout/event path or equivalent jump-q.v. accumulator.  Closed-loop non-telescoping proves that the latter is not determined by the former.  Thus a cross-program theorem using both mechanisms must retain both memory types and every simultaneous work/material/event/q.v. owner, or prove an independent Navier--Stokes reconstruction theorem; nonnegativity alone provides no identification.
+
+
+## Theorem GH — Kelvin packet coefficients carry a passive `GL(3)` gauge, while the physical residual and inverse-Gram energy are invariant
+
+For `H in GL(3)`, coefficient `epsilon`, and physical residual `r=H^{-T}epsilon`, a passive packet-basis change `(H,epsilon)->(HS,S^T epsilon)` leaves `r` exactly invariant.  With `G_H=H^TH`, the scalar `epsilon^T G_H^{-1} epsilon=|r|^2` is likewise invariant under `G_H->S^T G_H S`.  The raw coefficient norm `|epsilon|^2` is not invariant and can be scaled arbitrarily by a passive `S=lambda I` without changing the physical residual.
+
+## Theorem GI — Raw packet-coefficient ranking is not a physically admissible universal first-bad ordering
+
+Two candidates can keep exactly the same physical residuals and inverse-Gram energies while a passive basis change reverses their raw `|epsilon|^2` ordering.  Therefore any physical first-bad score must descend to the passive-gauge quotient; raw coordinate size alone cannot define the ordering.  Gauge invariance is necessary but not sufficient: Kelvin's current support-locality, persistent-library, full-coherence and adaptive-joint-law conditions remain separately necessary.
+
+## Theorem GJ — Exact NSE activates a gauge-spurious ranking asymmetry
+
+For exact shear `u=e^{-nu k^2t}cos(ky)e_1`, the half-period Kelvin residual pair is `r_0=chi e_z`, `r_1=-chi e_z`, `chi=4e^{-nu k^2t}k^2/pi^2`, so their physical residual energies are exactly tied.  Representing candidate `0` by the passive gauge `(H_0,epsilon_0)=(3I,3r_0)` and candidate `1` by `(I,r_1)` preserves both physical residuals and inverse-Gram energies, but gives raw coefficient energies in ratio `9`.  Thus raw packet ranking creates a fake first-bad asymmetry on exact smooth NSE data.
+
+## Theorem GK — Cross-program role/selector maps must act on physical equivalence classes, not representation gauges
+
+Kelvin first-bad logic must factor through the quotient `(H,epsilon)~(HS,S^T epsilon)`, equivalently through the physical residual or other gauge-invariant physical data.  Wang hard event roles remain distinct physical event-owner observables, not Kelvin selectors; the common bridge is only that role/selector decisions must be functions of physical state rather than arbitrary coordinate representatives.  A literal Wang--Kelvin state map therefore cannot treat raw packet coefficients as physical state without retaining the frame and quotienting the passive gauge.

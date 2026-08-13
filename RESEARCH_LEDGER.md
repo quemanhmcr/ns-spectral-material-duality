@@ -1059,3 +1059,14 @@ Failure lineage retained rather than erased:
 **SIMULTANEOUS-OWNER PRINCIPLE.**  A quotient is only an identity on the physical component it retains.  Wang's stock relay does not delete residual/material owners.  Kelvin's selector/event decomposition does not delete the mixed `DeltaE DeltaA` face or the distinct pair/source/q.v. owners.  Repo-3 must preserve every concurrent owner after typing rather than infer its absence from a quotient on another component.
 
 **OPEN BRIDGE.**  The state-map seam now has at least two noninterchangeable memory coordinates: carrier ancestry/current inherited stock and selector-event path history.  Any future assembly must say which one each quantity belongs to and cannot use a generic positive “bank” as a substitute.
+
+
+## 2026-08-13 — GH–GK: passive packet gauge, inverse-Gram physical residual, and gauge-safe ranking
+
+**LATEST READ-ONLY KELVIN INPUT.**  Kelvin `9bc8fb01454084861f85e3c7e99683d2dad029e1` makes passive packet/event gauge invariance a necessary first-bad admissibility condition.  Its audited counterexample shows raw packet-coordinate ranking can flip under passive gauge while the physical residual is unchanged.  Support locality, persistent-library memory, full coherence and adaptive joint-law memory remain separately necessary; actual badness/timing remains Open-literal.  No upstream write was made.
+
+**EXACT REPRESENTATION IDENTITY.**  `r=H^{-T}epsilon` is invariant under `(H,epsilon)->(HS,S^T epsilon)`.  The induced packet metric `G_H=H^TH` transforms by congruence and `epsilon^T G_H^{-1}epsilon=|r|^2` is exactly invariant.  Raw `|epsilon|^2` is representation-dependent and can be scaled without changing physical state.
+
+**COUNTEREXAMPLE/NO-GO.**  Raw coefficient ranking can be reversed by a passive basis choice while physical residual ordering stays fixed.  Exact one-mode NSE gives an even sharper calibration: opposite half-period residuals have equal physical energy, yet a passive gauge on one candidate produces a raw coefficient energy ratio `9` with no physical change.
+
+**CROSS-PROGRAM CONSEQUENCE.**  Wang hard roles and Kelvin first-bad selectors are not identified.  The common physicality rule is that event-role/selector logic must factor through the relevant physical equivalence class.  Raw packet coordinates are not bridge state unless the frame and passive-gauge quotient are carried explicitly.
