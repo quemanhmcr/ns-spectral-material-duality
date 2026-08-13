@@ -398,3 +398,21 @@ The remaining clock caveat is essential: Kelvin's literal stochastic constructio
 What also remains open is which level rule/localization is the actual programme first-bad obstruction.  The record theorem supplies an intrinsic scalar owner clock; the present theorem supplies a PDE-generated family of localization geometries once a level rule is fixed; a future theorem must select the physically forced member and handle critical levels/topology changes.
 
 **Label: RIGOROUS CROSS-PROGRAM CONSEQUENCE + OPEN BRIDGE.**
+
+---
+
+## Action certification
+
+The theorem batch, including the regularized coarea referee at SHA `cbdea2b9bcaac0784657df75cf332dbf66684bf1`, passed bridge Action `31688661368`.
+
+Exact/referee signals from `exp96_enstrophy_levelset_owner_readout.py`:
+
+- fixed-level boundary-speed owner residual: `1.059e-16`;
+- fixed-level chamber-volume flux residual: `1.391e-16`;
+- minimum regular level-gradient signal: `7.068981`;
+- co-decaying fractional-level relative-speed residual: `1.055e-16`;
+- global layer-rate versus viscous owner residual: `1.264e-16`;
+- direct coarea quadrature residual after the exact regularizing substitution `lambda=M sin^2(theta)`: `0`;
+- exact nonlinear stretching/global split owner in the one-mode calibration: `0`.
+
+**Label: ACTION STRESS TEST.**

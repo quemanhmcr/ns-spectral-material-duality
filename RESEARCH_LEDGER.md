@@ -1207,3 +1207,7 @@ Theorem SHA `e76af8ef68dac706713e3897a4bbeef7e28e8357` is certified by bridge Ac
 **KELVIN COMPOSITION.**  For an ancestry density satisfying `partial_t rho+div J_rho=0` on a compatible observation clock, the signed selected-mass gain is `(rho V-J_rho).n = rho(R-dot lambda)/|grad e| + (rho u-J_rho).n`.  The first face is NSE level-set sweep; the second is intrinsic ancestry/Fokker--Planck current mismatch and must not be discarded.  In deterministic material transport, and in Kelvin's exact uniform two-mode shear normal marginal, the second face vanishes and the calibrated flux reduces to `rho(R-dot lambda)/|grad e|`.  No extra selector covariance source is introduced.
 
 **OPEN BRIDGE.**  The actual first-bad level rule, critical-level topology changes, and a levelwise spectral/donor localization remain unproved.  No recurrence/restart/continuation/termination/global-regularity claim.
+
+### II–IQ Action certification
+
+The executable batch at corrected referee SHA `cbdea2b9bcaac0784657df75cf332dbf66684bf1` is certified by bridge Action `31688661368` (**completed/success**).  Exp96 gives fixed-level boundary-speed owner residual `1.059e-16`, chamber-volume flux residual `1.391e-16`, minimum regular level-gradient signal `7.068981`, co-decaying fractional-level residual `1.055e-16`, global layer-rate versus viscous owner residual `1.264e-16`, and regularized direct coarea quadrature residual `0`.  PASS.  The coarea stress uses the exact regularizing change `lambda=M sin^2(theta)` rather than sampling the integrable endpoint singularity directly.
