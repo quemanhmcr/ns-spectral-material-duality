@@ -935,3 +935,7 @@ Failure lineage retained rather than erased:
 **READ-ONLY UPSTREAM BRIDGE / EXACT IDENTITY.**  Wang's grain-normalized velocity-curvature tensor `B` and Kelvin's codeforming quadratic jet `J_2(L)` are identical index by index.  Kelvin's leading nonaffinity field is `(1/2)B[xi,xi]`; Wang's first transverse Gaussian shape exit sees only `Sym B` after its tangent-manifold quotient.
 
 **EXACT NS CALIBRATION / NO-GO.**  The quadratic heat shear activates both channels from one physical Hessian jet.  A smooth periodic divergence-free jet has `Sym B=0` but `B!=0`, proving that Wang third-Hermite transverse forcing cannot replace Kelvin total codeforming nonaffinity.  The common object is the full Hessian jet before representation-specific quotienting.
+
+## 2026-08-13 — Core integration: repo 3 re-centered explicitly on strengthening Wang/Kelvin through literal PDE bridges
+
+**PROGRAMME INTEGRATION / NO NEW THEOREM.**  After CW–ES certification, the repository README and core map now state the research center explicitly: actual NSE phenomenon -> physical/PDE type -> exact representation law -> programme-specific quotient -> estimate only when needed.  The current small-law spine is Cartan `K/S`, exterior degree, projector gauge, typed pressure, typed viscosity, phase-space versus fiber strain, objective transverse `SL(2)`/holonomy, and the common non-affine Hessian jet `B=J_2(L)`.  Regularity/proof architecture is recorded only as a possible downstream consequence, not the organizing target of repo 3.

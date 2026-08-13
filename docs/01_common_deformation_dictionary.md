@@ -140,3 +140,8 @@ and `F=exp(eps D_2)exp(eps D_1)`, the polar rotation obeys
 \]
 
 The leading rotation is the same commutator/Magnus holonomy seen by objective helical polarization. The symmetric metric does not itself contain this rotation; connection data must be retained separately.
+## 8. Current Cartan/non-affine extension
+
+The original metric dictionary above remains exact, but the bridge has since been sharpened substantially.  The current integrated PDE spine is recorded in [`docs/122_core_pde_bridge_spine.md`](122_core_pde_bridge_spine.md): the resolved/unresolved Cartan `K/S` split, exterior line/area/top-form ladder, projector connection gauge, typed pressure and viscosity, Wang objective `SL(2)` polarization/material holonomy, and the exact common non-affine Hessian jet `B=\mathfrak J_2(L)`.
+
+That extension deliberately keeps programme-specific quotients distinct; it should be read as a strengthening of this dictionary, not as an assertion that Wang and Kelvin observables are globally equivalent.

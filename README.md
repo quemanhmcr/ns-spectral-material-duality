@@ -30,47 +30,39 @@ Numerical tests are never proof. No 3D Navier–Stokes regularity claim is made.
 
 ## Current common spine
 
-Let `F` be the incompressible deformation gradient and let
+The bridge has now moved beyond a metric-only dictionary.  At the local physical level write
 
 \[
-M=F^T F.
+A=\nabla u=S+\Omega,
+\qquad S^T=S,
+\quad \Omega^T=-\Omega.
 \]
 
-The material description naturally sees `M`, while advected Fourier covectors see
+A small set of exact Navier--Stokes laws now organizes both upstream descriptions:
 
-\[
-k=F^{-T}k_0,
-\qquad
-|k|^2=k_0^T M^{-1}k_0.
-\]
+- **Cartan split:** skew connection/transport `K` versus symmetric material deformation `S`;
+- **exterior ladder:** `S+Omega` on material lines/vorticity, `-S+Omega` on material areas/local Fourier covectors, and zero common generator on top volume;
+- **projector gauge:** fixed roles display conservative `K` relink, connection-comoving roles absorb it into observer motion, while strain cannot be gauged away by an orthogonal frame;
+- **typed pressure:** `grad p` is gauge for divergence-free work/closed circulation, while `Hess p` is a real strain/material-metric curvature face;
+- **typed viscosity:** spectral enstrophy killing is exactly the full-state Kelvin q.v. trace/Dirichlet form, while the q.v. tensor contains additional directional information;
+- **first non-affine jet:** Wang's normalized velocity-Hessian tensor and Kelvin's codeforming quadratic jet are exactly the same tensor `B=L^{-1}(nabla^2u)L^(tensor 2)`, after which the two programmes take different quotients.
 
-Thus the initial candidate common spine is the pair
-
-\[
-(M,M^{-1})
-\]
-
-together with its objective strain rate and connection/holonomy.
-
-The first exact dictionary is documented in [`docs/01_common_deformation_dictionary.md`](docs/01_common_deformation_dictionary.md).
+The original metric dictionary remains in [`docs/01_common_deformation_dictionary.md`](docs/01_common_deformation_dictionary.md).  The current integrated bridge spine is in [`docs/122_core_pde_bridge_spine.md`](docs/122_core_pde_bridge_spine.md).
 
 ## Current frontier
 
-The original metric-phase question has now split cleanly.  Metric geometry determines carrier/triad deformation and helicity conversion, but signed nonlinear work is carried by the **complex oriented material-flux 3-form**
+The center of this repository is **strengthening the Wang and Kelvin programmes through literal PDE bridges**, not building an independent regularity proof around them.
 
-\[
-\mathcal Z_H=\det(H)^{-1}\,\overline{\Phi_q}\cdot(\Phi_1\times\Phi_2).
-\]
+The highest-priority seams are now:
 
-Its real part gives signed helical edge work up to the exact frequency/helicity coefficient; its argument is the gauge-invariant interaction phase.  `Z_H` has a literal small-Kelvin-loop circulation realization.
+1. identify a literal state-map/selector bridge between Wang physical roles/coherent ancestry and Kelvin current/germ state without losing connection, interface, q.v. or finite-reset faces;
+2. extend the exact common non-affine-jet dictionary beyond the quadratic Hessian layer where justified;
+3. carry the exact pressure and viscosity dictionaries through real moving/localized roles with every commutator and boundary face retained;
+4. continue read-only audits of Wang resolved-contact/HH routing and Kelvin current-shape/first-bad developments, adding equivalences **or no-go theorems** in this repository as the PDE dictates.
 
-The localized PDE law is also exact: after common Nanson transport is removed, a role evolves only through moving/interface transport, strain--selection mismatch, and viscosity.  A moving cut carries an explicit `Qdot` time face.
+Interaction phase, recurrence, and possible regularity consequences remain important downstream applications, but they are not allowed to replace the repository's primary PDE-first bridge task.
 
-The current open problem is therefore no longer “where is phase?” but:
-
-> Can the exact phase-velocity/source ledger force a useful localized alternative: persistent favorable work, quantified physical dephasing, or separately paid amplitude loss?
-
-See [`paper/MAIN_THEOREMS.md`](paper/MAIN_THEOREMS.md) and docs 04--08.
+See [`paper/MAIN_THEOREMS.md`](paper/MAIN_THEOREMS.md), [`RESEARCH_LEDGER.md`](RESEARCH_LEDGER.md), and the core integration map above.
 
 ## Reproducibility
 
@@ -78,16 +70,19 @@ Experiments are run in **GitHub Actions**, not treated as hand calculations or t
 
 Workflow: `.github/workflows/bridge-audit.yml`
 
-The action currently runs:
+The action currently stress-tests, among other things:
 
-- metric ↔ triad-Hodge dictionary checks;
-- two-strain holonomy checks;
-- metric-velocity ↔ helicity-conversion and metric-only no-go checks;
-- direct Fourier--Leray work ↔ oriented material-flux 3-form checks under random `GL(3)` frames;
-- localized instantaneous NSE vorticity-role source classification;
-- moving-cut `Qdot` time-face calibration;
-- small-Kelvin-loop circulation convergence to the complex interaction 3-form;
-- instantaneous physical interaction-phase velocity and zero monochromatic viscous phase rotation.
+- material metric / Cartan `K/S` identities and role-gauge covariance;
+- exterior line/area/top-form representations and exact material-flux cancellation;
+- moving spectral-cut metric-acceleration faces;
+- resolved/unresolved Wang HH work against Kelvin residual/dyad deformation;
+- pressure-gradient gauge versus pressure-Hessian metric curvature;
+- spectral viscous killing versus Kelvin q.v. trace, including tensor-information no-gos;
+- affine wavefront radial transport versus fiber metric work;
+- Wang objective `SL(2)` polarization, carrier/top-form balance, and material/helical holonomy;
+- common Wang/Kelvin non-affine Hessian-jet identities and representation-kernel counterexamples.
+
+Every executable calibration is run in GitHub Actions and is treated only as an adversarial referee for manually derived claims.
 
 ## Attribution
 
