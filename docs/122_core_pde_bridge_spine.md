@@ -340,16 +340,33 @@ so `R_W` is the minimal `L^2(rho)` representative of the common affine class and
 | packet/frame representation | no direct raw-coordinate Wang identity | `(H,epsilon)` with passive `(H,epsilon)~(HS,S^T epsilon)` | physical residual/inverse-Gram energy live on the quotient; raw coefficient norm does not |
 | enstrophy critical current | continuing material carrier follows the material flow between genuine events | nondegenerate critical locus satisfies `xdot_*-u=-H_e^{-1} grad R` | **different currents in general**; exact ABC separates them |
 | candidate ranking crossing | hard role requires actual nonlinear work/interaction | two persistent critical candidates can exchange rank by the three-face enstrophy-rate law | **not a hard interaction clock**; exact heat shear has crossing with zero nonlinearity |
+| selected-family boundary charge | exact Moyal `R_switch` on inherited-stock sidecar; positive even on an identical state; zero generation depth by same-state anti-theorem | selector/readout boundary and optional jump-history charges are also not physical work | **same zero-depth guardrail, different currencies**; do not identify Moyal energy with selector q.v. |
+| own-local target reanchoring | Wang common carrier-chart reanchoring is passive gauge | Kelvin own-local event is affine `x_+=Ax_-+d`, `d=A Omega_- - Omega_+`; target-gradient face can change q.v. source at `A=I` | **not the same gauge/type** despite exact coboundary composition |
 
 ### Hybrid event/readout ledger: same quadratic algebra, different physical owners
 
-Let `X` denote the persistent Kelvin library, `E_- -> E_+` a selector/readout change, and `A` a specified linear physical library event.  The literal combined readout operator is
+Let `X` denote the persistent Kelvin library, `E_- -> E_+` a selector/readout change, and `A` a specified linear physical library event.  On a common target, the exact combined readout operator is
 
 \[
 \boxed{
 D:=E_+A-E_-
 =E_-\Delta A+\Delta E+\Delta E\,\Delta A.}
 \]
+
+The displayed linear ledger is the exact **common-target** slice.  For packet-specific own-local targets the current Kelvin interface is affine,
+
+\[
+\boxed{x_+=Ax_-+d,\qquad d=A\Omega_- - \Omega_+,}
+\]
+
+and a simultaneous selector has the full finite jump
+
+\[
+\boxed{J=(E_+A-E_-)X+E_+d.}
+\]
+
+The target offset is a coboundary under composition, but its pair/dyad and Brownian target-gradient cross faces remain mandatory own-local readout terms.  In particular `A=I` does not imply that own-local residual/q.v. data are unchanged.  This target operation is not Wang's passive same-carrier chart reanchoring.
+
 
 The mixed finite face `DeltaE DeltaA` is mandatory.  It is an observer/physical-event interaction, not Brownian q.v.
 
@@ -395,14 +412,15 @@ The next core questions are not “can this already prove regularity?”  They a
    +\text{packet/frame physical state modulo passive gauge}
    +\text{critical-locus current/geometry when used, or reconstructing jets}
    +\text{typed ranking/geometry/selector/event clock-history}
-   +\text{physical event/synthesis}
+   +\text{underlying physical event/synthesis }A
+   +\text{own-local target/anchor coboundary }d
    +\text{persistent library with full relative pair/Gram coupling}.}
    \]
    The selector is a readout, not physical transport.  Full pair state means the ordered cross coupling modulo only the legitimate **common** latent gauge; diagonal marginals create an artificial product gauge and lose synthesis data.  Accumulated selector jump q.v. has nonzero closed-loop circulation, so if a theorem uses that path functional it must carry history/an equivalent accumulator or prove an independent physical timing theorem that reconstructs it from the endpoint.
 2. **Programme-specific readouts after quotient closure.**  The full higher-jet field seam is closed by the affine-quotient law.  What remains is to derive only those Wang Hermite/packet and Kelvin surface/moment projections actually used by the two programmes, without pretending the quotients are identical.  Exact periodic NSE now gives a sharp order witness: two enstrophy critical sheets can have identical local velocity 2-jets but different third jets and therefore different curvature branch rates.  Thus quotient closure does not mean a `p=2` truncation; the PDE decides which higher readout is needed.
 3. **Localized pressure/viscosity.**  Push the exact full-state pressure/Dirichlet dictionaries through actual smooth roles without losing commutator, boundary, q.v., common-noise cross blocks or clock faces.
-4. **Wang native branch semantics.**  Continue read-only placement of resolved-contact K/S/HH routing and the new pure-UV true-upward first-shell natural-window branch into the material/current dictionary without turning support/capacity into causal recurrence.
-5. **Kelvin first-bad library/timing instantiation.**  Current Kelvin has the exact simultaneous packet-selector product rule (including `DeltaE DeltaA`), signed continuous-source rate revaluation, selector optional jump q.v., hybrid semimartingale bookkeeping, and exact enstrophy critical-current/ranking laws.  Repo-3 now proves critical-current/material-current separation, local `p<=2` branch-rate nonclosure, and a smooth ranking crossing with zero Wang hard nonlinear event.  The remaining literal seam is which physical candidate current library, shapes/frames, badness/resolve rule, event maps and clock/history the actual first-bad construction selects, plus control of its full pair/projector state and cross-clock ancestry lift.
+4. **Wang native branch semantics.**  Wang now types sidecar-bearing inherited stock at the representation layer: intrinsic membership rereading is zero-charge provenance, and selected-family switching carries exact Moyal boundary energy `R_switch` whose same-state anti-theorem gives zero generation depth.  The open native seam is central/joint-stop integration of this sidecar while independently witnessed material/source service remains event-facing; `R_switch` itself may not be promoted to recurrence work.
+5. **Kelvin first-bad library/timing instantiation.**  Current Kelvin also corrects own-local event typing from a purely linear map to the affine pair `(A,d)` with target-gradient Brownian faces.  Repo-3 proves critical-current/material-current separation, local `p<=2` branch-rate nonclosure, arbitrarily many finite exact-NS ranking crossings with zero nonlinear advection, and the no-go against treating selector/target boundary activity as hard generation depth.  The remaining literal seam is which physical candidate library, packet targets/anchors, shapes/frames, badness/resolve rule, event maps and clock/history the actual first-bad construction selects, plus endogenous local-finiteness/interface calculus and full pair/projector state.
 
 These tasks strengthen the two upstream programmes whether or not they eventually contribute to any global regularity argument.
 

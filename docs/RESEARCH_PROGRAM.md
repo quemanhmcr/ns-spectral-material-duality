@@ -46,6 +46,8 @@ For a smooth incompressible flow map with deformation gradient `F`:
 - packet/frame representation only modulo the passive `GL(3)` gauge, or equivalently the reconstructed physical residual/metric data;
 - enstrophy critical-locus current/Hessian/rate data whenever such a candidate is used, kept distinct from material current unless reconstructed from the Eulerian field by the exact PDE law;
 - an explicit event type/clock distinguishing ranking crossing, critical-geometry degeneracy/support exit, selector/readout reset, physical packet event, and Wang hard nonlinear-work event.
+- own-local target/anchor state sufficient to form the affine event coboundary `d=A Omega_- - Omega_+` and its target-gradient noise face;
+- Wang selected-family Moyal boundary charge/provenance when inherited-stock sidecars are present, kept separate from physical work, stock, and smooth `K_phys`.
 
 ## Current bridge frontier after affine-quotient closure
 
@@ -58,11 +60,12 @@ The higher-jet field seam is no longer an open tower: it is one affine-quotient 
 +\text{packet/frame state modulo passive gauge}
 +\text{critical-locus current/geometry when used or reconstructing jets}
 +\text{typed ranking/geometry/selector/event clock-history}
-+\text{physical event/synthesis}
++\text{underlying physical event/synthesis }A
++\text{own-local target/anchor coboundary }d
 +\text{persistent library with full relative pair/Gram state}.}
 \]
 
-Current Kelvin further shows that a first-bad selector switch is a **readout change**, not universal physical transport; one same-replica library carries a full common-noise Gram with genuine cross-germ blocks; a simultaneous physical event plus selector has a mandatory `DeltaE DeltaA` face; and continuous-source rate revaluation is distinct from finite jump q.v.  Repo-3 adds the closed-loop history no-go, passive packet-coordinate quotient, exact critical-current/material-current separation, and the exact shear witness that equal local velocity 2-jets can carry different critical branch rates while a ranking crossing occurs with zero nonlinear interaction.  These facts sharpen the state-map target; they do not supply the missing Wang→Kelvin badness/resolve/current-library/event-timing instantiation.
+Current Kelvin further shows that a first-bad selector switch is a **readout change**, not universal physical transport; own-local target changes make the physical residual event affine rather than purely linear; one same-replica library carries a full common-noise Gram; and continuous-source revaluation is distinct from finite jump q.v.  Repo-3 adds closed-loop history, passive packet quotient, critical-current/material-current separation, local 2-jet branch-rate no-go, and arbitrary-finite exact-NS ranking crossings with zero nonlinear advection.  Current Wang independently proves that a positive selected-family Moyal boundary charge can have zero generation depth on an identical state.  These facts sharpen the state/event map; they do not supply the missing badness/resolve, target-generation, central/joint-stop owner integration, or assembly theorem.
 
 ## Non-equivalences that must be preserved
 
@@ -80,6 +83,9 @@ Current Kelvin further shows that a first-bad selector switch is a **readout cha
 - enstrophy critical-locus current is not automatically material current;
 - local velocity 2-jet equality is not branch-rate equality;
 - ranking crossing/selector reset is not automatically critical-geometry failure or Wang hard nonlinear work;
+- Kelvin own-local target reanchoring is not Wang passive material-carrier reanchoring;
+- Wang Moyal selected-family boundary energy is not Kelvin selector jump q.v. or target q.v. revaluation, even though all can be positive without hard nonlinear generation;
+- ranking/selector event count is not a physical generation-depth counter.
 - passive connection motion is not positive production;
 - geometry/capacity is not causal work.
 

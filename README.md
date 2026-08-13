@@ -53,6 +53,8 @@ A small set of exact Navier--Stokes laws now organizes both upstream description
 - **passive packet quotient:** packet coordinates `(H,epsilon)` carry the exact passive gauge `(H,epsilon)~(HS,S^T epsilon)`; the physical residual `H^{-T}epsilon` and inverse-Gram energy are invariant, while raw coefficient size is not a physical first-bad score;
 - **critical-current typing:** a nondegenerate enstrophy critical branch obeys `H_e(xdot_*-u)+grad R=0`; exact ABC has a fixed strict enstrophy maximum with nonzero fluid velocity, so critical-locus current and material-carrier current are distinct physical objects unless the PDE proves coincidence;
 - **ranking/event typing:** exact periodic NSE can exchange the larger enstrophy candidate while both candidates decay and `(u.grad)u=0`; the crossing is invisible to the local velocity 2-jet but visible to the third jet/curvature, and ranking crossing, selector/readout reset, critical-geometry event, and Wang hard nonlinear interaction are not interchangeable clocks.
+- **own-local affine event typing:** Kelvin packet/current events relative to packet-specific targets are `x_+=Ax_-+d`, with the exact coboundary `d=A Omega_- - Omega_+`; this target reanchoring can change residual/q.v. source even for `A=I` and is not Wang's passive carrier-chart gauge;
+- **boundary-charge zero-depth typing:** Wang's selected-family Moyal charge `R_switch` can be positive on an identical coherent state with zero cell increments/work, while exact NSE can realize arbitrarily many finite ranking/selector crossings with zero nonlinear advection; neither boundary/readout count nor target/q.v. revaluation is a universal hard-generation-depth currency.
 
 The original metric dictionary remains in [`docs/01_common_deformation_dictionary.md`](docs/01_common_deformation_dictionary.md).  The current integrated bridge spine is in [`docs/122_core_pde_bridge_spine.md`](docs/122_core_pde_bridge_spine.md).
 
@@ -62,10 +64,10 @@ The center of this repository is **strengthening the Wang and Kelvin programmes 
 
 The highest-priority seams are now:
 
-1. build, or rule out, the literal cross-program state map with all required data attached: Eulerian/coherent field, material current/shape, packet/frame data modulo passive gauge, critical-locus current/geometry whenever a critical candidate is used (or the field jets that reconstruct it), typed event/selector clock/history, physical event/synthesis, and the persistent library with full relative pair/Gram coupling; a selected channel, raw packet coordinate, diagonal pair list, endpoint-only history surrogate, or generic untyped `bad event` is not compositional;
+1. build, or rule out, the literal cross-program state map with all required data attached: Eulerian/coherent field, material current/shape, packet/frame data modulo passive gauge, critical-locus current/geometry whenever a critical candidate is used (or the field jets that reconstruct it), typed event/selector clock/history, underlying physical event/synthesis `A`, own-local target/anchor coboundary `d`, and the persistent library with full relative pair/Gram coupling; a selected channel, raw packet coordinate, diagonal pair list, endpoint-only history surrogate, or generic untyped `bad event` is not compositional;
 2. use the now-closed affine-quotient law for all `p>=2` physical jets, then derive the programme-specific readout order actually demanded by the PDE: the exact enstrophy-ranking shear already proves that a local velocity 2-jet can be insufficient while the third jet controls the branch-rate difference; this is a readout requirement, not a reopening of the quotient seam;
 3. carry the exact pressure and viscosity dictionaries through real moving/localized roles with every commutator, boundary face, q.v. cross block and clock face retained;
-4. continue read-only audits of Wang's resolved-contact plus pure-UV true-upward routing and Kelvin's frame-aware event/library/first-bad developments, adding exact equivalences **or no-go theorems** in this repository as the PDE dictates.
+4. continue read-only audits of Wang's sidecar-bearing inherited-stock central/joint-stop integration and Kelvin's own-local affine event/library/first-bad developments, adding exact equivalences **or no-go theorems** in this repository as the PDE dictates.
 
 Interaction phase, recurrence, and possible regularity consequences remain important downstream applications, but they are not allowed to replace the repository's primary PDE-first bridge task.
 
@@ -92,7 +94,8 @@ The action currently stress-tests, among other things:
 - hybrid selector/event product rules separating continuous q.v. source, signed source-rate revaluation, finite jump q.v., and endpoint pair reset;
 - passive packet-gauge invariance versus raw-coordinate ranking;
 - exact ABC enstrophy critical-current/material-current separation and incompressible critical-curvature-volume cancellation;
-- exact periodic enstrophy ranking crossing, local velocity 2-jet no-go, and ranking/selector/Wang-hard-event type separation.
+- exact periodic enstrophy ranking crossing, local velocity 2-jet no-go, and ranking/selector/Wang-hard-event type separation;
+- own-local affine target-coboundary composition, exact cubic-shear target q.v. revaluation, and arbitrary-finite exact-NS ranking-crossing no-go.
 
 Every executable calibration is run in GitHub Actions and is treated only as an adversarial referee for manually derived claims.
 
