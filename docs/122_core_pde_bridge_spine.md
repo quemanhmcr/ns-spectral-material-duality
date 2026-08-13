@@ -497,3 +497,10 @@ The Eulerian moving localization can now be generated directly from the physical
 For fixed levels, coarea integrates the boundary owner flux over all `lambda` to `d/dt int e`; the certified BR--BT theorem then identifies the same global quantity with split variance minus merge variance minus viscous killing.  Current Kelvin `2227e1a` independently shows that a supplied moving Eulerian ancestry readout acts by signed **total** boundary population flux with no fourth covariance source.  If the ancestry density obeys `partial_t rho+div J_rho=0`, the correct composition is `(rho V-J_rho).n = rho(R-dot lambda)/|grad e| + (rho u-J_rho).n`: NSE level-set sweep plus intrinsic ancestry-current mismatch.  The second face vanishes for deterministic material transport and in Kelvin's audited uniform shear normal marginal, but not universally.
 
 This is the first exact chain in the spine from local PDE owner -> intrinsic moving geometry -> global enstrophy owner ledger -> ancestry moving-readout revaluation.  What remains open is which level rule is forced by the actual first-bad obstruction and how to cross critical/topology-changing levels.
+
+
+## Value-space compression after IR--IZ
+
+Push volume through the actual local enstrophy value.  The measure `mu_t=e_#dx` and owner current `j=e_#(R dx)` satisfy `partial_t mu+partial_a j=0` exactly.  At regular values this recovers the level-set current; its stretching/gradient-loss/curvature faces remain separately typed.  Smooth convex functions of `e` yield an exact weighted moment hierarchy.
+
+At a unique nondegenerate maximum, the conditional value-current speed tends to the record-owner speed.  At a tie, the bulk edge current is curvature-volume averaged while the record edge follows the maximum branch rate.  Thus much of apparent level-set complexity collapses to one interior current, but branch lineage remains irreducible precisely at extremal support competition.

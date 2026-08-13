@@ -1211,3 +1211,13 @@ Theorem SHA `e76af8ef68dac706713e3897a4bbeef7e28e8357` is certified by bridge Ac
 ### II–IQ Action certification
 
 The executable batch at corrected referee SHA `cbdea2b9bcaac0784657df75cf332dbf66684bf1` is certified by bridge Action `31688661368` (**completed/success**).  Exp96 gives fixed-level boundary-speed owner residual `1.059e-16`, chamber-volume flux residual `1.391e-16`, minimum regular level-gradient signal `7.068981`, co-decaying fractional-level residual `1.055e-16`, global layer-rate versus viscous owner residual `1.264e-16`, and regularized direct coarea quadrature residual `0`.  PASS.  The coarea stress uses the exact regularizing change `lambda=M sin^2(theta)` rather than sampling the integrable endpoint singularity directly.
+
+## 2026-08-13 — IR–IZ: enstrophy value-space continuity and support-edge selection
+
+**EXACT NSE/PDE IDENTITY.**  Push physical volume through `e=|omega|^2/2`.  The resulting measure `mu_t=e_#dx` and signed owner current `j=e_#(R dx)` satisfy `partial_t mu+partial_a j=0` exactly; incompressible advection disappears from every test function of the value.  At regular levels this is `partial_t g+partial_a J=0` with the II--IQ level-set flux `J`.
+
+**VALUE CURRENT FACES.**  `J=J_P-nu B_omega+nu partial_a K_e`, where `J_P` is stretching, `B_omega` is vorticity-gradient loss, and `K_e=int_(e=a)|grad e|` is the curvature geometry.  Every `C^2` observable `Phi(e)` obeys the corresponding exact weighted owner identity; increasing convex `Phi` has two nonpositive viscous faces.
+
+**SUPPORT EDGE.**  A unique nondegenerate maximum is the characteristic endpoint of the same current: `J/g -> R_* = M'`.  At a tie, however, bulk near-edge current takes a curvature-volume weighted average of branch owners while Danskin record motion takes their maximum.  The exact three-mode shear gives `c_bulk=-12 sqrt(5) nu e^-2`, `D_+M=-12nu e^-2`, and left winner rate `-60nu e^-2`.
+
+**OPEN BRIDGE.**  The value-space law compresses interior level complexity but does not remove lineage at a tied support edge.  Repeated support-edge owner renewal under pressure/strain/viscosity and material/donor ancestry remains open.  No recurrence/termination/continuation/global-regularity claim.

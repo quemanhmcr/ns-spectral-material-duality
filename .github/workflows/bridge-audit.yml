@@ -213,3 +213,5 @@ jobs:
         run: python experiments/exp95_stretching_owner_self_constraint.py
       - name: Enstrophy levelset owner readout
         run: python experiments/exp96_enstrophy_levelset_owner_readout.py
+      - name: Enstrophy value space current
+        run: python experiments/exp97_enstrophy_value_space_current.py

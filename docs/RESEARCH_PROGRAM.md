@@ -131,3 +131,10 @@ The next programme target is therefore owner *renewal*, not owner detection: det
 Current Kelvin now requires the first-bad/moving localization to come from an actual NS observable rather than an external threshold oracle.  Repo-3 supplies a canonical family: regular enstrophy superlevel sets.  Their relative boundary velocity is exactly `(R-dot lambda)/|grad e|`, so the local owner field itself drives ancestry/space population crossing.  Coarea then closes the all-level local flux to the global enstrophy and certified split/merge owner ledger.
 
 Do not overread this as a finished first-bad rule.  The remaining theorem must derive the physically forced level rule (or another obstruction), control critical-level topology/degeneracy, and only then ask whether owner renewal along that endogenous localization is finite.
+
+
+## IR--IZ programme update: one value current, one exceptional support-edge selection law
+
+The entire enstrophy level family can be compressed to the pushforward continuity law `partial_t mu+partial_a j=0`.  This measure form survives critical values; regular level geometry, superlevel volume, convex moments and the global enstrophy ledger are derived readings of the same owner current.  At a unique Morse maximum the interior characteristic joins the record speed.  At a tied maximum it does not: bulk population current averages branch owners while the record edge chooses the fastest branch.
+
+This identifies a much smaller causal grammar.  Interior population complexity does not require separate event laws; only support-edge competition retains explicit lineage selection.  The next hard target is owner renewal at that edge under pressure/strain self-constraint and ancestry/donor reuse.

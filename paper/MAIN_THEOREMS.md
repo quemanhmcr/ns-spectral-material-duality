@@ -3013,3 +3013,59 @@ If an ancestry density on a compatible observation clock satisfies `partial_t rh
 \boxed{lambda_partial=(rho V-J_rho).n=rho(R-dot lambda)/|grad e|+(rho u-J_rho).n.}
 \]
 Thus the NSE level-set sweep and the intrinsic ancestry/Fokker--Planck current are distinct mandatory faces before Kelvin's signed moving mean/covariance revaluation is applied.  For deterministic material transport `J_rho=rho u`, and in Kelvin's exact uniform two-mode shear normal marginal where both intrinsic normal current and `u_n` vanish, this reduces to `rho(R-dot lambda)/|grad e|`.  No fourth selector covariance source appears.  General physical-time/reverse-age clock identification, the actual first-bad level rule, and critical-level topology remain open.
+
+## Theorem IR — Physical volume pushed through local enstrophy obeys an exact one-dimensional continuity law
+
+Let `mu_t=e(.,t)_# dx` and define the signed owner-current measure `j_t` by `int psi(a) dj=int psi(e)R dx`, where `R=D_t e`.  Incompressibility removes the spatial advection face from every test function of `e`, giving
+\[
+\boxed{\partial_t\mu+\partial_a j=0}
+\]
+in distributions on enstrophy-value space.  This formulation remains valid at critical values without dividing by `|grad e|`.
+
+## Theorem IS — Regular level-set transport is the density form of the value-space continuity law
+
+At a regular value, `g(a)=int_(e=a)|grad e|^{-1}dS` and `J(a)=int_(e=a)R|grad e|^{-1}dS` satisfy `partial_t g+partial_a J=0`.  Where `g>0`, the conditional owner velocity is `c_e=J/g=E_dx[R|e=a]`, and the superlevel survival function obeys `partial_t V=J`.
+
+## Theorem IT — The value current splits exactly into stretching, vorticity-gradient loss, and curvature redistribution
+
+With `J_P=int_(e=a)(omega.S.omega)/|grad e|`, `B_omega=int_(e=a)|grad omega|^2/|grad e|`, and `K_e=int_(e=a)|grad e|`, periodic integration by parts gives `int_(e=a) Delta e/|grad e|=partial_a K_e` distributionally.  Therefore
+\[
+\boxed{J=J_P-nu B_omega+nu partial_a K_e.}
+\]
+Curvature diffusion is a value-space flux derivative, not a new event source.
+
+## Theorem IU — Every convex local-enstrophy moment has an exact stretching-versus-two-viscous-faces law
+
+For `Phi in C^2`,
+\[
+\boxed{\frac d{dt}\int Phi(e)=\int Phi'(e)omega.S.omega-nu\int Phi'(e)|grad omega|^2-nu\int Phi''(e)|grad e|^2.}
+\]
+For increasing convex `Phi` both viscous faces are nonpositive.  In particular, for integer `m>=1`, the exact `e^m` hierarchy has the additional negative `m(m-1)nu int e^(m-2)|grad e|^2` face beyond the weighted vorticity-gradient loss.
+
+## Theorem IV — A unique isolated nondegenerate maximum is the characteristic support edge of the value current
+
+If `K=-Hess e(x_*)>0` at the unique maximum `M`, then in three dimensions with `delta=M-a`, `V(a)~(4pi/3)(2delta)^(3/2)/sqrt(det K)` and `g(a)~2^(5/2)pi delta^(1/2)/sqrt(det K)`.  Continuity of `R` gives `J/g -> R(x_*)` as `a up M`; at a differentiability time this is exactly the HS--HZ record speed `M'`.
+
+## Theorem IW — At a tied support edge the bulk conditional current is curvature-volume averaged but the record speed is extremal
+
+For finitely many isolated nondegenerate maxima `x_i` at common value `M`,
+\[
+\boxed{\lim_{a\uparrow M}J/g=\frac{\sum_i R_i/\sqrt{det K_i}}{\sum_i1/\sqrt{det K_i}},\qquad D_+M=\max_iR_i.}
+\]
+Thus a generic tie prevents replacement of support-edge lineage selection by the bulk value-space conditional average.
+
+## Theorem IX — Exact three-mode NSE realizes the bulk-edge versus record-edge split
+
+At the GP--GU crossing, the normal maxima have `kappa_0=12e^-2`, `kappa_pi=60e^-2`, `R_0=-12nu e^-2`, `R_pi=-60nu e^-2`.  The normal value-population edge velocity is
+\[
+\boxed{c_{bulk,edge}=-12\sqrt5\,nu e^{-2},}
+\]
+while `D_+M=-12nu e^-2` and the left winner rate is `-60nu e^-2`.  Ranking/lineage information is therefore genuinely required at the support edge but does not create a new generation owner.
+
+## Theorem IY — Exact one-mode heat shear is a linear dilation in enstrophy-value space
+
+Per unit tangent area, `g=2/[a(M-a)]^(1/2)`, `J=-2nu k^2 a g`, and `c_e=-2nu k^2a`, hence `partial_tg+partial_a(-2nu k^2a g)=0`.  Its viscous current faces satisfy `B_omega=4k^2 sqrt((M-a)/a)`, `K_e=8k^2 sqrt(a(M-a))`, and `-nu B_omega+nu partial_aK_e=J` exactly.
+
+## Theorem IZ — Enstrophy complexity now has an interior-current / support-edge grammar
+
+The same local owner `R` generates the value-space current, regular superlevel motion, global moment/spectral ledgers, and record-edge motion.  Population/integral readings use the same current; a tied support edge adds the distinct extremal branch-selection law.  The remaining recurrence problem is repeated renewal of support-edge stretching owners under the IA--IH pressure/strain/viscous self-constraint and material/donor ancestry, not raw event counting.
