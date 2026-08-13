@@ -893,3 +893,9 @@ Failure lineage retained rather than erased:
 ## 2026-08-13 — DT–DU: orthogonal observer motion cannot erase the metric-deformation sector
 
 **EXACT FRAME GAUGE / NO-GO.**  Under a rotating orthonormal frame, `S` transforms by orthogonal conjugation while `Omega` acquires the observer angular velocity.  Strain eigenvalues and metric-work pairings are invariant.  Therefore the connection `K` sector can be gauge-transported, but a nonzero `S` owner cannot be converted into conservative relink by common orthogonal observer motion.  This locks the physical distinction used in DQ–DS.
+
+## 2026-08-13 — DV–DY: HH TV is transfer capacity only; pressure is gauge at first order and physical at metric-curvature order
+
+**COUNTEREXAMPLE/NO-GO.**  Read-only audited Wang `resolved-contact-native-binding-tv`: its signed-edge total variation is correctly used as a capacity envelope for canonical HH transfer.  Exact periodic NSE shear has zero `B(h,h)` and hence zero HH work/TV while unresolved `S_h,Omega_h` are active.  TV must not be retyped as Cartan activity.
+
+**EXACT PRESSURE TYPING.**  Leray/divergence-free work, closed Kelvin circulation and curl annihilate `grad p`, but differentiating NSE exposes `-Hess p` in the symmetric strain equation and material metric acceleration.  Exact affine strain and rigid rotation show this Hessian face is physically active.  Pressure is therefore representation/degree typed, not universally a zero owner.

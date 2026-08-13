@@ -153,3 +153,7 @@ jobs:
         run: python experiments/exp65_cartan_projector_connection_gauge.py
       - name: Orthogonal gauge strain no-go
         run: python experiments/exp66_orthogonal_gauge_strain_no_go.py
+      - name: Pressure gauge and metric curvature
+        run: python experiments/exp67_pressure_gauge_metric_curvature.py
+      - name: HH TV Cartan blindness exact NS
+        run: python experiments/exp68_hh_tv_cartan_blindness.py

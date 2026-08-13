@@ -2198,3 +2198,33 @@ Hence strain spectrum, Frobenius magnitude and material metric-work bilinear for
 ## Theorem DU — Nonzero strain cannot be gauged into conservative relink by an orthogonal role/frame motion
 
 If an orthogonal gauge has `S_tilde=0`, then necessarily `S=0`.  Thus Wang symmetric resolved work and Kelvin material strain are physical deformation sectors; only the skew connection can be absorbed into a common rotation gauge.  A non-orthogonal reparameterization moves deformation into the metric rather than eliminating it.
+
+## Theorem DV — HH edge total variation is a realized-transfer capacity, not a Cartan activity observable
+
+Exact periodic NSE shear `h=(a e^{-nu t} sin y,0,0)` has `B(h,h)=0`, hence zero signed HH edge work and zero HH total variation, while `S_h` and `Omega_h` are nonzero at generic points.  Therefore canonical HH TV cannot be retyped as unresolved strain/connection magnitude.
+
+## Theorem DW — Pressure gradient is annihilated by divergence-free work, closed circulation, and curl
+
+For divergence-free `w`, `<w,grad p>=0`; for closed loops `int_C grad p.dl=0`; and `curl grad p=0`.  Thus Wang Leray work and Kelvin closed circulation both legitimately quotient the pressure gradient at first-order transfer/circulation level.
+
+## Theorem DX — Pressure Hessian is an exact physical source in strain/material metric acceleration
+
+The gradient NSE is
+\[
+D_tA+A^2=-\nabla^2p+\nu\Delta A.
+\]
+With `A=S+Omega`,
+\[
+\boxed{D_tS+S^2+\Omega^2=-\nabla^2p+\nu\Delta S,}
+\qquad
+\boxed{D_t\Omega+S\Omega+\Omega S=\nu\Delta\Omega.}
+\]
+Moreover
+\[
+\Delta p=-|S|_F^2+|\Omega|_F^2=-|S|_F^2+\frac12|\omega|^2,
+\]
+and the material metric acceleration contains `-Hess p` explicitly.  Pressure is therefore gauge for first-order closed/divergence-free work but not absent from deformation curvature.
+
+## Theorem DY — Exact affine strain and rigid rotation calibrate the pressure-Hessian face
+
+For affine pure strain `A=S=diag(a,-a,0)`, quadratic pressure has `Hess p=-S^2`; for rigid rotation `A=Omega`, centrifugal pressure has `Hess p=-Omega^2`.  Both are exact smooth affine NSE solutions with `Delta u=0`, showing pressure Hessian can actively balance either deformation or rotation curvature while pressure still performs no solenoidal kinetic-energy work.
