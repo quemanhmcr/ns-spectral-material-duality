@@ -1221,3 +1221,9 @@ The executable batch at corrected referee SHA `cbdea2b9bcaac0784657df75cf332dbf6
 **SUPPORT EDGE.**  A unique nondegenerate maximum is the characteristic endpoint of the same current: `J/g -> R_* = M'`.  At a tie, however, bulk near-edge current takes a curvature-volume weighted average of branch owners while Danskin record motion takes their maximum.  The exact three-mode shear gives `c_bulk=-12 sqrt(5) nu e^-2`, `D_+M=-12nu e^-2`, and left winner rate `-60nu e^-2`.
 
 **OPEN BRIDGE.**  The value-space law compresses interior level complexity but does not remove lineage at a tied support edge.  Repeated support-edge owner renewal under pressure/strain/viscosity and material/donor ancestry remains open.  No recurrence/termination/continuation/global-regularity claim.
+
+### IR–IZ Action certification and referee correction
+
+Initial Action `31689422082` failed only because the continuity referee compared the absolute cancellation `g_t+J_a` to zero; it reported `3.638e-12` while every other value-current and tied-edge signal already passed, including the exact-shear edge asymptotic residual `8.859e-10`.  No theorem formula was changed.  The referee was corrected to the scale-aware comparison `rel(g_t,-J_a)` in SHA `e5fd950d9841a757556fa59e89879460fa5020e0`.
+
+Corrected bridge Action `31689876267` is **completed/success**.  Exp97 outputs: value-space continuity residual `2.038e-16`; value-current decomposition `2.966e-15`; conditional owner velocity `8.561e-17`; survival/current `1.081e-15`; convex power-moment hierarchy `3.350e-16`; tied-edge closed-form residual `6.022e-17`; bulk edge velocity `-1.343627885`; record right/left velocities `-0.6008886576 / -3.004443288`; bulk-record separation `0.7427392`; exact-shear near-edge asymptotic residual `8.859e-10`.  PASS.

@@ -461,3 +461,28 @@ The first three are population/integral readings of the same current.  The final
 This is a substantial reduction of apparent event complexity, but not a regularity theorem.  The next hard seam is now precise: understand whether repeated support-edge owner renewal can occur indefinitely once the owner itself is constrained by IA--IH pressure/strain/viscous dynamics and by material/donor ancestry.
 
 **Label: RIGOROUS CONSEQUENCE + OPEN BRIDGE.**
+
+---
+
+## Action certification
+
+The first referee run `31689422082` exposed only a **numerical residual-normalization defect**: the exact continuity identity was tested as an absolute cancellation `g_t+J_a`, producing `3.638e-12` from two large nearly equal terms.  All other theorem signals already passed.  The theorem was not relaxed.  The referee was changed to the scale-aware equality test `rel(g_t,-J_a)`.
+
+At corrected SHA `e5fd950d9841a757556fa59e89879460fa5020e0`, bridge Action `31689876267` passed completely.
+
+Exact/referee signals from `exp97_enstrophy_value_space_current.py`:
+
+- value-space continuity residual: `2.038e-16`;
+- value-current decomposition residual: `2.966e-15`;
+- conditional owner-velocity residual: `8.561e-17`;
+- superlevel survival/current residual: `1.081e-15`;
+- convex power-moment hierarchy residual: `3.350e-16`;
+- tied-edge closed-form bulk velocity residual: `6.022e-17`;
+- tied bulk edge velocity: `-1.343627885`;
+- record right/left edge velocities: `-0.6008886576 / -3.004443288`;
+- bulk-versus-record separation signal: `0.7427392`;
+- direct exact-shear near-edge approach residual: `8.859e-10`.
+
+The failed first run is retained as referee lineage rather than hidden, because it distinguishes a numerical cancellation issue from a PDE/theorem failure.
+
+**Label: ACTION STRESS TEST.**
