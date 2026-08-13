@@ -883,3 +883,13 @@ Failure lineage retained rather than erased:
 **EXACT EXTERIOR/PDE DICTIONARY.**  Specializing the existing exterior representation theorem to incompressible `A=S+Omega` gives `(S+Omega,-S+Omega,0)` on Hodge degrees 1,2,3.  Material area vectors and local affine Fourier wavevectors are the same degree-two representation; vorticity/material lines are degree one.
 
 **EXACT NSE FLUX CONSEQUENCE.**  In the material vorticity-flux pairing, strain and connection cancel separately, leaving only `nu Delta omega` as the local viscous source.  Common strain and common connection are separately neutral on the top interaction form.  This strengthens the structural Wang/Kelvin dictionary without adding a scalar budget.
+
+## 2026-08-13 — DQ–DS: fixed Wang K relink and moving-role connection are projector gauges; Kelvin orientation selector has zero plateau defect
+
+**EXACT PROJECTOR/CARTAN IDENTITY.**  Selected energy for `dot y=(K+S)y` obeys `E_dot=<Py,Sy>+1/2<y,(Pdot-[K,P])y>`.  A fixed hard role displays conservative K flux; a role transported by the same connection absorbs that K flux into observer motion.  This supplies the algebraic bridge Wang deliberately left between fixed-event K and moving-carrier connection without identifying their observables.
+
+**EXACT SELECTOR TYPING.**  Smooth orthogonal projector motion is purely off-diagonal; finite reselection is a finite jump.  Kelvin's orientation-complete `M_fb tensor I_3` commutes with a pure common orientation connection, so on hysteretic intervals with `Mdot_fb=0` it has zero continuous orientation Cartan defect.  Any nonzero continuous first-bad selector face requires an actual germ-mixing/current-state connection and state-map theorem.
+
+## 2026-08-13 — DT–DU: orthogonal observer motion cannot erase the metric-deformation sector
+
+**EXACT FRAME GAUGE / NO-GO.**  Under a rotating orthonormal frame, `S` transforms by orthogonal conjugation while `Omega` acquires the observer angular velocity.  Strain eigenvalues and metric-work pairings are invariant.  Therefore the connection `K` sector can be gauge-transported, but a nonzero `S` owner cannot be converted into conservative relink by common orthogonal observer motion.  This locks the physical distinction used in DQ–DS.

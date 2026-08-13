@@ -149,3 +149,7 @@ jobs:
         run: python experiments/exp63_kelvin_dyad_cartan_five_faces.py
       - name: Cartan exterior physical ladder
         run: python experiments/exp64_cartan_exterior_physical_ladder.py
+      - name: Cartan projector connection gauge
+        run: python experiments/exp65_cartan_projector_connection_gauge.py
+      - name: Orthogonal gauge strain no-go
+        run: python experiments/exp66_orthogonal_gauge_strain_no_go.py

@@ -2148,3 +2148,53 @@ The strain and skew-connection contributions each cancel separately by degree-on
 ## Theorem DP — Common Cartan deformation is separately neutral on the interaction top form
 
 For three common degree-one legs, the top wedge derivative is `tr A` times the wedge.  Incompressibility gives zero; moreover `tr S=tr Omega=0`, so common strain and common connection are separately neutral on `Lambda^3`.
+
+## Theorem DQ — Selected energy has an exact Cartan projector-connection defect law
+
+If `dot y=(K+S)y`, `K^*=-K`, `S^*=S`, and `P(t)` is an orthogonal projector, define
+\[
+G_P=\dot P-[K,P].
+\]
+Then
+\[
+\boxed{
+\frac d{dt}\frac12\langle y,Py\rangle
+=\langle Py,Sy\rangle+rac12\langle y,G_Py\rangle.}
+\]
+For a fixed role `G_P=-[K,P]`, reproducing visible conservative K relink; for a connection-comoving role `dot P=[K,P]`, `G_P=0` and only symmetric deformation remains.
+
+## Theorem DR — Smooth orthogonal selector velocity is purely off-diagonal and finite reselection is a finite face
+
+Differentiating `P^2=P` gives `P dotP P=0` and `(I-P)dotP(I-P)=0`.  Thus smooth role motion has no diagonal selector production.  At a finite jump `P^- -> P^+` with continuous state,
+\[
+\boxed{\Delta E_P=\frac12\langle y,(P^+-P^-)y\rangle,}
+\]
+which is a finite event face, not a smooth positive payment.
+
+## Theorem DS — Kelvin orientation-complete first-bad selector has zero pure-orientation Cartan defect on hysteretic intervals
+
+For `P_fb=M_fb tensor I_3` and a pure common orientation connection `K_ori=I tensor Omega`,
+\[
+[K_{ori},P_{fb}]=0.
+\]
+Since current Kelvin has `dot M_fb=0` between entry/resolve events,
+\[
+\boxed{G_{fb}^{ori}=0.}
+\]
+A continuous selector face can arise only from an identified germ-mixing current connection or other state-map dynamics; finite first-bad/resolve changes remain discrete jumps.
+
+## Theorem DT — Orthogonal observer gauge changes connection but only conjugates physical strain
+
+For a rotating orthogonal frame `O(t)` with `C=O^T O_dot`, the transformed generator
+\[
+\widetilde A=O^TAO-C
+\]
+has
+\[
+\boxed{\widetilde S=O^TSO,\qquad \widetilde\Omega=O^T\Omega O-C.}
+\]
+Hence strain spectrum, Frobenius magnitude and material metric-work bilinear form are invariant under common orthogonal observer motion.
+
+## Theorem DU — Nonzero strain cannot be gauged into conservative relink by an orthogonal role/frame motion
+
+If an orthogonal gauge has `S_tilde=0`, then necessarily `S=0`.  Thus Wang symmetric resolved work and Kelvin material strain are physical deformation sectors; only the skew connection can be absorbed into a common rotation gauge.  A non-orthogonal reparameterization moves deformation into the metric rather than eliminating it.
