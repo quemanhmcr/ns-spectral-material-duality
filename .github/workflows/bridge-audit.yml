@@ -143,3 +143,7 @@ jobs:
         run: python experiments/exp60_kelvin_resolved_full_strain_no_go.py
       - name: Moving cutoff metric acceleration faces
         run: python experiments/exp61_moving_cutoff_metric_acceleration.py
+      - name: HH Cartan material role rows
+        run: python experiments/exp62_hh_cartan_material_rows.py
+      - name: Kelvin dyad Cartan five-face dictionary
+        run: python experiments/exp63_kelvin_dyad_cartan_five_faces.py
