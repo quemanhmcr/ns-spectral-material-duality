@@ -514,3 +514,5 @@ The pressure anisotropy is not external: on the torus it is the trace-free Hessi
 No termination, restart, continuation, or global-regularity theorem is claimed.
 
 **Label: RIGOROUS CONSEQUENCE + OPEN BRIDGE.**
+
+**KO-KY ACTION CERTIFICATE.** Action 31717325352: exact funding and pressure-anisotropy calibrations PASS on SHA 0a29b89.
