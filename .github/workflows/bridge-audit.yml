@@ -183,3 +183,5 @@ jobs:
         run: python experiments/exp80_gaussian_minimal_nonaffinity.py
       - name: Selector library pair Gram event functor
         run: python experiments/exp81_selector_library_pair_gram_functor.py
+      - name: Relative coupling block Gram no-go
+        run: python experiments/exp82_relative_coupling_block_gram_no_go.py

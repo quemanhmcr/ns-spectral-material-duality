@@ -2546,3 +2546,20 @@ Thus Wang coherent refinement, Kelvin residual pair synthesis, and Kelvin same-r
 ## Theorem FM — Diagonal independent per-germ q.v. is not the same physical Kelvin replica
 
 For exact NSE shear `u=e^{-nu k^2t}cos(ky)e_1`, Kelvin asymmetric packets with `rho=pi/(2k)`, anchors `Y_1=pi/(2k)`, `Y_2=3pi/(2k)` have exact anchor-noise coefficients `q_1=-4e^{-nu k^2t}k^3/pi^2`, `q_2=-q_1`.  Hence in one common stochastic-flow replica `Gamma_12=-Gamma_11`, and synthesis `A=[I I]` gives `A Gamma_lib A^T=0`.  Replacing the common driver by independent per-germ noises deletes the cross block and gives `A Gamma_ind A^T=4nu Sigma_1 Sigma_1^T>0`.  Therefore diagonal-only q.v. changes the physical stochastic model rather than approximating the same replica.
+
+
+## Theorem FN — Diagonal block-Gram marginals enlarge latent-frame invariance and erase relative coupling
+
+For blocks `B_i` with full quadratic state `G_ij=B_iB_j^*`, independent latent isometries `B_i -> B_i U_i` leave every diagonal `G_ii` invariant but change cross blocks to `B_i U_i U_j^* B_j^*`.  A common latent change `U_i=U` leaves the full Gram invariant.  Therefore diagonal projection has a strictly larger generic invariance than the full quadratic state and cannot determine the relative coupling required by `A G A^*` synthesis.
+
+## Theorem FO — Wang coherent child diagonals do not determine relative phase coherence or the synthesized quadratic state
+
+For complex coherent children `f_alpha`, `C_{alpha beta}=f_alpha f_beta^*` and `f=sum_alpha f_alpha`.  Independent phase changes leave all `C_{alpha alpha}` fixed but send `C_{alpha beta}` to `e^{i(theta_alpha-theta_beta)}C_{alpha beta}`.  Hence diagonal child pairs do not determine `ff^*=sum_{alpha,beta}C_{alpha beta}`.  This is an information-loss statement about a reduced pair state, not a claim that independent phase rotation is a gauge of the full NSE field.
+
+## Theorem FP — Kelvin diagonal same-replica q.v. blocks do not determine relative common-driver orientation
+
+For one stochastic-flow replica, `Gamma_gh=2nu Sigma_g Sigma_h^T`.  A common Brownian coordinate change `Sigma_g -> Sigma_g O` with one `O in O(3)` leaves the full Gram invariant and is genuine driver gauge.  Independent right rotations `Sigma_g -> Sigma_g O_g` preserve every diagonal `Gamma_gg` but generally change `Gamma_gh` and synthesized q.v.; they are not a mere coordinate change of one shared Brownian driver.  Thus diagonal germ q.v. enlarges the apparent gauge and discards physical inter-germ coupling.
+
+## Theorem FQ — No universal diagonal-marginal quadratic state map can preserve Wang/Kelvin linear synthesis
+
+The Wang and Kelvin relative couplings are different physical objects, but both are erased by diagonal marginalization and both enter their exact tensor-square synthesis laws.  Therefore a universal cross-program quadratic bridge based only on diagonal child/germ marginals is impossible: it must carry the relevant full ordered pair/Gram state or supply an independent Navier--Stokes theorem reconstructing the missing relative coupling.  Exact one-mode NSE realizes the Kelvin negative-coupling branch with equal diagonal q.v. blocks and complete sum-synthesis cancellation.

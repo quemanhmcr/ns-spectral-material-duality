@@ -993,3 +993,14 @@ Failure lineage retained rather than erased:
 **EXACT NSE NO-GO.**  Periodic one-mode shear gives two Kelvin packet anchor-noise coefficients `q_2=-q_1!=0`; common-replica synthesis cancels exactly, whereas a counterfactual independent/diagonal per-germ noise model remains strictly positive.  Dropping cross-germ q.v. therefore changes the physical model rather than simplifying the same one.
 
 **OPEN BRIDGE.**  The remaining first-bad state-map question is now literal candidate-library instantiation: actual Navier--Stokes germs, current shapes/frames, replica/clock semantics, physical event maps, support locality and cross-clock ancestry.  Selector logic itself cannot manufacture those dynamics.
+
+
+## 2026-08-13 — FN–FQ: diagonal marginals enlarge gauge and erase relative synthesis coupling
+
+**EXACT REPRESENTATION IDENTITY.**  For a block Gram `G_ij=B_iB_j^*`, every diagonal is invariant under independent right isometries `B_i -> B_i U_i`, while cross blocks retain the relative alignment `U_i U_j^*`.  One common `U` leaves the full Gram invariant.  Diagonal marginalization therefore has a larger invariance than the physical full-pair construction and loses relative coupling before any estimate is taken.
+
+**WANG SPECIALIZATION.**  Coherent child diagonal pairs are blind to independent child phases, while ordered cross pairs and the synthesized quadratic state retain relative phase.  This is not a declaration that independent phases are a gauge of the full NSE field; it is a no-go for diagonal child data as a complete coherent synthesis state.
+
+**KELVIN SPECIALIZATION.**  In one stochastic-flow replica, one common `O(3)` rotation is Brownian-driver basis gauge.  Independent germwise right rotations leave diagonal q.v. blocks fixed but alter cross-germ Gram blocks and physical synthesis, hence change the coupling/model rather than coordinates.  The earlier exact one-mode NSE shear realizes the negative relative sign with equal diagonal q.v. and exact sum cancellation.
+
+**OPEN BRIDGE / NO-GO.**  A universal Wang--Kelvin quadratic state map cannot be built from diagonal child/germ marginals alone.  Full ordered pair/Gram coupling must be carried, or an independent physical theorem must reconstruct it from other NSE state data.  The Wang relative phase and Kelvin relative driver orientation remain distinctly typed physical information despite the common block-Gram representation law.
