@@ -518,3 +518,11 @@ Kelvin `5067f87` independently specializes the repo-3 moving-level law to the ma
 is exactly the repo-3 rule with `lambda=theta M`.  Kelvin also proves this entire filtration is neutral under the exact NS similarity action and keeps the ancestry probability-current mismatch as a separate boundary face.  This supplies an independently derived candidate localization grammar, but not yet the theorem that continuation failure must appear in it.
 
 Wang `7b91828` independently tightens the owner boundary from the other side: material address/old-new membership is not a physical supplier by name.  A certified smooth `K_phys` relink is conservative same-event role flux, and material OO/ON/NN readings only repartition a positive law whose supplier must already exist.  Thus the common spine should now be read as **owner/current -> intrinsic localization/address -> boundary/readout/ancestry revaluation**, with fail-closed admission when the owner is unresolved.
+
+### Support-edge renewal refinement
+
+The intrinsic localization/value-space spine now has one more exact layer.  The `theta->1` max-normalized compatibility **numerator** has an active-set extension that selects the branch moving the scalar support edge; no regular-boundary division is used at `theta=1`: `R_i-D^+M<=0`, with equality exactly for right-winning active maxima.  On a unique nondegenerate maximizing lineage, intrinsic time `d tau=sqrt(M)dt` and scale-free stretching efficiency `sigma=(omega.S.omega)/(2M^(3/2))` reduce the owner persistence problem to
+\[
+\boxed{d_\tau\sigma=-\sigma^2+\mathfrak N.}
+\]
+Here `mathfrak N` is an exact signed combination of transverse strain conversion, pressure-Hessian regulation, viscous conversion, critical-relative transport and support-growth dilution.  Eventual `mathfrak N<=0` on a persistent branch gives a quadratic intrinsic-time bound for `M` and therefore excludes finite-physical-time divergence on that branch.  A hypothetical finite-time unbounded record must renew `mathfrak N>0` arbitrarily late or repeatedly leave the unique nondegenerate support-edge theorem domain.  This reduction does not exclude either alternative and makes no continuation/global-regularity claim.

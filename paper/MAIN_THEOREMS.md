@@ -3069,3 +3069,66 @@ Per unit tangent area, `g=2/[a(M-a)]^(1/2)`, `J=-2nu k^2 a g`, and `c_e=-2nu k^2
 ## Theorem IZ — Enstrophy complexity now has an interior-current / support-edge grammar
 
 The same local owner `R` generates the value-space current, regular superlevel motion, global moment/spectral ledgers, and record-edge motion.  Population/integral readings use the same current; a tied support edge adds the distinct extremal branch-selection law.  The remaining recurrence problem is repeated renewal of support-edge stretching owners under the IA--IH pressure/strain/viscous self-constraint and material/donor ancestry, not raw event counting.
+
+## Theorem JA — Max-normalized support-edge compatibility intrinsically selects active edge branches
+
+For `M=max_x e` and active set `A(t)={e=M}`, every active point has `grad e=0`, hence `R=partial_t e`.  Therefore `D^+M=max_A R` and `D^-M=min_A R`.  The active-set extension of the `theta->1` normalized-level **numerator** gives defects `C_i^+=R_i-D^+M` and `C_i^-=R_i-D^-M`; no division by `|grad e|` is used at the maximum.  They satisfy `C_i^+<=0<=C_i^-`; equality holds exactly on the right/left support-edge compatible active branches.  Scalar edge selection is therefore encoded by the PDE compatibility defect rather than an external branch oracle.
+
+## Theorem JB — Exact four-mode periodic NSE realizes zero-defect support-edge selection with no nonlinear generation
+
+At Kelvin's exact global-max heat-shear crossing `t=1/nu`, the two genuine global maxima have `M=18`, `R_0=-240nu`, `R_pi=-336nu`, so `D^+M=-240nu`, `D^-M=-336nu`.  Hence `(C_0^+,C_pi^+)=(0,-96nu)` and `(C_0^-,C_pi^-)=(96nu,0)`.  Both rates are pure curvature faces with zero stretching/nonlinear advection, so compatibility selection is not a generation owner.
+
+## Theorem JC — The support-edge record has a similarity-invariant intrinsic clock and owner margin
+
+For `M>0`, set `d tau=sqrt(M) dt`.  At a differentiable active maximum define `sigma=P/(2M^(3/2))`, `delta=nu(|grad omega|^2-Delta e)/M^(3/2)>=0`, and `varrho=M'/M^(3/2)`.  Then
+\[
+\boxed{\frac{d}{d\tau}\log M=\varrho=2\sigma-\delta.}
+\]
+All three quantities are similarity invariant.  Multiplicative support-edge growth is therefore an intrinsic stretching-efficiency margin against a nonnegative viscous defect.
+
+## Theorem JD — Specific vortex stretching obeys an exact material/critical-lineage law
+
+Where `omega!=0`, put `xi=omega/|omega|` and `alpha=xi^T S xi`.  Then
+\[
+\boxed{D_t\alpha=|S\xi|^2-2\alpha^2-\xi^T(\nabla^2p)\xi+\nu\xi^T\Delta S\,\xi+\frac{2\nu}{|\omega|}\Delta\omega\cdot(S\xi-\alpha\xi).}
+\]
+On a nondegenerate enstrophy critical lineage, `d_*alpha/dt=D_talpha-(H_e^{-1}grad R).grad alpha`.  Thus specific-stretching renewal has only strain geometry, pressure curvature, viscosity, and relative critical-transport faces.
+
+## Theorem JE — Scale-free stretching efficiency satisfies an exact Riccati renewal identity
+
+On one unique nondegenerate active maximizing lineage let `sigma=alpha/sqrt(M)` and `varrho=M'/M^(3/2)`.  Define
+\[
+\begin{aligned}
+\mathfrak N={}&\frac{|(I-\xi\xi^T)S\xi|^2}{M}-\frac{\xi^T(\nabla^2p)\xi}{M}
++\frac{\nu\xi^T\Delta S\,\xi}{M}\\
+&+\frac{2\nu}{M|\omega|}\Delta\omega\cdot(S\xi-\alpha\xi)
++\frac{(\dot x_*-u)\cdot\nabla\alpha}{M}-\frac12\sigma\varrho.
+\end{aligned}
+\]
+Then every term is similarity invariant and
+\[
+\boxed{\frac{d\sigma}{d\tau}=-\sigma^2+\mathfrak N.}
+\]
+The negative quadratic is intrinsic Riccati dilution; `mathfrak N` is the exact renewal excess after transverse-strain, pressure, viscous, relative-transport and support-growth faces are combined.
+
+## Theorem JF — Eventual nonpositive renewal excludes finite-time record blow-up on a persistent branch
+
+If from some `tau_0` onward the active maximizer remains one differentiable nondegenerate branch and `mathfrak N<=0`, then for `sigma_0>0`,
+\[
+\sigma(\tau)\le\frac{\sigma_0}{1+\sigma_0(\tau-\tau_0)},
+\qquad
+M(\tau)\le M_0[1+\sigma_0(\tau-\tau_0)]^2.
+\]
+If `sigma_0<=0`, the edge cannot have positive rate because `varrho<=2sigma`.  Since `dt/dtau=M^{-1/2}`, the physical time required for `tau->infinity` under the quadratic bound is infinite.  Thus `M` cannot diverge at finite physical time while the branch persists with eventual nonpositive renewal excess.
+
+## Theorem JG — Hypothetical finite-time unbounded record has a renewal-or-geometry alternative
+
+If `M(t)->infinity` as `t->T<infinity`, then it cannot eventually remain on one differentiable nondegenerate maximizing branch with `mathfrak N<=0`.  Arbitrarily late behavior must therefore contain positive renewal excess `mathfrak N>0` or exit the support-edge lineage theorem domain through ties/branch exchange, Hessian degeneracy, support loss, or another explicitly typed geometry failure.  This is a reduction, not a proof that either channel is impossible.
+
+## Theorem JH — Exact affine NSE sharply calibrates zero versus positive renewal
+
+For affine strain-spin `u=(-ax-Omega y,Omega x-ay,2az)` with `Omega'=2aOmega`, constant `a>0` gives `M=2Omega^2`, `sigma=sqrt(2)a/Omega`, `varrho=2sigma`, `mathfrak N=0`, and `d sigma/dtau=-sigma^2`; the quadratic intrinsic-time bound in JF is saturated and growth reaches infinity only at infinite physical time.  By contrast, with `a=1/[2(T-t)]`, `Omega=b/(T-t)`, the same exact affine NSE family has `M=2b^2/(T-t)^2`, constant `sigma=1/(sqrt(2)b)`, and `mathfrak N=sigma^2=1/(2b^2)>0`, exactly balancing Riccati dilution and reaching infinite amplitude at finite `T`.  The latter is nonperiodic and infinite-energy and is only a local/Euclidean calibration, not a periodic regularity counterexample.
+
+## Theorem JI — Owner admission now has a four-layer intrinsic causal order
+
+Current Kelvin's `theta->1` compatibility numerator selects the active support-edge lineage; the record owner margin `2sigma-delta` decides whether the edge grows; `mathfrak N` decides whether scale-free stretching efficiency is renewed; current Wang native service quotient separately controls whether material/ancestry observations carry independently certified recursive physical service.  These currencies are not identified.  The remaining recurrence seam is to bound positive renewal excess or force/resolve support-edge theorem-domain exits using native PDE ancestry/service structure.

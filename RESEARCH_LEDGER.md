@@ -1235,3 +1235,17 @@ Corrected bridge Action `31689876267` is **completed/success**.  Exp97 outputs: 
 **WANG.**  Upstream advanced to `7b9182854d956b2514d994ac35f4f75adef3815e`; exact theorem/fix `d6ee03d5b9b7a82d11a2259c5dc0b8ae2ac945ab` is certified by dedicated/audit/integration Actions.  Raw `material_relink` / `new_coherent_ancestry` labels are now fail-closed pre-owner locators: a material address does not create service or recursion.  Certified smooth `K_phys` relink is antisymmetric same-event subset flux, not source; OO/ON/NN material readings only repartition an already-existing positive service law.  A genuine physical supplier must be independently certified before owner admission.
 
 **CONVERGENCE.**  The independent programmes now reinforce one common order without identifying their currencies: physical PDE owner/current first; intrinsic geometry/localization/material address second; signed boundary/ancestry/readout revaluation after that.  No upstream write was made.
+
+## 2026-08-13 — JA–JI: support-edge compatibility and intrinsic owner-renewal Riccati grammar
+
+**LATEST READ-ONLY INPUTS.**  Kelvin `5067f87b5a921d3f260433ec4f3ee1ce0df81f2c` supplies the max-normalized enstrophy filtration and compatibility defect; Wang `63178b0e7f9fabdfd8c344dab938a3d639639df5` fail-closes raw material-address labels unless native physical service is certified.  No upstream write was made.
+
+**EXACT SUPPORT-EDGE LAW.**  At the active max set, `R=partial_t e`; therefore the active-set extension of the `theta->1` compatibility numerator relative to `D^+M` is nonpositive and vanishes exactly on right-winning active branches (with the left analogue relative to `D^-M`).  Kelvin's exact four-mode periodic global-max crossing gives right defects `(0,-96nu)` and left defects `(96nu,0)` with zero stretching/nonlinear advection.
+
+**EXACT INTRINSIC OWNER CLOCK.**  With `d tau=sqrt(M)dt`, `sigma=P/(2M^(3/2))`, `delta=nu(|grad omega|^2-Delta e)/M^(3/2)`, the record obeys `d_tau log M=2sigma-delta`.  On a unique nondegenerate maximizing lineage, specific stretching `alpha=xi.S.xi` yields the scale-free Riccati identity `d_tau sigma=-sigma^2+N_renew`, where `N_renew` is the exact transverse-strain + signed pressure-curvature + viscous + critical-relative-transport excess after support-growth dilution.
+
+**RIGOROUS CONSEQUENCE.**  If `N_renew<=0` eventually while the unique nondegenerate record branch persists, `sigma<=sigma0/(1+sigma0 Delta tau)` and `M<=M0(1+sigma0 Delta tau)^2`; `dt/dtau=M^-1/2` then forces infinite physical time to reach infinite `M`.  Hence any hypothetical finite-time unbounded record must have positive renewal excess arbitrarily late or repeatedly exit the support-edge theorem domain.  This is a conditional finite-time exclusion/reduction, not global regularity.
+
+**EXACT CALIBRATION.**  Constant-strain affine strain-spin has `N_renew=0` and exactly saturates the Riccati/quadratic intrinsic-time bound while growing only at infinite physical time.  Accelerating affine strain-spin `a=1/[2(T-t)]`, `Omega=b/(T-t)` has `N_renew=sigma^2>0` and finite-time amplitude blow-up; it is nonperiodic/infinite-energy and used only as an exact Euclidean calibration.
+
+**OPEN BRIDGE.**  The next seam is no longer generic event counting.  It is to decompose/bound positive renewal excess by native finite-capacity owners or prove that repeated support-edge theorem-domain exits cannot remain admissible under full Kelvin/Nanson ancestry and Wang native-service causality.  No restart/continuation/global-regularity claim.
