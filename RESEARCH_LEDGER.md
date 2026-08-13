@@ -1261,3 +1261,13 @@ Corrected bridge Action `31689876267` is **completed/success**.  Exp97 outputs: 
 **OPEN BRIDGE.** A hypothetical finite-endpoint unbounded record must use positive local core renewal, positive geometry harvesting, or support-edge theorem-domain exit arbitrarily late. No termination or global-regularity claim.
 
 **JJ–JS ACTION CERTIFICATE.** GitHub Actions `31709932079` on theorem SHA `83ee7509e638369f104ced57d3c1c4164915731a` completed successfully. Exp99: constant-affine split `0`, largest normalization face `-3.375041e-02`; accelerating split `2.233e-16`, minimum positive core `1.983733e+00`, largest normalization face `-9.918667e-01`; ABC tensor residual `1.665e-16`, core-sweep cancellation `2.220e-16`, inverse-Morse sweep `1.258e-16`, positive sweep signal `2.365809e-01`; critical-speed signal `1.110000e+07` with x-shear alpha/harvesting `0/0`; PASS. No termination/continuation/global-regularity claim.
+
+## 2026-08-13 — JT–KC: analytic-Morse selector finiteness and transverse-support separation
+
+**RIGOROUS ANALYTIC-MORSE CONSEQUENCE.**  Using standard positive-time analyticity of classical periodic NSE, if `det Hess e!=0` at every enstrophy critical point on a compact interval inside the classical lifespan, the full critical set is a finite analytic covering by lineages `x_j(t)`.  Branch values `m_j=e(x_j,t)` are analytic with `m_j'=R_j`; every pair is either persistently tied or crosses only finitely many times.  After quotienting persistent ties, the scalar support-edge winner path and its one-hot jump q.v. are finite on that interval.
+
+**INTERIOR ZENO REFINEMENT.**  Infinite scalar winner changes with an accumulation point strictly inside a positive-time classical interval therefore force a critical point with `det Hess e=0`.  This does not exclude accumulation at a candidate terminal endpoint and gives no uniform event-count bound; GY/HI still realize arbitrary prescribed finite counts with zero nonlinear advection.
+
+**KELVIN TRANSVERSE-SUPPORT NO-GO.**  Read-only Kelvin `1095c1353d42b67b9d0905e913ff494601770f1f`, Action `31710776956` success, shows exact periodic intrinsic chambers with width/volume/current residual/q.v./normal ancestry flux collapsing while `B_parallel=P L L^T P=diag(1,0,1)` remains fixed.  Scalar Morse/chamber localization therefore cannot replace tangential packet support or ancestry/frame state.
+
+**OPEN BRIDGE.**  The old untyped `support-edge theorem-domain exit` is refined to scalar Morse/normal degeneration versus transverse physical support/ancestry.  The endpoint recurrence seam is now `positive core renewal | positive geometry harvesting | Morse/normal degeneration | transverse support noncollapse/ancestry`.  No termination/restart/continuation/global-regularity claim.

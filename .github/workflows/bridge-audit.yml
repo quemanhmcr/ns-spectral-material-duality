@@ -219,3 +219,5 @@ jobs:
         run: python experiments/exp98_support_edge_owner_renewal_grammar.py
       - name: Running record renewal owner split
         run: python experiments/exp99_running_record_renewal_owner_split.py
+      - name: Morse analytic selector finiteness
+        run: python experiments/exp100_morse_analytic_selector_finiteness.py

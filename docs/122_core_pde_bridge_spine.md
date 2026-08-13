@@ -526,3 +526,8 @@ The intrinsic localization/value-space spine now has one more exact layer.  The 
 \boxed{d_\tau\sigma=-\sigma^2+\mathfrak N.}
 \]
 Here `mathfrak N` is an exact signed combination of transverse strain conversion, pressure-Hessian regulation, viscous conversion, critical-relative transport and support-growth dilution.  Eventual `mathfrak N<=0` on a persistent branch gives a quadratic intrinsic-time bound for `M` and therefore excludes finite-physical-time divergence on that branch.  A hypothetical finite-time unbounded record must renew `mathfrak N>0` arbitrarily late or repeatedly leave the unique nondegenerate support-edge theorem domain.  This reduction does not exclude either alternative and makes no continuation/global-regularity claim.
+
+## Analytic-Morse selector finiteness and transverse support
+
+On compact positive-time classical intervals, NSE analyticity plus a Morse enstrophy critical set gives finitely many analytic PDE critical lineages and finitely many support-edge ranking changes modulo persistent ties. Interior scalar winner-Zeno therefore forces enstrophy Hessian degeneracy.
+Kelvin 1095c13 independently shows that scalar chamber/current/noise/normal-ancestry collapse can coexist with O(1) tangential packet support B_parallel=P L L^T P. The old untyped domain-exit channel is therefore split into Morse/normal degeneration versus transverse packet-support/ancestry state; no endpoint accumulation or continuation theorem is claimed.

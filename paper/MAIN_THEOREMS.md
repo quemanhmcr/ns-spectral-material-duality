@@ -3212,3 +3212,43 @@ The fixed critical point moves relative to the fluid and harvests an existing st
 ## Theorem JS — Singular critical speed is not geometry renewal and recurrence admission remains fail-closed
 
 For every exact x-shear `u=(U(y,t),0,0)`, `xi=e_z`, `S xi=0`, `alpha=0` and `grad alpha=0`; hence `N_sweep=0` on every critical sheet.  The exact two-mode merger has critical speed diverging like `1/d` while this harvesting face stays zero.  Combined with Wang's native-service fail-close and Kelvin's signed moving-readout law, raw critical speed, selector motion or material address cannot be admitted as a new renewal/generation owner without independent physical evidence.
+
+## Theorem JT — Positive-time classical periodic NSE supplies an analytic enstrophy critical equation
+
+On every compact interval `I` strictly inside a positive-time classical periodic Navier--Stokes lifespan, standard parabolic analyticity gives a real-analytic enstrophy field `e=|omega|^2/2` and analytic critical equation `F=grad e` on a neighborhood of `T^3 x I`.  This uses the classical positive-time analyticity theorem (Foias--Temam/Giga) and introduces no new badness criterion.
+
+## Theorem JU — Morse enstrophy on a compact analytic interval has finitely many analytic critical lineages
+
+If every critical point on `T^3 x I` has `det Hess e !=0`, then the critical set `C={(x,t):grad e=0}` is a compact one-dimensional analytic manifold and the projection `C->I` is a proper local analytic diffeomorphism.  Hence `C` is a finite covering of the interval and splits into finitely many analytic graphs `x_j(t)`.  Each graph obeys the exact PDE current `xdot_j-u=-H_j^{-1} grad R`.
+
+## Theorem JV — Analytic critical branch values have only finite crossings modulo persistent ties
+
+For `m_j(t)=e(x_j(t),t)`, one has `m_j'=R(x_j,t)`.  Every pair difference `m_i-m_j` is analytic on a neighborhood of `I`; it is either identically zero (a persistent tie class) or has finitely many zeros on `I`.  After quotienting persistent ties, the strict ranking can change only finitely many times.
+
+## Theorem JW — The scalar support-edge selector is locally finite throughout the analytic Morse regime
+
+Any deterministic right-continuous representative of the maximizing persistent-tie class has finitely many jumps on `I`.  For a one-hot selector, `tr J_Y(I)=2N_I<infinity`.  Persistent ties contribute no jump currency unless an independently specified physical readout distinguishes them.
+
+## Theorem JX — Interior scalar winner-Zeno accumulation forces enstrophy Hessian degeneracy
+
+On a compact interval strictly inside a positive-time classical lifespan, infinitely many support-edge class changes with an interior accumulation point imply the existence of `(x_*,t_*)` with `grad e=0` and `det Hess e=0`.  Thus scalar selector Zeno cannot hide inside completely nondegenerate critical geometry.  No statement is made about accumulation at a candidate terminal endpoint of the classical lifespan.
+
+## Theorem JY — Analytic-Morse selector finiteness has no universal numerical event-count bound
+
+The certified exact heat-shear family GY/HI realizes arbitrarily many prescribed finite ranking crossings while tracked critical sheets remain strict normal maxima on one compact interval and `(u.grad)u=0`.  Therefore the Morse theorem gives qualitative finiteness, not a solution-independent bound on `N_I`.
+
+## Theorem JZ — Exact four-mode periodic NSE realizes one isolated nondegenerate global support-edge switch
+
+At Kelvin's exact global-max crossing `t_*=1/nu`, the two genuine global maxima have common enstrophy `18`, transverse curvatures `-240` and `-336`, and branch rates `-240nu` and `-336nu`.  The analytic gap has a simple zero with enstrophy gap-rate `96nu`; the right/left compatibility defects select opposite branches.  Nonlinear advection and stretching generation vanish in the shear.
+
+## Theorem KA — A persistent analytic tie is one support-edge equivalence class, not infinite selector activity
+
+For the exact one-mode heat shear, the two strict normal maxima at `y=0,pi` have identical enstrophy histories for all time.  Their analytic branch-value gap is identically zero.  Arbitrary label alternation between them would manufacture selector q.v. by convention and is excluded by the persistent-tie quotient absent an independent physical readout.
+
+## Theorem KB — Scalar chamber/Kelvin collapse does not force tangential physical packet-support collapse
+
+Current read-only Kelvin `1095c1353d42b67b9d0905e913ff494601770f1f` (Action `31710776956` success) gives an exact smooth periodic one-mode shear whose intrinsic chamber width, packet volume, physical residual, local q.v., codeforming noise, and normal ancestry flux all collapse/vanish while `B_parallel=P L L^T P=diag(1,0,1)` remains `O(1)`.  Hence scalar critical localization and current collapse do not imply full physical support locality.
+
+## Theorem KC — Untyped support-edge domain exit splits into scalar degeneracy and physical transverse-support/ancestry channels
+
+On a compact positive-time classical interval, scalar ranking accumulation is removed as an independent escape channel inside the Morse regime: interior Zeno forces Morse/normal degeneration.  Kelvin's transverse-support no-go separately proves that scalar/chamber localization cannot replace packet-support state, and the exact merger already forces transport ancestry/frame holonomy.  Future first-bad recurrence must therefore type `positive core renewal | positive geometry harvesting | Morse/normal degeneration | transverse support noncollapse/ancestry`; no termination or global-regularity claim follows.

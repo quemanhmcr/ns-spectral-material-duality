@@ -148,3 +148,8 @@ Current Wang `7b91828` has independently removed another naming oracle: a raw ma
 ### Current owner-renewal frontier
 
 The first-bad seam is now narrower than event counting.  The scalar max envelope is intrinsically selected by the active-set extension of the `theta->1` compatibility numerator, and a persistent unique nondegenerate record branch carries the exact scale-free Riccati law `d_tau sigma=-sigma^2+N_renew`.  Eventual nonpositive renewal excludes finite-time record divergence on that branch.  The next PDE-first task is therefore to resolve the remaining alternative: either positive `N_renew` must be funded by native finite-capacity/reused owners, or the support-edge lineage theorem domain must exit/accumulate in a way compatible with full Kelvin/Nanson ancestry and Wang native-service admission.  Do not replace this seam by a generic norm estimate or by raw selector/event counts.
+
+## Analytic-Morse selector closure and physical support
+
+Scalar endogenous-selector local finiteness is closed on the positive-time analytic Morse theorem domain: finitely many analytic critical lineages, finite branch-value crossings modulo persistent ties, and interior winner-Zeno only through Hessian degeneracy.
+Kelvin 1095c13 shows scalar chamber/current collapse does not force tangential packet-support collapse. The next endpoint-first PDE seam is therefore positive core renewal | positive geometry harvesting | Morse/normal degeneration | transverse packet support/ancestry, kept as distinct intrinsic channels.
