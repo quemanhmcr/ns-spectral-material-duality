@@ -314,3 +314,5 @@ The remaining endpoint problem is now sharper: near a hypothetical finite singul
 No termination, restart, continuation, or global-regularity theorem is claimed.
 
 **Label: RIGOROUS CONSEQUENCE + OPEN BRIDGE.**
+
+**JT–KC ACTION CERTIFICATE.** GitHub Actions `31712624893` on theorem SHA `6f348be1732dbd13d1f37e483286f6aed4cd880f` completed successfully. Exp100: four-mode common-max residual `0`, branch-rate `7.957e-17`, support-defect `1.973e-16`, analytic gap-rate residual `1.430e-11`; persistent one-mode tie gap `0`; four prescribed Morse crossings with interpolation `2.332e-16`, minimum simple-root signal `4.233e-02`, largest normal curvature `-2.781531`, sign-fail count `0`; Kelvin transverse-support residual `0`, chamber volume `3.478261e-02 -> 8.695652e-07`, physical residual `1.133534e+01 -> 7.141526e-09`, tangential-support signal `1`, q.v./codeforming `0/0`; PASS. No endpoint-Zeno, termination, continuation, or global-regularity claim.
