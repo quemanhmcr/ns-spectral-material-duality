@@ -1035,3 +1035,14 @@ Failure lineage retained rather than erased:
 **EXACT HYBRID LEDGER.**  For a simultaneous physical library map and selector change, `D=E_+A-E_-=E_-DeltaA+DeltaE+DeltaE DeltaA`; the mixed face is mandatory.  Endpoint pair revaluation, signed continuous-source rate revaluation, finite optional jump q.v. and accumulated selector jump history are separately typed even though all use quadratic pair algebra.  None is promoted to a monotone energy/covariance/continuation bank.
 
 **LATEST READ-ONLY REMOTE TRUTH.**  Wang remains `efb286e6710d9c20cb25a6303d2cb16b3a9e344a`.  Kelvin is `ad8cd25c8fa0d8aa73bc2f37ec86d8a763820063`; Action `31665051054` is green and its combined-event/source-rate tests pass on Python 3.11/3.12.  No upstream write was made.
+
+
+## 2026-08-13 — FZ–GC: arbitrary adaptive physical events require a fifth mixed map/payload face
+
+**LATEST READ-ONLY KELVIN INPUT.**  Kelvin advanced to `eba4aa953117785194281aff82e3ea5720d20950`; Action `31665366133` is green.  Upstream proves the exact equal-weight two-replica mean-correlation and quadratic four-face laws, with PSD event-map dispersion and signed event-state correlation faces.  Actual adaptive first-bad joint-law instantiation remains Open-literal.  Wang remains `efb286e6710d9c20cb25a6303d2cb16b3a9e344a`; its fixed physical hard event roles remain pathwise exact.  No upstream write was made.
+
+**EXACT GENERALIZATION.**  For a general adaptive physical map/payload law, `E[CQC^T]` has five exact central faces.  The additional term `E[deltaC deltaQ deltaC^T]` is a cubic mixed correlation.  Kelvin's four-face formula is recovered because equal-weight two-replica centering has exact odd parity, not because the fifth face is universally absent.
+
+**COUNTEREXAMPLE/NO-GO.**  Two three-replica scalar ensembles with strictly positive payloads have the same mean face, same event dispersion and zero left/right correlations, but cubic faces `+2/3` and `-2/3`, producing outputs `17/3` and `13/3`.  Thus the cubic face cannot be absorbed into the four upstream faces.  At quadratic order, general adaptive physical synthesis raises the required joint correlation order by one.
+
+**CROSS-PROGRAM CONSEQUENCE.**  Kelvin actual first-bad expectation laws must carry the joint law of realized `C=E_+A` and physical payload once that adaptive law is instantiated.  Wang's present fixed-event hard-role identities are untouched, but any future averaging across state-selected physical event roles likewise cannot replace joint role-map/coherent-pair data by separated marginal means without proving an exact closure domain.

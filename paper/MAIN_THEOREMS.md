@@ -2601,3 +2601,24 @@ For exact shear `u=e^{-nu k^2t}cos(ky)e_1`, the half-period Kelvin residual read
 ## Theorem FY — A literal cross-program state map must carry selector-event history or prove it reconstructible
 
 Even after the instantaneous Eulerian/coherent field, material current/shape, persistent candidate library, active selector, full pair/Gram coupling and current continuous q.v. source are supplied, accumulated selector jump q.v. is not universally determined by endpoint data.  A Wang--Kelvin lift that needs this path functional must therefore carry selector-event history/an equivalent accumulator, or prove an independent Navier--Stokes theorem making the relevant history a function of endpoint state on its theorem domain.  No recurrence or continuation consequence follows from the path accumulator itself.
+
+
+## Theorem FZ — General adaptive physical-event first moment requires the joint map-state correlation
+
+For a realized physical linear map `C` and input state `x`, assuming the displayed products are integrable, with centered variables `deltaC=C-E C`, `deltax=x-E x`, one has exactly `E[Cx]=(E C)(E x)+E[deltaC deltax]`.  Thus mean-map times mean-state is an identity only on a domain where the physical map-state correlation vanishes.
+
+## Theorem GA — General adaptive quadratic synthesis obeys an exact five-face law
+
+For symmetric quadratic payload `Q`, assuming the displayed quadratic/mixed expectations are finite, put `Cbar=E C`, `Qbar=E Q`, `deltaC=C-Cbar`, `deltaQ=Q-Qbar`.  Then
+\[
+\boxed{E[CQC^T]=Cbar Qbar Cbar^T+E[deltaC Qbar deltaC^T]+Cbar E[deltaQ deltaC^T]+E[deltaC deltaQ]Cbar^T+E[deltaC deltaQ deltaC^T].}
+\]
+The first correction is PSD when `Qbar>=0`; the remaining mixed faces are signed.  The last cubic mixed face is forced because the adaptive physical map occurs on both sides of the quadratic payload.
+
+## Theorem GB — Kelvin's equal-weight two-replica four-face law is the centrally symmetric specialization, not a general closure
+
+For two equal-weight replicas, `deltaC` and `deltaQ` change sign together between replicas, so `E[deltaC deltaQ deltaC^T]=0` by odd parity and Theorem GA reduces exactly to Kelvin `eba4aa9`'s four-face identity.  With three or more nonsymmetric adaptive replicas the cubic face need not vanish.
+
+## Theorem GC — The cubic adaptive event-payload face is irreducible even for positive payloads
+
+For three equal-weight scalar replicas `C=(0,1,2)`, the two strictly positive payload ensembles `Q^+=(4,1,4)` and `Q^-=(2,5,2)` have the same `Cbar=1`, `Qbar=3`, mean face `3`, event-dispersion face `2`, and zero left/right event-payload correlations.  Their cubic faces are `+2/3` and `-2/3`, giving exact outputs `17/3` and `13/3`.  Therefore deleting the cubic face cannot be a universal adaptive-ensemble closure.  Kelvin adaptive first-bad averaging and any future averaging across Wang state-selected physical event roles must retain the relevant joint event-map/payload law unless an exact closure domain is proved.
