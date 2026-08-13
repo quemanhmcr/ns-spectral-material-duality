@@ -939,3 +939,11 @@ Failure lineage retained rather than erased:
 ## 2026-08-13 — Core integration: repo 3 re-centered explicitly on strengthening Wang/Kelvin through literal PDE bridges
 
 **PROGRAMME INTEGRATION / NO NEW THEOREM.**  After CW–ES certification, the repository README and core map now state the research center explicitly: actual NSE phenomenon -> physical/PDE type -> exact representation law -> programme-specific quotient -> estimate only when needed.  The current small-law spine is Cartan `K/S`, exterior degree, projector gauge, typed pressure, typed viscosity, phase-space versus fiber strain, objective transverse `SL(2)`/holonomy, and the common non-affine Hessian jet `B=J_2(L)`.  Regularity/proof architecture is recorded only as a possible downstream consequence, not the organizing target of repo 3.
+
+## 2026-08-13 — ET–EX: current Kelvin principal first-bad lineage meets repo-3 projector calculus exactly, with a sharper connection taxonomy
+
+**READ-ONLY KELVIN UPDATE / EXACT BRIDGE.**  Re-audited Kelvin `c6e0d55...`.  Its principal material-metric projectors are exactly connection-comoving in the repo-3 sense: `Pdot=[C_M,P]`, so their Cartan projector defect vanishes.  Kelvin eigenframe mixing is precisely the projector-connection traffic term and sums to off-diagonal metric work.  The literal diagonal first-bad germ selector commutes with the per-germ principal projectors/connections, so it adds no spectral commutator source on hysteretic intervals.
+
+**CONNECTION NO-GO.**  The metric eigenframe connection `C_M` is not the fluid vorticity/Cartan connection `Omega_u`: exact affine pure strain has `Omega_u=0` while a non-aligned finite line metric has `C_M!=0`.  Skew type alone is insufficient for physical identification.
+
+**RESET SCOPE SHARPENING.**  Repo-3's finite projector jump is exact only for a frozen physical state/library.  Current Kelvin physical residual refinement changes the synthesis map itself and therefore requires the full `A tensor A` pair reset (left/right/quadratic faces) plus any metric revaluation.  Positive quadratic reset squares are not standalone costs.

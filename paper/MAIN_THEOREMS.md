@@ -2403,3 +2403,39 @@ For exact NSE `u=(y^2+2nu t,0,0)` at the centered anchor with `L=I`, `B_122=2`; 
 ## Theorem ES — `Sym B=0` does not imply Kelvin codeforming affinity
 
 The smooth periodic divergence-free state `u=(0,sin x sin z,-sin x sin y)` has, at the origin, nonzero Hessian tensor `B` with `Sym B=0`.  Wang's first third-Hermite transverse-shape forcing vanishes at that jet while Kelvin's quadratic codeforming field is nonzero.  The bridge must carry full `B` before programme-specific quotienting.
+
+## Theorem ET — Kelvin principal metric projectors are exactly connection-comoving
+
+For a simple-spectrum physical line metric `M=V Lambda V^T`, define `C_M=Vdot V^T`.  Then each principal projector `P_i=v_i v_i^T` obeys
+\[
+\boxed{\dot P_i=[C_M,P_i],\qquad G_{P_i}^{M}=0.}
+\]
+In principal coordinates `Omega_M=V^T Vdot`, current Kelvin's spectral-gap law is `Omega_M,ij=B_ij/(lambda_j-lambda_i)`, `B=V^T Mdot V`.
+
+## Theorem EU — Kelvin principal-channel mixing is the repo-3 projector connection term and equals off-diagonal metric work
+
+For residual second moment `Q`,
+\[
+\boxed{\operatorname{tr}(\dot P_iQ)=[\widetilde Q,\Omega_M]_{ii}.}
+\]
+Weighted summation gives
+\[
+\boxed{\sum_i\lambda_i[\widetilde Q,\Omega_M]_{ii}=2\sum_{i<j}B_{ij}\widetilde Q_{ij}.}
+\]
+Thus eigenframe mixing is moving-projector traffic and exactly the off-diagonal metric-work face, not a new source.
+
+## Theorem EV — Literal first-bad selection preserves principal-projector connection transport on hysteretic intervals
+
+For Kelvin's `M_fb tensor I_3` and block-diagonal per-germ principal projectors/connections, the selector commutes with both.  Hence selected principal projectors obey the same connection-comoving law and have zero selector-spectral Cartan defect on `Mdot_fb=0` intervals.
+
+## Theorem EW — Metric-eigenframe connection and fluid Cartan/vorticity connection are non-equivalent
+
+An exact affine pure-strain NSE solution has physical `Omega_u=0`, but a non-aligned finite material line frame can have a rotating simple-spectrum metric eigenframe `C_M!=0`.  Therefore a skew metric-spectral gauge connection may not be identified with the skew part of `grad u` merely because both are antisymmetric.
+
+## Theorem EX — Repo-3 pure projector resets do not cover Kelvin physical residual synthesis/refinement
+
+If only a projector changes on a frozen state, the repo-3 finite projector jump applies.  If Kelvin's physical residual synthesis `A` changes, then
+\[
+\boxed{\Delta Q=\Delta A\mathbb Q A_-^T+A_-\mathbb Q\Delta A^T+\Delta A\mathbb Q\Delta A^T,}
+\]
+and weighted events additionally carry geometry revaluation.  The tensor-square pair reset is mandatory; it cannot be replaced by one positive projector-distance payment.

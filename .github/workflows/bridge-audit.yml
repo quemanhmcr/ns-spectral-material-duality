@@ -171,3 +171,5 @@ jobs:
         run: python experiments/exp74_material_holonomy_helical_phase.py
       - name: Common Wang Kelvin nonaffine Hessian jet
         run: python experiments/exp75_common_nonaffine_hessian_jet.py
+      - name: Kelvin principal projector Cartan bridge
+        run: python experiments/exp76_kelvin_principal_projector_bridge.py
