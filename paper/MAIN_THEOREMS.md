@@ -2622,3 +2622,20 @@ For two equal-weight replicas, `deltaC` and `deltaQ` change sign together betwee
 ## Theorem GC — The cubic adaptive event-payload face is irreducible even for positive payloads
 
 For three equal-weight scalar replicas `C=(0,1,2)`, the two strictly positive payload ensembles `Q^+=(4,1,4)` and `Q^-=(2,5,2)` have the same `Cbar=1`, `Qbar=3`, mean face `3`, event-dispersion face `2`, and zero left/right event-payload correlations.  Their cubic faces are `+2/3` and `-2/3`, giving exact outputs `17/3` and `13/3`.  Therefore deleting the cubic face cannot be a universal adaptive-ensemble closure.  Kelvin adaptive first-bad averaging and any future averaging across Wang state-selected physical event roles must retain the relevant joint event-map/payload law unless an exact closure domain is proved.
+
+
+## Theorem GD — Wang inherited carrier stock and Kelvin selector jump q.v. are inequivalent memory types
+
+Wang's current same-carrier relay identifies the inherited component with the carrier energy stock `E_M(u)` and assigns that inherited component generation depth zero; the inheritance statement is about a persistent physical carrier/stock amount, not fresh positive-work generation.  Kelvin selector jump optional q.v. is instead the path functional `J[Y]=sum_j DeltaY_j DeltaY_j^T`, which has nonzero PSD circulation `J[a->b->a]=2(b-a)(b-a)^T` on a closed readout loop.  Therefore no universal endpoint/ancestry stock rule can reconstruct selector jump variation on a path class containing both stationary and closed-excursion histories with the same endpoints.
+
+## Theorem GE — Exact NSE activates the stock-versus-path-memory no-go
+
+For exact shear `u=e^{-nu k^2t}cos(ky)e_1`, half-period Kelvin residual readouts satisfy `chi_1=-chi_0`, `chi_0=4e^{-nu k^2t}k^2/pi^2`.  On the same frozen exact-NSE payload, the stationary selector history and the closed `0->1->0` excursion have identical endpoint state/pair and therefore identical endpoint state-stock observables, while the excursion accumulates jump-q.v. `8chi_0^2P_z` with trace `128e^{-2nu k^2t}k^4/pi^4>0`.  This calibrates the state-map no-go without claiming actual first-bad timing or a Wang relay event for that shear.
+
+## Theorem GF — An exact quotient of one physical owner cannot erase simultaneous owners
+
+For a typed product event state `Z=(S,R_1,...,R_q)`, the component projection `q_S(Z)=S` may support an exact identity `S_+=S_-`, but this implies equality only after projection; it cannot imply `Z_+=Z_-` unless the remaining owners are separately controlled.  Wang's inherited-stock relay therefore does not delete its simultaneous classified residual/material owners; current upstream explicitly fail-closes a stock-only quotient when classified residual work is non-negligible.  Kelvin's simultaneous physical-event/selector law gives the complementary exact example `D=E_+A-E_-=E_-DeltaA+DeltaE+DeltaE DeltaA`, where the mixed face is lost by either single-owner projection.
+
+## Theorem GG — A literal Wang--Kelvin state map must keep carrier ancestry stock and selector-event path history separately when both are used
+
+Same-carrier inheritance memory records physical carrier identity plus current inherited energy stock.  Selector-event memory records a traversed readout/event path or equivalent jump-q.v. accumulator.  Closed-loop non-telescoping proves that the latter is not determined by the former.  Thus a cross-program theorem using both mechanisms must retain both memory types and every simultaneous work/material/event/q.v. owner, or prove an independent Navier--Stokes reconstruction theorem; nonnegativity alone provides no identification.

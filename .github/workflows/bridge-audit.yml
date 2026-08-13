@@ -191,3 +191,5 @@ jobs:
         run: python experiments/exp84_selector_jump_qv_history_no_go.py
       - name: Adaptive event five-face no-go
         run: python experiments/exp85_adaptive_event_five_face_no_go.py
+      - name: Stock versus path simultaneous-owner no-go
+        run: python experiments/exp86_stock_vs_path_simultaneous_owner.py

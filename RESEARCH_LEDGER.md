@@ -1046,3 +1046,16 @@ Failure lineage retained rather than erased:
 **COUNTEREXAMPLE/NO-GO.**  Two three-replica scalar ensembles with strictly positive payloads have the same mean face, same event dispersion and zero left/right correlations, but cubic faces `+2/3` and `-2/3`, producing outputs `17/3` and `13/3`.  Thus the cubic face cannot be absorbed into the four upstream faces.  At quadratic order, general adaptive physical synthesis raises the required joint correlation order by one.
 
 **CROSS-PROGRAM CONSEQUENCE.**  Kelvin actual first-bad expectation laws must carry the joint law of realized `C=E_+A` and physical payload once that adaptive law is instantiated.  Wang's present fixed-event hard-role identities are untouched, but any future averaging across state-selected physical event roles likewise cannot replace joint role-map/coherent-pair data by separated marginal means without proving an exact closure domain.
+
+
+## 2026-08-13 — GD–GG: inherited carrier stock versus selector path variation and simultaneous-owner preservation
+
+**LATEST READ-ONLY WANG INPUT.**  Wang is `c2641bbecb8c12d8a75f0acca83556bbbefd5a9c`.  Exact-head Actions are green, including the independent 100k same-carrier inheritance audit and actual-NS probes.  Upstream types `E_M` as inherited same-carrier stock with generation depth zero, keeps `T_j=E_j W_j+N_j+V_j` and material sidecars as simultaneous owners, and rejects a stock-only quotient when classified residual work is non-negligible.  No upstream write was made.
+
+**LATEST READ-ONLY KELVIN INPUT.**  Kelvin is `9bc8fb01454084861f85e3c7e99683d2dad029e1`; Action `31665852564` is green.  Its first-bad admissibility ledger now explicitly requires passive packet/event gauge invariance, physical support locality, persistent-library memory, full coherence and adaptive event-map/state joint law.  Actual first-bad score, timing, packet library and uniform locality theorem remain Open-literal.
+
+**COUNTEREXAMPLE/NO-GO.**  Wang inherited stock/ancestry and Kelvin selector jump q.v. are different memory types.  The former is a persistent-carrier stock classification; the latter is positive path variation with nonzero closed-loop circulation.  Stationary and closed selector histories can have identical endpoint physical state/stock data and different jump-q.v. accumulators, so no universal stock-to-path bridge exists.
+
+**SIMULTANEOUS-OWNER PRINCIPLE.**  A quotient is only an identity on the physical component it retains.  Wang's stock relay does not delete residual/material owners.  Kelvin's selector/event decomposition does not delete the mixed `DeltaE DeltaA` face or the distinct pair/source/q.v. owners.  Repo-3 must preserve every concurrent owner after typing rather than infer its absence from a quotient on another component.
+
+**OPEN BRIDGE.**  The state-map seam now has at least two noninterchangeable memory coordinates: carrier ancestry/current inherited stock and selector-event path history.  Any future assembly must say which one each quantity belongs to and cannot use a generic positive “bank” as a substitute.
