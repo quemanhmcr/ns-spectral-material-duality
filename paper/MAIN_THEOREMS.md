@@ -3296,3 +3296,78 @@ Morse curvature volume measures local scalar critical geometry. Current Kelvin 1
 ## Theorem KN — The scalar geometry-exit channel is an exact current rather than a Boolean flag
 
 The endpoint grammar now keeps positive core renewal, positive specific-stretching geometry harvesting, negative Morse curvature-volume depletion, transverse packet-support noncollapse, and ancestry/frame holonomy as distinct channels. Literal Morse degeneration consumes infinite negative curvature-volume variation. No termination or continuation theorem is claimed.
+
+## Theorem KO — Strain has an exact vorticity-adapted axial/turning/transverse-shape decomposition
+
+With `xi=omega/|omega|`, `Pi=I-xi xi^T`, `alpha=xi.S.xi`, `b=Pi S xi`, and `T_perp=Pi S Pi+(alpha/2)Pi`, incompressibility makes `T_perp` transverse trace-free and
+\[
+\boxed{|S|^2=\frac32\alpha^2+2|b|^2+|T_\perp|^2.}
+\]
+At record contact, `|S|^2/M=(3/2)Sigma^2+2B+Theta` for `Sigma=alpha/sqrt(M)`, `B=|b|^2/M`, `Theta=|T_perp|^2/M`.
+
+## Theorem KP — Pressure Poisson imposes an exact universal `-1/3` record-contact trace tax
+
+Write `Hess p=P^circ+(Delta p/3)I`, `Pi_p=xi.P^circ.xi/M`.  At `e=M=|omega|^2/2`, pressure Poisson and KO give
+\[
+\boxed{-\frac{\xi^T(Hess p)\xi}{M}=\frac12\Sigma^2+\frac23B+\frac13\Theta-\frac13-\Pi_p.}
+\]
+The `-1/3` term is forced by the local vorticity contribution to incompressibility; the remaining directional pressure datum is trace-free anisotropy.
+
+## Theorem KQ — Local core renewal has an exact record-contact five-face funding decomposition
+
+At record contact,
+\[
+\boxed{N_{core}=\frac12\Sigma^2+\frac53B+\frac13\Theta-\frac13-\Pi_p+V_\alpha,}
+\]
+where `V_alpha` is the certified signed viscous specific-stretching conversion.  Thus the local core is axial self-stretch, vorticity-direction turning, transverse strain shape, pressure trace/anisotropy, and viscosity; pressure is not a free sidecar.
+
+## Theorem KR — Positive record contact obeys an exact Riccati-plus-incompressibility funding identity
+
+If the current maximum equals the running record and is increasing, `rho_rec=2Sigma-Delta_rec>0` and `N_norm=-Sigma^2+(Sigma Delta_rec)/2`. Hence
+\[
+\boxed{N_{rec}=-\left(\frac12\Sigma^2+\frac13\right)+\frac53B+\frac13\Theta-\Pi_p+V_\alpha+N_{sweep}+\frac12\Sigma\Delta_{rec}.}
+\]
+The last term is normalization relief, not a new source.
+
+## Theorem KS — Positive renewal must beat a rigid intrinsic funding tax
+
+At a positive record contact, `N_rec>0` iff
+\[
+\frac53B+\frac13\Theta-\Pi_p+V_\alpha+N_{sweep}+\frac12\Sigma\Delta_{rec}>\boxed{\frac12\Sigma^2+\frac13}.
+\]
+Thus positive renewal cannot be admitted by axial self-stretching alone after exact Riccati, pressure-trace and record-normalization bookkeeping.
+
+## Theorem KT — Trace-free pressure has the sharp directional coefficient `sqrt(2/3)`
+
+For every symmetric trace-free `P^circ` and unit `xi`, `|xi.P^circ.xi|<=sqrt(2/3)|P^circ|_F`, sharply saturated by `P^circ=c(xi xi^T-I/3)`.  With `Q_p=|P^circ|_F/M`, positive renewal necessarily implies
+\[
+\frac53B+\frac13\Theta+\sqrt{\frac23}Q_p+[V_\alpha]_++[N_{sweep}]_++\frac12\Sigma\Delta_{rec}>\frac12\Sigma^2+\frac13.
+\]
+
+## Theorem KU — Every positive-renewal record contact fires a quantitative named channel
+
+For `T_fund=Sigma^2/2+1/3`, the six nonnegative weighted faces in KT have sum greater than `T_fund`; hence at least one exceeds `T_fund/6`.  This is a quantitative owner-admission gate, not a finite-capacity theorem.
+
+## Theorem KV — Exact one-mode heat shear pays the trace tax by transverse strain shape with zero core renewal
+
+At a vorticity maximum of the exact one-mode heat shear, `Sigma=B=Pi_p=V_alpha=0` and `Theta=1`; therefore `N_core=Theta/3-1/3=0`.  Pressure may be constant, but pressure-Poisson consistency forces the transverse strain-shape term to pay the same trace tax.  Nonlinear advection and stretching generation vanish.
+
+## Theorem KW — Constant affine strain-spin sharply saturates the funding tax by pressure anisotropy with zero renewal
+
+For exact constant-`a` affine strain-spin, `B=Theta=V_alpha=N_sweep=Delta_rec=0` and
+\[
+\Pi_p=-\frac13-\frac12\Sigma^2.
+\]
+Thus `-Pi_p=T_fund` and `N_rec=0`: trace-free pressure anisotropy pays the full tax but produces no positive excess.
+
+## Theorem KX — Accelerating affine strain-spin produces renewal by pressure-anisotropy excess beyond the tax
+
+For variable `a(t)` in the exact affine strain-spin family,
+\[
+\Pi_p=-\frac13-\frac12\Sigma^2-\frac{a'}{\Omega^2},\qquad N_{rec}=\frac{a'}{\Omega^2}.
+\]
+For `a=1/[2(T-t)]`, `Omega=b/(T-t)`, this is `N_rec=1/(2b^2)=Sigma^2>0`.  The calibration is nonperiodic/infinite-energy and is not a periodic regularity counterexample.
+
+## Theorem KY — Core renewal is now an intrinsic funding grammar rather than a black-box owner
+
+At positive record contact the unresolved funding channels are vorticity-direction turning, transverse strain shape, trace-free pressure anisotropy, signed viscous conversion, specific-stretching geometry harvesting, and normalization relief, against the rigid tax `Sigma^2/2+1/3`.  On the torus the pressure anisotropy remains the intrinsic Riesz/Hessian response to the same incompressibility source.  A capacity/reuse theorem for these channels remains open; no termination or continuation theorem is claimed.

@@ -153,3 +153,7 @@ The first-bad seam is now narrower than event counting.  The scalar max envelope
 
 Scalar endogenous-selector local finiteness is closed on the positive-time analytic Morse theorem domain: finitely many analytic critical lineages, finite branch-value crossings modulo persistent ties, and interior winner-Zeno only through Hessian degeneracy.
 Kelvin 1095c13 shows scalar chamber/current collapse does not force tangential packet-support collapse. The next endpoint-first PDE seam is therefore positive core renewal | positive geometry harvesting | Morse/normal degeneration | transverse packet support/ancestry, kept as distinct intrinsic channels.
+
+## Core renewal refinement
+
+Positive running-record renewal has an exact local funding identity with tax Sigma^2/2+1/3. The remaining named faces are turning, transverse strain shape, trace-free pressure anisotropy, viscous conversion, geometry harvesting and normalization relief. The next task is a capacity/reuse theorem for these faces.

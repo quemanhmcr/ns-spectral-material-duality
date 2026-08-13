@@ -531,3 +531,7 @@ Here `mathfrak N` is an exact signed combination of transverse strain conversion
 
 On compact positive-time classical intervals, NSE analyticity plus a Morse enstrophy critical set gives finitely many analytic PDE critical lineages and finitely many support-edge ranking changes modulo persistent ties. Interior scalar winner-Zeno therefore forces enstrophy Hessian degeneracy.
 Kelvin 1095c13 independently shows that scalar chamber/current/noise/normal-ancestry collapse can coexist with O(1) tangential packet support B_parallel=P L L^T P. The old untyped domain-exit channel is therefore split into Morse/normal degeneration versus transverse packet-support/ancestry state; no endpoint accumulation or continuation theorem is claimed.
+
+## Record-contact core funding gate
+
+At an increasing running-record contact, vorticity-adapted strain and pressure Poisson give the exact identity N_rec=-(Sigma^2/2+1/3)+(5/3)B+Theta/3-Pi_p+V_alpha+N_sweep+(Sigma Delta_rec)/2. The fixed tax is intrinsic; the final term is normalization relief, not a source. A sharp trace-free pressure bound yields a six-channel necessary admission gate. No finite total-capacity theorem is claimed.

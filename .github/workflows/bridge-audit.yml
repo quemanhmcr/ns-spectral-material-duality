@@ -223,3 +223,5 @@ jobs:
         run: python experiments/exp100_morse_analytic_selector_finiteness.py
       - name: Morse curvature volume current
         run: python experiments/exp101_morse_curvature_volume_current.py
+      - name: Core renewal decomposition
+        run: python experiments/exp102_record_core_pressure_tax_funding.py
