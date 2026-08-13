@@ -473,3 +473,14 @@ D_+M=\max_{A(t)}[\omega\cdot S\omega-\nu(|\nabla\omega|^2-\Delta e)].
 Critical drift, ranking and selector motion determine which branch is read but contribute no direct value currency because `grad e=0` on the active set.  The running record `R(t)=max_{s<=t}M(s)` is therefore an intrinsic monotone owner clock whose positive increments require stretching to beat the full viscous/curvature defect.  This clock is deliberately distinct from selector q.v., moving-cut sweep, Moyal boundary charge, target reanchoring and inherited ancestry.  Any future first-bad assembly that uses enstrophy-record growth must route those side data after the local owner has been identified.
 
 The remaining hard seam is no longer to invent a generation counter.  It is to prove or disprove an NSE law limiting *fresh effective stretching on record states* through geometry, material ancestry, donor exhaustion or owner reuse.
+
+
+## Stretching-owner self-constraint after IA--IH
+
+The record clock now feeds into a second exact PDE layer.  With `P=omega.S.omega`,
+
+\[
+D_tP=\omega^TS^2\omega-\omega^T(Hess p)\omega+V_P.
+\]
+
+The first term is nonnegative self-strain, while the pressure face is a signed directional curvature determined by the global incompressibility solve `-Delta p=|S|^2-|omega|^2/2`; viscosity has its own diffusion/gradient-conversion decomposition.  Exact affine strain--spin and periodic ABC calibrations realize opposite pressure signs.  Thus the common spine now has two nested owner gates: actual record growth requires stretching dominance, and persistence/renewal of stretching is itself constrained by strain square, pressure curvature and viscosity.

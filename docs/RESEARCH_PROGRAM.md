@@ -117,3 +117,10 @@ This sharpens the non-equivalence table:
 - strain magnitude != owner unless vorticity alignment makes `omega.S.omega` beat the viscous defect.
 
 The programme should now attack the owner states themselves: determine whether exact material/packet ancestry, strain geometry, donor supply or depletion laws restrict the recurrence of *fresh* stretching-dominant record increments.  Do not replace this with raw event counts or an abstract norm bootstrap.
+
+
+## IA--IH programme update: the owner is itself owned by NSE
+
+The HS--HZ clock identified `P=omega.S.omega` as the necessary positive owner of fresh enstrophy-record growth.  IA--IH now derives the exact material evolution of `P`: nonnegative `|S omega|^2`, signed directional pressure curvature, and viscous conversion.  Pressure is not an outside stabilizer; on the torus its Hessian is the nonlocal Riesz image of `|S|^2-|omega|^2/2`, so the whole incompressible field constrains the local owner.
+
+The next programme target is therefore owner *renewal*, not owner detection: determine whether repeated stretching-dominant record episodes must reuse/deplete bounded strain, pressure, material ancestry or donor resources.  Keep local record owner and global spectral donor owner distinct until an exact localization theorem connects them.

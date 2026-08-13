@@ -2893,3 +2893,59 @@ For `R(0)>0`, define `G(t)=log(R(t)/R(0))`.  Almost everywhere on smooth record-
 \boxed{G'=1_{\{M=R\}}\frac{[\max_A(\omega\cdot S\omega-D_\nu)]_+}{R}.}
 \]
 Consequently `R(t)->infty` at finite time would force `G(t)->infty`, i.e. divergent accumulated positive effective stretching on actual record states.  This is only a necessary owner condition; it is not a continuation, termination or global-regularity theorem.
+
+## Theorem IA — Gradient NSE gives an exact strain/vorticity/pressure owner system
+
+With `A=grad u=S+Omega` and `D_t=partial_t+u.grad`, incompressible NSE gives
+\[
+D_tA=-A^2-Hess p+nu Delta A,
+\quad
+D_tS=-S^2-Omega^2-Hess p+nu Delta S,
+\quad
+D_t omega=S omega+nu Delta omega,
+\]
+and `-Delta p=tr(A^2)=|S|^2-|omega|^2/2`.
+
+## Theorem IB — The stretching owner obeys a three-face exact material law
+
+For `P=omega.S.omega`,
+\[
+\boxed{D_tP=\omega^TS^2\omega-\omega^T(Hess p)\omega+nu[2(Delta omega)^TS\omega+\omega^T(Delta S)\omega].}
+\]
+The self-strain face is `|S omega|^2>=0`; pressure curvature and the viscous stretching face are separately typed.
+
+## Theorem IC — Pressure regulation of stretching is an intrinsic nonlocal incompressibility constraint
+
+On the torus, with `q=|S|^2-|omega|^2/2` and mean-zero pressure, `partial_i partial_j p=R_iR_j q`.  Hence the stretching pressure face is `-omega_i omega_j R_iR_j q`.  The local owner rate is therefore constrained by the whole quadratic field through the elliptic pressure solve; the local scalar trace `Delta p` alone does not determine the directional curvature used by `P`.
+
+## Theorem ID — Viscous stretching-owner evolution is diffusion plus signed gradient conversion
+
+The composite viscous face satisfies
+\[
+\boxed{V_P=nu Delta P-2nu\sum_k(partial_k omega)^TS(partial_k omega)-4nu\sum_k(partial_k omega)^T(partial_kS)omega.}
+\]
+Thus viscosity is sign-definite in the enstrophy Dirichlet ledger but not a single scalar negative charge in the evolution ledger of the stretching owner itself.
+
+## Theorem IE — Record generation and owner persistence are distinct causal layers
+
+HS--HZ forces every positive enstrophy-record increment through `P>D_nu`.  IB then forces persistence/change of that same `P` through `Q_S+C_p+V_P`.  Positive current stretching therefore does not close its own recurrence law; pressure curvature and viscous conversion remain mandatory physical faces.
+
+## Theorem IF — Exact affine strain--spin NSE realizes pressure reinforcement of self-strain
+
+For constant `a>0`, `Omega=Omega_0e^{2at}`, `u=(-ax-Omega y,Omega x-ay,2az)`, one has `P=8aOmega^2`, `Q_S=16a^2Omega^2`, `C_p=16a^2Omega^2`, `V_P=0`, and
+\[
+\boxed{D_tP=32a^2Omega^2.}
+\]
+Pressure curvature is positive and exactly equals the self-strain face in this smooth exact Euclidean calibration.
+
+## Theorem IG — Exact periodic ABC NSE realizes pressure suppression stronger than self-strain
+
+For the viscously decaying unit ABC Beltrami solution and the point `(pi/2,0,0)`, at unit amplitude `P=0`, `Q_S=1`, `C_p=-5`, while `V_P=-3nu P=0`.  Hence
+\[
+\boxed{D_tP=-4.}
+\]
+After viscous scaling the value is `-4e^{-4nu t}`.  Exact NSE therefore realizes both signs of the pressure-curvature owner face; pressure is neither a universal sink nor a universal source.
+
+## Theorem IH — Fresh record generation now has a two-level endogenous PDE gate
+
+The first gate is `record growth = stretching P - active viscous/curvature defect`; the second is `D_tP=self-strain square + global pressure curvature + viscous conversion`.  Thus any future recurrence/termination argument must control renewal of stretching through these intrinsic NSE faces rather than count selector, ranking, sweep or sidecar events.  No such renewal bound is yet proved.

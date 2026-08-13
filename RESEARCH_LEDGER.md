@@ -1181,3 +1181,13 @@ No upstream write was made.  No Zeno exclusion, recurrence assembly, continuatio
 ### HS–HZ Action certification
 
 Theorem SHA `455dd2d70b3a39858789a17044af5a14cf2fa0c2` is certified by bridge Action `31686689214` (**completed/success**).  Exact exp94 outputs: heat-shear PDE residual `1.235e-16`; active-record owner residual `1.004e-16`; largest heat-shear record rate `-5.318182e-03`; affine NSE matrix residual `7.081e-17`; pure-stretching owner residual `0`; affine minimum positive owner margin `1.207224`; first-hit and first-hit-stretching residuals `0`; exact ranking tie residual `0` with both candidates decaying (largest rate `-6.008887e-01`) while the ranking gap crosses; seven selector switches below the old record produce exactly zero record increment.  PASS.
+
+## 2026-08-13 — IA–IH: stretching-owner self-constraint and pressure-curvature regulation
+
+**EXACT NSE/PDE IDENTITY.**  Differentiated NSE gives the exact strain equation `D_tS=-S^2-Omega^2-Hess p+nu Delta S`, vorticity equation `D_t omega=S omega+nu Delta omega`, and pressure Poisson law `-Delta p=|S|^2-|omega|^2/2`.  Therefore `P=omega.S.omega` obeys `D_tP=omega.S^2.omega-omega.Hess(p).omega+V_P` with an explicit viscous composite face.
+
+**INTRINSIC GLOBAL CONSTRAINT.**  On the torus `Hess p=R_iR_j(|S|^2-|omega|^2/2)`: a pointwise stretching owner is constrained by the whole incompressible field.  The scalar pressure trace does not by itself supply the directional contraction used by the owner law.
+
+**EXACT SIGN CALIBRATIONS TO BE ACTION-CERTIFIED.**  Constant-strain affine NSE has positive pressure curvature equal to the positive strain-square face.  Viscous periodic ABC at `(pi/2,0,0)` has `P=0`, `Q_S=1`, pressure face `-5`, hence material owner derivative `-4`; pressure can overpower self-strain.  These examples type pressure as a signed regulator, not a universal sink/source.
+
+**OPEN BRIDGE.**  Record generation and stretching-owner persistence are now separate nested gates.  The next question is whether pressure/strain geometry plus material/donor ancestry constrains repeated fresh owner renewal.  No recurrence/termination/continuation/global-regularity claim.
