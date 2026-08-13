@@ -138,3 +138,9 @@ Do not overread this as a finished first-bad rule.  The remaining theorem must d
 The entire enstrophy level family can be compressed to the pushforward continuity law `partial_t mu+partial_a j=0`.  This measure form survives critical values; regular level geometry, superlevel volume, convex moments and the global enstrophy ledger are derived readings of the same owner current.  At a unique Morse maximum the interior characteristic joins the record speed.  At a tied maximum it does not: bulk population current averages branch owners while the record edge chooses the fastest branch.
 
 This identifies a much smaller causal grammar.  Interior population complexity does not require separate event laws; only support-edge competition retains explicit lineage selection.  The next hard target is owner renewal at that edge under pressure/strain self-constraint and ancestry/donor reuse.
+
+## Upstream convergence after IR--IZ
+
+Current Kelvin `5067f87` has independently removed the absolute-threshold localization oracle by using the full max-normalized enstrophy filtration `e/M`.  Its boundary defect `R-theta Mdot` is the exact `lambda=theta M` specialization of repo-3's level-set owner law and is similarity-invariant after the forced NS normalization.  This makes the next first-bad question sharper: not which arbitrary threshold to choose, but whether actual loss of continuation must force a noncompact/noncollapsing pattern in this intrinsic filtration together with Kelvin/Nanson/support/ancestry state.
+
+Current Wang `7b91828` has independently removed another naming oracle: a raw material relink/address cannot enter the physical owner state without native PDE evidence.  Smooth `K_phys` relink is conservative role flux, while material old/new partitions are provenance of an already-existing service law.  Repo-3 should preserve this fail-closed owner admission when attempting the future local-record-to-spectral-donor ancestry bridge.

@@ -504,3 +504,17 @@ This is the first exact chain in the spine from local PDE owner -> intrinsic mov
 Push volume through the actual local enstrophy value.  The measure `mu_t=e_#dx` and owner current `j=e_#(R dx)` satisfy `partial_t mu+partial_a j=0` exactly.  At regular values this recovers the level-set current; its stretching/gradient-loss/curvature faces remain separately typed.  Smooth convex functions of `e` yield an exact weighted moment hierarchy.
 
 At a unique nondegenerate maximum, the conditional value-current speed tends to the record-owner speed.  At a tie, the bulk edge current is curvature-volume averaged while the record edge follows the maximum branch rate.  Thus much of apparent level-set complexity collapses to one interior current, but branch lineage remains irreducible precisely at extremal support competition.
+
+## Read-only upstream convergence after IR--IZ
+
+Kelvin `5067f87` independently specializes the repo-3 moving-level law to the max-normalized intrinsic filtration `g=e/M`, `Omega_theta={g>=theta}`.  Its compatibility defect
+
+\[
+\mathcal C_\theta=R-\theta\dot M,
+\qquad
+(V-u)\cdot n=\mathcal C_\theta/|\nabla e|
+\]
+
+is exactly the repo-3 rule with `lambda=theta M`.  Kelvin also proves this entire filtration is neutral under the exact NS similarity action and keeps the ancestry probability-current mismatch as a separate boundary face.  This supplies an independently derived candidate localization grammar, but not yet the theorem that continuation failure must appear in it.
+
+Wang `7b91828` independently tightens the owner boundary from the other side: material address/old-new membership is not a physical supplier by name.  A certified smooth `K_phys` relink is conservative same-event role flux, and material OO/ON/NN readings only repartition a positive law whose supplier must already exist.  Thus the common spine should now be read as **owner/current -> intrinsic localization/address -> boundary/readout/ancestry revaluation**, with fail-closed admission when the owner is unresolved.
