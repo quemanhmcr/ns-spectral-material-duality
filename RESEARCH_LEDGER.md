@@ -899,3 +899,9 @@ Failure lineage retained rather than erased:
 **COUNTEREXAMPLE/NO-GO.**  Read-only audited Wang `resolved-contact-native-binding-tv`: its signed-edge total variation is correctly used as a capacity envelope for canonical HH transfer.  Exact periodic NSE shear has zero `B(h,h)` and hence zero HH work/TV while unresolved `S_h,Omega_h` are active.  TV must not be retyped as Cartan activity.
 
 **EXACT PRESSURE TYPING.**  Leray/divergence-free work, closed Kelvin circulation and curl annihilate `grad p`, but differentiating NSE exposes `-Hess p` in the symmetric strain equation and material metric acceleration.  Exact affine strain and rigid rotation show this Hessian face is physically active.  Pressure is therefore representation/degree typed, not universally a zero owner.
+
+## 2026-08-13 — DZ–EB: Wang spectral viscous killing equals Kelvin q.v. trace, but not its tensor information
+
+**EXACT VISCOUS DICTIONARY.**  At the instantaneous full physical state, Parseval identifies Wang's spectral enstrophy killing with the vorticity Dirichlet form and exactly one half of the orientation-complete Kelvin q.v. trace.  This closes the old "common provenance only" seam at trace/integrated level.
+
+**COUNTEREXAMPLE/NO-GO.**  Exact monochromatic transverse NSE solutions with the same helical modal energies but different relative helicity phase have the same scalar killing and q.v. trace while the Kelvin q.v. tensor changes.  Directional q.v., future covariance and reduced resolution information remain strictly richer/different.

@@ -2228,3 +2228,29 @@ and the material metric acceleration contains `-Hess p` explicitly.  Pressure is
 ## Theorem DY — Exact affine strain and rigid rotation calibrate the pressure-Hessian face
 
 For affine pure strain `A=S=diag(a,-a,0)`, quadratic pressure has `Hess p=-S^2`; for rigid rotation `A=Omega`, centrifugal pressure has `Hess p=-Omega^2`.  Both are exact smooth affine NSE solutions with `Delta u=0`, showing pressure Hessian can actively balance either deformation or rotation curvature while pressure still performs no solenoidal kinetic-energy work.
+
+## Theorem DZ — Spectral enstrophy killing and full-state Kelvin q.v. trace are the same Dirichlet form
+
+With helical energy `E_(k,s)=|a_(k,s)|^2/2` and `Gamma_K=2nu(grad omega)(grad omega)^T`,
+\[
+\boxed{
+2\nu\sum_{k,s}|k|^4E_{k,s}
+=\nu\|\nabla\omega\|_2^2
+=\frac12\int\operatorname{tr}\Gamma_K\,dx.}
+\]
+Likewise `2nu sum |k|^2 E=nu||grad u||_2^2`.  This closes the full-state trace-level viscosity dictionary between Wang spectral killing and Kelvin instantaneous q.v.
+
+## Theorem EA — Periodic global enstrophy reads Kelvin q.v. as exactly the viscous loss
+
+On a periodic domain,
+\[
+\boxed{
+\frac d{dt}\frac12\|\omega\|_2^2
+=\int\omega\cdot S\omega\,dx
+-\frac12\int\operatorname{tr}\Gamma_K\,dx.}
+\]
+The omitted local Laplacian term is spatial curvature flux whose integral vanishes.  No future/reduced covariance is identified with this instantaneous trace.
+
+## Theorem EB — Scalar spectral killing does not determine the Kelvin q.v. tensor
+
+Exact one-wavevector transverse NSE solutions with fixed `|a_+|,|a_-|` but different relative helical phase have identical modal energies and scalar viscous killing, while their integrated orientation-complete `Gamma_K` tensors differ.  Only the trace is fixed by the spectral killing.

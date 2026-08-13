@@ -157,3 +157,7 @@ jobs:
         run: python experiments/exp67_pressure_gauge_metric_curvature.py
       - name: HH TV Cartan blindness exact NS
         run: python experiments/exp68_hh_tv_cartan_blindness.py
+      - name: Viscous Dirichlet Kelvin spectral dictionary
+        run: python experiments/exp69_viscous_dirichlet_kelvin_spectral.py
+      - name: Kelvin qv tensor phase no-go
+        run: python experiments/exp70_kelvin_qv_tensor_phase_no_go.py
