@@ -262,3 +262,25 @@ No termination theorem is claimed here.
 
 **Label: RIGOROUS CROSS-PROGRAM CONSEQUENCE + OPEN BRIDGE.**
 
+---
+
+## 12. Action certification
+
+GitHub Actions run `31709932079` on theorem SHA `83ee7509e638369f104ced57d3c1c4164915731a` completed with conclusion **success**.
+
+Selected exp99 metrics:
+- constant-affine split residual: `0`;
+- constant-affine largest normalization face: `-3.375041e-02`;
+- accelerating-affine split residual: `2.233e-16`;
+- accelerating-affine minimum positive core face: `1.983733e+00`;
+- accelerating-affine largest normalization face: `-9.918667e-01`;
+- ABC tensor/pressure/alpha-gradient residual: `1.665e-16`;
+- ABC core-sweep cancellation residual: `2.220e-16`;
+- ABC inverse-Morse sweep residual: `1.258e-16`;
+- ABC minimum positive sweep signal: `2.365809e-01`;
+- ABC minimum Cauchy bound gap: `-5.551e-17`;
+- singular heat-shear critical-speed signal: `1.110000e+07`;
+- x-shear alpha / harvesting residual: `0 / 0`;
+- PASS.
+
+**Label: ACTION STRESS TEST.**
