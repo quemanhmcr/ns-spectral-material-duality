@@ -1015,3 +1015,14 @@ Failure lineage retained rather than erased:
 **EXACT NSE NO-GO.**  The half-period one-mode shear gives `chi_1=-chi_0`.  A single selector sign flip has strictly positive jump q.v. but zero selected endpoint dyad change because signed linear faces cancel the quadratic face exactly.  A closed `0->1->0` excursion accumulates positive jump q.v. while returning to the identical selected state.  Selector jump-square is therefore path variation, not a monotone covariance/energy/continuation bank.
 
 **EVENT/SELECTOR COMPOSITION.**  When a physical library map `A` and selector change occur together, the literal post-selected map is `E_+ A`.  Any split into event and selector pieces introduces cross terms in the jump square; adding separate positive costs is invalid absent physical orthogonality.  This sharpens the state-map rule: transport, readout, q.v. and reset are distinct faces even when they occur at one clock time.
+
+
+## 2026-08-13 — FV–FY: selector jump q.v. has nonzero loop circulation, so history is literal state data
+
+**LATEST READ-ONLY KELVIN INPUT.**  Kelvin advanced to `ad8cd25c8fa0d8aa73bc2f37ec86d8a763820063`.  Commit `ecc31f0` makes the simultaneous packet-selector product rule exact, including the mandatory mixed face `DeltaE DeltaA`; `ad8cd25` separately types signed continuous Brownian source-rate revaluation versus finite state jump optional q.v.  No upstream write was made.  Wang remains `efb286e6710d9c20cb25a6303d2cb16b3a9e344a`.
+
+**EXACT COBOUNDARY / HISTORY NO-GO.**  Endpoint selected pair revaluation telescopes on every path.  Accumulated selector jump q.v. does not: a two-point closed loop has `2(b-a)(b-a)^T>0`.  Therefore jump q.v. is not an endpoint-state potential.  Two supplied hybrid histories can have identical current persistent library, selector and selected residual yet different accumulated selector jump q.v.; current continuous source rate does not recover the missing history.
+
+**EXACT NSE CALIBRATION.**  The half-period one-mode shear gives opposite exact Kelvin residual readouts.  On that frozen exact-NSE payload, the stationary selector history and `0->1->0` end at the same selected state/pair while the loop carries jump-q.v. `8chi_0^2P_z`, trace `128e^{-2nu k^2t}k^4/pi^4`.  This activates the state-map obstruction but does not claim actual first-bad event timing realizes the loop.
+
+**OPEN BRIDGE.**  The `clock/history` seam is now literal: any cross-program state map requiring accumulated selector path variation must carry selector-event history/an equivalent accumulator, unless a separate Navier--Stokes event-timing theorem reconstructs it from endpoint data.  Continuous q.v. production, source-rate revaluation, optional jump q.v. and endpoint pair reset remain four separately typed faces.

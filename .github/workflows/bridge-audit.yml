@@ -187,3 +187,5 @@ jobs:
         run: python experiments/exp82_relative_coupling_block_gram_no_go.py
       - name: Hybrid selector qv reset typing
         run: python experiments/exp83_hybrid_selector_qv_reset_typing.py
+      - name: Selector jump qv history no-go
+        run: python experiments/exp84_selector_jump_qv_history_no_go.py

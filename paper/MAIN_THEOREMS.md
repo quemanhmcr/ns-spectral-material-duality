@@ -2584,3 +2584,20 @@ For exact shear `u=e^{-nu k^2t}cos(ky)e_1` and Kelvin half-period asymmetric pac
 ## Theorem FU — Simultaneous physical event plus selector is the composed map, not a sum of independent positive reset costs
 
 If the library event is `Chi_+=A Chi_-` and the selector changes `E_- -> E_+`, then `Y_+=E_+A Chi_-` and the literal jump is `J=(E_+A-E_-)Chi_-`.  Different exact intermediate decompositions of `J` exist, but `JJ^T` contains their cross faces.  Therefore a simultaneous event cannot generically be charged as “selector jump square plus physical-event jump square” unless an independent orthogonality theorem removes the cross terms.  Physical event transport and selector readout must remain separately typed before the composed pair functor is formed.
+
+
+## Theorem FV — Selected pair revaluation is an endpoint coboundary, while selector jump q.v. has nonzero closed-loop circulation
+
+For any supplied selected path `Y_0,...,Y_m`, the pair increments telescope exactly: `sum_j (Y_jY_j^T-Y_{j-1}Y_{j-1}^T)=Y_mY_m^T-Y_0Y_0^T`.  In contrast the selector jump optional-q.v. accumulator `J=sum_j DeltaY_j DeltaY_j^T` satisfies `J[a->b->a]=2(b-a)(b-a)^T!=0` for `a!=b`.  Therefore no universal endpoint-state potential `F(Y)` can satisfy `F(Y_+)-F(Y_-)=DeltaY DeltaY^T` for every selector jump; the trace version is impossible as well.
+
+## Theorem FW — Current library/readout state does not determine accumulated selector jump q.v.
+
+For a frozen persistent library with distinct readouts `a=E_0X`, `b=E_1X`, the stationary selector history and the closed excursion `0->1->0` have the same endpoint `(X,E_0,Y=a)` but accumulated jump q.v. `0` and `2(b-a)(b-a)^T`, respectively.  Thus no universal instantaneous map of the current library, selector and selected residual reconstructs accumulated selector jump q.v. on the supplied hybrid path space.  Adding only the current continuous Brownian source rate does not repair the loss.  Any restriction that removes this obstruction must come from an independently proved physical event-timing/admissible-history theorem.
+
+## Theorem FX — Exact NSE activates the selector-history state-map obstruction
+
+For exact shear `u=e^{-nu k^2t}cos(ky)e_1`, the half-period Kelvin residual readouts are `a=chi_0e_z`, `b=-chi_0e_z`, `chi_0=4e^{-nu k^2t}k^2/pi^2`.  On this frozen exact-NSE payload, the stationary selector path and `0->1->0` have the same endpoint selected state/pair/current source rate, but the loop accumulates jump-q.v. `8chi_0^2P_z` with trace `128e^{-2nu k^2t}k^4/pi^4>0`.  This calibrates the history obstruction without asserting that the actual first-bad timing realizes that excursion.
+
+## Theorem FY — A literal cross-program state map must carry selector-event history or prove it reconstructible
+
+Even after the instantaneous Eulerian/coherent field, material current/shape, persistent candidate library, active selector, full pair/Gram coupling and current continuous q.v. source are supplied, accumulated selector jump q.v. is not universally determined by endpoint data.  A Wang--Kelvin lift that needs this path functional must therefore carry selector-event history/an equivalent accumulator, or prove an independent Navier--Stokes theorem making the relevant history a function of endpoint state on its theorem domain.  No recurrence or continuation consequence follows from the path accumulator itself.
