@@ -23,8 +23,10 @@ def main():
         pref=(a+b)*D/(math.sqrt(2.0)*a*b*c)*amp
         fp=pref*(c+a-b)
         fm=pref*(c-a+b)
-        if fm>1e-15:
-            ratio=max(ratio,abs(fp/fm-(1+d)/(1-d)))
+        # Cross-multiplied ratio identity is stable at the degenerate boundary where fm -> 0.
+        lhs_ratio=fp*(1-d)
+        rhs_ratio=fm*(1+d)
+        ratio=max(ratio,abs(lhs_ratio-rhs_ratio)/(1+abs(lhs_ratio)+abs(rhs_ratio)))
         den=fp*fp+fm*fm
         if den>1e-20:
             pol=(fp*fp-fm*fm)/den
@@ -45,7 +47,7 @@ def main():
     print(f"worst total-source Heron formula relative residual: {source:.3e}")
     print(f"worst near-pure degeneracy implication violation: {purity:.3e}")
     print(f"maximum sampled heterochiral birth-source signal: {signal:.3e}")
-    assert ratio<3e-10
+    assert ratio<3e-12
     assert stokes<3e-12
     assert minority<3e-12
     assert source<3e-10

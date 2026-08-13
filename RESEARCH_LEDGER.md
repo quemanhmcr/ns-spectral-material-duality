@@ -806,3 +806,7 @@ Re-audited Wang `76e6ee97efe2f014e67e2e2209b3f6228af7b0a5` read-only.  Its certi
 ## 2026-08-13 — CU: heat memory erosion upgraded from fresh energy to fresh amplitude
 
 **EXACT MILD NSE / RIGOROUS CONSEQUENCE.**  On a high-pass set, heat semigroup erases the old vector itself.  A terminal critical shell therefore forces a recent nonlinear Duhamel contribution of at least `3/4` of the critical amplitude after a logarithmic natural-scale window.  This supplies the missing amplitude-side input for future polarization attachment; inter-atom/time cancellation remains a separately typed phase phenomenon.
+
+### CO/CP referee ratio-coordinate provenance
+
+Action `31652859240` reached exp51 after all preceding corrected lanes passed.  The Stokes-polarization and minority-fraction identities were at `~1e-15`, while the direct quotient `|F+|/|F-|` produced a `2.054e-05` numerical residual near the strict-triangle boundary where the denominator tends to zero.  The referee now checks the equivalent cross-multiplied identity `F+(1-delta)=F-(1+delta)` in a native normalized residual.  No CO/CP hypothesis or theorem constant changed.
